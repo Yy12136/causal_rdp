@@ -1,0 +1,9 @@
+numpy>=1.24
+pandas>=2.0
+torch>=2.0
+pyyaml>=6.0
+
+# 如果你要实际调用 LimiX-ldm，请在自己的环境中额外安装：
+# git+https://github.com/limix-ldm/LimiX.git
+
+

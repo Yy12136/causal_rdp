@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker backups
+docker_backups/
+*.tar
+
+# Model cache and large files
+LimiX/cache/
+*.ckpt
+*.pth
+*.pt
+
+*.whl
+# Output files (optional - uncomment if you don't want to track outputs)
+# output/
+
+# Data files (optional - uncomment if data files are too large)
+# data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+

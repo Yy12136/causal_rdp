@@ -1,0 +1,25 @@
+## Causal Graph Structure Guide (for Reward Function Generation Reference)
+
+The following is a **reward component causal graph** (Causal Graph) learned from actual training data, describing the causal relationships between different reward components.
+
+**Important Principle**: When generating reward functions, **only components that can ultimately affect `score` through causal paths should appear in the reward function**. If a component `r_1 -> r_2` exists, but neither `r_1` nor `r_2` can reach `score` through any path, then these components have no effect on the final score and should not appear in the reward function.
+
+### File Format Description
+
+The causal graph is provided in CSV format with the following columns:
+- **source**: Source variable (parent node, cause)
+- **target**: Target variable (child node, effect)
+- **weight**: Causal strength (weight value, typically ranging from 0.0001 to 0.03)
+
+### How to Understand the Causal Graph
+
+1. **Edge Meaning**:
+   - Each edge `source -> target` indicates that changes in the `source` variable will **causally affect** the `target` variable
+   - For example: `r_throw_reward -> r_rotation_reward` means that the throw reward affects the rotation reward
+
+2. **Weight Meaning**:
+   - The weight value represents the **strength** of the causal influence; larger values indicate stronger influence
+
+3. **Variable Types**:
+   - `r_*`: Reward components
+   - `score`: Final score (usually a weighted sum of all reward components)

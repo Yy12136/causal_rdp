@@ -1,0 +1,56 @@
+# 示例配置：任务描述 + 人工硬/软约束
+#
+# 使用方式：
+# - 你可以根据自己的需要修改/扩展这个文件
+# - 当前实现中，任务描述只是记录下来，真正影响学习的是
+#   hard_edges / soft_edges 里的黑名单、白名单和权重
+
+tasks:
+  shadow_hand_catch_abreast:
+    description: "This class corresponds to the Catch Abreast task. This environment consists
+  of two shadow hands placed  side by side in the same direction and an object that
+  needs to be passed. Compared with the previous  environment which is more like passing
+  objects between the hands of two people, this environment is  designed to simulate
+  the two hands of the same person passing objects, so different catch techniques  are
+  also required and require more hand translation and rotation techniques."
+  shadow_hand_catch_over_2underarm:
+    description: "This class corresponds to the Over2Underarm task. This environment is
+  similar to Catch Underarm,  but with an object in each hand and the corresponding
+  goal on the other hand. Therefore, the environment  requires two objects to be thrown
+  into the other hand at the same time, which requires a higher  manipulation technique
+  than the environment of a single object."
+  shadow_hand_catch_underarm:
+    description: "This class corresponds to the Catch Underarm task. In this task, two
+  shadow hands with palms facing upwards are controlled to pass an object from one
+  palm to the other. What makes it more difficult  than the Hand over task is that
+  the hands' translation and rotation degrees of freedom are no longer  frozen but
+  are added into the action space."
+  shadow_hand_two_catch_underarm:
+    description: "This class corresponds to the TwoCatchUnderarm task. This environment
+  is similar to Catch Underarm,  but with an object in each hand and the corresponding
+  goal on the other hand. Therefore, the  environment requires two objects to be thrown
+  into the other hand at the same time, which requires  a higher manipulation technique
+  than the environment of a single object."
+
+# 硬约束：绝对禁止或绝对要求的边
+hard_edges:
+  # 不能出现的边（黑名单）
+  blacklist:
+    # 例子：score 不会指向任何奖励项（实际上代码里已经默认加了这一条）
+
+  # 必须出现的边（白名单）
+  whitelist:
+    - edge: "r_pos_reward -> score"
+      alpha: 1.0
+
+# 软约束：只是偏好，而不是绝对规则
+soft_edges:
+  # 每条边一个权重 alpha（>0），会体现在 DAGMA 的 lambda_pref * sum alpha_ij |A_ij|
+  # alpha 越大，越“希望”这条边存在（也可以反过来用作惩罚，看你怎么约定）
+  edge_weights:
+    # - edge: "r_high_speed_reward -> score"
+    #   alpha: 2.0
+    # - edge: "r_smooth_reward -> score"
+    #   alpha: 1.5
+
+
