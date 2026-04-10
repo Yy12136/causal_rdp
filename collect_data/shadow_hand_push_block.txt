@@ -1,0 +1,251 @@
+[goal_reward, 0.1, hand_reward, 0.2, vel_reward, 0.2, contact_reward, 0.05, orientation_reward, 0.5, success_reward, 1, 0.0070]2_3
+[goal_reward, 0.1, hand_reward, 0.2, vel_reward, 0.2, contact_reward, 0.05, orientation_reward, 0.5, success_reward, 0.2, 0.0067]
+[goal_reward, 0.1, hand_reward, 0.2, vel_reward, 0.2, contact_reward, 0.05, orientation_reward, 0.1, success_reward, 1, 0.0091]
+[goal_reward, 0.1, hand_reward, 0.2, vel_reward, 0.2, contact_reward, 0.05, orientation_reward, 0.1, success_reward, 0.2, 0.0104]
+[goal_reward, 0.1, hand_reward, 0.2, vel_reward, 0.2, contact_reward, 0.01, orientation_reward, 0.5, success_reward, 1, 0.0005]2_3
+[goal_reward, 0.1, hand_reward, 0.2, vel_reward, 0.2, contact_reward, 0.01, orientation_reward, 0.5, success_reward, 0.2, 0.0011]
+[goal_reward, 0.1, hand_reward, 0.2, vel_reward, 0.2, contact_reward, 0.01, orientation_reward, 0.1, success_reward, 1, 0.0122]
+[goal_reward, 0.1, hand_reward, 0.2, vel_reward, 0.2, contact_reward, 0.01, orientation_reward, 0.1, success_reward, 0.2, 0.0007]
+
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, orientation_reward, 0.5, success_reward, 1, 0.0047]2_3
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, orientation_reward, 0.5, success_reward, 0.2, 0.0068]
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, orientation_reward, 0.1, success_reward, 1, 0.0161]
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, orientation_reward, 0.1, success_reward, 0.2, 0.0042]
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, orientation_reward, 0.5, success_reward, 1, 0.009]2_3
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, orientation_reward, 0.5, success_reward, 0.2, 0.0055]
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, orientation_reward, 0.1, success_reward, 1, 0.0151]
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, orientation_reward, 0.1, success_reward, 0.2, 0.0038]
+
+[goal_reward, 0.05, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, orientation_reward, 0.5, success_reward, 1, 0.0003]2_3
+[goal_reward, 0.05, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, orientation_reward, 0.5, success_reward, 0.2, 0.0164]
+[goal_reward, 0.05, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, orientation_reward, 0.1, success_reward, 1, 0.014]
+[goal_reward, 0.05, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, orientation_reward, 0.1, success_reward, 0.2, 0.0028]
+[goal_reward, 0.05, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, orientation_reward, 0.5, success_reward, 1, 0.038]2_3
+[goal_reward, 0.05, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, orientation_reward, 0.5, success_reward, 0.2, 0.004]
+[goal_reward, 0.05, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, orientation_reward, 0.1, success_reward, 1, 0.0048]
+[goal_reward, 0.05, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, orientation_reward, 0.1, success_reward, 0.2, 0.0133]
+
+[goal_reward, 0.3, hand_reward, 0.2, vel_reward, 0.1, contact_reward, 0.01, success_bonus, 1, 0.0036]1_2
+[goal_reward, 0.3, hand_reward, 0.2, vel_reward, 0.1, contact_reward, 0.01, success_bonus, 0.2, 0.013]
+[goal_reward, 0.3, hand_reward, 0.2, vel_reward, 0.1, contact_reward, 0.05, success_bonus, 1, 0.0145]
+[goal_reward, 0.3, hand_reward, 0.2, vel_reward, 0.1, contact_reward, 0.05, success_bonus, 0.2, 0.0109]
+[goal_reward, 0.3, hand_reward, 0.2, vel_reward, 0.05, contact_reward, 0.01, success_bonus, 1, 0.0062]1_2
+[goal_reward, 0.3, hand_reward, 0.2, vel_reward, 0.05, contact_reward, 0.01, success_bonus, 0.2, 0.0002]
+[goal_reward, 0.3, hand_reward, 0.2, vel_reward, 0.05, contact_reward, 0.05, success_bonus, 1, 0.0002]
+[goal_reward, 0.3, hand_reward, 0.2, vel_reward, 0.05, contact_reward, 0.05, success_bonus, 0.2, 0.0002]
+
+[goal_reward, 0.3, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, success_bonus, 1, 0.0003]1_2
+[goal_reward, 0.3, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, success_bonus, 0.2, 0.0005]
+[goal_reward, 0.3, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, success_bonus, 1, 0.0005]
+[goal_reward, 0.3, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, success_bonus, 0.2, 0.0006]
+[goal_reward, 0.3, hand_reward, 0.1, vel_reward, 0.05, contact_reward, 0.01, success_bonus, 1, 0.0062]1_2
+[goal_reward, 0.3, hand_reward, 0.1, vel_reward, 0.05, contact_reward, 0.01, success_bonus, 0.2, 0.0059]
+[goal_reward, 0.3, hand_reward, 0.1, vel_reward, 0.05, contact_reward, 0.05, success_bonus, 1, 0.0004]
+[goal_reward, 0.3, hand_reward, 0.1, vel_reward, 0.05, contact_reward, 0.05, success_bonus, 0.2, 0.0041]
+
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, success_bonus, 1, 0.0029]1_2
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.01, success_bonus, 0.2, 0.0004]
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, success_bonus, 1, 0.0023]
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.1, contact_reward, 0.05, success_bonus, 0.2, 0.0002]
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.05, contact_reward, 0.01, success_bonus, 1, 0.0134]1_2
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.05, contact_reward, 0.01, success_bonus, 0.2, 0.0006]
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.05, contact_reward, 0.05, success_bonus, 1, 0.0005]
+[goal_reward, 0.1, hand_reward, 0.1, vel_reward, 0.05, contact_reward, 0.05, success_bonus, 0.2, 0.0009]
+
+[goal_reward, 5, hand_reward, 2, contact_reward, 1, vel_reward, 2, 0.0092]1_10
+[goal_reward, 5, hand_reward, 2, contact_reward, 1, vel_reward, 1, 0.0042]
+[goal_reward, 5, hand_reward, 2, contact_reward, 0.5, vel_reward, 2, 0.0038]
+[goal_reward, 5, hand_reward, 2, contact_reward, 0.5, vel_reward, 1, 0.011]
+[goal_reward, 5, hand_reward, 1, contact_reward, 1, vel_reward, 2, 0.0016]
+[goal_reward, 5, hand_reward, 1, contact_reward, 1, vel_reward, 1, 0.001]
+[goal_reward, 5, hand_reward, 1, contact_reward, 0.5, vel_reward, 2, 0.0137]
+[goal_reward, 5, hand_reward, 1, contact_reward, 0.5, vel_reward, 1, 0.0154]
+
+[goal_reward, 1, hand_reward, 2, contact_reward, 1, vel_reward, 2, 0.0036]1_10
+[goal_reward, 1, hand_reward, 2, contact_reward, 1, vel_reward, 1, 0.0123]
+[goal_reward, 1, hand_reward, 2, contact_reward, 1, vel_reward, 5, 0.0293]
+[goal_reward, 1, hand_reward, 2, contact_reward, 0.5, vel_reward, 2, 0.0014]1_10
+[goal_reward, 1, hand_reward, 2, contact_reward, 0.5, vel_reward, 1, 0.0275]
+[goal_reward, 1, hand_reward, 2, contact_reward, 0.5, vel_reward, 5, 0.0038]
+[goal_reward, 1, hand_reward, 2, contact_reward, 5, vel_reward, 2, 0.0006]1_10
+[goal_reward, 1, hand_reward, 2, contact_reward, 5, vel_reward, 1, 0.0179]
+[goal_reward, 1, hand_reward, 2, contact_reward, 5, vel_reward, 5, 0.0219]
+
+[goal_reward, 10, hand_reward, 2, contact_reward, 1, vel_reward, 2, 0.0319]1_10
+[goal_reward, 10, hand_reward, 2, contact_reward, 1, vel_reward, 1, 0.0104]
+[goal_reward, 10, hand_reward, 2, contact_reward, 1, vel_reward, 5, 0.0121]
+[goal_reward, 10, hand_reward, 2, contact_reward, 0.5, vel_reward, 2, 0.0163]1_10
+[goal_reward, 10, hand_reward, 2, contact_reward, 0.5, vel_reward, 1, 0.0003]
+[goal_reward, 10, hand_reward, 2, contact_reward, 0.5, vel_reward, 5, 0.0002]
+[goal_reward, 10, hand_reward, 2, contact_reward, 5, vel_reward, 2, 0.0145]1_10
+[goal_reward, 10, hand_reward, 2, contact_reward, 5, vel_reward, 1, 0.0274]
+[goal_reward, 10, hand_reward, 2, contact_reward, 5, vel_reward, 5, 0.0005]
+
+[goal_reward, 0.05, hand_reward, 0.03, contact_reward, 0.01, 0.0125]1_9
+[goal_reward, 0.05, hand_reward, 0.03, contact_reward, 0.05, 0.0002]
+[goal_reward, 0.05, hand_reward, 0.03, contact_reward, 0.005, 0.0002]
+[goal_reward, 0.05, hand_reward, 0.01, contact_reward, 0.01, 0.017]1_9
+[goal_reward, 0.05, hand_reward, 0.01, contact_reward, 0.05, 0.0015]
+[goal_reward, 0.05, hand_reward, 0.01, contact_reward, 0.005, 0.0004]
+[goal_reward, 0.05, hand_reward, 0.1, contact_reward, 0.01, 0.0002]1_9
+[goal_reward, 0.05, hand_reward, 0.1, contact_reward, 0.05, 0.0179]
+[goal_reward, 0.05, hand_reward, 0.1, contact_reward, 0.005, 0.0057]
+[goal_reward, 0.01, hand_reward, 0.03, contact_reward, 0.01, 0.0132]1_9
+[goal_reward, 0.01, hand_reward, 0.03, contact_reward, 0.05, 0.0096]
+[goal_reward, 0.01, hand_reward, 0.03, contact_reward, 0.005, 0.0002]
+[goal_reward, 0.01, hand_reward, 0.01, contact_reward, 0.01, 0.0002]1_9
+[goal_reward, 0.01, hand_reward, 0.01, contact_reward, 0.005, 0]
+[goal_reward, 0.01, hand_reward, 0.1, contact_reward, 0.01, 0.0065]1_9
+[goal_reward, 0.01, hand_reward, 0.1, contact_reward, 0.05, 0.014]
+[goal_reward, 0.01, hand_reward, 0.1, contact_reward, 0.005, 0.0062]
+[goal_reward, 0.5, hand_reward, 0.03, contact_reward, 0.01, 0.0046]1_9
+[goal_reward, 0.5, hand_reward, 0.03, contact_reward, 0.05, 0.0075]
+[goal_reward, 0.5, hand_reward, 0.03, contact_reward, 0.005, 0.009]
+[goal_reward, 0.5, hand_reward, 0.01, contact_reward, 0.01, 0.014]1_9
+[goal_reward, 0.5, hand_reward, 0.01, contact_reward, 0.05, 0.0058]
+[goal_reward, 0.5, hand_reward, 0.01, contact_reward, 0.005, 0.0254]
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 0.01, 0.0089]1_9
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 0.05, 0.0029]
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 0.005, 0.0091]
+
+[goal_reward, 0.5, hand_reward, 0.2, contact_reward, 1, velocity_reward, 0.1, 0.0097]1_4
+[goal_reward, 0.5, hand_reward, 0.2, contact_reward, 1, velocity_reward, 0.05, 0.0004]
+[goal_reward, 0.5, hand_reward, 0.2, contact_reward, 1, velocity_reward, 0.5, 0.0064]
+[goal_reward, 0.5, hand_reward, 0.2, contact_reward, 0.5, velocity_reward, 0.1, 0.0004]1_4
+[goal_reward, 0.5, hand_reward, 0.2, contact_reward, 0.5, velocity_reward, 0.05, 0.0071]
+[goal_reward, 0.5, hand_reward, 0.2, contact_reward, 0.5, velocity_reward, 0.5, 0.013]
+[goal_reward, 0.5, hand_reward, 0.2, contact_reward, 5, velocity_reward, 0.1, 0.0066]1_4
+[goal_reward, 0.5, hand_reward, 0.2, contact_reward, 5, velocity_reward, 0.05, 0.0002]
+[goal_reward, 0.5, hand_reward, 0.2, contact_reward, 5, velocity_reward, 0.5, 0.015]
+
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 1, velocity_reward, 0.1, 0.0362]1_4
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 1, velocity_reward, 0.05, 0.0144]
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 1, velocity_reward, 0.5, 0.0005]
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 0.5, velocity_reward, 0.1, 0.0722]1_4
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 0.5, velocity_reward, 0.05, 0.0006]
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 0.5, velocity_reward, 0.5, 0.0007]
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 5, velocity_reward, 0.1, 0.0059]1_4
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 5, velocity_reward, 0.05, 0.0169]
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 5, velocity_reward, 0.5, 0.0067]
+
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 1, velocity_reward, 0.1, 0.0205]1_4
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 1, velocity_reward, 0.05, 0.0117]
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 1, velocity_reward, 0.5, 0.0129]
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.5, velocity_reward, 0.1, 0.0011]1_4
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.5, velocity_reward, 0.05, 0.0064]
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.5, velocity_reward, 0.5, 0.038]
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 5, velocity_reward, 0.1, 0.0021]1_4
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 5, velocity_reward, 0.05, 0.0114]
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 5, velocity_reward, 0.5, 0.0542]
+
+[goal_reward, 1, hand_reward, 1, contact_reward, 1, velocity_reward, 0.1, 0.0128]1_4
+[goal_reward, 1, hand_reward, 1, contact_reward, 1, velocity_reward, 0.05, 0.0052]
+[goal_reward, 1, hand_reward, 1, contact_reward, 1, velocity_reward, 0.5, 0.0103]
+[goal_reward, 1, hand_reward, 1, contact_reward, 0.5, velocity_reward, 0.1, 0.0167]1_4
+[goal_reward, 1, hand_reward, 1, contact_reward, 0.5, velocity_reward, 0.05, 0.0159]
+[goal_reward, 1, hand_reward, 1, contact_reward, 0.5, velocity_reward, 0.5, 0.0223]
+[goal_reward, 1, hand_reward, 1, contact_reward, 5, velocity_reward, 0.1, 0.0259]1_4
+[goal_reward, 1, hand_reward, 1, contact_reward, 5, velocity_reward, 0.05, 0.0183]
+[goal_reward, 1, hand_reward, 1, contact_reward, 5, velocity_reward, 0.5, 0.0026]
+
+[goal_reward, 0.3, hand_reward, 0.2, contact_reward, 0.1, progress_reward, 1, 0.0113]1_3
+[goal_reward, 0.3, hand_reward, 0.2, contact_reward, 0.1, progress_reward, 0.5, 0.0066]
+[goal_reward, 0.3, hand_reward, 0.2, contact_reward, 0.1, progress_reward, 5, 0.0064]
+[goal_reward, 0.3, hand_reward, 0.2, contact_reward, 0.05, progress_reward, 1, 0.006]1_3
+[goal_reward, 0.3, hand_reward, 0.2, contact_reward, 0.05, progress_reward, 0.5, 0.0034]
+[goal_reward, 0.3, hand_reward, 0.2, contact_reward, 0.05, progress_reward, 5, 0.0178]
+[goal_reward, 0.3, hand_reward, 0.2, contact_reward, 0.5, progress_reward, 1, 0.0122]1_3
+[goal_reward, 0.3, hand_reward, 0.2, contact_reward, 0.5, progress_reward, 0.5, 0.0051]
+[goal_reward, 0.3, hand_reward, 0.2, contact_reward, 0.5, progress_reward, 5, 0.0155]
+
+[goal_reward, 0.3, hand_reward, 0.1, contact_reward, 0.1, progress_reward, 1, 0.0068]1_3
+[goal_reward, 0.3, hand_reward, 0.1, contact_reward, 0.1, progress_reward, 0.5, 0.0085]
+[goal_reward, 0.3, hand_reward, 0.1, contact_reward, 0.1, progress_reward, 5, 0.0012]
+[goal_reward, 0.3, hand_reward, 0.1, contact_reward, 0.05, progress_reward, 1, 0.0096]1_3
+[goal_reward, 0.3, hand_reward, 0.1, contact_reward, 0.05, progress_reward, 0.5, 0.0043]
+[goal_reward, 0.3, hand_reward, 0.1, contact_reward, 0.05, progress_reward, 5, 0.0093]
+[goal_reward, 0.3, hand_reward, 0.1, contact_reward, 0.5, progress_reward, 1, 0.0058]1_3
+[goal_reward, 0.3, hand_reward, 0.1, contact_reward, 0.5, progress_reward, 0.5, 0.0153]
+[goal_reward, 0.3, hand_reward, 0.1, contact_reward, 0.5, progress_reward, 5, 0.0052]
+
+[goal_reward, 0.3, hand_reward, 1, contact_reward, 0.1, progress_reward, 1, 0.013]1_3
+[goal_reward, 0.3, hand_reward, 1, contact_reward, 0.1, progress_reward, 0.5, 0.0239]
+[goal_reward, 0.3, hand_reward, 1, contact_reward, 0.1, progress_reward, 5, 0.0174]
+[goal_reward, 0.3, hand_reward, 1, contact_reward, 0.05, progress_reward, 1, 0.0459]1_3
+[goal_reward, 0.3, hand_reward, 1, contact_reward, 0.05, progress_reward, 0.5, 0.0459]
+[goal_reward, 0.3, hand_reward, 1, contact_reward, 0.05, progress_reward, 5, 0.0097]
+[goal_reward, 0.3, hand_reward, 1, contact_reward, 0.5, progress_reward, 1, 0.0034]1_3
+[goal_reward, 0.3, hand_reward, 1, contact_reward, 0.5, progress_reward, 0.5, 0.0374]
+[goal_reward, 0.3, hand_reward, 1, contact_reward, 0.5, progress_reward, 5, 0.0422]
+
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.1, progress_reward, 1, 0.0079]1_3
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.1, progress_reward, 0.5, 0.0078]
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.1, progress_reward, 5, 0.0131]
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.05, progress_reward, 1, 0.0091]1_3
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.05, progress_reward, 0.5, 0.0048]
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.05, progress_reward, 5, 0.0148]
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.5, progress_reward, 1, 0.0023]1_3
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.5, progress_reward, 0.5, 0.0003]
+[goal_reward, 0.1, hand_reward, 1, contact_reward, 0.5, progress_reward, 5, 0.0152]
+
+[goal_reward, 0.1, hand_reward, 0.05, contact_reward, 0.02, 0.0002]0_6
+[goal_reward, 0.1, hand_reward, 0.05, contact_reward, 0.1, 0.0156]
+[goal_reward, 0.1, hand_reward, 0.01, contact_reward, 0.02, 0.0111]0_6
+[goal_reward, 0.1, hand_reward, 0.01, contact_reward, 0.1, 0.0265]
+[goal_reward, 0.1, hand_reward, 0.1, contact_reward, 0.02, 0.0051]0_6
+[goal_reward, 0.1, hand_reward, 0.1, contact_reward, 0.1, 0.0263]
+[goal_reward, 0.05, hand_reward, 0.05, contact_reward, 0.02, 0]0_6
+[goal_reward, 0.05, hand_reward, 0.05, contact_reward, 0.1, 0.0063]
+[goal_reward, 0.05, hand_reward, 0.01, contact_reward, 0.02, 0.0051]0_6
+[goal_reward, 0.05, hand_reward, 0.01, contact_reward, 0.1, 0.0835]
+[goal_reward, 0.05, hand_reward, 0.1, contact_reward, 0.02, 0.0009]0_6
+[goal_reward, 0.05, hand_reward, 0.1, contact_reward, 0.1, 0.0069]
+[goal_reward, 0.5, hand_reward, 0.05, contact_reward, 0.02, 0.0012]0_6
+[goal_reward, 0.5, hand_reward, 0.05, contact_reward, 0.1, 0.0058]
+[goal_reward, 0.5, hand_reward, 0.01, contact_reward, 0.02, 0.0672]0_6
+[goal_reward, 0.5, hand_reward, 0.01, contact_reward, 0.1, 0.0356]
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 0.02, 0.0016]0_6
+[goal_reward, 0.5, hand_reward, 0.1, contact_reward, 0.1, 0.0142]
+
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.1, goal_reward, 0.2, success_bonus, 1, 0.0004]2_1
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.1, goal_reward, 0.2, success_bonus, 0.5, 0]
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.1, goal_reward, 0.2, success_bonus, 5, 0.0002]
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.1, goal_reward, 0.1, success_bonus, 1, 0.0002]2_1
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.1, goal_reward, 0.1, success_bonus, 0.5, 0.0003]
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.1, goal_reward, 0.1, success_bonus, 5, 0.0004]
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.1, goal_reward, 1, success_bonus, 1, 0.0002]2_1
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.1, goal_reward, 1, success_bonus, 0.5, 0.004]
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.1, goal_reward, 1, success_bonus, 5, 0.002]
+
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.05, goal_reward, 0.2, success_bonus, 1, 0.0127]2_1
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.05, goal_reward, 0.2, success_bonus, 0.5, 0.0175]
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.05, goal_reward, 0.2, success_bonus, 5, 0.0075]
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.05, goal_reward, 0.1, success_bonus, 1, 0.0156]2_1
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.05, goal_reward, 0.1, success_bonus, 0.5, 0.0002]
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.05, goal_reward, 0.1, success_bonus, 5, 0]
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.05, goal_reward, 1, success_bonus, 1, 0.0174]2_1
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.05, goal_reward, 1, success_bonus, 0.5, 0.0104]
+[approach_reward, 0.05, contact_reward, 0.02, push_reward, 0.1, alignment_reward, 0.05, goal_reward, 1, success_bonus, 5, 0.0002]
+
+[approach_reward, 0.05, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.2, success_bonus, 1, 0.017]2_1
+[approach_reward, 0.05, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.2, success_bonus, 0.5, 0.0002]
+[approach_reward, 0.05, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.2, success_bonus, 5, 0.0002]
+[approach_reward, 0.05, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.1, success_bonus, 1, 0.01]2_1
+[approach_reward, 0.05, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.1, success_bonus, 0.5, 0.0202]
+[approach_reward, 0.05, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.1, success_bonus, 5, 0.0271]
+[approach_reward, 0.05, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 1, success_bonus, 1, 0.0132]2_1
+[approach_reward, 0.05, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 1, success_bonus, 0.5, 0.0135]
+[approach_reward, 0.05, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 1, success_bonus, 5, 0.0118]
+
+[approach_reward, 0.01, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.2, success_bonus, 1, 0.0003]2_1
+[approach_reward, 0.01, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.2, success_bonus, 0.5, 0.0093]
+[approach_reward, 0.01, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.2, success_bonus, 5, 0.0005]
+[approach_reward, 0.01, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.1, success_bonus, 1, 0.0172]2_1
+[approach_reward, 0.01, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.1, success_bonus, 0.5, 0.0069]
+[approach_reward, 0.01, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 0.1, success_bonus, 5, 0.0003]
+[approach_reward, 0.01, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 1, success_bonus, 1, 0]2_1
+[approach_reward, 0.01, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 1, success_bonus, 0.5, 0.0005]
+[approach_reward, 0.01, contact_reward, 0.01, push_reward, 0.05, alignment_reward, 0.05, goal_reward, 1, success_bonus, 5, 0.0007]
+
+
+

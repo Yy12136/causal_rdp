@@ -1,0 +1,393 @@
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 0.1, 0.9178]2_6
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 0.05, 0.981]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 0.5, 0.9801]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 0.05, 0.9506]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 0.5, 0.9648]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 0.1, 0.464]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 0.05, 0.2491]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 0.5, 0.0311]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 1, object_goal_reward, 0.05, 0.9709]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 0.1, 0.9727]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 0.05, 0.992]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 0.5, 0.9791]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 5, object_goal_reward, 0.1, 0.1323]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 5, object_goal_reward, 0.05, 0.0013]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 5, object_goal_reward, 0.5, 0.3643]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 0.1, 0.938]2_6
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 0.5, 0.9224]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 0.1, 0.9867]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 0.5, 0.9633]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 0.1, 0.0084]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 0.05, 0.0603]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 0.5, 0.014]
+[kettle_handle_reward, 2, bucket_handle_reward, 5, spout_bucket_reward, 1, object_goal_reward, 0.1, 0.9774]2_6
+[kettle_handle_reward, 2, bucket_handle_reward, 5, spout_bucket_reward, 1, object_goal_reward, 0.05, 0.9967]
+[kettle_handle_reward, 2, bucket_handle_reward, 5, spout_bucket_reward, 1, object_goal_reward, 0.5, 0.985]
+[kettle_handle_reward, 2, bucket_handle_reward, 5, spout_bucket_reward, 0.5, object_goal_reward, 0.05, 0.9848]
+[kettle_handle_reward, 2, bucket_handle_reward, 5, spout_bucket_reward, 5, object_goal_reward, 0.1, 0.4281]
+[kettle_handle_reward, 2, bucket_handle_reward, 5, spout_bucket_reward, 5, object_goal_reward, 0.05, 0.5285]
+[kettle_handle_reward, 2, bucket_handle_reward, 5, spout_bucket_reward, 5, object_goal_reward, 0.5, 0.7857]
+
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 1, kettle_tilt_reward, 1, 0.4172]1_4
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 1, kettle_tilt_reward, 0.5, 0.0176]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 0.5, kettle_tilt_reward, 0.5, 0.0064]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 1, kettle_tilt_reward, 1, 0.9924]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 1, kettle_tilt_reward, 0.5, 0.9606]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 0.5, kettle_tilt_reward, 1, 0.9622]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 1, object_goal_reward, 1, kettle_tilt_reward, 1, 0.0863]1_4
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 1, object_goal_reward, 1, kettle_tilt_reward, 0.5, 0.0583]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 1, object_goal_reward, 0.5, kettle_tilt_reward, 1, 0.8837]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 1, object_goal_reward, 0.5, kettle_tilt_reward, 0.5, 0.0165]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 1, kettle_tilt_reward, 1, 0.9939]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 1, kettle_tilt_reward, 0.5, 0.2432]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 0.5, kettle_tilt_reward, 1, 0.9326]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 0.5, kettle_tilt_reward, 0.5, 0.1589]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 1, kettle_tilt_reward, 1, 0.055]1_4
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 1, kettle_tilt_reward, 0.5, 0.0478]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 0.5, kettle_tilt_reward, 1, 0.017]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 0.5, kettle_tilt_reward, 0.5, 0.0037]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 1, kettle_tilt_reward, 1, 0.9613]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 1, kettle_tilt_reward, 0.5, 0.2155]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 0.5, kettle_tilt_reward, 1, 0.8742]
+[kettle_handle_reward, 5, bucket_handle_reward, 0.5, spout_bucket_reward, 5, object_goal_reward, 1, kettle_tilt_reward, 1, 0.0165]1_4
+[kettle_handle_reward, 5, bucket_handle_reward, 0.5, spout_bucket_reward, 5, object_goal_reward, 1, kettle_tilt_reward, 0.5, 0.0023]
+[kettle_handle_reward, 5, bucket_handle_reward, 0.5, spout_bucket_reward, 5, object_goal_reward, 0.5, kettle_tilt_reward, 1, 0.004]
+[kettle_handle_reward, 5, bucket_handle_reward, 0.5, spout_bucket_reward, 5, object_goal_reward, 0.5, kettle_tilt_reward, 0.5, 0.0046]
+[kettle_handle_reward, 1, bucket_handle_reward, 5, spout_bucket_reward, 1, object_goal_reward, 5, kettle_tilt_reward, 1, 0.1689]
+[kettle_handle_reward, 1, bucket_handle_reward, 5, spout_bucket_reward, 1, object_goal_reward, 5, kettle_tilt_reward, 5, 0.3884]
+[kettle_handle_reward, 1, bucket_handle_reward, 5, spout_bucket_reward, 1, object_goal_reward, 0.5, kettle_tilt_reward, 1, 0.0168]
+
+
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 0.5, 0.9793]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 5, 0.9254]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 1, 0.9741]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 0.5, 0.9942]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 5, 0.9843]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 1, 0.0458]1_3
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 0.5, 0.0629]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 5, 0.002]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 1, object_goal_reward, 1, 0.9631]1_3
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 1, object_goal_reward, 0.5, 0.0256]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 1, object_goal_reward, 5, 0.8172]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 1, 0.9517]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 0.5, 0.9671]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 5, object_goal_reward, 1, 0.0017]1_3
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 5, object_goal_reward, 0.5, 0.0041]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 5, object_goal_reward, 5, 0.0484]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 1, object_goal_reward, 1, 0.0114]1_3
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 1, object_goal_reward, 0.5, 0.9582]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 1, object_goal_reward, 5, 0.9003]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 0.5, object_goal_reward, 1, 0.7193]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 0.5, object_goal_reward, 5, 0.9549]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 5, object_goal_reward, 1, 0.0066]1_3
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 5, object_goal_reward, 0.5, 0.0037]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 5, object_goal_reward, 5, 0.0057]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 1, 0.9903]1_3
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 0.5, 0.4624]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 1, object_goal_reward, 5, 0.521]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 1, 0.9852]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 0.5, object_goal_reward, 5, 0.9853]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 1, 0.1397]1_3
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 0.5, 0.2738]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 5, object_goal_reward, 5, 0.436]
+
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, spout_bucket_reward, 0.1, object_goal_reward, 0.1, velocity_reward, 0.01, 0.1474]0_13
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, spout_bucket_reward, 0.1, object_goal_reward, 0.1, velocity_reward, 0.1, 0.0042]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, spout_bucket_reward, 0.1, object_goal_reward, 0.05, velocity_reward, 0.01, 0.0015]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, spout_bucket_reward, 0.1, object_goal_reward, 0.05, velocity_reward, 0.1, 0.0022]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, spout_bucket_reward, 0.05, object_goal_reward, 0.1, velocity_reward, 0.01, 0.0013]0_13
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, spout_bucket_reward, 0.05, object_goal_reward, 0.1, velocity_reward, 0.1, 0.0045]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, spout_bucket_reward, 0.05, object_goal_reward, 0.05, velocity_reward, 0.01, 0.0039]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, spout_bucket_reward, 0.05, object_goal_reward, 0.05, velocity_reward, 0.1, 0.0226]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, spout_bucket_reward, 0.1, object_goal_reward, 0.1, velocity_reward, 0.01, 0.0028]0_13
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, spout_bucket_reward, 0.1, object_goal_reward, 0.1, velocity_reward, 0.1, 0.0016]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, spout_bucket_reward, 0.1, object_goal_reward, 0.05, velocity_reward, 0.01, 0.0015]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, spout_bucket_reward, 0.1, object_goal_reward, 0.05, velocity_reward, 0.1, 0.0034]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, spout_bucket_reward, 0.05, object_goal_reward, 0.1, velocity_reward, 0.01, 0.001]0_13
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, spout_bucket_reward, 0.05, object_goal_reward, 0.1, velocity_reward, 0.1, 0.0054]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, spout_bucket_reward, 0.05, object_goal_reward, 0.05, velocity_reward, 0.01, 0.0034]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, spout_bucket_reward, 0.05, object_goal_reward, 0.05, velocity_reward, 0.1, 0.0005]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, spout_bucket_reward, 0.1, object_goal_reward, 0.1, velocity_reward, 0.01, 0.007]0_13
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, spout_bucket_reward, 0.1, object_goal_reward, 0.1, velocity_reward, 0.1, 0.0061]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, spout_bucket_reward, 0.1, object_goal_reward, 0.05, velocity_reward, 0.01, 0.0084]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, spout_bucket_reward, 0.1, object_goal_reward, 0.05, velocity_reward, 0.1, 0.0064]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 0.1, velocity_reward, 0.01, 0.0059]0_13
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 0.1, velocity_reward, 0.1, 0.0015]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 0.05, velocity_reward, 0.01, 0.0101]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, object_goal_reward, 0.05, velocity_reward, 0.1, 0.0226]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, spout_bucket_reward, 0.1, object_goal_reward, 0.1, velocity_reward, 0.01, 0.0121]0_13
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, spout_bucket_reward, 0.1, object_goal_reward, 0.1, velocity_reward, 0.05, 0.0028]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, spout_bucket_reward, 0.1, object_goal_reward, 0.5, velocity_reward, 0.01, 0.0022]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, spout_bucket_reward, 0.1, object_goal_reward, 0.5, velocity_reward, 0.05, 0.002]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, spout_bucket_reward, 0.05, object_goal_reward, 0.1, velocity_reward, 0.01, 0.0286]0_13
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, spout_bucket_reward, 0.05, object_goal_reward, 0.1, velocity_reward, 0.05, 0.0043]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, spout_bucket_reward, 0.05, object_goal_reward, 0.5, velocity_reward, 0.01, 0.053]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, spout_bucket_reward, 0.05, object_goal_reward, 0.5, velocity_reward, 0.05, 0.0047]
+
+
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 1, water_pouring_reward, 1, spilling_penalty, 1, 0.9725]1_7
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 1, water_pouring_reward, 1, spilling_penalty, 0.5, 0.9956]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 1, water_pouring_reward, 0.5, spilling_penalty, 0.5, 0.9811]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 0.5, water_pouring_reward, 1, spilling_penalty, 0.5, 0.9789]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, spout_bucket_reward, 0.5, water_pouring_reward, 0.5, spilling_penalty, 1, 0.9962]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 1, water_pouring_reward, 1, spilling_penalty, 0.5, 0.9982]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 1, water_pouring_reward, 0.5, spilling_penalty, 1, 0.9561]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 1, water_pouring_reward, 0.5, spilling_penalty, 0.5, 0.9664]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, spout_bucket_reward, 0.5, water_pouring_reward, 0.5, spilling_penalty, 1, 0.9312]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 1, water_pouring_reward, 0.5, spilling_penalty, 5, 0.9797]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 5, water_pouring_reward, 1, spilling_penalty, 1, 0.4813]1_7
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 5, water_pouring_reward, 1, spilling_penalty, 5, 0.1755]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 5, water_pouring_reward, 0.5, spilling_penalty, 1, 0.3492]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 5, spout_bucket_reward, 5, water_pouring_reward, 0.5, spilling_penalty, 5, 0.3508]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 1, water_pouring_reward, 1, spilling_penalty, 1, 0.9783]1_7
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 1, water_pouring_reward, 1, spilling_penalty, 0.5, 0.9956]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 1, water_pouring_reward, 5, spilling_penalty, 1, 0.9957]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 1, water_pouring_reward, 5, spilling_penalty, 0.5, 0.8946]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 0.5, water_pouring_reward, 1, spilling_penalty, 0.5, 0.9914]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 0.5, water_pouring_reward, 5, spilling_penalty, 1, 0.0506]
+[kettle_handle_reward, 5, bucket_handle_reward, 1, spout_bucket_reward, 0.5, water_pouring_reward, 5, spilling_penalty, 0.5, 0.9627]
+
+
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.1, object_goal_reward, 0.1, 0.011]0_11
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.1, object_goal_reward, 0.05, 0.0026]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.1, object_goal_reward, 0.5, 0.0021]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.05, object_goal_reward, 0.1, 0.0029]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.05, object_goal_reward, 0.05, 0.0118]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.05, object_goal_reward, 0.5, 0.0108]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.5, object_goal_reward, 0.1, 0.0016]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.5, object_goal_reward, 0.05, 0.0036]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.5, object_goal_reward, 0.5, 0.0122]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.1, object_goal_reward, 0.1, 0.0039]0_11
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.1, object_goal_reward, 0.05, 0.018]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.1, object_goal_reward, 0.5, 0.0396]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.05, object_goal_reward, 0.1, 0.0051]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.05, object_goal_reward, 0.05, 0.0097]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.05, object_goal_reward, 0.5, 0.0012]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.5, object_goal_reward, 0.1, 0.0006]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.5, object_goal_reward, 0.05, 0.0018]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.5, object_goal_reward, 0.5, 0.0083]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.1, object_goal_reward, 0.1, 0.003]0_11
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.1, object_goal_reward, 0.05, 0.0068]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.1, object_goal_reward, 0.5, 0.002]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.05, object_goal_reward, 0.1, 0.0181]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.05, object_goal_reward, 0.05, 0.0018]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.05, object_goal_reward, 0.5, 0.0015]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.5, object_goal_reward, 0.1, 0.0083]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.5, object_goal_reward, 0.05, 0.0511]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.5, object_goal_reward, 0.5, 0.0017]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.1, object_goal_reward, 0.1, 0.0039]0_11
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.1, object_goal_reward, 0.05, 0.0069]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.1, object_goal_reward, 0.5, 0.1564]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.05, object_goal_reward, 0.1, 0.0013]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.05, object_goal_reward, 0.05, 0.0022]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.05, object_goal_reward, 0.5, 0.1026]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.5, object_goal_reward, 0.1, 0.0017]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.5, object_goal_reward, 0.05, 0.0058]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.5, object_goal_reward, 0.5, 0.0063]
+
+[kettle_handle_reward, 1, bucket_handle_reward, 1, kettle_spout_goal_reward, 1, object_goal_reward, 1, 0.0041]0_10
+[kettle_handle_reward, 1, bucket_handle_reward, 1, kettle_spout_goal_reward, 1, object_goal_reward, 0.5, 0.0024]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, kettle_spout_goal_reward, 1, object_goal_reward, 5, 0.0045]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, kettle_spout_goal_reward, 0.5, object_goal_reward, 1, 0.0046]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, kettle_spout_goal_reward, 0.5, object_goal_reward, 0.5, 0.0022]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, kettle_spout_goal_reward, 0.5, object_goal_reward, 5, 0.0055]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, kettle_spout_goal_reward, 5, object_goal_reward, 1, 0.0045]0_10
+[kettle_handle_reward, 1, bucket_handle_reward, 1, kettle_spout_goal_reward, 5, object_goal_reward, 0.5, 0.002]
+[kettle_handle_reward, 1, bucket_handle_reward, 1, kettle_spout_goal_reward, 5, object_goal_reward, 5, 0.0017]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, kettle_spout_goal_reward, 1, object_goal_reward, 1, 0.0018]0_10
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, kettle_spout_goal_reward, 1, object_goal_reward, 0.5, 0.003]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, kettle_spout_goal_reward, 1, object_goal_reward, 5, 0.0042]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, kettle_spout_goal_reward, 0.5, object_goal_reward, 1, 0.0033]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, kettle_spout_goal_reward, 0.5, object_goal_reward, 0.5, 0.003]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, kettle_spout_goal_reward, 0.5, object_goal_reward, 5, 0.0028]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, kettle_spout_goal_reward, 5, object_goal_reward, 1, 0.0025]0_10
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, kettle_spout_goal_reward, 5, object_goal_reward, 0.5, 0.0018]
+[kettle_handle_reward, 1, bucket_handle_reward, 0.5, kettle_spout_goal_reward, 5, object_goal_reward, 5, 0.0025]
+[kettle_handle_reward, 5, bucket_handle_reward, 5, kettle_spout_goal_reward, 1, object_goal_reward, 1, 0.2211]0_10
+[kettle_handle_reward, 5, bucket_handle_reward, 5, kettle_spout_goal_reward, 1, object_goal_reward, 0.5, 0.0984]
+[kettle_handle_reward, 5, bucket_handle_reward, 5, kettle_spout_goal_reward, 1, object_goal_reward, 5, 0.0248]
+[kettle_handle_reward, 5, bucket_handle_reward, 5, kettle_spout_goal_reward, 0.5, object_goal_reward, 1, 0.0861]
+[kettle_handle_reward, 5, bucket_handle_reward, 5, kettle_spout_goal_reward, 0.5, object_goal_reward, 0.5, 0.0466]
+[kettle_handle_reward, 5, bucket_handle_reward, 5, kettle_spout_goal_reward, 0.5, object_goal_reward, 5, 0.0942]
+[kettle_handle_reward, 5, bucket_handle_reward, 5, kettle_spout_goal_reward, 5, object_goal_reward, 1, 0.2062]0_10
+[kettle_handle_reward, 5, bucket_handle_reward, 5, kettle_spout_goal_reward, 5, object_goal_reward, 0.5, 0.0259]
+[kettle_handle_reward, 5, bucket_handle_reward, 5, kettle_spout_goal_reward, 5, object_goal_reward, 5, 0.0208]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, kettle_spout_goal_reward, 1, object_goal_reward, 1, 0.0026]0_10
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, kettle_spout_goal_reward, 1, object_goal_reward, 0.5, 0.005]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, kettle_spout_goal_reward, 1, object_goal_reward, 5, 0.0029]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, kettle_spout_goal_reward, 0.5, object_goal_reward, 1, 0.0042]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, kettle_spout_goal_reward, 0.5, object_goal_reward, 0.5, 0.0048]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, kettle_spout_goal_reward, 0.5, object_goal_reward, 5, 0.0134]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, kettle_spout_goal_reward, 5, object_goal_reward, 1, 0.0043]0_10
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, kettle_spout_goal_reward, 5, object_goal_reward, 0.5, 0.0015]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 1, kettle_spout_goal_reward, 5, object_goal_reward, 5, 0.0026]
+
+[kettle_handle_reward, 10, bucket_handle_reward, 10, pour_reward, 5, water_transfer_reward, 5, 0.005]0_9
+[kettle_handle_reward, 10, bucket_handle_reward, 10, pour_reward, 5, water_transfer_reward, 1, 0.0026]
+[kettle_handle_reward, 10, bucket_handle_reward, 10, pour_reward, 5, water_transfer_reward, 10, 0.0023]
+[kettle_handle_reward, 10, bucket_handle_reward, 10, pour_reward, 1, water_transfer_reward, 5, 0.004]
+[kettle_handle_reward, 10, bucket_handle_reward, 10, pour_reward, 1, water_transfer_reward, 1, 0.0023]
+[kettle_handle_reward, 10, bucket_handle_reward, 10, pour_reward, 1, water_transfer_reward, 10, 0.0024]
+[kettle_handle_reward, 10, bucket_handle_reward, 10, pour_reward, 10, water_transfer_reward, 5, 0.003]
+[kettle_handle_reward, 10, bucket_handle_reward, 10, pour_reward, 10, water_transfer_reward, 1, 0.032]
+[kettle_handle_reward, 10, bucket_handle_reward, 10, pour_reward, 10, water_transfer_reward, 10, 0.0194]
+
+[kettle_handle_reward, 10, bucket_handle_reward, 5, pour_reward, 5, water_transfer_reward, 5, 0.0548]0_9
+[kettle_handle_reward, 10, bucket_handle_reward, 5, pour_reward, 5, water_transfer_reward, 1, 0.0053]
+[kettle_handle_reward, 10, bucket_handle_reward, 5, pour_reward, 5, water_transfer_reward, 10, 0.0009]
+[kettle_handle_reward, 10, bucket_handle_reward, 5, pour_reward, 1, water_transfer_reward, 5, 0.0122]
+[kettle_handle_reward, 10, bucket_handle_reward, 5, pour_reward, 1, water_transfer_reward, 1, 0.0012]
+[kettle_handle_reward, 10, bucket_handle_reward, 5, pour_reward, 1, water_transfer_reward, 10, 0.0027]
+[kettle_handle_reward, 10, bucket_handle_reward, 5, pour_reward, 10, water_transfer_reward, 5, 0.0018]
+[kettle_handle_reward, 10, bucket_handle_reward, 5, pour_reward, 10, water_transfer_reward, 1, 0.0018]
+[kettle_handle_reward, 10, bucket_handle_reward, 5, pour_reward, 10, water_transfer_reward, 10, 0.0019]
+
+[kettle_handle_reward, 5, bucket_handle_reward, 20, pour_reward, 5, water_transfer_reward, 5, 0.006]0_9
+[kettle_handle_reward, 5, bucket_handle_reward, 20, pour_reward, 5, water_transfer_reward, 1, 0.0004]
+[kettle_handle_reward, 5, bucket_handle_reward, 20, pour_reward, 5, water_transfer_reward, 10, 0.0005]
+[kettle_handle_reward, 5, bucket_handle_reward, 20, pour_reward, 1, water_transfer_reward, 5, 0.0029]
+[kettle_handle_reward, 5, bucket_handle_reward, 20, pour_reward, 1, water_transfer_reward, 1, 0.0067]
+[kettle_handle_reward, 5, bucket_handle_reward, 20, pour_reward, 1, water_transfer_reward, 10, 0.0073]
+[kettle_handle_reward, 5, bucket_handle_reward, 20, pour_reward, 10, water_transfer_reward, 5, 0.0021]
+[kettle_handle_reward, 5, bucket_handle_reward, 20, pour_reward, 10, water_transfer_reward, 1, 0.0179]
+[kettle_handle_reward, 5, bucket_handle_reward, 20, pour_reward, 10, water_transfer_reward, 10, 0.0207]
+
+[kettle_handle_reward, 20, bucket_handle_reward, 5, pour_reward, 5, water_transfer_reward, 5, 0.0024]0_9
+[kettle_handle_reward, 20, bucket_handle_reward, 5, pour_reward, 5, water_transfer_reward, 1, 0.0026]
+[kettle_handle_reward, 20, bucket_handle_reward, 5, pour_reward, 5, water_transfer_reward, 10, 0.0027]
+[kettle_handle_reward, 20, bucket_handle_reward, 5, pour_reward, 1, water_transfer_reward, 5, 0.005]
+[kettle_handle_reward, 20, bucket_handle_reward, 5, pour_reward, 1, water_transfer_reward, 1, 0.0044]
+[kettle_handle_reward, 20, bucket_handle_reward, 5, pour_reward, 1, water_transfer_reward, 10, 0.0019]
+[kettle_handle_reward, 20, bucket_handle_reward, 5, pour_reward, 10, water_transfer_reward, 5, 0.0021]
+[kettle_handle_reward, 20, bucket_handle_reward, 5, pour_reward, 10, water_transfer_reward, 1, 0.0009]
+[kettle_handle_reward, 20, bucket_handle_reward, 5, pour_reward, 10, water_transfer_reward, 10, 0.0006]
+
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_alignment_reward, 0.1, water_transfer_reward, 0.1, 0.9916]0_6
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_alignment_reward, 0.1, water_transfer_reward, 0.05, 0.0075]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_alignment_reward, 0.1, water_transfer_reward, 0.5, 0.1437]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_alignment_reward, 0.05, water_transfer_reward, 0.1, 0.0115]0_6
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_alignment_reward, 0.05, water_transfer_reward, 0.05, 0.0058]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_alignment_reward, 0.05, water_transfer_reward, 0.5, 0.0165]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_alignment_reward, 0.5, water_transfer_reward, 0.1, 0.6988]0_6
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_alignment_reward, 0.5, water_transfer_reward, 0.05, 0.0063]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_alignment_reward, 0.5, water_transfer_reward, 0.5, 0.0058]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_alignment_reward, 0.1, water_transfer_reward, 0.1, 0.0056]0_6
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_alignment_reward, 0.1, water_transfer_reward, 0.05, 0.9147]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_alignment_reward, 0.1, water_transfer_reward, 0.5, 0.1492]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_alignment_reward, 0.05, water_transfer_reward, 0.1, 0.0022]0_6
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_alignment_reward, 0.05, water_transfer_reward, 0.05, 0.0004]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_alignment_reward, 0.05, water_transfer_reward, 0.5, 0.0005]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_alignment_reward, 0.5, water_transfer_reward, 0.1, 0.7909]0_6
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_alignment_reward, 0.5, water_transfer_reward, 0.05, 0.4785]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_alignment_reward, 0.5, water_transfer_reward, 0.5, 0.0078]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_alignment_reward, 0.1, water_transfer_reward, 0.1, 0.9985]0_6
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_alignment_reward, 0.1, water_transfer_reward, 0.05, 0.9348]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_alignment_reward, 0.1, water_transfer_reward, 0.5, 0.8061]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_alignment_reward, 0.05, water_transfer_reward, 0.1, 0.011]0_6
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_alignment_reward, 0.05, water_transfer_reward, 0.05, 0.0108]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_alignment_reward, 0.05, water_transfer_reward, 0.5, 0.0018]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_alignment_reward, 0.5, water_transfer_reward, 0.1, 0.7293]0_6
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_alignment_reward, 0.5, water_transfer_reward, 0.05, 0.2627]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_alignment_reward, 0.5, water_transfer_reward, 0.5, 0.8714]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_alignment_reward, 0.1, water_transfer_reward, 0.1, 0.9621]0_6
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_alignment_reward, 0.1, water_transfer_reward, 0.05, 0.9736]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_alignment_reward, 0.1, water_transfer_reward, 0.5, 0.6219]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_alignment_reward, 0.05, water_transfer_reward, 0.1, 0.0019]0_6
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_alignment_reward, 0.05, water_transfer_reward, 0.05, 0.9655]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_alignment_reward, 0.05, water_transfer_reward, 0.5, 0.0123]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_alignment_reward, 0.5, water_transfer_reward, 0.1, 0.6576]0_6
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_alignment_reward, 0.5, water_transfer_reward, 0.05, 0.9293]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_alignment_reward, 0.5, water_transfer_reward, 0.5, 0.688]
+
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.1, velocity_reward, 0.1, object_goal_reward, 0.1, 0.0016]0_2
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.1, velocity_reward, 0.1, object_goal_reward, 0.05, 0.0016]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.1, velocity_reward, 0.05, object_goal_reward, 0.1, 0.0012]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.1, velocity_reward, 0.05, object_goal_reward, 0.05, 0.0011]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.05, velocity_reward, 0.1, object_goal_reward, 0.1, 0.0043]0_2
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.05, velocity_reward, 0.1, object_goal_reward, 0.5, 0.003]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.05, velocity_reward, 0.5, object_goal_reward, 0.1, 0.0035]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.1, pour_reward, 0.05, velocity_reward, 0.5, object_goal_reward, 0.05, 0.0035]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.1, velocity_reward, 0.1, object_goal_reward, 0.1, 0.0005]0_2
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.1, velocity_reward, 0.1, object_goal_reward, 0.05, 0.0033]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.1, velocity_reward, 0.05, object_goal_reward, 0.1, 0.0036]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.1, velocity_reward, 0.05, object_goal_reward, 0.05, 0.0022]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.05, velocity_reward, 0.1, object_goal_reward, 0.1, 0.0005]0_2
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.05, velocity_reward, 0.1, object_goal_reward, 0.5, 0]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.05, velocity_reward, 0.5, object_goal_reward, 0.1, 0.004]
+[kettle_handle_reward, 0.1, bucket_handle_reward, 0.05, pour_reward, 0.05, velocity_reward, 0.5, object_goal_reward, 0.05, 0.006]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.1, velocity_reward, 0.1, object_goal_reward, 0.1, 0.0043]0_2
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.1, velocity_reward, 0.1, object_goal_reward, 0.05, 0.0013]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.1, velocity_reward, 0.05, object_goal_reward, 0.1, 0.0021]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.1, velocity_reward, 0.05, object_goal_reward, 0.05, 0.0013]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.5, velocity_reward, 0.1, object_goal_reward, 0.1, 0.0019]0_2
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.5, velocity_reward, 0.1, object_goal_reward, 0.5, 0.0285]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.5, velocity_reward, 0.5, object_goal_reward, 0.1, 0.0015]
+[kettle_handle_reward, 0.05, bucket_handle_reward, 0.5, pour_reward, 0.5, velocity_reward, 0.5, object_goal_reward, 0.05, 0.0024]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.1, velocity_reward, 0.1, object_goal_reward, 0.1, 0.0321]0_2
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.1, velocity_reward, 0.1, object_goal_reward, 0.05, 0.0021]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.1, velocity_reward, 0.05, object_goal_reward, 0.1, 0.0018]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.1, velocity_reward, 0.05, object_goal_reward, 0.05, 0.0032]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.5, velocity_reward, 0.1, object_goal_reward, 0.1, 0.0007]0_2
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.5, velocity_reward, 0.1, object_goal_reward, 0.5, 0.0029]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.5, velocity_reward, 0.5, object_goal_reward, 0.1, 0.0029]
+[kettle_handle_reward, 0.5, bucket_handle_reward, 0.1, pour_reward, 0.5, velocity_reward, 0.5, object_goal_reward, 0.05, 0.002]
+
+[spout_bucket_reward, 1, object_goal_reward, 1, spill_penalty, 0.5, 0.0015]
+[spout_bucket_reward, 1, object_goal_reward, 1, spill_penalty, 5, 0.752]
+[spout_bucket_reward, 1, object_goal_reward, 0.5, spill_penalty, 1, 0.0053]
+[spout_bucket_reward, 1, object_goal_reward, 0.5, spill_penalty, 0.5, 0.0127]
+[spout_bucket_reward, 1, object_goal_reward, 5, spill_penalty, 1, 0]
+[spout_bucket_reward, 1, object_goal_reward, 5, spill_penalty, 5, 0.003]
+[spout_bucket_reward, 0.5, object_goal_reward, 1, spill_penalty, 1, 0]1_9
+[spout_bucket_reward, 0.5, object_goal_reward, 1, spill_penalty, 0.5, 0.028]
+[spout_bucket_reward, 0.5, object_goal_reward, 1, spill_penalty, 5, 0.8701]
+[spout_bucket_reward, 0.5, object_goal_reward, 0.5, spill_penalty, 0.5, 0.0682]
+[spout_bucket_reward, 0.5, object_goal_reward, 0.5, spill_penalty, 5, 0.0029]
+[spout_bucket_reward, 0.5, object_goal_reward, 5, spill_penalty, 1, 0]
+[spout_bucket_reward, 0.5, object_goal_reward, 5, spill_penalty, 0.5, 0.0027]
+[spout_bucket_reward, 5, object_goal_reward, 1, spill_penalty, 1, 0]1_9
+[spout_bucket_reward, 5, object_goal_reward, 1, spill_penalty, 0.5, 0]
+[spout_bucket_reward, 5, object_goal_reward, 1, spill_penalty, 5, 0.0044]
+[spout_bucket_reward, 5, object_goal_reward, 0.5, spill_penalty, 1, 0.002]
+[spout_bucket_reward, 5, object_goal_reward, 0.5, spill_penalty, 0.5, 0.0005]
+[spout_bucket_reward, 5, object_goal_reward, 0.5, spill_penalty, 5, 0.2074]
+[spout_bucket_reward, 5, object_goal_reward, 5, spill_penalty, 1, 0]
+
+
+[kettle_holding_reward, 1, bucket_holding_reward, 1, kettle_spout_goal_reward, 1, object_velocity_reward, 1, 0.0039]0_4
+[kettle_holding_reward, 1, bucket_holding_reward, 1, kettle_spout_goal_reward, 1, object_velocity_reward, 0.5, 0.0024]
+[kettle_holding_reward, 1, bucket_holding_reward, 1, kettle_spout_goal_reward, 1, object_velocity_reward, 5, 0.006]
+[kettle_holding_reward, 1, bucket_holding_reward, 1, kettle_spout_goal_reward, 0.5, object_velocity_reward, 1, 0.0015]
+[kettle_holding_reward, 1, bucket_holding_reward, 1, kettle_spout_goal_reward, 0.5, object_velocity_reward, 0.5, 0.0024]
+[kettle_holding_reward, 1, bucket_holding_reward, 1, kettle_spout_goal_reward, 0.5, object_velocity_reward, 5, 0.0022]
+[kettle_holding_reward, 1, bucket_holding_reward, 1, kettle_spout_goal_reward, 5, object_velocity_reward, 1, 0.0045]
+[kettle_holding_reward, 1, bucket_holding_reward, 1, kettle_spout_goal_reward, 5, object_velocity_reward, 0.5, 0.002]
+[kettle_holding_reward, 1, bucket_holding_reward, 1, kettle_spout_goal_reward, 5, object_velocity_reward, 5, 0.0015]
+[kettle_holding_reward, 1, bucket_holding_reward, 0.5, kettle_spout_goal_reward, 1, object_velocity_reward, 1, 0.0023]0_4
+[kettle_holding_reward, 1, bucket_holding_reward, 0.5, kettle_spout_goal_reward, 1, object_velocity_reward, 0.5, 0.0045]
+[kettle_holding_reward, 1, bucket_holding_reward, 0.5, kettle_spout_goal_reward, 1, object_velocity_reward, 5, 0.0032]
+[kettle_holding_reward, 1, bucket_holding_reward, 0.5, kettle_spout_goal_reward, 0.5, object_velocity_reward, 1, 0.0031]
+[kettle_holding_reward, 1, bucket_holding_reward, 0.5, kettle_spout_goal_reward, 0.5, object_velocity_reward, 0.5, 0.0017]
+[kettle_holding_reward, 1, bucket_holding_reward, 0.5, kettle_spout_goal_reward, 0.5, object_velocity_reward, 5, 0.0032]
+[kettle_holding_reward, 1, bucket_holding_reward, 0.5, kettle_spout_goal_reward, 5, object_velocity_reward, 1, 0.0029]
+[kettle_holding_reward, 1, bucket_holding_reward, 0.5, kettle_spout_goal_reward, 5, object_velocity_reward, 0.5, 0.0029]
+[kettle_holding_reward, 1, bucket_holding_reward, 0.5, kettle_spout_goal_reward, 5, object_velocity_reward, 5, 0.0025]
+[kettle_holding_reward, 0.5, bucket_holding_reward, 5, kettle_spout_goal_reward, 1, object_velocity_reward, 1, 0.0029]0_4
+[kettle_holding_reward, 0.5, bucket_holding_reward, 5, kettle_spout_goal_reward, 1, object_velocity_reward, 0.5, 0.0033]
+[kettle_holding_reward, 0.5, bucket_holding_reward, 5, kettle_spout_goal_reward, 1, object_velocity_reward, 5, 0.0027]
+[kettle_holding_reward, 0.5, bucket_holding_reward, 5, kettle_spout_goal_reward, 0.5, object_velocity_reward, 1, 0.0026]
+[kettle_holding_reward, 0.5, bucket_holding_reward, 5, kettle_spout_goal_reward, 0.5, object_velocity_reward, 0.5, 0.0013]
+[kettle_holding_reward, 0.5, bucket_holding_reward, 5, kettle_spout_goal_reward, 0.5, object_velocity_reward, 5, 0.0014]
+[kettle_holding_reward, 0.5, bucket_holding_reward, 5, kettle_spout_goal_reward, 5, object_velocity_reward, 1, 0.0029]
+[kettle_holding_reward, 0.5, bucket_holding_reward, 5, kettle_spout_goal_reward, 5, object_velocity_reward, 0.5, 0.0018]
+[kettle_holding_reward, 0.5, bucket_holding_reward, 5, kettle_spout_goal_reward, 5, object_velocity_reward, 5, 0.0049] 
+[kettle_holding_reward, 5, bucket_holding_reward, 1, kettle_spout_goal_reward, 1, object_velocity_reward, 1, 0.0027]0_4
+[kettle_holding_reward, 5, bucket_holding_reward, 1, kettle_spout_goal_reward, 1, object_velocity_reward, 0.5, 0.0034]
+[kettle_holding_reward, 5, bucket_holding_reward, 1, kettle_spout_goal_reward, 1, object_velocity_reward, 5, 0.0098]
+[kettle_holding_reward, 5, bucket_holding_reward, 1, kettle_spout_goal_reward, 0.5, object_velocity_reward, 1, 0.0016]
+[kettle_holding_reward, 5, bucket_holding_reward, 1, kettle_spout_goal_reward, 0.5, object_velocity_reward, 0.5, 0.0145]
+[kettle_holding_reward, 5, bucket_holding_reward, 1, kettle_spout_goal_reward, 0.5, object_velocity_reward, 5, 0.0023]
+[kettle_holding_reward, 5, bucket_holding_reward, 1, kettle_spout_goal_reward, 5, object_velocity_reward, 1, 0.0037]
+[kettle_holding_reward, 5, bucket_holding_reward, 1, kettle_spout_goal_reward, 5, object_velocity_reward, 0.5, 0.0018]
+[kettle_holding_reward, 5, bucket_holding_reward, 1, kettle_spout_goal_reward, 5, object_velocity_reward, 5, 0.005]
+

@@ -34,6 +34,8 @@ class LimixConstraints:
     - blacklist: 不能出现的有向边集合（来自 yaml 硬约束）
     - whitelist: 必须出现的边集合（来自 yaml 硬约束）
     - edge_pref: 边偏好权重 α_ij，形状同 A_candidate（完全由 LimiX 学习）
+    - confidence: LimiX 置信度矩阵 C_LimiX，形状 [d,d]，取值 [0,1]；用于加权损失
+                  L_total = L_Data + λ||W⊙(1-C_LimiX)||_1，缓解大模型幻觉
     - groups: 组/层级稀疏信息，每个元素是一组边的索引列表
               （例如同一 reward 族，或 r_i -> r_j 这种模式）
     """
@@ -43,6 +45,7 @@ class LimixConstraints:
     blacklist: List[Edge]
     whitelist: List[Edge]
     edge_pref: np.ndarray
+    confidence: np.ndarray  # C_LimiX，由 edge_pref 归一化到 [0,1] 得到
     groups: List[List[Tuple[int, int]]]
 
 
@@ -89,7 +92,7 @@ def _try_build_edge_pref_with_limix(
     """
     try:
         # 1. 准备路径：本地 LimiX 仓库 + 模型 + 配置
-        root_dir = Path("/workspace/LimiX").resolve()
+        root_dir = Path("/workspace/causal_rdp/LimiX").resolve()
         model_path = root_dir / "cache" / "LimiX-2M.ckpt"
         
         # 根据设备选择配置文件：CPU 不支持 retrieval，需要使用 noretrieval
@@ -410,8 +413,16 @@ def run_limix_ldm_placeholder(
         for i, name in enumerate(var_names):
             if name.startswith("r_"):
                 group_edges.append((i, score_idx))
-        if group_edges:
-            groups.append(group_edges)
+    if group_edges:
+        groups.append(group_edges)
+
+    # 由 edge_pref 得到置信度 C_LimiX ∈ [0,1]，用于加权损失（高 pref → 高置信度）
+    ep = edge_pref
+    ep_min, ep_max = ep.min(), ep.max()
+    if ep_max > ep_min:
+        confidence = (ep - ep_min) / (ep_max - ep_min + 1e-8)
+    else:
+        confidence = np.ones_like(ep) * 0.5  # 无区分时取 0.5
 
     return LimixConstraints(
         var_names=var_names,
@@ -419,6 +430,7 @@ def run_limix_ldm_placeholder(
         blacklist=blacklist,
         whitelist=whitelist,
         edge_pref=edge_pref,
+        confidence=confidence.astype(np.float32),
         groups=groups,
     )
 

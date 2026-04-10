@@ -1,0 +1,514 @@
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.2, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.2, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.2, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.1, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 1, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.2, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.2, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.2, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_right_reward, 1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_right_reward, 1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_right_reward, 1, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.2, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.2, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.2, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.05, button_press_right_reward, 1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.05, button_press_right_reward, 1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.05, button_press_right_reward, 1, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.2, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.2, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.2, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.1, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_right_reward, 1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_right_reward, 1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_right_reward, 1, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.2, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.2, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.2, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 1, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.2, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.2, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.2, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 1, button_press_left_reward, 0.2, 0]0_0
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 1, button_press_left_reward, 0.1, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 1, button_press_left_reward, 1, 0]
+
+
+[distance_reward, 0.1, button_press_reward, 0.2, 0]0_1
+[distance_reward, 0.1, button_press_reward, 0.1, 0]
+[distance_reward, 0.1, button_press_reward, 1, 0]
+[distance_reward, 0.05, button_press_reward, 0.2, 0]0_1
+[distance_reward, 0.05, button_press_reward, 0.1, 0]
+[distance_reward, 0.05, button_press_reward, 1, 0]
+[distance_reward, 0.5, button_press_reward, 0.2, 0]0_1
+[distance_reward, 0.5, button_press_reward, 0.1, 0]
+[distance_reward, 0.5, button_press_reward, 1, 0]
+
+[right_distance_reward, 1, left_distance_reward, 1, goal_reward, 1, 0]0_2
+[right_distance_reward, 1, left_distance_reward, 1, goal_reward, 0.5, 0]
+[right_distance_reward, 1, left_distance_reward, 1, goal_reward, 5, 0]
+[right_distance_reward, 1, left_distance_reward, 0.5, goal_reward, 1, 0]0_2
+[right_distance_reward, 1, left_distance_reward, 0.5, goal_reward, 0.5, 0]
+[right_distance_reward, 1, left_distance_reward, 0.5, goal_reward, 5, 0]
+[right_distance_reward, 1, left_distance_reward, 5, goal_reward, 1, 0]0_2
+[right_distance_reward, 1, left_distance_reward, 5, goal_reward, 0.5, 0]
+[right_distance_reward, 1, left_distance_reward, 5, goal_reward, 5, 0]
+[right_distance_reward, 0.5, left_distance_reward, 1, goal_reward, 1, 0]0_2
+[right_distance_reward, 0.5, left_distance_reward, 1, goal_reward, 0.5, 0]
+[right_distance_reward, 0.5, left_distance_reward, 1, goal_reward, 5, 0]
+[right_distance_reward, 0.5, left_distance_reward, 0.5, goal_reward, 1, 0]0_2
+[right_distance_reward, 0.5, left_distance_reward, 0.5, goal_reward, 0.5, 0]
+[right_distance_reward, 0.5, left_distance_reward, 0.5, goal_reward, 5, 0]
+[right_distance_reward, 0.5, left_distance_reward, 5, goal_reward, 1, 0]0_2
+[right_distance_reward, 0.5, left_distance_reward, 5, goal_reward, 0.5, 0]
+[right_distance_reward, 0.5, left_distance_reward, 5, goal_reward, 5, 0]
+[right_distance_reward, 5, left_distance_reward, 1, goal_reward, 1, 0]0_2
+[right_distance_reward, 5, left_distance_reward, 1, goal_reward, 0.5, 0]
+[right_distance_reward, 5, left_distance_reward, 1, goal_reward, 5, 0]
+[right_distance_reward, 5, left_distance_reward, 0.5, goal_reward, 1, 0]0_2
+[right_distance_reward, 5, left_distance_reward, 0.5, goal_reward, 0.5, 0]
+[right_distance_reward, 5, left_distance_reward, 0.5, goal_reward, 5, 0]
+[right_distance_reward, 5, left_distance_reward, 5, goal_reward, 1, 0]0_2
+[right_distance_reward, 5, left_distance_reward, 5, goal_reward, 0.5, 0]
+[right_distance_reward, 5, left_distance_reward, 5, goal_reward, 5, 0]
+
+[alignment_reward, 1, press_reward, 1, pos_reward, 1, 0]0_4
+[alignment_reward, 1, press_reward, 1, pos_reward, 0.5, 0]
+[alignment_reward, 1, press_reward, 1, pos_reward, 5, 0]
+[alignment_reward, 1, press_reward, 0.5, pos_reward, 1, 0]0_4
+[alignment_reward, 1, press_reward, 0.5, pos_reward, 0.5, 0]
+[alignment_reward, 1, press_reward, 0.5, pos_reward, 5, 0]
+[alignment_reward, 1, press_reward, 5, pos_reward, 1, 0]0_4
+[alignment_reward, 1, press_reward, 5, pos_reward, 0.5, 0]
+[alignment_reward, 1, press_reward, 5, pos_reward, 5, 0]
+[alignment_reward, 0.5, press_reward, 1, pos_reward, 1, 0]0_4
+[alignment_reward, 0.5, press_reward, 1, pos_reward, 0.5, 0]
+[alignment_reward, 0.5, press_reward, 1, pos_reward, 5, 0]
+[alignment_reward, 0.5, press_reward, 0.5, pos_reward, 1, 0]0_4
+[alignment_reward, 0.5, press_reward, 0.5, pos_reward, 0.5, 0]
+[alignment_reward, 0.5, press_reward, 0.5, pos_reward, 5, 0]
+[alignment_reward, 0.5, press_reward, 5, pos_reward, 1, 0]0_4
+[alignment_reward, 0.5, press_reward, 5, pos_reward, 0.5, 0]
+[alignment_reward, 0.5, press_reward, 5, pos_reward, 5, 0]
+[alignment_reward, 5, press_reward, 1, pos_reward, 1, 0]0_4
+[alignment_reward, 5, press_reward, 1, pos_reward, 0.5, 0]
+[alignment_reward, 5, press_reward, 1, pos_reward, 5, 0]
+[alignment_reward, 5, press_reward, 0.5, pos_reward, 1, 0]0_4
+[alignment_reward, 5, press_reward, 0.5, pos_reward, 0.5, 0]
+[alignment_reward, 5, press_reward, 0.5, pos_reward, 5, 0]
+[alignment_reward, 5, press_reward, 5, pos_reward, 1, 0]0_4
+[alignment_reward, 5, press_reward, 5, pos_reward, 0.5, 0]
+[alignment_reward, 5, press_reward, 5, pos_reward, 5, 0]
+
+[distance_right_reward, 0.1, distance_left_reward, 0.1, goal_reward, 0.1, 0]0_5
+[distance_right_reward, 0.1, distance_left_reward, 0.1, goal_reward, 0.5, 0]
+[distance_right_reward, 0.1, distance_left_reward, 0.1, goal_reward, 1, 0]
+[distance_right_reward, 0.1, distance_left_reward, 0.5, goal_reward, 0.1, 0]0_5
+[distance_right_reward, 0.1, distance_left_reward, 0.5, goal_reward, 0.5, 0]
+[distance_right_reward, 0.1, distance_left_reward, 0.5, goal_reward, 1, 0]
+[distance_right_reward, 0.1, distance_left_reward, 1, goal_reward, 0.1, 0]0_5
+[distance_right_reward, 0.1, distance_left_reward, 1, goal_reward, 0.5, 0]
+[distance_right_reward, 0.1, distance_left_reward, 1, goal_reward, 1, 0]
+[distance_right_reward, 0.5, distance_left_reward, 0.1, goal_reward, 0.1, 0]0_5
+[distance_right_reward, 0.5, distance_left_reward, 0.1, goal_reward, 0.5, 0]
+[distance_right_reward, 0.5, distance_left_reward, 0.1, goal_reward, 1, 0]
+[distance_right_reward, 0.5, distance_left_reward, 0.5, goal_reward, 0.1, 0]0_5
+[distance_right_reward, 0.5, distance_left_reward, 0.5, goal_reward, 0.5, 0]
+[distance_right_reward, 0.5, distance_left_reward, 0.5, goal_reward, 1, 0]
+[distance_right_reward, 0.5, distance_left_reward, 1, goal_reward, 0.1, 0]0_5
+[distance_right_reward, 0.5, distance_left_reward, 1, goal_reward, 0.5, 0]
+[distance_right_reward, 0.5, distance_left_reward, 1, goal_reward, 1, 0]
+[distance_right_reward, 1, distance_left_reward, 0.1, goal_reward, 0.1, 0]0_5
+[distance_right_reward, 1, distance_left_reward, 0.1, goal_reward, 0.5, 0]
+[distance_right_reward, 1, distance_left_reward, 0.1, goal_reward, 1, 0]
+[distance_right_reward, 1, distance_left_reward, 0.5, goal_reward, 0.1, 0]0_5
+[distance_right_reward, 1, distance_left_reward, 0.5, goal_reward, 0.5, 0]
+[distance_right_reward, 1, distance_left_reward, 0.5, goal_reward, 1, 0]
+[distance_right_reward, 1, distance_left_reward, 1, goal_reward, 0.1, 0]0_5
+[distance_right_reward, 1, distance_left_reward, 1, goal_reward, 0.5, 0]
+[distance_right_reward, 1, distance_left_reward, 1, goal_reward, 1, 0]
+
+[right_hand_press_reward, 10, left_hand_press_reward, 10, right_fingers_press_reward, 10, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 10, left_hand_press_reward, 10, right_fingers_press_reward, 10, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 10, right_fingers_press_reward, 10, left_fingers_press_reward, 20, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 10, right_fingers_press_reward, 5, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 10, left_hand_press_reward, 10, right_fingers_press_reward, 5, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 10, right_fingers_press_reward, 5, left_fingers_press_reward, 20, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 10, right_fingers_press_reward, 20, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 10, left_hand_press_reward, 10, right_fingers_press_reward, 20, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 10, right_fingers_press_reward, 20, left_fingers_press_reward, 20, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 5, right_fingers_press_reward, 10, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 10, left_hand_press_reward, 5, right_fingers_press_reward, 10, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 5, right_fingers_press_reward, 10, left_fingers_press_reward, 20, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 5, right_fingers_press_reward, 5, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 10, left_hand_press_reward, 5, right_fingers_press_reward, 5, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 5, right_fingers_press_reward, 5, left_fingers_press_reward, 20, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 5, right_fingers_press_reward, 20, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 10, left_hand_press_reward, 5, right_fingers_press_reward, 20, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 5, right_fingers_press_reward, 20, left_fingers_press_reward, 20, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 20, right_fingers_press_reward, 10, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 10, left_hand_press_reward, 20, right_fingers_press_reward, 10, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 20, right_fingers_press_reward, 10, left_fingers_press_reward, 20, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 20, right_fingers_press_reward, 5, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 10, left_hand_press_reward, 20, right_fingers_press_reward, 5, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 20, right_fingers_press_reward, 5, left_fingers_press_reward, 20, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 20, right_fingers_press_reward, 20, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 10, left_hand_press_reward, 20, right_fingers_press_reward, 20, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 10, left_hand_press_reward, 20, right_fingers_press_reward, 20, left_fingers_press_reward, 20, 0]
+[right_hand_press_reward, 5, left_hand_press_reward, 10, right_fingers_press_reward, 10, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 5, left_hand_press_reward, 10, right_fingers_press_reward, 10, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 5, left_hand_press_reward, 10, right_fingers_press_reward, 10, left_fingers_press_reward, 20, 0]
+[right_hand_press_reward, 5, left_hand_press_reward, 10, right_fingers_press_reward, 5, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 5, left_hand_press_reward, 10, right_fingers_press_reward, 5, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 5, left_hand_press_reward, 10, right_fingers_press_reward, 5, left_fingers_press_reward, 20, 0]
+[right_hand_press_reward, 5, left_hand_press_reward, 10, right_fingers_press_reward, 20, left_fingers_press_reward, 10, 0]0_7
+[right_hand_press_reward, 5, left_hand_press_reward, 10, right_fingers_press_reward, 20, left_fingers_press_reward, 5, 0]
+[right_hand_press_reward, 5, left_hand_press_reward, 10, right_fingers_press_reward, 20, left_fingers_press_reward, 20, 0]
+
+[right_switch_reward, 1, left_switch_reward, 1, right_fingers_reward, 1,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 1, left_switch_reward, 1, right_fingers_reward, 1,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 1, left_switch_reward, 1, right_fingers_reward, 1,left_fingers_reward, 5, 0]
+[right_switch_reward, 1, left_switch_reward, 1, right_fingers_reward, 0.5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 1, left_switch_reward, 1, right_fingers_reward, 0.5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 1, left_switch_reward, 1, right_fingers_reward, 0.5,left_fingers_reward, 5, 0]
+[right_switch_reward, 1, left_switch_reward, 1, right_fingers_reward, 5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 1, left_switch_reward, 1, right_fingers_reward, 5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 1, left_switch_reward, 1, right_fingers_reward, 5,left_fingers_reward, 5, 0]
+[right_switch_reward, 1, left_switch_reward, 0.5, right_fingers_reward, 1,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 1, left_switch_reward, 0.5, right_fingers_reward, 1,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 1, left_switch_reward, 0.5, right_fingers_reward, 1,left_fingers_reward, 5, 0]
+[right_switch_reward, 1, left_switch_reward, 0.5, right_fingers_reward, 0.5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 1, left_switch_reward, 0.5, right_fingers_reward, 0.5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 1, left_switch_reward, 0.5, right_fingers_reward, 0.5,left_fingers_reward, 5, 0]
+[right_switch_reward, 1, left_switch_reward, 0.5, right_fingers_reward, 5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 1, left_switch_reward, 0.5, right_fingers_reward, 5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 1, left_switch_reward, 0.5, right_fingers_reward, 5,left_fingers_reward, 5, 0]
+[right_switch_reward, 1, left_switch_reward, 5, right_fingers_reward, 1,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 1, left_switch_reward, 5, right_fingers_reward, 1,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 1, left_switch_reward, 5, right_fingers_reward, 1,left_fingers_reward, 5, 0]
+[right_switch_reward, 1, left_switch_reward, 5, right_fingers_reward, 0.5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 1, left_switch_reward, 5, right_fingers_reward, 0.5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 1, left_switch_reward, 5, right_fingers_reward, 0.5,left_fingers_reward, 5, 0]
+[right_switch_reward, 1, left_switch_reward, 5, right_fingers_reward, 5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 1, left_switch_reward, 5, right_fingers_reward, 5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 1, left_switch_reward, 5, right_fingers_reward, 5,left_fingers_reward, 5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 1, right_fingers_reward, 1,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 0.5, left_switch_reward, 1, right_fingers_reward, 1,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 1, right_fingers_reward, 1,left_fingers_reward, 5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 1, right_fingers_reward, 0.5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 0.5, left_switch_reward, 1, right_fingers_reward, 0.5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 1, right_fingers_reward, 0.5,left_fingers_reward, 5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 1, right_fingers_reward, 5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 0.5, left_switch_reward, 1, right_fingers_reward, 5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 1, right_fingers_reward, 5,left_fingers_reward, 5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 0.5, right_fingers_reward, 1,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 0.5, left_switch_reward, 0.5, right_fingers_reward, 1,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 0.5, right_fingers_reward, 1,left_fingers_reward, 5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 0.5, right_fingers_reward, 0.5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 0.5, left_switch_reward, 0.5, right_fingers_reward, 0.5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 0.5, right_fingers_reward, 0.5,left_fingers_reward, 5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 0.5, right_fingers_reward, 5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 0.5, left_switch_reward, 0.5, right_fingers_reward, 5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 0.5, right_fingers_reward, 5,left_fingers_reward, 5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 5, right_fingers_reward, 1,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 0.5, left_switch_reward, 5, right_fingers_reward, 1,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 5, right_fingers_reward, 1,left_fingers_reward, 5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 5, right_fingers_reward, 0.5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 0.5, left_switch_reward, 5, right_fingers_reward, 0.5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 5, right_fingers_reward, 0.5,left_fingers_reward, 5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 5, right_fingers_reward, 5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 0.5, left_switch_reward, 5, right_fingers_reward, 5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 0.5, left_switch_reward, 5, right_fingers_reward, 5,left_fingers_reward, 5, 0]
+[right_switch_reward, 5, left_switch_reward, 1, right_fingers_reward, 1,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 5, left_switch_reward, 1, right_fingers_reward, 1,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 5, left_switch_reward, 1, right_fingers_reward, 1,left_fingers_reward, 5, 0]
+[right_switch_reward, 5, left_switch_reward, 1, right_fingers_reward, 0.5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 5, left_switch_reward, 1, right_fingers_reward, 0.5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 5, left_switch_reward, 1, right_fingers_reward, 0.5,left_fingers_reward, 5, 0]
+[right_switch_reward, 5, left_switch_reward, 1, right_fingers_reward, 5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 5, left_switch_reward, 1, right_fingers_reward, 5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 5, left_switch_reward, 1, right_fingers_reward, 5,left_fingers_reward, 5, 0]
+[right_switch_reward, 5, left_switch_reward, 0.5, right_fingers_reward, 1,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 5, left_switch_reward, 0.5, right_fingers_reward, 1,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 5, left_switch_reward, 0.5, right_fingers_reward, 1,left_fingers_reward, 5, 0]
+[right_switch_reward, 5, left_switch_reward, 0.5, right_fingers_reward, 0.5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 5, left_switch_reward, 0.5, right_fingers_reward, 0.5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 5, left_switch_reward, 0.5, right_fingers_reward, 0.5,left_fingers_reward, 5, 0]
+[right_switch_reward, 5, left_switch_reward, 0.5, right_fingers_reward, 5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 5, left_switch_reward, 0.5, right_fingers_reward, 5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 5, left_switch_reward, 0.5, right_fingers_reward, 5,left_fingers_reward, 5, 0]
+[right_switch_reward, 5, left_switch_reward, 5, right_fingers_reward, 1,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 5, left_switch_reward, 5, right_fingers_reward, 1,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 5, left_switch_reward, 5, right_fingers_reward, 1,left_fingers_reward, 5, 0]
+[right_switch_reward, 5, left_switch_reward, 5, right_fingers_reward, 0.5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 5, left_switch_reward, 5, right_fingers_reward, 0.5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 5, left_switch_reward, 5, right_fingers_reward, 0.5,left_fingers_reward, 5, 0]
+[right_switch_reward, 5, left_switch_reward, 5, right_fingers_reward, 5,left_fingers_reward, 1, 0]0_8
+[right_switch_reward, 5, left_switch_reward, 5, right_fingers_reward, 5,left_fingers_reward, 0.5, 0]
+[right_switch_reward, 5, left_switch_reward, 5, right_fingers_reward, 5,left_fingers_reward, 5, 0]
+
+[distance_reward, 0.1, right_press_reward, 0.5, left_press_reward, 0.5, 0]0_9
+[distance_reward, 0.1, right_press_reward, 0.5, left_press_reward, 5, 0]
+[distance_reward, 0.1, right_press_reward, 0.5, left_press_reward, 1, 0]
+[distance_reward, 0.1, right_press_reward, 5, left_press_reward, 0.5, 0]0_9
+[distance_reward, 0.1, right_press_reward, 5, left_press_reward, 5, 0]
+[distance_reward, 0.1, right_press_reward, 5, left_press_reward, 1, 0]
+[distance_reward, 0.1, right_press_reward, 1, left_press_reward, 0.5, 0]0_9
+[distance_reward, 0.1, right_press_reward, 1, left_press_reward, 5, 0]
+[distance_reward, 0.1, right_press_reward, 1, left_press_reward, 1, 0]
+[distance_reward, 0.5, right_press_reward, 0.5, left_press_reward, 0.5, 0]0_9
+[distance_reward, 0.5, right_press_reward, 0.5, left_press_reward, 5, 0]
+[distance_reward, 0.5, right_press_reward, 0.5, left_press_reward, 1, 0]
+[distance_reward, 0.5, right_press_reward, 5, left_press_reward, 0.5, 0]0_9
+[distance_reward, 0.5, right_press_reward, 5, left_press_reward, 5, 0]
+[distance_reward, 0.5, right_press_reward, 5, left_press_reward, 1, 0]
+[distance_reward, 0.5, right_press_reward, 1, left_press_reward, 0.5, 0]0_9
+[distance_reward, 0.5, right_press_reward, 1, left_press_reward, 5, 0]
+[distance_reward, 0.5, right_press_reward, 1, left_press_reward, 1, 0]
+[distance_reward, 1, right_press_reward, 0.5, left_press_reward, 0.5, 0]0_9
+[distance_reward, 1, right_press_reward, 0.5, left_press_reward, 5, 0]
+[distance_reward, 1, right_press_reward, 0.5, left_press_reward, 1, 0]
+[distance_reward, 1, right_press_reward, 5, left_press_reward, 0.5, 0]0_9
+[distance_reward, 1, right_press_reward, 5, left_press_reward, 5, 0]
+[distance_reward, 1, right_press_reward, 5, left_press_reward, 1, 0]
+[distance_reward, 1, right_press_reward, 1, left_press_reward, 0.5, 0]0_9
+[distance_reward, 1, right_press_reward, 1, left_press_reward, 5, 0]
+[distance_reward, 1, right_press_reward, 1, left_press_reward, 1, 0]
+
+[distance_reward, 0.1, contact_reward, 0.05, 0]0_10
+[distance_reward, 0.1, contact_reward, 0.1, 0]
+[distance_reward, 0.1, contact_reward, 0.5, 0]
+[distance_reward, 0.5, contact_reward, 0.05, 0]0_10
+[distance_reward, 0.5, contact_reward, 0.1, 0]
+[distance_reward, 0.5, contact_reward, 0.5, 0]
+[distance_reward, 1, contact_reward, 0.05, 0]0_10
+[distance_reward, 1, contact_reward, 0.1, 0]
+[distance_reward, 1, contact_reward, 0.5, 0]
+
+[right_hand_reach_reward, 10, left_hand_reach_reward, 10, right_hand_press_reward, 10, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 10, left_hand_reach_reward, 10, right_hand_press_reward, 10, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 10, right_hand_press_reward, 10, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 10, right_hand_press_reward, 5, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 10, left_hand_reach_reward, 10, right_hand_press_reward, 5, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 10, right_hand_press_reward, 5, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 10, right_hand_press_reward, 20, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 10, left_hand_reach_reward, 10, right_hand_press_reward, 20, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 10, right_hand_press_reward, 20, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 5, right_hand_press_reward, 10, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 10, left_hand_reach_reward, 5, right_hand_press_reward, 10, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 5, right_hand_press_reward, 10, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 5, right_hand_press_reward, 5, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 10, left_hand_reach_reward, 5, right_hand_press_reward, 5, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 5, right_hand_press_reward, 5, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 5, right_hand_press_reward, 20, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 10, left_hand_reach_reward, 5, right_hand_press_reward, 20, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 5, right_hand_press_reward, 20, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 20, right_hand_press_reward, 10, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 10, left_hand_reach_reward, 20, right_hand_press_reward, 10, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 20, right_hand_press_reward, 10, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 20, right_hand_press_reward, 5, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 10, left_hand_reach_reward, 20, right_hand_press_reward, 5, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 20, right_hand_press_reward, 5, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 20, right_hand_press_reward, 20, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 10, left_hand_reach_reward, 20, right_hand_press_reward, 20, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 10, left_hand_reach_reward, 20, right_hand_press_reward, 20, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 1, left_hand_reach_reward, 10, right_hand_press_reward, 10, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 1, left_hand_reach_reward, 10, right_hand_press_reward, 10, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 1, left_hand_reach_reward, 10, right_hand_press_reward, 10, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 1, left_hand_reach_reward, 10, right_hand_press_reward, 5, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 1, left_hand_reach_reward, 10, right_hand_press_reward, 5, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 1, left_hand_reach_reward, 10, right_hand_press_reward, 5, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 1, left_hand_reach_reward, 10, right_hand_press_reward, 20, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 1, left_hand_reach_reward, 10, right_hand_press_reward, 20, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 1, left_hand_reach_reward, 10, right_hand_press_reward, 20, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 1, left_hand_reach_reward, 5, right_hand_press_reward, 10, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 1, left_hand_reach_reward, 5, right_hand_press_reward, 10, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 5, left_hand_reach_reward, 5, right_hand_press_reward, 10, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 5, left_hand_reach_reward, 5, right_hand_press_reward, 5, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 5, left_hand_reach_reward, 5, right_hand_press_reward, 5, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 5, left_hand_reach_reward, 5, right_hand_press_reward, 5, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 5, left_hand_reach_reward, 5, right_hand_press_reward, 20, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 5, left_hand_reach_reward, 5, right_hand_press_reward, 20, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 5, left_hand_reach_reward, 5, right_hand_press_reward, 20, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 5, left_hand_reach_reward, 20, right_hand_press_reward, 10, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 5, left_hand_reach_reward, 20, right_hand_press_reward, 10, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 5, left_hand_reach_reward, 20, right_hand_press_reward, 10, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 5, left_hand_reach_reward, 20, right_hand_press_reward, 5, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 5, left_hand_reach_reward, 20, right_hand_press_reward, 5, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 5, left_hand_reach_reward, 20, right_hand_press_reward, 5, left_hand_press_reward, 20, 0]
+[right_hand_reach_reward, 5, left_hand_reach_reward, 20, right_hand_press_reward, 20, left_hand_press_reward, 10, 0]0_14
+[right_hand_reach_reward, 5, left_hand_reach_reward, 20, right_hand_press_reward, 20, left_hand_press_reward, 1, 0]
+[right_hand_reach_reward, 5, left_hand_reach_reward, 20, right_hand_press_reward, 20, left_hand_press_reward, 20, 0]
+
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.2, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.2, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.2, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.2, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.2, button_press_right_reward, 5, button_press_left_reward, 0.5, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.2, button_press_right_reward, 5, button_press_left_reward, 0.5, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.2, button_press_right_reward, 5, button_press_left_reward, 0.1, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.2, button_press_right_reward, 5, button_press_left_reward, 0.1, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.5, button_press_right_reward, 5, button_press_left_reward, 0.5, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.5, button_press_right_reward, 5, button_press_left_reward, 0.5, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.5, button_press_right_reward, 5, button_press_left_reward, 0.1, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.2, distance_to_switch_left_reward, 0.5, button_press_right_reward, 5, button_press_left_reward, 0.1, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.2, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.2, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.2, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.2, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.2, button_press_right_reward, 5, button_press_left_reward, 0.5, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.2, button_press_right_reward, 5, button_press_left_reward, 0.5, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.2, button_press_right_reward, 5, button_press_left_reward, 0.1, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.2, button_press_right_reward, 5, button_press_left_reward, 0.1, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 5, button_press_left_reward, 0.5, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 5, button_press_left_reward, 0.5, task_success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 5, button_press_left_reward, 0.1, task_success_reward, 1, 0]1_0
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 5, button_press_left_reward, 0.1, task_success_reward, 5, 0]
+
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.1, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.1, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.5, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.5, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.1, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.1, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.5, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.5, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.1, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.1, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.5, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.5, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.1, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.1, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.5, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.5, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, task_completion_reward, 0.5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_completion_reward, 0.2, 0]1_1
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_completion_reward, 0.5, 0]
+
+
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_reward, 0.2, time_penalty, 0.1, 0]1_8
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_reward, 0.2, time_penalty, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_reward, 0.5, time_penalty, 0.1, 0]1_8
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_reward, 0.5, time_penalty, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_reward, 0.2, time_penalty, 0.1, 0]1_8
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_reward, 0.2, time_penalty, 0.1, 0]
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_reward, 0.5, time_penalty, 0.1, 0]1_8
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.5, button_press_reward, 0.5, time_penalty, 0.1, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_reward, 0.2, time_penalty, 0.1, 0]1_8
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_reward, 0.2, time_penalty, 0.1, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_reward, 0.5, time_penalty, 0.1, 0]1_8
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.1, button_press_reward, 0.5, time_penalty, 0.1, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_reward, 0.2, time_penalty, 0.1, 0]1_8
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_reward, 0.2, time_penalty, 0.1, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_reward, 0.5, time_penalty, 0.1, 0]1_8
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_reward, 0.5, time_penalty, 0.1, 0]
+
+
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.1, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.1, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.5, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.5, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.1, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.1, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.5, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.5, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.1, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.1, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.5, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.5, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.1, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.1, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.5, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.1, button_press_left_reward, 0.5, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.1, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.1, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.5, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.5, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.1, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.1, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.5, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.1, button_press_left_reward, 0.5, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.1, success_reward, 5, 0]
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, success_reward, 10, 0]1_10
+[distance_to_switch_right_reward, 0.5, distance_to_switch_left_reward, 0.5, button_press_right_reward, 0.5, button_press_left_reward, 0.5, success_reward, 5, 0]
+
+
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.3, button_press_left_reward, 0.3, task_success_reward, 0.5, 0]2_0
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.2, button_press_left_reward, 0.2, task_success_reward, 1, 0]2_1
+[distance_to_switch_right_reward, 0.1, distance_to_switch_left_reward, 0.1, button_press_right_reward, 0.3, button_press_left_reward, 0.3, task_success_reward, 1, 0]2_7
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.2, button_press_left_reward, 0.2, task_success_reward, 0.3, 0]3_2
+[distance_to_switch_right_reward, 0.05, distance_to_switch_left_reward, 0.05, button_press_right_reward, 0.5, button_press_left_reward, 0.5, task_success_reward, 0.2, 0]3_3
+
+[button_press_right_reward, 0.1, button_press_left_reward, 0.1, success_reward, 1, 0]1_9
+[button_press_right_reward, 0.1, button_press_left_reward, 0.1, success_reward, 0.5, 0]
+[button_press_right_reward, 0.1, button_press_left_reward, 0.1, success_reward, 5, 0]
+[button_press_right_reward, 0.1, button_press_left_reward, 0.5, success_reward, 1, 0]1_9
+[button_press_right_reward, 0.1, button_press_left_reward, 0.5, success_reward, 0.5, 0]
+[button_press_right_reward, 0.1, button_press_left_reward, 0.5, success_reward, 5, 0]
+[button_press_right_reward, 0.1, button_press_left_reward, 1, success_reward, 1, 0]1_9
+[button_press_right_reward, 0.1, button_press_left_reward, 1, success_reward, 0.5, 0]
+[button_press_right_reward, 0.1, button_press_left_reward, 1, success_reward, 5, 0]
+[button_press_right_reward, 0.5, button_press_left_reward, 0.1, success_reward, 1, 0]1_9
+[button_press_right_reward, 0.5, button_press_left_reward, 0.1, success_reward, 0.5, 0]
+[button_press_right_reward, 0.5, button_press_left_reward, 0.1, success_reward, 5, 0]
+[button_press_right_reward, 0.5, button_press_left_reward, 0.5, success_reward, 1, 0]1_9
+[button_press_right_reward, 0.5, button_press_left_reward, 0.5, success_reward, 0.5, 0]
+[button_press_right_reward, 0.5, button_press_left_reward, 0.5, success_reward, 5, 0]
+[button_press_right_reward, 0.5, button_press_left_reward, 1, success_reward, 1, 0]1_9
+[button_press_right_reward, 0.5, button_press_left_reward, 1, success_reward, 0.5, 0]
+[button_press_right_reward, 0.5, button_press_left_reward, 1, success_reward, 5, 0]
+[button_press_right_reward, 1, button_press_left_reward, 0.1, success_reward, 1, 0]1_9
+[button_press_right_reward, 1, button_press_left_reward, 0.1, success_reward, 0.5, 0]
+[button_press_right_reward, 1, button_press_left_reward, 0.1, success_reward, 5, 0]
+[button_press_right_reward, 1, button_press_left_reward, 0.5, success_reward, 1, 0]1_9
+[button_press_right_reward, 1, button_press_left_reward, 0.5, success_reward, 0.5, 0]
+[button_press_right_reward, 1, button_press_left_reward, 0.5, success_reward, 5, 0]
+[button_press_right_reward, 1, button_press_left_reward, 1, success_reward, 1, 0]1_9
+[button_press_right_reward, 1, button_press_left_reward, 1, success_reward, 0.5, 0]
+[button_press_right_reward, 1, button_press_left_reward, 1, success_reward, 5, 0]

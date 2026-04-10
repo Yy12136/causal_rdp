@@ -2,24 +2,27 @@
 
 The following is a **reward component causal graph** (Causal Graph) learned from actual training data, describing the causal relationships between different reward components.
 
-**Important Principle**: When generating reward functions, **only components that can ultimately affect `score` through causal paths should appear in the reward function**. If a component `r_1 -> r_2` exists, but neither `r_1` nor `r_2` can reach `score` through any path, then these components have no effect on the final score and should not appear in the reward function.
+**Important Principle**: When generating reward functions, **only components that can ultimately affect `score` through causal paths should appear in the reward function**. If a component `component_1 -> component_2` exists, but neither `component_1` nor `component_2` can reach `score` through any path, then these components have no effect on the final score and should not appear in the reward function.
 
 ### File Format Description
 
 The causal graph is provided in CSV format with the following columns:
 - **source**: Source variable (parent node, cause)
 - **target**: Target variable (child node, effect)
-- **weight**: Causal strength (weight value, typically ranging from 0.0001 to 0.03)
+- **weight**: Causal strength (weight value, typically ranging from 0.0001 to 0.3)
 
 ### How to Understand the Causal Graph
 
 1. **Edge Meaning**:
    - Each edge `source -> target` indicates that changes in the `source` variable will **causally affect** the `target` variable
-   - For example: `r_throw_reward -> r_rotation_reward` means that the throw reward affects the rotation reward
+   - For example: `throw_reward -> rotation_reward` means that the throw reward affects the rotation reward
+   - Another example: `pos_reward -> score` means that the position reward directly affects the final score
 
 2. **Weight Meaning**:
    - The weight value represents the **strength** of the causal influence; larger values indicate stronger influence
+   - Weights typically range from 0.0001 to 0.3, with higher values indicating more important causal relationships
 
 3. **Variable Types**:
-   - `r_*`: Reward components
+   - Reward components: Variables like `pos_reward`, `throw_reward`, `grasp_reward`, `orientation_reward`, etc.
+   - Penalties: Variables like `time_penalty`, `vel_penalty`, `penalty_drop_object`, etc.
    - `score`: Final score (usually a weighted sum of all reward components)

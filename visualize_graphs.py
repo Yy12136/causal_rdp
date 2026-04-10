@@ -17,8 +17,7 @@ def load_graph(adj_matrix_path: Path, variables_path: Path) -> tuple[np.ndarray,
     
     参数
     ----
-    adj_matrix_path: 邻接矩阵 .npy 文件路径
-    variables_path: 变量列表 .txt 文件路径
+
     
     返回
     ----
@@ -242,25 +241,21 @@ def plot_dag(
 
 def visualize_all_graphs(output_dir: Path, edge_threshold: float = 1e-6) -> None:
     """
-    可视化 output_dir 中的所有图
-    
+    仅可视化全局因果图（不生成各环境的 png/npy）。
+
     参数
     ----
     output_dir: 输出目录路径
     edge_threshold: 边阈值，只显示权重大于等于此阈值的边（用于全局图）
     """
     print("=" * 60)
-    print("开始可视化所有因果图")
+    print("开始可视化全局因果图")
     print("=" * 60)
-    print("\n说明：")
-    print("  - 全局图：使用所有环境数据训练得到的完整因果图")
-    print("  - 子图：基于全局图，针对每个环境裁剪得到的子图")
-    print("    （移除在该环境下为常量的变量及其边）")
-    
-    # 1. 可视化全局图
+
+    # 仅可视化全局图
     global_A_path = output_dir / "A_dagma_global.npy"
     global_vars_path = output_dir / "variables_global.txt"
-    
+
     if global_A_path.exists() and global_vars_path.exists():
         print(f"\n正在可视化全局图...")
         print(f"  应用边阈值: {edge_threshold}")
@@ -276,43 +271,11 @@ def visualize_all_graphs(output_dir: Path, edge_threshold: float = 1e-6) -> None
         )
     else:
         print(f"⚠️  未找到全局图文件: {global_A_path} 或 {global_vars_path}")
-    
-    # 2. 可视化所有环境子图
-    env_A_files = sorted(output_dir.glob("A_dagma_env_*.npy"))
-    
-    if len(env_A_files) == 0:
-        print("⚠️  未找到环境子图文件")
-    else:
-        print(f"\n找到 {len(env_A_files)} 个环境子图")
-        
-        for env_A_path in env_A_files:
-            # 提取环境名称
-            env_name = env_A_path.stem.replace("A_dagma_env_", "")
-            env_vars_path = output_dir / f"variables_env_{env_name}.txt"
-            
-            if not env_vars_path.exists():
-                print(f"⚠️  未找到变量文件: {env_vars_path}")
-                continue
-            
-            print(f"  正在可视化环境: {env_name}...")
-            A_env, var_names = load_graph(env_A_path, env_vars_path)
-            # 将环境名称转换为更友好的格式
-            env_name_display = env_name.replace("_", " ").replace("shadow hand", "Shadow Hand")
-            plot_dag(
-                A_env, var_names,
-                output_dir / f"graph_env_{env_name}.png",
-                title=f"Environment Subgraph: {env_name_display} (Pruned from Global Graph)",
-                figsize=(20, 16),
-                font_size=7,
-                filter_isolated=False,  # 子图不过滤，显示所有节点
-            )
-    
+
     print("\n" + "=" * 60)
     print("可视化完成！")
     print("=" * 60)
-    print(f"所有图片已保存到: {output_dir}")
-    print(f"  - graph_global.png: 全局因果图")
-    print(f"  - graph_env_*.png: 各环境子图")
+    print(f"图片已保存: {output_dir / 'graph_global.png'}")
 
 
 if __name__ == "__main__":

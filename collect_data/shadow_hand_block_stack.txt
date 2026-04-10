@@ -1,0 +1,346 @@
+[stack_reward, 1, grasp_reward, 0.05, contact_reward, 0.1, approach_reward, 0.1, stack_bonus, 2, 0.083]4_6
+[stack_reward, 1, grasp_reward, 0.05, contact_reward, 0.1, approach_reward, 0.1, stack_bonus, 1, 0.0752]
+[stack_reward, 1, grasp_reward, 0.05, contact_reward, 0.1, approach_reward, 0.5, stack_bonus, 2, 0.0791]4_6
+[stack_reward, 1, grasp_reward, 0.05, contact_reward, 0.1, approach_reward, 0.5, stack_bonus, 1, 0.0674]
+[stack_reward, 1, grasp_reward, 0.05, contact_reward, 0.5, approach_reward, 0.1, stack_bonus, 2, 0.1499]4_6
+[stack_reward, 1, grasp_reward, 0.05, contact_reward, 0.5, approach_reward, 0.1, stack_bonus, 1, 0.0762]
+[stack_reward, 1, grasp_reward, 0.05, contact_reward, 0.5, approach_reward, 0.5, stack_bonus, 2, 0.0962]4_6
+[stack_reward, 1, grasp_reward, 0.05, contact_reward, 0.5, approach_reward, 0.5, stack_bonus, 1, 0.3149]
+[stack_reward, 1, grasp_reward, 0.5, contact_reward, 0.1, approach_reward, 0.1, stack_bonus, 2, 0.1377]4_6
+[stack_reward, 1, grasp_reward, 0.5, contact_reward, 0.1, approach_reward, 0.1, stack_bonus, 1, 0.1416]
+[stack_reward, 1, grasp_reward, 0.5, contact_reward, 0.1, approach_reward, 0.5, stack_bonus, 2, 0.1133]4_6
+[stack_reward, 1, grasp_reward, 0.5, contact_reward, 0.1, approach_reward, 0.5, stack_bonus, 1, 0.1133]
+[stack_reward, 1, grasp_reward, 0.5, contact_reward, 0.5, approach_reward, 0.1, stack_bonus, 2, 0.0654]4_6
+[stack_reward, 1, grasp_reward, 0.5, contact_reward, 0.5, approach_reward, 0.1, stack_bonus, 1, 0.0894]
+[stack_reward, 1, grasp_reward, 0.5, contact_reward, 0.5, approach_reward, 0.5, stack_bonus, 2, 0.0522]4_6
+[stack_reward, 1, grasp_reward, 0.5, contact_reward, 0.5, approach_reward, 0.5, stack_bonus, 1, 0.0967]
+[stack_reward, 5, grasp_reward, 0.01, contact_reward, 0.1, approach_reward, 0.1, stack_bonus, 2, 0.3594]4_6
+[stack_reward, 5, grasp_reward, 0.01, contact_reward, 0.1, approach_reward, 0.1, stack_bonus, 1, 0.0488]
+[stack_reward, 5, grasp_reward, 0.01, contact_reward, 0.1, approach_reward, 0.01, stack_bonus, 2, 0.1455]4_6
+[stack_reward, 5, grasp_reward, 0.01, contact_reward, 0.1, approach_reward, 0.01, stack_bonus, 1, 0.0518]
+[stack_reward, 5, grasp_reward, 0.01, contact_reward, 0.5, approach_reward, 0.1, stack_bonus, 2, 0.4463]4_6
+[stack_reward, 5, grasp_reward, 0.01, contact_reward, 0.5, approach_reward, 0.1, stack_bonus, 1, 0.0859]
+[stack_reward, 5, grasp_reward, 0.01, contact_reward, 0.5, approach_reward, 0.01, stack_bonus, 2, 0.1152]4_6
+[stack_reward, 5, grasp_reward, 0.01, contact_reward, 0.5, approach_reward, 0.01, stack_bonus, 1, 0.1597]
+[stack_reward, 10, grasp_reward, 0.01, contact_reward, 0.1, approach_reward, 0.1, stack_bonus, 2, 0.1162]4_6
+[stack_reward, 10, grasp_reward, 0.01, contact_reward, 0.1, approach_reward, 0.1, stack_bonus, 5, 0.123]
+[stack_reward, 10, grasp_reward, 0.01, contact_reward, 0.1, approach_reward, 0.01, stack_bonus, 2, 0.2163]4_6
+[stack_reward, 10, grasp_reward, 0.01, contact_reward, 0.1, approach_reward, 0.01, stack_bonus, 5, 0.208]
+[stack_reward, 10, grasp_reward, 0.01, contact_reward, 0.01, approach_reward, 0.1, stack_bonus, 2, 0.4717]4_6
+[stack_reward, 10, grasp_reward, 0.01, contact_reward, 0.01, approach_reward, 0.1, stack_bonus, 5, 0.1895]
+[stack_reward, 10, grasp_reward, 0.01, contact_reward, 0.01, approach_reward, 0.01, stack_bonus, 2, 0.7363]4_6
+[stack_reward, 10, grasp_reward, 0.01, contact_reward, 0.01, approach_reward, 0.01, stack_bonus, 5, 0.0352]
+
+[stack_reward, 0.1, grasp_reward, 0.02, contact_reward, 0.05, vertical_alignment, 0.05, reach_reward, 0.3, 0.3228]4_4
+[stack_reward, 0.1, grasp_reward, 0.02, contact_reward, 0.05, vertical_alignment, 0.05, reach_reward, 0.1, 0.1782]
+[stack_reward, 0.1, grasp_reward, 0.02, contact_reward, 0.05, vertical_alignment, 0.01, reach_reward, 0.3, 0.1064]
+[stack_reward, 0.1, grasp_reward, 0.02, contact_reward, 0.05, vertical_alignment, 0.01, reach_reward, 0.1, 0.3286]
+[stack_reward, 0.1, grasp_reward, 0.02, contact_reward, 0.01, vertical_alignment, 0.05, reach_reward, 0.3, 0.104]4_4
+[stack_reward, 0.1, grasp_reward, 0.02, contact_reward, 0.01, vertical_alignment, 0.05, reach_reward, 0.1, 0.3311]
+[stack_reward, 0.1, grasp_reward, 0.02, contact_reward, 0.01, vertical_alignment, 0.01, reach_reward, 0.3, 0.1738]
+[stack_reward, 0.1, grasp_reward, 0.02, contact_reward, 0.01, vertical_alignment, 0.01, reach_reward, 0.1, 0.1055]
+[stack_reward, 0.1, grasp_reward, 0.01, contact_reward, 0.05, vertical_alignment, 0.05, reach_reward, 0.3, 0.1216]4_4
+[stack_reward, 0.1, grasp_reward, 0.01, contact_reward, 0.05, vertical_alignment, 0.05, reach_reward, 1, 0.042]
+[stack_reward, 0.1, grasp_reward, 0.01, contact_reward, 0.05, vertical_alignment, 0.01, reach_reward, 0.3, 0.0596]
+[stack_reward, 0.1, grasp_reward, 0.01, contact_reward, 0.05, vertical_alignment, 0.01, reach_reward, 1, 0.3599]
+[stack_reward, 0.1, grasp_reward, 0.01, contact_reward, 0.01, vertical_alignment, 0.05, reach_reward, 0.3, 0.1367]4_4
+[stack_reward, 0.1, grasp_reward, 0.01, contact_reward, 0.01, vertical_alignment, 0.05, reach_reward, 1, 0.1533]
+[stack_reward, 0.1, grasp_reward, 0.01, contact_reward, 0.01, vertical_alignment, 0.01, reach_reward, 0.3, 0.1104]
+[stack_reward, 0.1, grasp_reward, 0.01, contact_reward, 0.01, vertical_alignment, 0.01, reach_reward, 1, 0.1187]
+[stack_reward, 0.05, grasp_reward, 0.1, contact_reward, 0.05, vertical_alignment, 0.05, reach_reward, 0.3, 0.3306]4_4
+[stack_reward, 0.05, grasp_reward, 0.1, contact_reward, 0.05, vertical_alignment, 0.05, reach_reward, 0.1, 0.1484]
+[stack_reward, 0.05, grasp_reward, 0.1, contact_reward, 0.05, vertical_alignment, 0.1, reach_reward, 0.3, 0.4448]
+[stack_reward, 0.05, grasp_reward, 0.1, contact_reward, 0.05, vertical_alignment, 0.1, reach_reward, 0.1, 0.2773]
+[stack_reward, 0.05, grasp_reward, 0.1, contact_reward, 0.01, vertical_alignment, 0.05, reach_reward, 0.3, 0.3315]4_4
+[stack_reward, 0.05, grasp_reward, 0.1, contact_reward, 0.01, vertical_alignment, 0.05, reach_reward, 0.1, 0.0376]
+[stack_reward, 0.05, grasp_reward, 0.1, contact_reward, 0.01, vertical_alignment, 0.1, reach_reward, 0.3, 0.1328]
+[stack_reward, 0.05, grasp_reward, 0.1, contact_reward, 0.01, vertical_alignment, 0.1, reach_reward, 0.1, 0.1167]
+[stack_reward, 0.5, grasp_reward, 0.02, contact_reward, 0.05, vertical_alignment, 0.05, reach_reward, 0.3, 0.5078]4_4
+[stack_reward, 0.5, grasp_reward, 0.02, contact_reward, 0.05, vertical_alignment, 0.05, reach_reward, 0.1, 0.4067]
+[stack_reward, 0.5, grasp_reward, 0.02, contact_reward, 0.05, vertical_alignment, 0.01, reach_reward, 0.3, 0.3379]
+[stack_reward, 0.5, grasp_reward, 0.02, contact_reward, 0.05, vertical_alignment, 0.01, reach_reward, 0.1, 0.1172]
+[stack_reward, 0.5, grasp_reward, 0.02, contact_reward, 0.1, vertical_alignment, 0.05, reach_reward, 0.3, 0.0952]4_4
+[stack_reward, 0.5, grasp_reward, 0.02, contact_reward, 0.1, vertical_alignment, 0.05, reach_reward, 0.1, 0.0586]
+[stack_reward, 0.5, grasp_reward, 0.02, contact_reward, 0.1, vertical_alignment, 0.01, reach_reward, 0.3, 0.1079]
+[stack_reward, 0.5, grasp_reward, 0.02, contact_reward, 0.1, vertical_alignment, 0.01, reach_reward, 0.1, 0.1523]
+
+[stack_reward, 0.1, grasp_reward, 0.05, lift_reward, 0.2, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.2, 0.124]4_1
+[stack_reward, 0.1, grasp_reward, 0.05, lift_reward, 0.2, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.1, 0.1147]
+[stack_reward, 0.1, grasp_reward, 0.05, lift_reward, 0.2, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.2, 0.1196]4_1
+[stack_reward, 0.1, grasp_reward, 0.05, lift_reward, 0.2, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.1, 0.0615]
+[stack_reward, 0.1, grasp_reward, 0.05, lift_reward, 0.1, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.2, 0.0493]4_1
+[stack_reward, 0.1, grasp_reward, 0.05, lift_reward, 0.1, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.1, 0.103]
+[stack_reward, 0.1, grasp_reward, 0.05, lift_reward, 0.1, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.2, 0.1616]4_1
+[stack_reward, 0.1, grasp_reward, 0.05, lift_reward, 0.1, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.1, 0.1245]
+
+[stack_reward, 0.1, grasp_reward, 0.01, lift_reward, 0.2, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.2, 0.1167]4_1
+[stack_reward, 0.1, grasp_reward, 0.01, lift_reward, 0.2, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.1, 0.3003]
+[stack_reward, 0.1, grasp_reward, 0.01, lift_reward, 0.2, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.2, 0.0757]4_1
+[stack_reward, 0.1, grasp_reward, 0.01, lift_reward, 0.2, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.1, 0.0552]
+[stack_reward, 0.1, grasp_reward, 0.01, lift_reward, 0.1, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.2, 0.0576]4_1
+[stack_reward, 0.1, grasp_reward, 0.01, lift_reward, 0.1, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.1, 0.1499]
+[stack_reward, 0.1, grasp_reward, 0.01, lift_reward, 0.1, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.2, 0.269]4_1
+[stack_reward, 0.1, grasp_reward, 0.01, lift_reward, 0.1, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.1, 0.4639]
+
+[stack_reward, 0.05, grasp_reward, 0.05, lift_reward, 0.2, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.2, 0.1372]4_1
+[stack_reward, 0.05, grasp_reward, 0.05, lift_reward, 0.2, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.1, 0.1001]
+[stack_reward, 0.05, grasp_reward, 0.05, lift_reward, 0.2, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.2, 0.0596]4_1
+[stack_reward, 0.05, grasp_reward, 0.05, lift_reward, 0.2, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.1, 0.436]
+[stack_reward, 0.05, grasp_reward, 0.05, lift_reward, 0.1, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.2, 0.0698]4_1
+[stack_reward, 0.05, grasp_reward, 0.05, lift_reward, 0.1, align_reward, 0.1, contact_reward, 0.1, aproach_reward, 0.1, 0.0737]
+[stack_reward, 0.05, grasp_reward, 0.05, lift_reward, 0.1, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.2, 0.0488]4_1
+[stack_reward, 0.05, grasp_reward, 0.05, lift_reward, 0.1, align_reward, 0.05, contact_reward, 0.05, aproach_reward, 0.1, 0.1934]
+
+[stack_reward, 0.1, vertical_reward, 0.05, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.3, align_reward, 0.1, 0.1079]4_7
+[stack_reward, 0.1, vertical_reward, 0.05, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.3, align_reward, 0.05, 0.7051]
+[stack_reward, 0.1, vertical_reward, 0.05, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.1, align_reward, 0.1, 0.2007]4_7
+[stack_reward, 0.1, vertical_reward, 0.05, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.1, align_reward, 0.05, 0.0537]
+[stack_reward, 0.1, vertical_reward, 0.05, grasp_reward, 0.01, contact_reward, 0.01, reach_reward, 0.3, align_reward, 0.1, 0.0801]4_7
+[stack_reward, 0.1, vertical_reward, 0.05, grasp_reward, 0.01, contact_reward, 0.01, reach_reward, 0.3, align_reward, 0.05, 0.0801]
+[stack_reward, 0.1, vertical_reward, 0.05, grasp_reward, 0.01, contact_reward, 0.01, reach_reward, 0.1, align_reward, 0.1, 0.0928]4_7
+[stack_reward, 0.1, vertical_reward, 0.05, grasp_reward, 0.01, contact_reward, 0.01, reach_reward, 0.1, align_reward, 0.05, 0.147]
+
+[stack_reward, 0.1, vertical_reward, 0.01, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.3, align_reward, 0.1, 0.2065]4_7
+[stack_reward, 0.1, vertical_reward, 0.01, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.3, align_reward, 0.05, 0.0996]
+[stack_reward, 0.1, vertical_reward, 0.01, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.1, align_reward, 0.1, 0.1152]4_7
+[stack_reward, 0.1, vertical_reward, 0.01, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.1, align_reward, 0.05, 0.168]
+[stack_reward, 0.1, vertical_reward, 0.01, grasp_reward, 0.01, contact_reward, 0.01, reach_reward, 0.3, align_reward, 0.1, 0.4604]4_7
+[stack_reward, 0.1, vertical_reward, 0.01, grasp_reward, 0.01, contact_reward, 0.01, reach_reward, 0.3, align_reward, 0.05, 0.2236]
+[stack_reward, 0.1, vertical_reward, 0.01, grasp_reward, 0.01, contact_reward, 0.01, reach_reward, 0.1, align_reward, 0.1, 0.3438]4_7
+[stack_reward, 0.1, vertical_reward, 0.01, grasp_reward, 0.01, contact_reward, 0.01, reach_reward, 0.1, align_reward, 0.05, 0.1226]
+
+[stack_reward, 0.05, vertical_reward, 0.05, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.3, align_reward, 0.1, 0.1191]4_7
+[stack_reward, 0.05, vertical_reward, 0.05, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.3, align_reward, 0.05, 0.1787]
+[stack_reward, 0.05, vertical_reward, 0.05, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.1, align_reward, 0.1, 0.1074]4_7
+[stack_reward, 0.05, vertical_reward, 0.05, grasp_reward, 0.02, contact_reward, 0.05, reach_reward, 0.1, align_reward, 0.05, 0.1445]
+[stack_reward, 0.05, vertical_reward, 0.05, grasp_reward, 0.01, contact_reward, 0.01, reach_reward, 0.3, align_reward, 0.1, 0.167]4_7
+[stack_reward, 0.05, vertical_reward, 0.05, grasp_reward, 0.01, contact_reward, 0.01, reach_reward, 0.3, align_reward, 0.05, 0.3384]
+
+
+[stack_reward, 0.05, lift_reward, 0.1, contact_reward, 0.1, grasp_reward, 0.05, reach_reward, 0.2, 0.1279]3_4
+[stack_reward, 0.05, lift_reward, 0.1, contact_reward, 0.1, grasp_reward, 0.05, reach_reward, 0.1, 0.0654]
+[stack_reward, 0.05, lift_reward, 0.1, contact_reward, 0.1, grasp_reward, 0.01, reach_reward, 0.2, 0.0771]
+[stack_reward, 0.05, lift_reward, 0.1, contact_reward, 0.1, grasp_reward, 0.01, reach_reward, 0.1, 0.0659]
+[stack_reward, 0.05, lift_reward, 0.1, contact_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.2, 0.1255]3_4
+[stack_reward, 0.05, lift_reward, 0.1, contact_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.1, 0.105]
+[stack_reward, 0.05, lift_reward, 0.1, contact_reward, 0.05, grasp_reward, 0.01, reach_reward, 0.2, 0.0801]
+[stack_reward, 0.05, lift_reward, 0.1, contact_reward, 0.05, grasp_reward, 0.01, reach_reward, 0.1, 0.0532]
+
+[stack_reward, 0.05, lift_reward, 0.05, contact_reward, 0.1, grasp_reward, 0.05, reach_reward, 0.2, 0.062]3_4
+[stack_reward, 0.05, lift_reward, 0.05, contact_reward, 0.1, grasp_reward, 0.05, reach_reward, 0.1, 0.0571]
+[stack_reward, 0.05, lift_reward, 0.05, contact_reward, 0.1, grasp_reward, 0.01, reach_reward, 0.2, 0.041]
+[stack_reward, 0.05, lift_reward, 0.05, contact_reward, 0.1, grasp_reward, 0.01, reach_reward, 0.1, 0.063]
+[stack_reward, 0.05, lift_reward, 0.05, contact_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.2, 0.0708]3_4
+[stack_reward, 0.05, lift_reward, 0.05, contact_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.1, 0.0483]
+[stack_reward, 0.05, lift_reward, 0.05, contact_reward, 0.05, grasp_reward, 0.01, reach_reward, 0.2, 0.1152]
+[stack_reward, 0.05, lift_reward, 0.05, contact_reward, 0.05, grasp_reward, 0.01, reach_reward, 0.1, 0.0664]
+
+[stack_reward, 0.01, lift_reward, 0.1, contact_reward, 0.1, grasp_reward, 0.05, reach_reward, 0.2, 0.0791]3_4
+[stack_reward, 0.01, lift_reward, 0.1, contact_reward, 0.1, grasp_reward, 0.05, reach_reward, 0.1, 0.0327]
+[stack_reward, 0.01, lift_reward, 0.1, contact_reward, 0.1, grasp_reward, 0.01, reach_reward, 0.2, 0.189]
+[stack_reward, 0.01, lift_reward, 0.1, contact_reward, 0.1, grasp_reward, 0.01, reach_reward, 0.1, 0.0449]
+[stack_reward, 0.01, lift_reward, 0.1, contact_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.2, 0.0933]3_4
+[stack_reward, 0.01, lift_reward, 0.1, contact_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.1, 0.0757]
+[stack_reward, 0.01, lift_reward, 0.1, contact_reward, 0.05, grasp_reward, 0.01, reach_reward, 0.2, 0.0518]
+[stack_reward, 0.01, lift_reward, 0.1, contact_reward, 0.05, grasp_reward, 0.01, reach_reward, 0.1, 0.1431]
+
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.05, stack_bonus, 1, 0.0884]1_6
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.05, stack_bonus, 0.5, 0.1143]
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.01, stack_bonus, 1, 0.0547]
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.01, stack_bonus, 0.5, 0.0649]
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.01, align_reward, 0.05, stack_bonus, 1, 0.1318]1_6
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.01, align_reward, 0.05, stack_bonus, 0.5, 0.0693]
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.01, align_reward, 0.01, stack_bonus, 1, 0.2656]
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.01, align_reward, 0.01, stack_bonus, 0.5, 0.2515]
+
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.05, align_reward, 0.05, stack_bonus, 1, 0.1348]1_6
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.05, align_reward, 0.05, stack_bonus, 0.5, 0.0747]
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.05, align_reward, 0.01, stack_bonus, 1, 0.2056]
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.05, align_reward, 0.01, stack_bonus, 0.5, 0.0591]
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.01, align_reward, 0.05, stack_bonus, 1, 0.0723]1_6
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.01, align_reward, 0.05, stack_bonus, 0.5, 0.0503]
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.01, align_reward, 0.01, stack_bonus, 1, 0.0327]
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.01, align_reward, 0.01, stack_bonus, 0.5, 0.1064]
+
+[stack_reward, 0.05, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.05, stack_bonus, 1, 0.1567]1_6
+[stack_reward, 0.05, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.05, stack_bonus, 0.5, 0.0396]
+[stack_reward, 0.05, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.01, stack_bonus, 1, 0.0625]
+[stack_reward, 0.05, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.01, stack_bonus, 0.5, 0.2246]
+[stack_reward, 0.05, reach_reward, 0.1, grasp_reward, 0.01, align_reward, 0.05, stack_bonus, 1, 0.0181]1_6
+[stack_reward, 0.05, reach_reward, 0.1, grasp_reward, 0.01, align_reward, 0.05, stack_bonus, 0.5, 0.1089]
+[stack_reward, 0.05, reach_reward, 0.1, grasp_reward, 0.01, align_reward, 0.01, stack_bonus, 1, 0.314]
+[stack_reward, 0.05, reach_reward, 0.1, grasp_reward, 0.01, align_reward, 0.01, stack_bonus, 0.5, 0.1221]
+
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.1, align_reward, 0.1, 0.0962]0_5
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.1, align_reward, 0.05, 0.1743]
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.1, align_reward, 0.5, 0.1113]
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.1, 0.1128]0_5
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.05, 0.2822]
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.5, 0.0767]
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.5, align_reward, 0.1, 0.0864]0_5
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.5, align_reward, 0.05, 0.2451]
+[stack_reward, 0.1, reach_reward, 0.1, grasp_reward, 0.5, align_reward, 0.5, 0.0488]
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.1, align_reward, 0.1, 0.1733]0_5
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.1, align_reward, 0.05, 0.1045]
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.1, align_reward, 0.5, 0.0972]
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.05, align_reward, 0.1, 0.0894]0_5
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.05, align_reward, 0.05, 0.0908]
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.05, align_reward, 0.5, 0.1191]
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.5, align_reward, 0.1, 0.0552]0_5
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.5, align_reward, 0.05, 0.0601]
+[stack_reward, 0.1, reach_reward, 0.05, grasp_reward, 0.5, align_reward, 0.5, 0.0796]
+[stack_reward, 0.05, reach_reward, 0.5, grasp_reward, 0.1, align_reward, 0.1, 0.1807]0_5
+[stack_reward, 0.05, reach_reward, 0.5, grasp_reward, 0.1, align_reward, 0.05, 0.1206]
+[stack_reward, 0.05, reach_reward, 0.5, grasp_reward, 0.1, align_reward, 0.5, 0.0352]
+[stack_reward, 0.05, reach_reward, 0.5, grasp_reward, 0.05, align_reward, 0.1, 0.1582]0_5
+[stack_reward, 0.05, reach_reward, 0.5, grasp_reward, 0.05, align_reward, 0.05, 0.2866]
+[stack_reward, 0.05, reach_reward, 0.5, grasp_reward, 0.05, align_reward, 0.5, 0.0791]
+[stack_reward, 0.05, reach_reward, 0.5, grasp_reward, 0.5, align_reward, 0.1, 0.0601]0_5
+[stack_reward, 0.05, reach_reward, 0.5, grasp_reward, 0.5, align_reward, 0.05, 0.0317]
+[stack_reward, 0.05, reach_reward, 0.5, grasp_reward, 0.5, align_reward, 0.5, 0.0522]
+[stack_reward, 0.5, reach_reward, 0.1, grasp_reward, 0.1, align_reward, 0.1, 0.062]0_5
+[stack_reward, 0.5, reach_reward, 0.1, grasp_reward, 0.1, align_reward, 0.05, 0.063]
+[stack_reward, 0.5, reach_reward, 0.1, grasp_reward, 0.1, align_reward, 0.5, 0.1924]
+[stack_reward, 0.5, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.1, 0.0674]0_5
+[stack_reward, 0.5, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.05, 0.0537]
+[stack_reward, 0.5, reach_reward, 0.1, grasp_reward, 0.05, align_reward, 0.5, 0.0762]
+[stack_reward, 0.5, reach_reward, 0.1, grasp_reward, 0.5, align_reward, 0.1, 0.0991]0_5
+[stack_reward, 0.5, reach_reward, 0.1, grasp_reward, 0.5, align_reward, 0.05, 0.0649]
+[stack_reward, 0.5, reach_reward, 0.1, grasp_reward, 0.5, align_reward, 0.5, 0.1641]
+
+[grasp_reward, 0.005, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.1, reach_reward, 0.3, stack_reward, 0.5, 0.0542]4_15
+[grasp_reward, 0.005, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.1, reach_reward, 0.3, stack_reward, 0.1, 0.1895]
+[grasp_reward, 0.005, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.1, reach_reward, 0.1, stack_reward, 0.5, 0.2568]
+[grasp_reward, 0.005, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.1, reach_reward, 0.1, stack_reward, 0.1, 0.0747]
+[grasp_reward, 0.005, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.05, reach_reward, 0.3, stack_reward, 0.5, 0.0972]4_15
+[grasp_reward, 0.005, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.05, reach_reward, 0.3, stack_reward, 0.1, 0.0542]
+[grasp_reward, 0.005, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.05, reach_reward, 0.1, stack_reward, 0.5, 0.041]
+[grasp_reward, 0.005, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.05, reach_reward, 0.1, stack_reward, 0.1, 0.0601]
+
+[grasp_reward, 0.005, vertical_reward, 0.05, approach_reward, 0.01, stability_reward, 0.1, reach_reward, 0.3, stack_reward, 0.5, 0.0283]4_15
+[grasp_reward, 0.005, vertical_reward, 0.05, approach_reward, 0.01, stability_reward, 0.1, reach_reward, 0.3, stack_reward, 0.1, 0.189]
+[grasp_reward, 0.005, vertical_reward, 0.05, approach_reward, 0.01, stability_reward, 0.1, reach_reward, 0.1, stack_reward, 0.5, 0.0708]
+[grasp_reward, 0.005, vertical_reward, 0.05, approach_reward, 0.01, stability_reward, 0.1, reach_reward, 0.1, stack_reward, 0.1, 0.0972]
+[grasp_reward, 0.005, vertical_reward, 0.05, approach_reward, 0.01, stability_reward, 0.05, reach_reward, 0.3, stack_reward, 0.5, 0.1011]4_15
+[grasp_reward, 0.005, vertical_reward, 0.05, approach_reward, 0.01, stability_reward, 0.05, reach_reward, 0.3, stack_reward, 0.1, 0.1152]
+[grasp_reward, 0.005, vertical_reward, 0.05, approach_reward, 0.01, stability_reward, 0.05, reach_reward, 0.1, stack_reward, 0.5, 0.3369]
+[grasp_reward, 0.005, vertical_reward, 0.05, approach_reward, 0.01, stability_reward, 0.05, reach_reward, 0.1, stack_reward, 0.1, 0.0562]
+
+[grasp_reward, 0.001, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.1, reach_reward, 0.3, stack_reward, 0.5, 0.0781]4_15
+[grasp_reward, 0.001, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.1, reach_reward, 0.3, stack_reward, 0.1, 0.0371]
+[grasp_reward, 0.001, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.1, reach_reward, 0.1, stack_reward, 0.5, 0.0933]
+[grasp_reward, 0.001, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.1, reach_reward, 0.1, stack_reward, 0.1, 0.0864]
+[grasp_reward, 0.001, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.05, reach_reward, 0.3, stack_reward, 0.5, 0.167]4_15
+[grasp_reward, 0.001, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.05, reach_reward, 0.3, stack_reward, 0.1, 0.272]
+[grasp_reward, 0.001, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.05, reach_reward, 0.1, stack_reward, 0.5, 0.0991]
+[grasp_reward, 0.001, vertical_reward, 0.01, approach_reward, 0.02, stability_reward, 0.05, reach_reward, 0.1, stack_reward, 0.1, 0.2251]
+
+
+[stack_bonus, 0.5, height_reward, 0.1, grasp_quality, 0.1, vertical_reward, 0.2, reach_reward, 0.5, 0.2407]4_14
+[stack_bonus, 0.5, height_reward, 0.1, grasp_quality, 0.1, vertical_reward, 0.2, reach_reward, 0.1, 0.1074]
+[stack_bonus, 0.5, height_reward, 0.1, grasp_quality, 0.1, vertical_reward, 0.1, reach_reward, 0.5, 0.3081]
+[stack_bonus, 0.5, height_reward, 0.1, grasp_quality, 0.1, vertical_reward, 0.1, reach_reward, 0.1, 0.1221]
+[stack_bonus, 0.5, height_reward, 0.1, grasp_quality, 0.05, vertical_reward, 0.2, reach_reward, 0.5, 0.0498]4_14
+[stack_bonus, 0.5, height_reward, 0.1, grasp_quality, 0.05, vertical_reward, 0.2, reach_reward, 0.1, 0.3613]
+[stack_bonus, 0.5, height_reward, 0.1, grasp_quality, 0.05, vertical_reward, 0.1, reach_reward, 0.5, 0.2593]
+[stack_bonus, 0.5, height_reward, 0.1, grasp_quality, 0.05, vertical_reward, 0.1, reach_reward, 0.1, 0.0698]
+
+[stack_bonus, 0.5, height_reward, 0.05, grasp_quality, 0.1, vertical_reward, 0.2, reach_reward, 0.5, 0.0527]4_14
+[stack_bonus, 0.5, height_reward, 0.05, grasp_quality, 0.1, vertical_reward, 0.2, reach_reward, 0.1, 0.2969]
+[stack_bonus, 0.5, height_reward, 0.05, grasp_quality, 0.1, vertical_reward, 0.1, reach_reward, 0.5, 0.2363]
+[stack_bonus, 0.5, height_reward, 0.05, grasp_quality, 0.1, vertical_reward, 0.1, reach_reward, 0.1, 0.1069]
+[stack_bonus, 0.5, height_reward, 0.05, grasp_quality, 0.05, vertical_reward, 0.2, reach_reward, 0.5, 0.1187]4_14
+[stack_bonus, 0.5, height_reward, 0.05, grasp_quality, 0.05, vertical_reward, 0.2, reach_reward, 0.1, 0.1943]
+[stack_bonus, 0.5, height_reward, 0.05, grasp_quality, 0.05, vertical_reward, 0.1, reach_reward, 0.5, 0.5596]
+[stack_bonus, 0.5, height_reward, 0.05, grasp_quality, 0.05, vertical_reward, 0.1, reach_reward, 0.1, 0.1323]
+
+[stack_bonus, 0.1, height_reward, 0.05, grasp_quality, 0.1, vertical_reward, 0.2, reach_reward, 0.5, 0.0933]4_14
+[stack_bonus, 0.1, height_reward, 0.05, grasp_quality, 0.1, vertical_reward, 0.2, reach_reward, 0.1, 0.3833]
+[stack_bonus, 0.1, height_reward, 0.05, grasp_quality, 0.1, vertical_reward, 0.1, reach_reward, 0.5, 0.3843]
+[stack_bonus, 0.1, height_reward, 0.05, grasp_quality, 0.1, vertical_reward, 0.1, reach_reward, 0.1, 0.2945]
+[stack_bonus, 0.1, height_reward, 0.05, grasp_quality, 0.05, vertical_reward, 0.2, reach_reward, 0.5, 0.082]4_14
+[stack_bonus, 0.1, height_reward, 0.05, grasp_quality, 0.05, vertical_reward, 0.2, reach_reward, 0.1, 0.4585]
+[stack_bonus, 0.1, height_reward, 0.05, grasp_quality, 0.05, vertical_reward, 0.1, reach_reward, 0.5, 0.1245]
+[stack_bonus, 0.1, height_reward, 0.05, grasp_quality, 0.05, vertical_reward, 0.1, reach_reward, 0.1, 0.4014]
+
+[grasp_reward, 0.02, reach_reward, 0.1, align_reward, 0.05, stack_reward, 0.05, lift_reward, 0.1, stack_bonus, 0.5, 0.4155]2_10
+[grasp_reward, 0.02, reach_reward, 0.1, align_reward, 0.05, stack_reward, 0.05, lift_reward, 0.1, stack_bonus, 0.1, 0.1851]
+[grasp_reward, 0.02, reach_reward, 0.1, align_reward, 0.05, stack_reward, 0.05, lift_reward, 0.05, stack_bonus, 0.5, 0.0986]
+[grasp_reward, 0.02, reach_reward, 0.1, align_reward, 0.05, stack_reward, 0.05, lift_reward, 0.05, stack_bonus, 0.1, 0.0933]
+[grasp_reward, 0.02, reach_reward, 0.1, align_reward, 0.05, stack_reward, 0.01, lift_reward, 0.1, stack_bonus, 0.5, 0.4385]2_10
+[grasp_reward, 0.02, reach_reward, 0.1, align_reward, 0.05, stack_reward, 0.01, lift_reward, 0.1, stack_bonus, 0.1, 0.1685]
+[grasp_reward, 0.02, reach_reward, 0.1, align_reward, 0.05, stack_reward, 0.01, lift_reward, 0.05, stack_bonus, 0.5, 0.0493]
+[grasp_reward, 0.02, reach_reward, 0.1, align_reward, 0.05, stack_reward, 0.01, lift_reward, 0.05, stack_bonus, 0.1, 0.0522]
+
+[grasp_reward, 0.02, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.05, lift_reward, 0.1, stack_bonus, 0.5, 0.064]2_10
+[grasp_reward, 0.02, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.05, lift_reward, 0.1, stack_bonus, 0.1, 0.0571]
+[grasp_reward, 0.02, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.05, lift_reward, 0.05, stack_bonus, 0.5, 0.0884]
+[grasp_reward, 0.02, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.05, lift_reward, 0.05, stack_bonus, 0.1, 0.2803]
+[grasp_reward, 0.02, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.01, lift_reward, 0.1, stack_bonus, 0.5, 0.0518]2_10
+[grasp_reward, 0.02, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.01, lift_reward, 0.1, stack_bonus, 0.1, 0.1826]
+[grasp_reward, 0.02, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.01, lift_reward, 0.05, stack_bonus, 0.5, 0.1899]
+[grasp_reward, 0.02, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.01, lift_reward, 0.05, stack_bonus, 0.1, 0.1328]
+
+[grasp_reward, 0.01, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.05, lift_reward, 0.1, stack_bonus, 0.5, 0.3892]2_10
+[grasp_reward, 0.01, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.05, lift_reward, 0.1, stack_bonus, 0.1, 0.1348]
+[grasp_reward, 0.01, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.05, lift_reward, 0.05, stack_bonus, 0.5, 0.0347]
+[grasp_reward, 0.01, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.05, lift_reward, 0.05, stack_bonus, 0.1, 0.165]
+[grasp_reward, 0.01, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.01, lift_reward, 0.1, stack_bonus, 0.5, 0.188]2_10
+[grasp_reward, 0.01, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.01, lift_reward, 0.1, stack_bonus, 0.1, 0.1025]
+[grasp_reward, 0.01, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.01, lift_reward, 0.05, stack_bonus, 0.5, 0.085]
+[grasp_reward, 0.01, reach_reward, 0.05, align_reward, 0.01, stack_reward, 0.01, lift_reward, 0.05, stack_bonus, 0.1, 0.3335]
+
+[reach_reward, 0.2, grasp_reward, 0.1, stack_reward, 0.1, align_reward, 0.05, success_reward, 0.5, 0.2021]1_3
+[reach_reward, 0.2, grasp_reward, 0.1, stack_reward, 0.1, align_reward, 0.05, success_reward, 0.1, 0.083]
+[reach_reward, 0.2, grasp_reward, 0.1, stack_reward, 0.1, align_reward, 0.01, success_reward, 0.5, 0.1133]1_3
+[reach_reward, 0.2, grasp_reward, 0.1, stack_reward, 0.1, align_reward, 0.01, success_reward, 0.1, 0.2295]
+[reach_reward, 0.2, grasp_reward, 0.1, stack_reward, 0.05, align_reward, 0.05, success_reward, 0.5, 0.0327]1_3
+[reach_reward, 0.2, grasp_reward, 0.1, stack_reward, 0.05, align_reward, 0.05, success_reward, 0.1, 0.0596]
+[reach_reward, 0.2, grasp_reward, 0.1, stack_reward, 0.05, align_reward, 0.01, success_reward, 0.5, 0.0991]1_3
+[reach_reward, 0.2, grasp_reward, 0.1, stack_reward, 0.05, align_reward, 0.01, success_reward, 0.1, 0.1587]
+
+[reach_reward, 0.2, grasp_reward, 0.05, stack_reward, 0.1, align_reward, 0.05, success_reward, 0.5, 0.1899]1_3
+[reach_reward, 0.2, grasp_reward, 0.05, stack_reward, 0.1, align_reward, 0.05, success_reward, 0.1, 0.0781]
+[reach_reward, 0.2, grasp_reward, 0.05, stack_reward, 0.1, align_reward, 0.01, success_reward, 0.5, 0.0977]1_3
+[reach_reward, 0.2, grasp_reward, 0.05, stack_reward, 0.1, align_reward, 0.01, success_reward, 0.1, 0.0303]
+[reach_reward, 0.2, grasp_reward, 0.05, stack_reward, 0.05, align_reward, 0.05, success_reward, 0.5, 0.0864]1_3
+[reach_reward, 0.2, grasp_reward, 0.05, stack_reward, 0.05, align_reward, 0.05, success_reward, 0.1, 0.0562]
+[reach_reward, 0.2, grasp_reward, 0.05, stack_reward, 0.05, align_reward, 0.01, success_reward, 0.5, 0.0747]1_3
+[reach_reward, 0.2, grasp_reward, 0.05, stack_reward, 0.05, align_reward, 0.01, success_reward, 0.1, 0.0669]
+
+[reach_reward, 0.1, grasp_reward, 0.1, stack_reward, 0.1, align_reward, 0.05, success_reward, 0.5, 0.3423]1_3
+[reach_reward, 0.1, grasp_reward, 0.1, stack_reward, 0.1, align_reward, 0.05, success_reward, 0.1, 0.0977]
+[reach_reward, 0.1, grasp_reward, 0.1, stack_reward, 0.1, align_reward, 0.01, success_reward, 0.5, 0.1562]1_3
+[reach_reward, 0.1, grasp_reward, 0.1, stack_reward, 0.1, align_reward, 0.01, success_reward, 0.1, 0.0527]
+[reach_reward, 0.1, grasp_reward, 0.1, stack_reward, 0.05, align_reward, 0.05, success_reward, 0.5, 0.061]1_3
+[reach_reward, 0.1, grasp_reward, 0.1, stack_reward, 0.05, align_reward, 0.05, success_reward, 0.1, 0.0972]
+[reach_reward, 0.1, grasp_reward, 0.1, stack_reward, 0.05, align_reward, 0.01, success_reward, 0.5, 0.0488]1_3
+[reach_reward, 0.1, grasp_reward, 0.1, stack_reward, 0.05, align_reward, 0.01, success_reward, 0.1, 0.2339]
+
+[vertical_reward, 0.2, contact_reward, 0.1, align_reward, 0.1, grasp_reward, 0.1, reach_reward, 0.2, stack_bonus, 1, 0.1909]2_3
+[vertical_reward, 0.2, contact_reward, 0.1, align_reward, 0.1, grasp_reward, 0.1, reach_reward, 0.2, stack_bonus, 0.5, 0.2563]
+[vertical_reward, 0.2, contact_reward, 0.1, align_reward, 0.1, grasp_reward, 0.1, reach_reward, 0.1, stack_bonus, 1, 0.1436]
+
+[vertical_reward, 0.2, contact_reward, 0.1, align_reward, 0.1, grasp_reward, 0.05, reach_reward, 0.2, stack_bonus, 1, 0.1826]2_3
+[vertical_reward, 0.2, contact_reward, 0.1, align_reward, 0.1, grasp_reward, 0.05, reach_reward, 0.2, stack_bonus, 0.5, 0.085]
+[vertical_reward, 0.2, contact_reward, 0.1, align_reward, 0.1, grasp_reward, 0.05, reach_reward, 0.1, stack_bonus, 1, 0.125]
+[vertical_reward, 0.2, contact_reward, 0.1, align_reward, 0.1, grasp_reward, 0.05, reach_reward, 0.1, stack_bonus, 0.5, 0.1323]
+
+[vertical_reward, 0.2, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.1, reach_reward, 0.2, stack_bonus, 1, 0.1958]2_3
+[vertical_reward, 0.2, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.1, reach_reward, 0.2, stack_bonus, 0.5, 0.5103]
+[vertical_reward, 0.2, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.1, reach_reward, 0.1, stack_bonus, 1, 0.083]
+[vertical_reward, 0.2, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.1, reach_reward, 0.1, stack_bonus, 0.5, 0.1299]
+[vertical_reward, 0.2, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.2, stack_bonus, 1, 0.0771]2_3
+[vertical_reward, 0.2, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.2, stack_bonus, 0.5, 0.1538]
+[vertical_reward, 0.2, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.1, stack_bonus, 1, 0.5459]
+[vertical_reward, 0.2, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.1, stack_bonus, 0.5, 0.0986]
+
+[vertical_reward, 0.1, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.1, reach_reward, 0.2, stack_bonus, 1, 0.1157]2_3
+[vertical_reward, 0.1, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.1, reach_reward, 0.2, stack_bonus, 0.5, 0.1719]
+[vertical_reward, 0.1, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.1, reach_reward, 0.1, stack_bonus, 1, 0.5684]
+
+[vertical_reward, 0.1, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.1, reach_reward, 0.1, stack_bonus, 0.5, 0.1016]
+[vertical_reward, 0.1, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.2, stack_bonus, 1, 0.145]2_3
+[vertical_reward, 0.1, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.2, stack_bonus, 0.5, 0.1167]
+[vertical_reward, 0.1, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.1, stack_bonus, 1, 0.0522]
+[vertical_reward, 0.1, contact_reward, 0.05, align_reward, 0.05, grasp_reward, 0.05, reach_reward, 0.1, stack_bonus, 0.5, 0.1743]

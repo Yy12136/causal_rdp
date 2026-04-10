@@ -38,8 +38,8 @@ class DagmaDecoderMLP(nn.Module):
     """
     用于建模 X_j = f_j(Parents_j) 的 MLP。
 
-    实现上我们采用共享的两层 MLP，然后通过邻接矩阵 A
-    在输入维度上进行线性混合。
+    实现上采用共享的两层 MLP，通过邻接矩阵 A 在输入维度上线性混合。
+    支持 A 为 (d,d) 或 (B,d,d)，后者用于 input-dependent 门控时的逐样本 A_eff。
     """
 
     def __init__(self, d: int, hidden: int = 64):
@@ -50,11 +50,39 @@ class DagmaDecoderMLP(nn.Module):
         self.activation = nn.LeakyReLU(0.2)
 
     def forward(self, X: torch.Tensor, A: torch.Tensor) -> torch.Tensor:
-        # 先按 A 做线性混合：X_tilde = X @ A^T
-        X_tilde = X @ A.t()
+        if A.dim() == 2:
+            # 先按 A 做线性混合：X_tilde = X @ A^T
+            X_tilde = X @ A.t()
+        else:
+            # A shape (B, d, d)：逐样本有效邻接，X_tilde_b = X_b @ A_b^T
+            X_tilde = torch.bmm(X.unsqueeze(1), A.transpose(1, 2)).squeeze(1)
         h = self.activation(self.fc1(X_tilde))
         X_hat = self.fc2(h)
         return X_hat
+
+
+class GateNetwork(nn.Module):
+    """
+    Input-Dependent Modulation：输入 X 映射为邻接残差 R(X)，形状 (B, d, d)。
+    用于解耦：不变机制 A + 瞬态交互 gate(X)，缓解状态依赖/瞬态因果关系。
+    """
+
+    def __init__(self, d: int, hidden: int = 32, scale: float = 0.1):
+        super().__init__()
+        self.d = d
+        self.scale = scale
+        self.net = nn.Sequential(
+            nn.Linear(d, hidden),
+            nn.LeakyReLU(0.2),
+            nn.Linear(hidden, d * d),
+        )
+
+    def forward(self, X: torch.Tensor) -> torch.Tensor:
+        # X: (B, d) -> (B, d*d) -> (B, d, d)，用 tanh 限制幅度
+        B = X.size(0)
+        out = self.net(X)
+        R = out.view(B, self.d, self.d).tanh() * self.scale
+        return R
 
 
 @dataclass
@@ -66,13 +94,25 @@ class DagmaHyperParams:
     tau_white: float = 0.3
     lambda_pref: float = 1.0
     lambda_group: float = 1.0
+    # LimiX 置信度加权：L_total = L_Data + λ_limix_conf * ||W⊙(1-C_LimiX)||_1，缓解幻觉
+    lambda_limix_conf: float = 0.5
+    # 门控（瞬态）稀疏：对 input-dependent 残差做 L1，解耦不变机制与瞬态交互
+    lambda_gate: float = 0.1
     lr: float = 1e-3
     steps: int = 10000
+    batch_size: int = 16
 
 
 class DagmaMLP:
     """
-    带有 LimiX 先验正则项的 DAGMA-MLP。
+    带有 LimiX 先验正则项的 DAGMA-MLP，含两项改进：
+
+    1) 加权损失：L_total = L_Data(W) + λ||W⊙(1-C_LimiX)||_1
+       - C_LimiX 为 LimiX 置信度，置信度低的边惩罚大，缓解大模型幻觉。
+
+    2) Input-Dependent Modulation（门控）：A_eff = A + gate(X)
+       - A 为不变机制（所有任务共享），由 LimiX 先验与无环约束锁定；
+       - gate(X) 为瞬态交互（状态依赖），由门控网络学习，L1 稀疏约束。
     """
 
     def __init__(self, d: int, limix: LimixConstraints, hparams: DagmaHyperParams):
@@ -99,20 +139,31 @@ class DagmaMLP:
         self.edge_pref = torch.tensor(
             limix.edge_pref, dtype=torch.float32, device=self.device
         )
+        # LimiX 置信度 C_LimiX，用于加权损失 ||W⊙(1-C)||_1
+        self.C_limix = torch.tensor(
+            limix.confidence, dtype=torch.float32, device=self.device
+        )
         self.groups = limix.groups  # 已经是 (i, j) 索引列表
 
+        # Input-Dependent 门控：不变机制 A + 瞬态 gate(X)
+        self.gate_net = GateNetwork(d).to(self.device)
+
         self.optimizer = optim.Adam(
-            list(self.model.parameters()) + [self.A], lr=hparams.lr
+            list(self.model.parameters()) + [self.A] + list(self.gate_net.parameters()),
+            lr=hparams.lr,
         )
 
     def loss(self, X: torch.Tensor) -> torch.Tensor:
-        X_hat = self.model(X, self.A)
+        # Input-Dependent Modulation: A_eff = A（不变机制）+ gate(X)（瞬态交互）
+        A_residual = self.gate_net(X)
+        A_eff = self.A.unsqueeze(0) + A_residual  # (B, d, d)
+        X_hat = self.model(X, A_eff)
         nll = nll_gaussian(X, X_hat)
 
-        # L1 稀疏
+        # L1 稀疏（对不变邻接 A）
         l1 = torch.sum(torch.abs(self.A))
 
-        # 无环约束
+        # 无环约束（对不变机制 A；瞬态由门控稀疏约束）
         h_val = acyclicity_constraint(self.A)
 
         # 黑名单惩罚：黑名单边的 |A_ij|
@@ -131,10 +182,14 @@ class DagmaMLP:
                 torch.relu(self.hparams.tau_white - self.A[idx_i, idx_j])
             )
 
-        # 边偏好权重
-        pref_penalty = torch.sum(
-            torch.abs(self.edge_pref * self.A)
-        )
+        # 边偏好权重（原有）
+        pref_penalty = torch.sum(torch.abs(self.edge_pref * self.A))
+
+        # LimiX 置信度加权：L_reg = ||W⊙(1-C_LimiX)||_1，置信度低则惩罚大，缓解幻觉
+        conf_penalty = torch.sum(torch.abs(self.A * (1.0 - self.C_limix)))
+
+        # 门控（瞬态）稀疏：保持瞬态交互稀疏，解耦不变/瞬态
+        gate_penalty = torch.sum(torch.abs(A_residual))
 
         # 组/层级稀疏：对每一组边的 L2 范数求和
         group_penalty = torch.zeros(1, device=self.device)
@@ -152,6 +207,8 @@ class DagmaMLP:
             + hp.lambda_black * black_penalty
             + hp.lambda_white * white_penalty
             + hp.lambda_pref * pref_penalty
+            + hp.lambda_limix_conf * conf_penalty
+            + hp.lambda_gate * gate_penalty
             + hp.lambda_group * group_penalty
         )
         return total
@@ -160,10 +217,19 @@ class DagmaMLP:
         """
         训练 DAGMA-MLP，返回学习到的邻接矩阵 A（numpy 数组）。
         """
-        X = torch.tensor(X_np, dtype=torch.float32, device=self.device)
+        X_all = torch.tensor(X_np, dtype=torch.float32)
+        n_samples = X_all.shape[0]
+        batch_size = min(self.hparams.batch_size, n_samples)
         for step in range(self.hparams.steps):
+            # 使用随机 mini-batch，避免整份数据常驻 GPU 导致显存溢出
+            if batch_size < n_samples:
+                batch_indices = torch.randint(0, n_samples, (batch_size,))
+                X_batch = X_all[batch_indices].to(self.device)
+            else:
+                X_batch = X_all.to(self.device)
+
             self.optimizer.zero_grad()
-            loss_val = self.loss(X)
+            loss_val = self.loss(X_batch)
             loss_val.backward()
             self.optimizer.step()
 
@@ -194,6 +260,6 @@ class DagmaMLP:
         return A_learned
 
 
-__all__ = ["DagmaHyperParams", "DagmaMLP"]
+__all__ = ["DagmaHyperParams", "DagmaMLP", "GateNetwork", "DagmaDecoderMLP"]
 
 

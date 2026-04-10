@@ -8,13 +8,13 @@
 4. 调用 LimiX 官方模型，基于数据学习 soft prior
 5. 整合 yaml 硬约束 + LimiX soft prior，传给 DAGMA-MLP
 6. 使用 DAGMA-MLP 学习全局因果图（一次训练）
-7. 基于全局图 + env_id 后处理，生成各环境的子图（方案B）
 
 输出：
 - A_dagma_global.npy: 全局邻接矩阵
 - variables_global.txt: 全局图变量顺序
-- A_dagma_env_<env_id>.npy: 各环境的子图邻接矩阵
-- variables_env_<env_id>.txt: 各环境子图变量顺序
+- edges_global.csv: 全局图边表（含权重）
+- graph_global.png: 全局因果图可视化
+（不再输出各环境的 A_dagma_env_*.npy、variables_env_*.txt、graph_env_*.png）
 """
 
 from __future__ import annotations
@@ -87,7 +87,7 @@ def run_global_dagma_with_path(csv_path: Path, project_root: Path) -> tuple[np.n
 
     # 5. 使用 DAGMA-MLP 学习完整因果图（一次训练）
     X_np = dataframe_to_numpy(df_features)
-    hparams = DagmaHyperParams()
+    hparams = DagmaHyperParams(batch_size=64)
     dagma = DagmaMLP(d=len(var_names), limix=limix_constraints, hparams=hparams)
     A_learned = dagma.fit(X_np)
 
@@ -104,78 +104,6 @@ def run_global_dagma_with_path(csv_path: Path, project_root: Path) -> tuple[np.n
     A_filtered = A_learned[np.ix_(keep_indices, keep_indices)]
     
     return A_filtered, keep_var_names
-
-
-def derive_env_subgraphs_with_path(
-    output_dir: Path,
-    A_global: np.ndarray,
-    var_names: list[str],
-    df_raw: pd.DataFrame,
-) -> None:
-    """
-    基于全局图 + env_id，后处理生成各环境的子图（方案B）。
-
-    参数
-    ----
-    output_dir: 输出目录
-    A_global: 全局邻接矩阵
-    var_names: 变量名列表
-    df_raw: 原始数据 DataFrame
-
-    策略：
-    - 对每个 env_id，检查哪些变量在该环境下是"有效"的（非常量）
-    - 将"无效"变量对应的边置零，得到该环境的子图
-    - 不重新训练 DAGMA，只是对全局图做裁剪
-
-    输出：
-    - A_dagma_env_<env_id>.npy
-    - variables_env_<env_id>.txt
-    """
-    # 获取所有 env_id
-    if "env_id" not in df_raw.columns:
-        return
-
-    env_ids = df_raw["env_id"].unique()
-
-    # 注意：var_names 已经是过滤后的（只包含 score 和 r_*，不包含 active_*）
-    # 我们需要只使用这些变量来检查每个环境下的有效性
-    # 构建只包含这些变量的特征矩阵
-    df_features_filtered = df_raw[var_names].copy()
-    df_features_filtered = df_features_filtered.fillna(0.0)
-
-    for env_id in env_ids:
-        # 提取该环境的数据（只使用过滤后的变量）
-        df_env = df_raw[df_raw["env_id"] == env_id].copy()
-        df_env_feat = df_env[var_names].copy()
-        df_env_feat = df_env_feat.fillna(0.0)
-
-        # 计算每个变量在该环境下的标准差
-        std_per_var = df_env_feat.std(axis=0)
-        # 如果标准差接近 0，认为该变量在该环境下是"无效"的（常量）
-        threshold = 1e-6
-        invalid_mask = std_per_var < threshold
-
-        # 创建子图：将无效变量的所有边置零
-        A_sub = A_global.copy()
-        invalid_indices = np.where(invalid_mask)[0]
-        for idx in invalid_indices:
-            # 将该变量的所有入边和出边置零
-            A_sub[idx, :] = 0.0
-            A_sub[:, idx] = 0.0
-
-        # 注意：var_names 已经是在 run_global_dagma_with_path 中过滤后的
-        # （只包含 score 和 r_*，不包含 active_*），所以这里直接使用即可
-        
-        # 保存子图
-        env_str = str(env_id).replace("/", "_").replace("\\", "_")
-        out_path_A = output_dir / f"A_dagma_env_{env_str}.npy"
-        out_path_vars = output_dir / f"variables_env_{env_str}.txt"
-
-        np.save(out_path_A, A_sub)
-        with open(out_path_vars, "w", encoding="utf-8") as f:
-            f.write("\n".join(var_names))
-
-        print(f"已保存环境 {env_id} 的子图: {out_path_A}")
 
 
 def main():
@@ -278,22 +206,9 @@ def main():
     else:
         print("⚠️  警告: 没有符合条件的边（可能阈值设置过高）")
 
-    # 2. 生成各环境的子图（方案B：后处理）
+    # 2. 仅可视化全局图（不生成各环境的 png）
     print("\n" + "=" * 60)
-    print("步骤 2: 基于全局图生成各环境的子图（后处理）")
-    print("=" * 60)
-    print("\n说明：")
-    print("  - 子图基于全局图，针对每个环境（env_id）裁剪得到")
-    print("  - 对于每个环境，检查哪些变量在该环境下是常量（标准差接近0）")
-    print("  - 将这些常量变量的所有边置零，得到该环境的子图")
-    print("  - 子图只包含在该环境下有变化的变量及其因果关系")
-    df_raw = load_reward_csv(input_csv)
-    # 注意：子图基于过滤后的全局图生成
-    derive_env_subgraphs_with_path(output_dir, A_global_filtered, var_names, df_raw)
-
-    # 3. 可视化所有图
-    print("\n" + "=" * 60)
-    print("步骤 3: 可视化所有因果图")
+    print("步骤 2: 可视化全局因果图")
     print("=" * 60)
     visualize_all_graphs(output_dir, edge_threshold=edge_threshold)
 
@@ -302,8 +217,9 @@ def main():
     print("=" * 60)
     print(f"输出目录: {output_dir}")
     print(f"全局图: {out_path_A}")
-    print(f"子图: {output_dir}/A_dagma_env_*.npy")
-    print(f"可视化图片: {output_dir}/graph_*.png")
+    print(f"变量顺序: {out_path_vars}")
+    print(f"边表格: {output_dir / 'edges_global.csv'}")
+    print(f"可视化: {output_dir / 'graph_global.png'}")
 
 
 if __name__ == "__main__":
