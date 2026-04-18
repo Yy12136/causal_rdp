@@ -40,7 +40,7 @@ hard_edges:
 
   # 必须出现的边（白名单）
   whitelist:
-    - edge: "r_pos_reward -> score"
+    - edge: "r_position_reward -> score"
       alpha: 1.0
 
 # 软约束：只是偏好，而不是绝对规则

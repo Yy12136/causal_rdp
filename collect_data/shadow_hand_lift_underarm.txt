@@ -1,588 +1,588 @@
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 10, success_reward, 1, 0.0755]2_3
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 10, success_reward, 0.5, 0.2712]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 10, success_reward, 5, 0.4053]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 5, success_reward, 1, 0.8277]2_3
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 5, success_reward, 0.5, 0.1697]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 5, success_reward, 5, 0.4442]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 20, success_reward, 1, 0.0011]2_3
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 20, success_reward, 0.5, 0.0005]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 20, success_reward, 5, 0]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 10, success_reward, 1, 0.5105]2_3
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 10, success_reward, 0.5, 0.5612]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 10, success_reward, 5, 0.3053]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 5, success_reward, 1, 0.7179]2_3
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 5, success_reward, 0.5, 0.8401]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 5, success_reward, 5, 0.8069]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 20, success_reward, 1, 0]2_3
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 20, success_reward, 0.5, 0.0037]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 20, success_reward, 5, 0.04]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 10, success_reward, 1, 0.3254]2_3
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 10, success_reward, 0.5, 0.1063]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 10, success_reward, 5, 0]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 5, success_reward, 1, 0.1082]2_3
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 5, success_reward, 0.5, 0.6215]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 5, success_reward, 5, 0.1771]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 20, success_reward, 1, 0]2_3
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 20, success_reward, 0.5, 0]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 20, success_reward, 5, 0]
-[pos_reward, 30, handle_grasp_reward, 10, lift_reward, 10, success_reward, 1, 0.2665]2_3
-[pos_reward, 30, handle_grasp_reward, 10, lift_reward, 10, success_reward, 0.5, 0.4211]
-[pos_reward, 30, handle_grasp_reward, 10, lift_reward, 10, success_reward, 5, 0.2258]
-[pos_reward, 30, handle_grasp_reward, 10, lift_reward, 5, success_reward, 1, 0.1644]2_3
-[pos_reward, 30, handle_grasp_reward, 10, lift_reward, 5, success_reward, 0.5, 0.0813]
-[pos_reward, 30, handle_grasp_reward, 10, lift_reward, 5, success_reward, 5, 0.3095]
-[pos_reward, 30, handle_grasp_reward, 10, lift_reward, 20, success_reward, 1, 0.0005]2_3
-[pos_reward, 30, handle_grasp_reward, 10, lift_reward, 20, success_reward, 0.5, 0.0135]
-[pos_reward, 30, handle_grasp_reward, 10, lift_reward, 20, success_reward, 5, 0]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 10, success_reward, 1, 0.0755]2_3
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 10, success_reward, 0.5, 0.2712]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 10, success_reward, 5, 0.4053]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 5, success_reward, 1, 0.8277]2_3
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 5, success_reward, 0.5, 0.1697]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 5, success_reward, 5, 0.4442]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 20, success_reward, 1, 0.0011]2_3
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 20, success_reward, 0.5, 0.0005]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 20, success_reward, 5, 0]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 10, success_reward, 1, 0.5105]2_3
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 10, success_reward, 0.5, 0.5612]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 10, success_reward, 5, 0.3053]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 5, success_reward, 1, 0.7179]2_3
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 5, success_reward, 0.5, 0.8401]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 5, success_reward, 5, 0.8069]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 20, success_reward, 1, 0]2_3
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 20, success_reward, 0.5, 0.0037]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 20, success_reward, 5, 0.04]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 10, success_reward, 1, 0.3254]2_3
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 10, success_reward, 0.5, 0.1063]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 10, success_reward, 5, 0]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 5, success_reward, 1, 0.1082]2_3
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 5, success_reward, 0.5, 0.6215]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 5, success_reward, 5, 0.1771]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 20, success_reward, 1, 0]2_3
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 20, success_reward, 0.5, 0]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 20, success_reward, 5, 0]
+[position_reward, 30, handle_grasp_reward, 10, lift_reward, 10, success_reward, 1, 0.2665]2_3
+[position_reward, 30, handle_grasp_reward, 10, lift_reward, 10, success_reward, 0.5, 0.4211]
+[position_reward, 30, handle_grasp_reward, 10, lift_reward, 10, success_reward, 5, 0.2258]
+[position_reward, 30, handle_grasp_reward, 10, lift_reward, 5, success_reward, 1, 0.1644]2_3
+[position_reward, 30, handle_grasp_reward, 10, lift_reward, 5, success_reward, 0.5, 0.0813]
+[position_reward, 30, handle_grasp_reward, 10, lift_reward, 5, success_reward, 5, 0.3095]
+[position_reward, 30, handle_grasp_reward, 10, lift_reward, 20, success_reward, 1, 0.0005]2_3
+[position_reward, 30, handle_grasp_reward, 10, lift_reward, 20, success_reward, 0.5, 0.0135]
+[position_reward, 30, handle_grasp_reward, 10, lift_reward, 20, success_reward, 5, 0]
 
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 10, task_completion_bonus, 50, 0.2968]2_1
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 10, task_completion_bonus, 40, 0.3652]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 10, task_completion_bonus, 100, 0.5663]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 5, task_completion_bonus, 50, 0.6519]2_1
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 5, task_completion_bonus, 40, 0.5845]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 5, task_completion_bonus, 100, 0.7722]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 20, task_completion_bonus, 50, 0]2_1
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 20, task_completion_bonus, 40, 0]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 20, task_completion_bonus, 100, 0]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 10, success_bonus, 50, 0.2968]2_1
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 10, success_bonus, 40, 0.3652]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 10, success_bonus, 100, 0.5663]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 5, success_bonus, 50, 0.6519]2_1
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 5, success_bonus, 40, 0.5845]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 5, success_bonus, 100, 0.7722]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 20, success_bonus, 50, 0]2_1
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 20, success_bonus, 40, 0]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 20, success_bonus, 100, 0]
 
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 10, task_completion_bonus, 50, 0.5836]2_1
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 10, task_completion_bonus, 40, 0.2166]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 10, task_completion_bonus, 100, 0.4483]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 5, task_completion_bonus, 50, 0.5091]2_1
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 5, task_completion_bonus, 40, 0.8194]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 5, task_completion_bonus, 100, 0.9411]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 20, task_completion_bonus, 50, 0.1452]2_1
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 20, task_completion_bonus, 40, 0.0005]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 20, task_completion_bonus, 100, 0.0047]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 10, success_bonus, 50, 0.5836]2_1
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 10, success_bonus, 40, 0.2166]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 10, success_bonus, 100, 0.4483]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 5, success_bonus, 50, 0.5091]2_1
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 5, success_bonus, 40, 0.8194]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 5, success_bonus, 100, 0.9411]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 20, success_bonus, 50, 0.1452]2_1
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 20, success_bonus, 40, 0.0005]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 20, success_bonus, 100, 0.0047]
 
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 10, task_completion_bonus, 50, 0.1349]2_1
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 10, task_completion_bonus, 40, 0.0921]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 10, task_completion_bonus, 100, 0]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 5, task_completion_bonus, 50, 0.6029]2_1
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 5, task_completion_bonus, 40, 0.3719]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 5, task_completion_bonus, 100, 0.6465]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 20, task_completion_bonus, 50, 0]2_1
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 20, task_completion_bonus, 40, 0]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 20, task_completion_bonus, 100, 0]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 10, task_completion_bonus, 50, 0.1584]2_1
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 10, task_completion_bonus, 40, 0.5802]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 10, task_completion_bonus, 100, 0.389]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 5, task_completion_bonus, 50, 0.6488]2_1
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 5, task_completion_bonus, 40, 0.654]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 5, task_completion_bonus, 100, 0.6056]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 20, task_completion_bonus, 50, 0]2_1
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 20, task_completion_bonus, 40, 0.003]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 20, task_completion_bonus, 100, 0]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 5, 0.3877]2_7
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 1, 0.2948]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 10, 0.0064]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 5, 0]2_7
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 1, 0.812]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 10, 0.7043]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 5, 0]2_7
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 1, 0]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 10, 0]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 10, success_bonus, 50, 0.1349]2_1
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 10, success_bonus, 40, 0.0921]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 10, success_bonus, 100, 0]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 5, success_bonus, 50, 0.6029]2_1
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 5, success_bonus, 40, 0.3719]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 5, success_bonus, 100, 0.6465]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 20, success_bonus, 50, 0]2_1
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 20, success_bonus, 40, 0]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 20, success_bonus, 100, 0]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 10, success_bonus, 50, 0.1584]2_1
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 10, success_bonus, 40, 0.5802]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 10, success_bonus, 100, 0.389]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 5, success_bonus, 50, 0.6488]2_1
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 5, success_bonus, 40, 0.654]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 5, success_bonus, 100, 0.6056]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 20, success_bonus, 50, 0]2_1
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 20, success_bonus, 40, 0.003]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 20, success_bonus, 100, 0]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 5, 0.3877]2_7
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 1, 0.2948]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 10, 0.0064]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 5, 0]2_7
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 1, 0.812]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 10, 0.7043]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 5, 0]2_7
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 1, 0]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 10, 0]
 
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 10, goal_alignment_reward, 5, 0.0448]2_7
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 10, goal_alignment_reward, 1, 0.5846]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 10, goal_alignment_reward, 10, 0]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 5, goal_alignment_reward, 5, 0]2_7
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 5, goal_alignment_reward, 1, 0.8655]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 5, goal_alignment_reward, 10, 0]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 20, goal_alignment_reward, 5, 0.0035]2_7
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 20, goal_alignment_reward, 1, 0.005]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 20, goal_alignment_reward, 10, 0]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 10, goal_alignment_reward, 5, 0.1095]2_7
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 10, goal_alignment_reward, 1, 0.0511]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 10, goal_alignment_reward, 10, 0.0407]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 5, goal_alignment_reward, 5, 0]2_7
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 5, goal_alignment_reward, 1, 0.2516]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 5, goal_alignment_reward, 10, 0]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 20, goal_alignment_reward, 5, 0]2_7
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 20, goal_alignment_reward, 1, 0]
-[pos_reward, 10, handle_grasp_reward, 20, lift_reward, 20, goal_alignment_reward, 10, 0]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 5, 0.283]2_7
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 1, 0.2203]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 10, 0.0645]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 5, 0]2_7
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 1, 0.8645]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 10, 0.8464]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 5, 0]2_7
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 1, 0]
-[pos_reward, 40, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 10, 0]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 10, goal_alignment_reward, 5, 0.0448]2_7
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 10, goal_alignment_reward, 1, 0.5846]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 10, goal_alignment_reward, 10, 0]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 5, goal_alignment_reward, 5, 0]2_7
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 5, goal_alignment_reward, 1, 0.8655]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 5, goal_alignment_reward, 10, 0]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 20, goal_alignment_reward, 5, 0.0035]2_7
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 20, goal_alignment_reward, 1, 0.005]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 20, goal_alignment_reward, 10, 0]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 10, goal_alignment_reward, 5, 0.1095]2_7
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 10, goal_alignment_reward, 1, 0.0511]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 10, goal_alignment_reward, 10, 0.0407]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 5, goal_alignment_reward, 5, 0]2_7
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 5, goal_alignment_reward, 1, 0.2516]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 5, goal_alignment_reward, 10, 0]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 20, goal_alignment_reward, 5, 0]2_7
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 20, goal_alignment_reward, 1, 0]
+[position_reward, 10, handle_grasp_reward, 20, lift_reward, 20, goal_alignment_reward, 10, 0]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 5, 0.283]2_7
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 1, 0.2203]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 10, goal_alignment_reward, 10, 0.0645]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 5, 0]2_7
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 1, 0.8645]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 5, goal_alignment_reward, 10, 0.8464]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 5, 0]2_7
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 1, 0]
+[position_reward, 40, handle_grasp_reward, 10, lift_reward, 20, goal_alignment_reward, 10, 0]
 
-[pos_reward, 10, handle_grasp_reward, 5, lift_reward, 5, 0.85]1_15
-[pos_reward, 10, handle_grasp_reward, 5, lift_reward, 1, 0.1653]
-[pos_reward, 10, handle_grasp_reward, 5, lift_reward, 10, 0.7225]
-[pos_reward, 10, handle_grasp_reward, 1, lift_reward, 5, 0.8177]1_15
-[pos_reward, 10, handle_grasp_reward, 1, lift_reward, 1, 0]
-[pos_reward, 10, handle_grasp_reward, 1, lift_reward, 10, 0.5977]
-[pos_reward, 10, handle_grasp_reward, 10, lift_reward, 5, 0.3353]1_15
-[pos_reward, 10, handle_grasp_reward, 10, lift_reward, 1, 0.0072]
-[pos_reward, 10, handle_grasp_reward, 10, lift_reward, 10, 0.5509]
-[pos_reward, 5, handle_grasp_reward, 5, lift_reward, 5, 0.6668]1_15
-[pos_reward, 5, handle_grasp_reward, 5, lift_reward, 1, 0.0015]
-[pos_reward, 5, handle_grasp_reward, 5, lift_reward, 10, 0.6246]
-[pos_reward, 5, handle_grasp_reward, 1, lift_reward, 5, 0.4776]1_15
-[pos_reward, 5, handle_grasp_reward, 1, lift_reward, 1, 0]
-[pos_reward, 5, handle_grasp_reward, 1, lift_reward, 10, 0.682]
-[pos_reward, 5, handle_grasp_reward, 10, lift_reward, 5, 0.561]1_15
-[pos_reward, 5, handle_grasp_reward, 10, lift_reward, 1, 0.0306]
-[pos_reward, 5, handle_grasp_reward, 10, lift_reward, 10, 0.3062]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 5, 0.0745]1_15
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 1, 0]
-[pos_reward, 20, handle_grasp_reward, 5, lift_reward, 10, 0.0005]
-[pos_reward, 20, handle_grasp_reward, 1, lift_reward, 5, 0]1_15
-[pos_reward, 20, handle_grasp_reward, 1, lift_reward, 1, 0]
-[pos_reward, 20, handle_grasp_reward, 1, lift_reward, 10, 0.0006]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 5, 0.8056]1_15
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 1, 0.6174]
-[pos_reward, 20, handle_grasp_reward, 10, lift_reward, 10, 0.684]
+[position_reward, 10, handle_grasp_reward, 5, lift_reward, 5, 0.85]1_15
+[position_reward, 10, handle_grasp_reward, 5, lift_reward, 1, 0.1653]
+[position_reward, 10, handle_grasp_reward, 5, lift_reward, 10, 0.7225]
+[position_reward, 10, handle_grasp_reward, 1, lift_reward, 5, 0.8177]1_15
+[position_reward, 10, handle_grasp_reward, 1, lift_reward, 1, 0]
+[position_reward, 10, handle_grasp_reward, 1, lift_reward, 10, 0.5977]
+[position_reward, 10, handle_grasp_reward, 10, lift_reward, 5, 0.3353]1_15
+[position_reward, 10, handle_grasp_reward, 10, lift_reward, 1, 0.0072]
+[position_reward, 10, handle_grasp_reward, 10, lift_reward, 10, 0.5509]
+[position_reward, 5, handle_grasp_reward, 5, lift_reward, 5, 0.6668]1_15
+[position_reward, 5, handle_grasp_reward, 5, lift_reward, 1, 0.0015]
+[position_reward, 5, handle_grasp_reward, 5, lift_reward, 10, 0.6246]
+[position_reward, 5, handle_grasp_reward, 1, lift_reward, 5, 0.4776]1_15
+[position_reward, 5, handle_grasp_reward, 1, lift_reward, 1, 0]
+[position_reward, 5, handle_grasp_reward, 1, lift_reward, 10, 0.682]
+[position_reward, 5, handle_grasp_reward, 10, lift_reward, 5, 0.561]1_15
+[position_reward, 5, handle_grasp_reward, 10, lift_reward, 1, 0.0306]
+[position_reward, 5, handle_grasp_reward, 10, lift_reward, 10, 0.3062]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 5, 0.0745]1_15
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 1, 0]
+[position_reward, 20, handle_grasp_reward, 5, lift_reward, 10, 0.0005]
+[position_reward, 20, handle_grasp_reward, 1, lift_reward, 5, 0]1_15
+[position_reward, 20, handle_grasp_reward, 1, lift_reward, 1, 0]
+[position_reward, 20, handle_grasp_reward, 1, lift_reward, 10, 0.0006]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 5, 0.8056]1_15
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 1, 0.6174]
+[position_reward, 20, handle_grasp_reward, 10, lift_reward, 10, 0.684]
 
-[pos_reward, 10, handle_grasp_reward, 5, success_reward, 1, 0.472]1_6
-[pos_reward, 10, handle_grasp_reward, 5, success_reward, 0.5, 0.8967]
-[pos_reward, 10, handle_grasp_reward, 5, success_reward, 5, 0.406]
-[pos_reward, 10, handle_grasp_reward, 1, success_reward, 1, 0]1_6
-[pos_reward, 10, handle_grasp_reward, 1, success_reward, 0.5, 0]
-[pos_reward, 10, handle_grasp_reward, 1, success_reward, 5, 0.3648]
-[pos_reward, 10, handle_grasp_reward, 10, success_reward, 1, 0]1_6
-[pos_reward, 10, handle_grasp_reward, 10, success_reward, 0.5, 0.5353]
-[pos_reward, 10, handle_grasp_reward, 10, success_reward, 5, 0.5206]
-[pos_reward, 5, handle_grasp_reward, 5, success_reward, 1, 0.7246]1_6
-[pos_reward, 5, handle_grasp_reward, 5, success_reward, 0.5, 0.7449]
-[pos_reward, 5, handle_grasp_reward, 5, success_reward, 5, 0.5773]
-[pos_reward, 5, handle_grasp_reward, 1, success_reward, 1, 0]1_6
-[pos_reward, 5, handle_grasp_reward, 1, success_reward, 0.5, 0.2034]
-[pos_reward, 5, handle_grasp_reward, 1, success_reward, 5, 0.2499]
-[pos_reward, 5, handle_grasp_reward, 10, success_reward, 1, 0.8164]1_6
-[pos_reward, 5, handle_grasp_reward, 10, success_reward, 0.5, 0.7006]
-[pos_reward, 5, handle_grasp_reward, 10, success_reward, 5, 0.5841]
-[pos_reward, 20, handle_grasp_reward, 5, success_reward, 1, 0]1_6
-[pos_reward, 20, handle_grasp_reward, 5, success_reward, 0.5, 0.0268]
-[pos_reward, 20, handle_grasp_reward, 5, success_reward, 5, 0.5032]
-[pos_reward, 20, handle_grasp_reward, 1, success_reward, 1, 0.0005]1_6
-[pos_reward, 20, handle_grasp_reward, 1, success_reward, 0.5, 0]
-[pos_reward, 20, handle_grasp_reward, 1, success_reward, 5, 0]
-[pos_reward, 20, handle_grasp_reward, 10, success_reward, 1, 0.5616]1_6
-[pos_reward, 20, handle_grasp_reward, 10, success_reward, 0.5, 0.3183]
-[pos_reward, 20, handle_grasp_reward, 10, success_reward, 5, 0.0005]
+[position_reward, 10, handle_grasp_reward, 5, success_reward, 1, 0.472]1_6
+[position_reward, 10, handle_grasp_reward, 5, success_reward, 0.5, 0.8967]
+[position_reward, 10, handle_grasp_reward, 5, success_reward, 5, 0.406]
+[position_reward, 10, handle_grasp_reward, 1, success_reward, 1, 0]1_6
+[position_reward, 10, handle_grasp_reward, 1, success_reward, 0.5, 0]
+[position_reward, 10, handle_grasp_reward, 1, success_reward, 5, 0.3648]
+[position_reward, 10, handle_grasp_reward, 10, success_reward, 1, 0]1_6
+[position_reward, 10, handle_grasp_reward, 10, success_reward, 0.5, 0.5353]
+[position_reward, 10, handle_grasp_reward, 10, success_reward, 5, 0.5206]
+[position_reward, 5, handle_grasp_reward, 5, success_reward, 1, 0.7246]1_6
+[position_reward, 5, handle_grasp_reward, 5, success_reward, 0.5, 0.7449]
+[position_reward, 5, handle_grasp_reward, 5, success_reward, 5, 0.5773]
+[position_reward, 5, handle_grasp_reward, 1, success_reward, 1, 0]1_6
+[position_reward, 5, handle_grasp_reward, 1, success_reward, 0.5, 0.2034]
+[position_reward, 5, handle_grasp_reward, 1, success_reward, 5, 0.2499]
+[position_reward, 5, handle_grasp_reward, 10, success_reward, 1, 0.8164]1_6
+[position_reward, 5, handle_grasp_reward, 10, success_reward, 0.5, 0.7006]
+[position_reward, 5, handle_grasp_reward, 10, success_reward, 5, 0.5841]
+[position_reward, 20, handle_grasp_reward, 5, success_reward, 1, 0]1_6
+[position_reward, 20, handle_grasp_reward, 5, success_reward, 0.5, 0.0268]
+[position_reward, 20, handle_grasp_reward, 5, success_reward, 5, 0.5032]
+[position_reward, 20, handle_grasp_reward, 1, success_reward, 1, 0.0005]1_6
+[position_reward, 20, handle_grasp_reward, 1, success_reward, 0.5, 0]
+[position_reward, 20, handle_grasp_reward, 1, success_reward, 5, 0]
+[position_reward, 20, handle_grasp_reward, 10, success_reward, 1, 0.5616]1_6
+[position_reward, 20, handle_grasp_reward, 10, success_reward, 0.5, 0.3183]
+[position_reward, 20, handle_grasp_reward, 10, success_reward, 5, 0.0005]
 
-[pos_reward, 10, handle_grasp_reward, 5, task_completion_reward, 1, 0]1_11
-[pos_reward, 10, handle_grasp_reward, 5, task_completion_reward, 0.5, 0]
-[pos_reward, 10, handle_grasp_reward, 5, task_completion_reward, 5, 0]
-[pos_reward, 10, handle_grasp_reward, 1, task_completion_reward, 1, 0]1_11
-[pos_reward, 10, handle_grasp_reward, 1, task_completion_reward, 0.5, 0]
-[pos_reward, 10, handle_grasp_reward, 1, task_completion_reward, 5, 0]
-[pos_reward, 10, handle_grasp_reward, 10, task_completion_reward, 1, 0]1_11
-[pos_reward, 10, handle_grasp_reward, 10, task_completion_reward, 0.5, 0]
-[pos_reward, 10, handle_grasp_reward, 10, task_completion_reward, 5, 0]
-[pos_reward, 5, handle_grasp_reward, 5, task_completion_reward, 1, 0]1_11
-[pos_reward, 5, handle_grasp_reward, 5, task_completion_reward, 0.5, 0]
-[pos_reward, 5, handle_grasp_reward, 5, task_completion_reward, 5, 0]
-[pos_reward, 5, handle_grasp_reward, 1, task_completion_reward, 1, 0]1_11
-[pos_reward, 5, handle_grasp_reward, 1, task_completion_reward, 0.5, 0]
-[pos_reward, 5, handle_grasp_reward, 1, task_completion_reward, 5, 0]
-[pos_reward, 5, handle_grasp_reward, 10, task_completion_reward, 1, 0]1_11
-[pos_reward, 5, handle_grasp_reward, 10, task_completion_reward, 0.5, 0]
-[pos_reward, 5, handle_grasp_reward, 10, task_completion_reward, 5, 0]
-[pos_reward, 10, handle_grasp_reward, 5, task_completion_reward, 1, 0]1_11
-[pos_reward, 10, handle_grasp_reward, 5, task_completion_reward, 0.5, 0]
-[pos_reward, 10, handle_grasp_reward, 5, task_completion_reward, 5, 0]
-[pos_reward, 10, handle_grasp_reward, 1, task_completion_reward, 1, 0]1_11
-[pos_reward, 10, handle_grasp_reward, 1, task_completion_reward, 0.5, 0]
-[pos_reward, 10, handle_grasp_reward, 1, task_completion_reward, 5, 0]
-[pos_reward, 10, handle_grasp_reward, 10, task_completion_reward, 1, 0]1_11
-[pos_reward, 10, handle_grasp_reward, 10, task_completion_reward, 0.5, 0]
-[pos_reward, 10, handle_grasp_reward, 10, task_completion_reward, 5, 0]
+[position_reward, 10, handle_grasp_reward, 5, task_completion_reward, 1, 0]1_11
+[position_reward, 10, handle_grasp_reward, 5, task_completion_reward, 0.5, 0]
+[position_reward, 10, handle_grasp_reward, 5, task_completion_reward, 5, 0]
+[position_reward, 10, handle_grasp_reward, 1, task_completion_reward, 1, 0]1_11
+[position_reward, 10, handle_grasp_reward, 1, task_completion_reward, 0.5, 0]
+[position_reward, 10, handle_grasp_reward, 1, task_completion_reward, 5, 0]
+[position_reward, 10, handle_grasp_reward, 10, task_completion_reward, 1, 0]1_11
+[position_reward, 10, handle_grasp_reward, 10, task_completion_reward, 0.5, 0]
+[position_reward, 10, handle_grasp_reward, 10, task_completion_reward, 5, 0]
+[position_reward, 5, handle_grasp_reward, 5, task_completion_reward, 1, 0]1_11
+[position_reward, 5, handle_grasp_reward, 5, task_completion_reward, 0.5, 0]
+[position_reward, 5, handle_grasp_reward, 5, task_completion_reward, 5, 0]
+[position_reward, 5, handle_grasp_reward, 1, task_completion_reward, 1, 0]1_11
+[position_reward, 5, handle_grasp_reward, 1, task_completion_reward, 0.5, 0]
+[position_reward, 5, handle_grasp_reward, 1, task_completion_reward, 5, 0]
+[position_reward, 5, handle_grasp_reward, 10, task_completion_reward, 1, 0]1_11
+[position_reward, 5, handle_grasp_reward, 10, task_completion_reward, 0.5, 0]
+[position_reward, 5, handle_grasp_reward, 10, task_completion_reward, 5, 0]
+[position_reward, 10, handle_grasp_reward, 5, task_completion_reward, 1, 0]1_11
+[position_reward, 10, handle_grasp_reward, 5, task_completion_reward, 0.5, 0]
+[position_reward, 10, handle_grasp_reward, 5, task_completion_reward, 5, 0]
+[position_reward, 10, handle_grasp_reward, 1, task_completion_reward, 1, 0]1_11
+[position_reward, 10, handle_grasp_reward, 1, task_completion_reward, 0.5, 0]
+[position_reward, 10, handle_grasp_reward, 1, task_completion_reward, 5, 0]
+[position_reward, 10, handle_grasp_reward, 10, task_completion_reward, 1, 0]1_11
+[position_reward, 10, handle_grasp_reward, 10, task_completion_reward, 0.5, 0]
+[position_reward, 10, handle_grasp_reward, 10, task_completion_reward, 5, 0]
 
-[pos_reward, 5, handle_grasp_reward, 2, task_reward, 1, 0.6056]1_8
-[pos_reward, 5, handle_grasp_reward, 2, task_reward, 0.5, 0.6743]
-[pos_reward, 5, handle_grasp_reward, 2, task_reward, 5, 0.4401]
-[pos_reward, 5, handle_grasp_reward, 1, task_reward, 1, 0.5341]1_8
-[pos_reward, 5, handle_grasp_reward, 1, task_reward, 0.5, 0.5853]
-[pos_reward, 5, handle_grasp_reward, 1, task_reward, 5, 0.4207]
-[pos_reward, 5, handle_grasp_reward, 5, task_reward, 1, 0.4624]1_8
-[pos_reward, 5, handle_grasp_reward, 5, task_reward, 0.5, 0.7084]
-[pos_reward, 5, handle_grasp_reward, 5, task_reward, 5, 0.4248]
+[position_reward, 5, handle_grasp_reward, 2, success_reward, 1, 0.6056]1_8
+[position_reward, 5, handle_grasp_reward, 2, success_reward, 0.5, 0.6743]
+[position_reward, 5, handle_grasp_reward, 2, success_reward, 5, 0.4401]
+[position_reward, 5, handle_grasp_reward, 1, success_reward, 1, 0.5341]1_8
+[position_reward, 5, handle_grasp_reward, 1, success_reward, 0.5, 0.5853]
+[position_reward, 5, handle_grasp_reward, 1, success_reward, 5, 0.4207]
+[position_reward, 5, handle_grasp_reward, 5, success_reward, 1, 0.4624]1_8
+[position_reward, 5, handle_grasp_reward, 5, success_reward, 0.5, 0.7084]
+[position_reward, 5, handle_grasp_reward, 5, success_reward, 5, 0.4248]
 
-[pos_reward, 1, handle_grasp_reward, 2, task_reward, 1, 0.4506]1_8
-[pos_reward, 1, handle_grasp_reward, 2, task_reward, 0.5, 0.6648]
-[pos_reward, 1, handle_grasp_reward, 2, task_reward, 5, 0.4127]
-[pos_reward, 1, handle_grasp_reward, 1, task_reward, 1, 0]1_8
-[pos_reward, 1, handle_grasp_reward, 1, task_reward, 0.5, 0.5185]
-[pos_reward, 1, handle_grasp_reward, 1, task_reward, 5, 0.0005]
-[pos_reward, 1, handle_grasp_reward, 5, task_reward, 1, 0.5724]1_8
-[pos_reward, 1, handle_grasp_reward, 5, task_reward, 0.5, 0.0005]
-[pos_reward, 1, handle_grasp_reward, 5, task_reward, 5, 0.1636]
+[position_reward, 1, handle_grasp_reward, 2, success_reward, 1, 0.4506]1_8
+[position_reward, 1, handle_grasp_reward, 2, success_reward, 0.5, 0.6648]
+[position_reward, 1, handle_grasp_reward, 2, success_reward, 5, 0.4127]
+[position_reward, 1, handle_grasp_reward, 1, success_reward, 1, 0]1_8
+[position_reward, 1, handle_grasp_reward, 1, success_reward, 0.5, 0.5185]
+[position_reward, 1, handle_grasp_reward, 1, success_reward, 5, 0.0005]
+[position_reward, 1, handle_grasp_reward, 5, success_reward, 1, 0.5724]1_8
+[position_reward, 1, handle_grasp_reward, 5, success_reward, 0.5, 0.0005]
+[position_reward, 1, handle_grasp_reward, 5, success_reward, 5, 0.1636]
 
-[pos_reward, 10, handle_grasp_reward, 2, task_reward, 1, 0.4903]1_8
-[pos_reward, 10, handle_grasp_reward, 2, task_reward, 0.5, 0.6895]
-[pos_reward, 10, handle_grasp_reward, 2, task_reward, 5, 0.1073]
-[pos_reward, 10, handle_grasp_reward, 1, task_reward, 1, 0.1955]1_8
-[pos_reward, 10, handle_grasp_reward, 1, task_reward, 0.5, 0.3992]
-[pos_reward, 10, handle_grasp_reward, 1, task_reward, 5, 0.328]
-[pos_reward, 10, handle_grasp_reward, 5, task_reward, 1, 0.3267]1_8
-[pos_reward, 10, handle_grasp_reward, 5, task_reward, 0.5, 0.1965]
-[pos_reward, 10, handle_grasp_reward, 5, task_reward, 5, 0.3323]
+[position_reward, 10, handle_grasp_reward, 2, success_reward, 1, 0.4903]1_8
+[position_reward, 10, handle_grasp_reward, 2, success_reward, 0.5, 0.6895]
+[position_reward, 10, handle_grasp_reward, 2, success_reward, 5, 0.1073]
+[position_reward, 10, handle_grasp_reward, 1, success_reward, 1, 0.1955]1_8
+[position_reward, 10, handle_grasp_reward, 1, success_reward, 0.5, 0.3992]
+[position_reward, 10, handle_grasp_reward, 1, success_reward, 5, 0.328]
+[position_reward, 10, handle_grasp_reward, 5, success_reward, 1, 0.3267]1_8
+[position_reward, 10, handle_grasp_reward, 5, success_reward, 0.5, 0.1965]
+[position_reward, 10, handle_grasp_reward, 5, success_reward, 5, 0.3323]
 
-[pos_reward, 10, grasp_reward, 5, lift_reward, 20, vel_penalty, 1, 0]1_7
-[pos_reward, 10, grasp_reward, 5, lift_reward, 20, vel_penalty, 5, 0]
-[pos_reward, 10, grasp_reward, 5, lift_reward, 20, vel_penalty, 10, 0]
-[pos_reward, 10, grasp_reward, 5, lift_reward, 10, vel_penalty, 1, 0]1_7
-[pos_reward, 10, grasp_reward, 5, lift_reward, 10, vel_penalty, 5, 0]
-[pos_reward, 10, grasp_reward, 5, lift_reward, 10, vel_penalty, 10, 0]
-[pos_reward, 10, grasp_reward, 5, lift_reward, 5, vel_penalty, 1, 0]1_7
-[pos_reward, 10, grasp_reward, 5, lift_reward, 5, vel_penalty, 5, 0]
-[pos_reward, 10, grasp_reward, 5, lift_reward, 5, vel_penalty, 10, 0]
-[pos_reward, 10, grasp_reward, 1, lift_reward, 20, vel_penalty, 1, 0]1_7
-[pos_reward, 10, grasp_reward, 1, lift_reward, 20, vel_penalty, 5, 0]
-[pos_reward, 10, grasp_reward, 1, lift_reward, 20, vel_penalty, 10, 0]
-[pos_reward, 10, grasp_reward, 1, lift_reward, 10, vel_penalty, 1, 0]1_7
-[pos_reward, 10, grasp_reward, 1, lift_reward, 10, vel_penalty, 5, 0]
-[pos_reward, 10, grasp_reward, 1, lift_reward, 10, vel_penalty, 10, 0]
-[pos_reward, 10, grasp_reward, 1, lift_reward, 5, vel_penalty, 1, 0]1_7
-[pos_reward, 10, grasp_reward, 1, lift_reward, 5, vel_penalty, 5, 0]
-[pos_reward, 10, grasp_reward, 1, lift_reward, 5, vel_penalty, 10, 0]
-[pos_reward, 5, grasp_reward, 10, lift_reward, 20, vel_penalty, 1, 0]1_7
-[pos_reward, 5, grasp_reward, 10, lift_reward, 20, vel_penalty, 5, 0]
-[pos_reward, 5, grasp_reward, 10, lift_reward, 20, vel_penalty, 10, 0]
-[pos_reward, 5, grasp_reward, 10, lift_reward, 10, vel_penalty, 1, 0]1_7
-[pos_reward, 5, grasp_reward, 10, lift_reward, 10, vel_penalty, 5, 0]
-[pos_reward, 5, grasp_reward, 10, lift_reward, 10, vel_penalty, 10, 0]
-[pos_reward, 5, grasp_reward, 10, lift_reward, 5, vel_penalty, 1, 0]1_7
-[pos_reward, 5, grasp_reward, 10, lift_reward, 5, vel_penalty, 5, 0]
-[pos_reward, 5, grasp_reward, 10, lift_reward, 5, vel_penalty, 10, 0]
-[pos_reward, 20, grasp_reward, 5, lift_reward, 20, vel_penalty, 1, 0]1_7
-[pos_reward, 20, grasp_reward, 5, lift_reward, 20, vel_penalty, 5, 0]
-[pos_reward, 20, grasp_reward, 5, lift_reward, 20, vel_penalty, 10, 0]
-[pos_reward, 20, grasp_reward, 5, lift_reward, 10, vel_penalty, 1, 0]1_7
-[pos_reward, 20, grasp_reward, 5, lift_reward, 10, vel_penalty, 5, 0]
-[pos_reward, 20, grasp_reward, 5, lift_reward, 10, vel_penalty, 10, 0]
-[pos_reward, 20, grasp_reward, 5, lift_reward, 5, vel_penalty, 1, 0]1_7
-[pos_reward, 20, grasp_reward, 5, lift_reward, 5, vel_penalty, 5, 0]
-[pos_reward, 20, grasp_reward, 5, lift_reward, 5, vel_penalty, 10, 0]
+[position_reward, 10, grasp_reward, 5, lift_reward, 20, velocity_penalty, 1, 0]1_7
+[position_reward, 10, grasp_reward, 5, lift_reward, 20, velocity_penalty, 5, 0]
+[position_reward, 10, grasp_reward, 5, lift_reward, 20, velocity_penalty, 10, 0]
+[position_reward, 10, grasp_reward, 5, lift_reward, 10, velocity_penalty, 1, 0]1_7
+[position_reward, 10, grasp_reward, 5, lift_reward, 10, velocity_penalty, 5, 0]
+[position_reward, 10, grasp_reward, 5, lift_reward, 10, velocity_penalty, 10, 0]
+[position_reward, 10, grasp_reward, 5, lift_reward, 5, velocity_penalty, 1, 0]1_7
+[position_reward, 10, grasp_reward, 5, lift_reward, 5, velocity_penalty, 5, 0]
+[position_reward, 10, grasp_reward, 5, lift_reward, 5, velocity_penalty, 10, 0]
+[position_reward, 10, grasp_reward, 1, lift_reward, 20, velocity_penalty, 1, 0]1_7
+[position_reward, 10, grasp_reward, 1, lift_reward, 20, velocity_penalty, 5, 0]
+[position_reward, 10, grasp_reward, 1, lift_reward, 20, velocity_penalty, 10, 0]
+[position_reward, 10, grasp_reward, 1, lift_reward, 10, velocity_penalty, 1, 0]1_7
+[position_reward, 10, grasp_reward, 1, lift_reward, 10, velocity_penalty, 5, 0]
+[position_reward, 10, grasp_reward, 1, lift_reward, 10, velocity_penalty, 10, 0]
+[position_reward, 10, grasp_reward, 1, lift_reward, 5, velocity_penalty, 1, 0]1_7
+[position_reward, 10, grasp_reward, 1, lift_reward, 5, velocity_penalty, 5, 0]
+[position_reward, 10, grasp_reward, 1, lift_reward, 5, velocity_penalty, 10, 0]
+[position_reward, 5, grasp_reward, 10, lift_reward, 20, velocity_penalty, 1, 0]1_7
+[position_reward, 5, grasp_reward, 10, lift_reward, 20, velocity_penalty, 5, 0]
+[position_reward, 5, grasp_reward, 10, lift_reward, 20, velocity_penalty, 10, 0]
+[position_reward, 5, grasp_reward, 10, lift_reward, 10, velocity_penalty, 1, 0]1_7
+[position_reward, 5, grasp_reward, 10, lift_reward, 10, velocity_penalty, 5, 0]
+[position_reward, 5, grasp_reward, 10, lift_reward, 10, velocity_penalty, 10, 0]
+[position_reward, 5, grasp_reward, 10, lift_reward, 5, velocity_penalty, 1, 0]1_7
+[position_reward, 5, grasp_reward, 10, lift_reward, 5, velocity_penalty, 5, 0]
+[position_reward, 5, grasp_reward, 10, lift_reward, 5, velocity_penalty, 10, 0]
+[position_reward, 20, grasp_reward, 5, lift_reward, 20, velocity_penalty, 1, 0]1_7
+[position_reward, 20, grasp_reward, 5, lift_reward, 20, velocity_penalty, 5, 0]
+[position_reward, 20, grasp_reward, 5, lift_reward, 20, velocity_penalty, 10, 0]
+[position_reward, 20, grasp_reward, 5, lift_reward, 10, velocity_penalty, 1, 0]1_7
+[position_reward, 20, grasp_reward, 5, lift_reward, 10, velocity_penalty, 5, 0]
+[position_reward, 20, grasp_reward, 5, lift_reward, 10, velocity_penalty, 10, 0]
+[position_reward, 20, grasp_reward, 5, lift_reward, 5, velocity_penalty, 1, 0]1_7
+[position_reward, 20, grasp_reward, 5, lift_reward, 5, velocity_penalty, 5, 0]
+[position_reward, 20, grasp_reward, 5, lift_reward, 5, velocity_penalty, 10, 0]
 
-[pos_reward, 10, vel_reward, 0.01, handle_grasp_reward, 5, lift_reward, 10, 0]1_4
-[pos_reward, 10, vel_reward, 0.01, handle_grasp_reward, 5, lift_reward, 5, 0]
-[pos_reward, 10, vel_reward, 0.01, handle_grasp_reward, 5, lift_reward, 20, 0]
-[pos_reward, 10, vel_reward, 0.01, handle_grasp_reward, 1, lift_reward, 10, 0]1_4
-[pos_reward, 10, vel_reward, 0.01, handle_grasp_reward, 1, lift_reward, 5, 0]
-[pos_reward, 10, vel_reward, 0.01, handle_grasp_reward, 1, lift_reward, 20, 0]
-[pos_reward, 10, vel_reward, 0.01, handle_grasp_reward, 10, lift_reward, 10, 0]1_4
-[pos_reward, 10, vel_reward, 0.01, handle_grasp_reward, 10, lift_reward, 5, 0]
-[pos_reward, 10, vel_reward, 0.01, handle_grasp_reward, 10, lift_reward, 20, 0]
+[position_reward, 10, velocity_reward, 0.01, handle_grasp_reward, 5, lift_reward, 10, 0]1_4
+[position_reward, 10, velocity_reward, 0.01, handle_grasp_reward, 5, lift_reward, 5, 0]
+[position_reward, 10, velocity_reward, 0.01, handle_grasp_reward, 5, lift_reward, 20, 0]
+[position_reward, 10, velocity_reward, 0.01, handle_grasp_reward, 1, lift_reward, 10, 0]1_4
+[position_reward, 10, velocity_reward, 0.01, handle_grasp_reward, 1, lift_reward, 5, 0]
+[position_reward, 10, velocity_reward, 0.01, handle_grasp_reward, 1, lift_reward, 20, 0]
+[position_reward, 10, velocity_reward, 0.01, handle_grasp_reward, 10, lift_reward, 10, 0]1_4
+[position_reward, 10, velocity_reward, 0.01, handle_grasp_reward, 10, lift_reward, 5, 0]
+[position_reward, 10, velocity_reward, 0.01, handle_grasp_reward, 10, lift_reward, 20, 0]
 
-[pos_reward, 10, vel_reward, 0.1, handle_grasp_reward, 5, lift_reward, 10, 0]1_4
-[pos_reward, 10, vel_reward, 0.1, handle_grasp_reward, 5, lift_reward, 5, 0]
-[pos_reward, 10, vel_reward, 0.1, handle_grasp_reward, 5, lift_reward, 20, 0]
-[pos_reward, 10, vel_reward, 0.1, handle_grasp_reward, 1, lift_reward, 10, 0]1_4
-[pos_reward, 10, vel_reward, 0.1, handle_grasp_reward, 1, lift_reward, 5, 0]
-[pos_reward, 10, vel_reward, 0.1, handle_grasp_reward, 1, lift_reward, 20, 0]
-[pos_reward, 10, vel_reward, 0.1, handle_grasp_reward, 10, lift_reward, 10, 0]1_4
-[pos_reward, 10, vel_reward, 0.1, handle_grasp_reward, 10, lift_reward, 5, 0]
-[pos_reward, 10, vel_reward, 0.1, handle_grasp_reward, 10, lift_reward, 20, 0]
+[position_reward, 10, velocity_reward, 0.1, handle_grasp_reward, 5, lift_reward, 10, 0]1_4
+[position_reward, 10, velocity_reward, 0.1, handle_grasp_reward, 5, lift_reward, 5, 0]
+[position_reward, 10, velocity_reward, 0.1, handle_grasp_reward, 5, lift_reward, 20, 0]
+[position_reward, 10, velocity_reward, 0.1, handle_grasp_reward, 1, lift_reward, 10, 0]1_4
+[position_reward, 10, velocity_reward, 0.1, handle_grasp_reward, 1, lift_reward, 5, 0]
+[position_reward, 10, velocity_reward, 0.1, handle_grasp_reward, 1, lift_reward, 20, 0]
+[position_reward, 10, velocity_reward, 0.1, handle_grasp_reward, 10, lift_reward, 10, 0]1_4
+[position_reward, 10, velocity_reward, 0.1, handle_grasp_reward, 10, lift_reward, 5, 0]
+[position_reward, 10, velocity_reward, 0.1, handle_grasp_reward, 10, lift_reward, 20, 0]
 
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, lift_reward, 10, 0]1_4
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, lift_reward, 5, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, lift_reward, 20, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, lift_reward, 10, 0]1_4
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, lift_reward, 5, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, lift_reward, 20, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, lift_reward, 10, 0]1_4
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, lift_reward, 5, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, lift_reward, 20, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, lift_reward, 10, 0]1_4
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, lift_reward, 5, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, lift_reward, 20, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, lift_reward, 10, 0]1_4
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, lift_reward, 5, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, lift_reward, 20, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, lift_reward, 10, 0]1_4
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, lift_reward, 5, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, lift_reward, 20, 0]
 
-[pos_reward, 20, vel_reward, 0.01, handle_grasp_reward, 5, lift_reward, 10, 0]1_4
-[pos_reward, 20, vel_reward, 0.01, handle_grasp_reward, 5, lift_reward, 5, 0]
-[pos_reward, 20, vel_reward, 0.01, handle_grasp_reward, 5, lift_reward, 20, 0]
-[pos_reward, 20, vel_reward, 0.01, handle_grasp_reward, 1, lift_reward, 10, 0]1_4
-[pos_reward, 20, vel_reward, 0.01, handle_grasp_reward, 1, lift_reward, 5, 0]
-[pos_reward, 20, vel_reward, 0.01, handle_grasp_reward, 1, lift_reward, 20, 0]
-[pos_reward, 20, vel_reward, 0.01, handle_grasp_reward, 10, lift_reward, 10, 0]1_4
-[pos_reward, 20, vel_reward, 0.01, handle_grasp_reward, 10, lift_reward, 5, 0]
-[pos_reward, 20, vel_reward, 0.01, handle_grasp_reward, 10, lift_reward, 20, 0]
+[position_reward, 20, velocity_reward, 0.01, handle_grasp_reward, 5, lift_reward, 10, 0]1_4
+[position_reward, 20, velocity_reward, 0.01, handle_grasp_reward, 5, lift_reward, 5, 0]
+[position_reward, 20, velocity_reward, 0.01, handle_grasp_reward, 5, lift_reward, 20, 0]
+[position_reward, 20, velocity_reward, 0.01, handle_grasp_reward, 1, lift_reward, 10, 0]1_4
+[position_reward, 20, velocity_reward, 0.01, handle_grasp_reward, 1, lift_reward, 5, 0]
+[position_reward, 20, velocity_reward, 0.01, handle_grasp_reward, 1, lift_reward, 20, 0]
+[position_reward, 20, velocity_reward, 0.01, handle_grasp_reward, 10, lift_reward, 10, 0]1_4
+[position_reward, 20, velocity_reward, 0.01, handle_grasp_reward, 10, lift_reward, 5, 0]
+[position_reward, 20, velocity_reward, 0.01, handle_grasp_reward, 10, lift_reward, 20, 0]
 
-[pos_reward, 1, vel_reward, 0.1, handle_grasp_reward, 0.5, 0]0_0
-[pos_reward, 1, vel_reward, 0.1, handle_grasp_reward, 0.1, 0]
-[pos_reward, 1, vel_reward, 0.1, handle_grasp_reward, 1, 0]
-[pos_reward, 1, vel_reward, 0.5, handle_grasp_reward, 0.5, 0]0_0
-[pos_reward, 1, vel_reward, 0.5, handle_grasp_reward, 0.1, 0]
-[pos_reward, 1, vel_reward, 0.5, handle_grasp_reward, 1, 0]
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 0.5, 0]0_0
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 0.1, 0]
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 1, 0]
+[position_reward, 1, velocity_reward, 0.1, handle_grasp_reward, 0.5, 0]0_0
+[position_reward, 1, velocity_reward, 0.1, handle_grasp_reward, 0.1, 0]
+[position_reward, 1, velocity_reward, 0.1, handle_grasp_reward, 1, 0]
+[position_reward, 1, velocity_reward, 0.5, handle_grasp_reward, 0.5, 0]0_0
+[position_reward, 1, velocity_reward, 0.5, handle_grasp_reward, 0.1, 0]
+[position_reward, 1, velocity_reward, 0.5, handle_grasp_reward, 1, 0]
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 0.5, 0]0_0
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 0.1, 0]
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 1, 0]
 
-[pos_reward, 0.5, vel_reward, 0.1, handle_grasp_reward, 0.5, 0]0_0
-[pos_reward, 0.5, vel_reward, 0.1, handle_grasp_reward, 0.1, 0]
-[pos_reward, 0.5, vel_reward, 0.1, handle_grasp_reward, 1, 0]
-[pos_reward, 0.5, vel_reward, 0.5, handle_grasp_reward, 0.5, 0]0_0
-[pos_reward, 0.5, vel_reward, 0.5, handle_grasp_reward, 0.1, 0]
-[pos_reward, 0.5, vel_reward, 0.5, handle_grasp_reward, 1, 0]
-[pos_reward, 0.5, vel_reward, 1, handle_grasp_reward, 0.5, 0]0_0
-[pos_reward, 0.5, vel_reward, 1, handle_grasp_reward, 0.1, 0]
-[pos_reward, 0.5, vel_reward, 1, handle_grasp_reward, 1, 0]
+[position_reward, 0.5, velocity_reward, 0.1, handle_grasp_reward, 0.5, 0]0_0
+[position_reward, 0.5, velocity_reward, 0.1, handle_grasp_reward, 0.1, 0]
+[position_reward, 0.5, velocity_reward, 0.1, handle_grasp_reward, 1, 0]
+[position_reward, 0.5, velocity_reward, 0.5, handle_grasp_reward, 0.5, 0]0_0
+[position_reward, 0.5, velocity_reward, 0.5, handle_grasp_reward, 0.1, 0]
+[position_reward, 0.5, velocity_reward, 0.5, handle_grasp_reward, 1, 0]
+[position_reward, 0.5, velocity_reward, 1, handle_grasp_reward, 0.5, 0]0_0
+[position_reward, 0.5, velocity_reward, 1, handle_grasp_reward, 0.1, 0]
+[position_reward, 0.5, velocity_reward, 1, handle_grasp_reward, 1, 0]
 
-[pos_reward, 5, vel_reward, 0.1, handle_grasp_reward, 0.5, 0]0_0
-[pos_reward, 5, vel_reward, 0.1, handle_grasp_reward, 0.1, 0]
-[pos_reward, 5, vel_reward, 0.1, handle_grasp_reward, 1, 0]
-[pos_reward, 5, vel_reward, 0.5, handle_grasp_reward, 0.5, 0]0_0
-[pos_reward, 5, vel_reward, 0.5, handle_grasp_reward, 0.1, 0]
-[pos_reward, 5, vel_reward, 0.5, handle_grasp_reward, 1, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 0.5, 0]0_0
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 0.1, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, 0]
+[position_reward, 5, velocity_reward, 0.1, handle_grasp_reward, 0.5, 0]0_0
+[position_reward, 5, velocity_reward, 0.1, handle_grasp_reward, 0.1, 0]
+[position_reward, 5, velocity_reward, 0.1, handle_grasp_reward, 1, 0]
+[position_reward, 5, velocity_reward, 0.5, handle_grasp_reward, 0.5, 0]0_0
+[position_reward, 5, velocity_reward, 0.5, handle_grasp_reward, 0.1, 0]
+[position_reward, 5, velocity_reward, 0.5, handle_grasp_reward, 1, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 0.5, 0]0_0
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 0.1, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, 0]
 
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 5, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 5, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 5, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 1, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 1, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 1, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 10, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 10, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 10, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 5, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 5, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 5, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 1, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 1, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 1, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 10, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 10, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 10, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 5, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 5, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 5, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 1, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 1, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 1, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 10, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 10, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 10, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 5, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 5, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 5, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 1, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 1, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 1, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 10, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 10, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 10, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 5, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 5, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 5, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 1, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 1, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 1, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 10, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 10, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 10, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 5, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 5, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 5, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 1, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 1, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 1, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 10, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 10, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 10, lift_reward, 10, 0]
 
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 5, goal_align_reward, 5, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 5, goal_align_reward, 5, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 5, goal_align_reward, 5, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 5, goal_align_reward, 1, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 5, goal_align_reward, 1, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 5, goal_align_reward, 1, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 5, goal_align_reward, 10, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 5, goal_align_reward, 10, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 5, goal_align_reward, 10, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 1, goal_align_reward, 5, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 1, goal_align_reward, 5, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 1, goal_align_reward, 5, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 1, goal_align_reward, 1, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 1, goal_align_reward, 1, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 1, goal_align_reward, 1, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 1, goal_align_reward, 10, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 1, goal_align_reward, 10, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 1, goal_align_reward, 10, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 10, goal_align_reward, 5, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 10, goal_align_reward, 5, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 10, goal_align_reward, 5, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 10, goal_align_reward, 1, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 10, goal_align_reward, 1, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 10, goal_align_reward, 1, lift_reward, 10, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 10, goal_align_reward, 10, lift_reward, 5, 0]1_2
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 10, goal_align_reward, 10, lift_reward, 1, 0]
-[pos_reward, 10, vel_reward, 5, handle_grasp_reward, 10, goal_align_reward, 10, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 5, goal_alignment_reward, 5, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 5, goal_alignment_reward, 5, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 5, goal_alignment_reward, 5, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 5, goal_alignment_reward, 1, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 5, goal_alignment_reward, 1, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 5, goal_alignment_reward, 1, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 5, goal_alignment_reward, 10, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 5, goal_alignment_reward, 10, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 5, goal_alignment_reward, 10, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 1, goal_alignment_reward, 5, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 1, goal_alignment_reward, 5, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 1, goal_alignment_reward, 5, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 1, goal_alignment_reward, 1, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 1, goal_alignment_reward, 1, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 1, goal_alignment_reward, 1, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 1, goal_alignment_reward, 10, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 1, goal_alignment_reward, 10, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 1, goal_alignment_reward, 10, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 10, goal_alignment_reward, 5, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 10, goal_alignment_reward, 5, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 10, goal_alignment_reward, 5, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 10, goal_alignment_reward, 1, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 10, goal_alignment_reward, 1, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 10, goal_alignment_reward, 1, lift_reward, 10, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 10, goal_alignment_reward, 10, lift_reward, 5, 0]1_2
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 10, goal_alignment_reward, 10, lift_reward, 1, 0]
+[position_reward, 10, velocity_reward, 5, handle_grasp_reward, 10, goal_alignment_reward, 10, lift_reward, 10, 0]
 
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 5, lift_reward, 5, 0]1_2
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 5, lift_reward, 1, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 5, lift_reward, 10, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 1, lift_reward, 5, 0]1_2
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 1, lift_reward, 1, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 1, lift_reward, 10, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 10, lift_reward, 5, 0]1_2
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 10, lift_reward, 1, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 5, goal_align_reward, 10, lift_reward, 10, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 5, lift_reward, 5, 0]1_2
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 5, lift_reward, 1, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 5, lift_reward, 10, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 1, lift_reward, 5, 0]1_2
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 1, lift_reward, 1, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 1, lift_reward, 10, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 10, lift_reward, 5, 0]1_2
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 10, lift_reward, 1, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, goal_align_reward, 10, lift_reward, 10, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 5, lift_reward, 5, 0]1_2
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 5, lift_reward, 1, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 5, lift_reward, 10, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 1, lift_reward, 5, 0]1_2
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 1, lift_reward, 1, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 1, lift_reward, 10, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 10, lift_reward, 5, 0]1_2
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 10, lift_reward, 1, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, goal_align_reward, 10, lift_reward, 10, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 5, lift_reward, 5, 0]1_2
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 5, lift_reward, 1, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 5, lift_reward, 10, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 1, lift_reward, 5, 0]1_2
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 1, lift_reward, 1, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 1, lift_reward, 10, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 10, lift_reward, 5, 0]1_2
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 10, lift_reward, 1, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 5, goal_alignment_reward, 10, lift_reward, 10, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 5, lift_reward, 5, 0]1_2
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 5, lift_reward, 1, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 5, lift_reward, 10, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 1, lift_reward, 5, 0]1_2
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 1, lift_reward, 1, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 1, lift_reward, 10, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 10, lift_reward, 5, 0]1_2
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 10, lift_reward, 1, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, goal_alignment_reward, 10, lift_reward, 10, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 5, lift_reward, 5, 0]1_2
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 5, lift_reward, 1, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 5, lift_reward, 10, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 1, lift_reward, 5, 0]1_2
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 1, lift_reward, 1, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 1, lift_reward, 10, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 10, lift_reward, 5, 0]1_2
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 10, lift_reward, 1, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, goal_alignment_reward, 10, lift_reward, 10, 0]
 
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 2, success_reward, 1, 0]1_1
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 2, success_reward, 0.5, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 2, success_reward, 5, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, success_reward, 1, 0]1_1
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, success_reward, 0.5, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 1, success_reward, 5, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, success_reward, 1, 0]1_1
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, success_reward, 0.5, 0]
-[pos_reward, 5, vel_reward, 1, handle_grasp_reward, 10, success_reward, 5, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 2, success_reward, 1, 0]1_1
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 2, success_reward, 0.5, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 2, success_reward, 5, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, success_reward, 1, 0]1_1
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, success_reward, 0.5, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 1, success_reward, 5, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, success_reward, 1, 0]1_1
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, success_reward, 0.5, 0]
+[position_reward, 5, velocity_reward, 1, handle_grasp_reward, 10, success_reward, 5, 0]
 
-[pos_reward, 5, vel_reward, 5, handle_grasp_reward, 2, success_reward, 1, 0]1_1
-[pos_reward, 5, vel_reward, 5, handle_grasp_reward, 2, success_reward, 0.5, 0]
-[pos_reward, 5, vel_reward, 5, handle_grasp_reward, 2, success_reward, 5, 0]
-[pos_reward, 5, vel_reward, 5, handle_grasp_reward, 1, success_reward, 1, 0]1_1
-[pos_reward, 5, vel_reward, 5, handle_grasp_reward, 1, success_reward, 0.5, 0]
-[pos_reward, 5, vel_reward, 5, handle_grasp_reward, 1, success_reward, 5, 0]
-[pos_reward, 5, vel_reward, 5, handle_grasp_reward, 10, success_reward, 1, 0]1_1
-[pos_reward, 5, vel_reward, 5, handle_grasp_reward, 10, success_reward, 0.5, 0]
-[pos_reward, 5, vel_reward, 5, handle_grasp_reward, 10, success_reward, 5, 0]
+[position_reward, 5, velocity_reward, 5, handle_grasp_reward, 2, success_reward, 1, 0]1_1
+[position_reward, 5, velocity_reward, 5, handle_grasp_reward, 2, success_reward, 0.5, 0]
+[position_reward, 5, velocity_reward, 5, handle_grasp_reward, 2, success_reward, 5, 0]
+[position_reward, 5, velocity_reward, 5, handle_grasp_reward, 1, success_reward, 1, 0]1_1
+[position_reward, 5, velocity_reward, 5, handle_grasp_reward, 1, success_reward, 0.5, 0]
+[position_reward, 5, velocity_reward, 5, handle_grasp_reward, 1, success_reward, 5, 0]
+[position_reward, 5, velocity_reward, 5, handle_grasp_reward, 10, success_reward, 1, 0]1_1
+[position_reward, 5, velocity_reward, 5, handle_grasp_reward, 10, success_reward, 0.5, 0]
+[position_reward, 5, velocity_reward, 5, handle_grasp_reward, 10, success_reward, 5, 0]
 
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 2, success_reward, 1, 0]1_1
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 2, success_reward, 0.5, 0]
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 2, success_reward, 5, 0]
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 1, success_reward, 1, 0]1_1
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 1, success_reward, 0.5, 0]
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 1, success_reward, 5, 0]
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 10, success_reward, 1, 0]1_1
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 10, success_reward, 0.5, 0]
-[pos_reward, 1, vel_reward, 1, handle_grasp_reward, 10, success_reward, 5, 0]
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 2, success_reward, 1, 0]1_1
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 2, success_reward, 0.5, 0]
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 2, success_reward, 5, 0]
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 1, success_reward, 1, 0]1_1
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 1, success_reward, 0.5, 0]
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 1, success_reward, 5, 0]
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 10, success_reward, 1, 0]1_1
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 10, success_reward, 0.5, 0]
+[position_reward, 1, velocity_reward, 1, handle_grasp_reward, 10, success_reward, 5, 0]
 
-[pos_reward, 1, right_handle_reward, 1, left_handle_reward, 1, fingertip_reward, 1, 0]0_12
-[pos_reward, 1, right_handle_reward, 1, left_handle_reward, 1, fingertip_reward, 0.5, 0]
-[pos_reward, 1, right_handle_reward, 1, left_handle_reward, 1, fingertip_reward, 5, 0]
-[pos_reward, 1, right_handle_reward, 1, left_handle_reward, 0.5, fingertip_reward, 1, 0]0_12
-[pos_reward, 1, right_handle_reward, 1, left_handle_reward, 0.5, fingertip_reward, 0.5, 0]
-[pos_reward, 1, right_handle_reward, 1, left_handle_reward, 0.5, fingertip_reward, 5, 0]
-[pos_reward, 1, right_handle_reward, 1, left_handle_reward, 5, fingertip_reward, 1, 0]0_12
-[pos_reward, 1, right_handle_reward, 1, left_handle_reward, 5, fingertip_reward, 0.5, 0]
-[pos_reward, 1, right_handle_reward, 1, left_handle_reward, 5, fingertip_reward, 5, 0]
+[position_reward, 1, handle_reward, 1, handle_another_reward, 1, goal_reward, 1, 0]0_12
+[position_reward, 1, handle_reward, 1, handle_another_reward, 1, goal_reward, 0.5, 0]
+[position_reward, 1, handle_reward, 1, handle_another_reward, 1, goal_reward, 5, 0]
+[position_reward, 1, handle_reward, 1, handle_another_reward, 0.5, goal_reward, 1, 0]0_12
+[position_reward, 1, handle_reward, 1, handle_another_reward, 0.5, goal_reward, 0.5, 0]
+[position_reward, 1, handle_reward, 1, handle_another_reward, 0.5, goal_reward, 5, 0]
+[position_reward, 1, handle_reward, 1, handle_another_reward, 5, goal_reward, 1, 0]0_12
+[position_reward, 1, handle_reward, 1, handle_another_reward, 5, goal_reward, 0.5, 0]
+[position_reward, 1, handle_reward, 1, handle_another_reward, 5, goal_reward, 5, 0]
 
-[pos_reward, 1, right_handle_reward, 0.5, left_handle_reward, 1, fingertip_reward, 1, 0]0_12
-[pos_reward, 1, right_handle_reward, 0.5, left_handle_reward, 1, fingertip_reward, 0.5, 0]
-[pos_reward, 1, right_handle_reward, 0.5, left_handle_reward, 1, fingertip_reward, 5, 0]
-[pos_reward, 1, right_handle_reward, 0.5, left_handle_reward, 0.5, fingertip_reward, 1, 0]0_12
-[pos_reward, 1, right_handle_reward, 0.5, left_handle_reward, 0.5, fingertip_reward, 0.5, 0]
-[pos_reward, 1, right_handle_reward, 0.5, left_handle_reward, 0.5, fingertip_reward, 5, 0]
-[pos_reward, 1, right_handle_reward, 0.5, left_handle_reward, 5, fingertip_reward, 1, 0]0_12
-[pos_reward, 1, right_handle_reward, 0.5, left_handle_reward, 5, fingertip_reward, 0.5, 0]
-[pos_reward, 1, right_handle_reward, 0.5, left_handle_reward, 5, fingertip_reward, 5, 0]
+[position_reward, 1, handle_reward, 0.5, handle_another_reward, 1, goal_reward, 1, 0]0_12
+[position_reward, 1, handle_reward, 0.5, handle_another_reward, 1, goal_reward, 0.5, 0]
+[position_reward, 1, handle_reward, 0.5, handle_another_reward, 1, goal_reward, 5, 0]
+[position_reward, 1, handle_reward, 0.5, handle_another_reward, 0.5, goal_reward, 1, 0]0_12
+[position_reward, 1, handle_reward, 0.5, handle_another_reward, 0.5, goal_reward, 0.5, 0]
+[position_reward, 1, handle_reward, 0.5, handle_another_reward, 0.5, goal_reward, 5, 0]
+[position_reward, 1, handle_reward, 0.5, handle_another_reward, 5, goal_reward, 1, 0]0_12
+[position_reward, 1, handle_reward, 0.5, handle_another_reward, 5, goal_reward, 0.5, 0]
+[position_reward, 1, handle_reward, 0.5, handle_another_reward, 5, goal_reward, 5, 0]
 
-[pos_reward, 0.5, right_handle_reward, 5, left_handle_reward, 1, fingertip_reward, 1, 0]0_12
-[pos_reward, 0.5, right_handle_reward, 5, left_handle_reward, 1, fingertip_reward, 0.5, 0]
-[pos_reward, 0.5, right_handle_reward, 5, left_handle_reward, 1, fingertip_reward, 5, 0]
-[pos_reward, 0.5, right_handle_reward, 5, left_handle_reward, 0.5, fingertip_reward, 1, 0]0_12
-[pos_reward, 0.5, right_handle_reward, 5, left_handle_reward, 0.5, fingertip_reward, 0.5, 0]
-[pos_reward, 0.5, right_handle_reward, 5, left_handle_reward, 0.5, fingertip_reward, 5, 0]
-[pos_reward, 0.5, right_handle_reward, 5, left_handle_reward, 5, fingertip_reward, 1, 0]0_12
-[pos_reward, 0.5, right_handle_reward, 5, left_handle_reward, 5, fingertip_reward, 0.5, 0]
-[pos_reward, 0.5, right_handle_reward, 5, left_handle_reward, 5, fingertip_reward, 5, 0]
+[position_reward, 0.5, handle_reward, 5, handle_another_reward, 1, goal_reward, 1, 0]0_12
+[position_reward, 0.5, handle_reward, 5, handle_another_reward, 1, goal_reward, 0.5, 0]
+[position_reward, 0.5, handle_reward, 5, handle_another_reward, 1, goal_reward, 5, 0]
+[position_reward, 0.5, handle_reward, 5, handle_another_reward, 0.5, goal_reward, 1, 0]0_12
+[position_reward, 0.5, handle_reward, 5, handle_another_reward, 0.5, goal_reward, 0.5, 0]
+[position_reward, 0.5, handle_reward, 5, handle_another_reward, 0.5, goal_reward, 5, 0]
+[position_reward, 0.5, handle_reward, 5, handle_another_reward, 5, goal_reward, 1, 0]0_12
+[position_reward, 0.5, handle_reward, 5, handle_another_reward, 5, goal_reward, 0.5, 0]
+[position_reward, 0.5, handle_reward, 5, handle_another_reward, 5, goal_reward, 5, 0]
 
-[pos_reward, 5, right_handle_reward, 1, left_handle_reward, 1, fingertip_reward, 1, 0]0_12
-[pos_reward, 5, right_handle_reward, 1, left_handle_reward, 1, fingertip_reward, 0.5, 0]
-[pos_reward, 5, right_handle_reward, 1, left_handle_reward, 1, fingertip_reward, 5, 0]
-[pos_reward, 5, right_handle_reward, 1, left_handle_reward, 0.5, fingertip_reward, 1, 0]0_12
-[pos_reward, 5, right_handle_reward, 1, left_handle_reward, 0.5, fingertip_reward, 0.5, 0]
-[pos_reward, 5, right_handle_reward, 1, left_handle_reward, 0.5, fingertip_reward, 5, 0]
-[pos_reward, 5, right_handle_reward, 1, left_handle_reward, 5, fingertip_reward, 1, 0]0_12
-[pos_reward, 5, right_handle_reward, 1, left_handle_reward, 5, fingertip_reward, 0.5, 0]
-[pos_reward, 5, right_handle_reward, 1, left_handle_reward, 5, fingertip_reward, 5, 0]
+[position_reward, 5, handle_reward, 1, handle_another_reward, 1, goal_reward, 1, 0]0_12
+[position_reward, 5, handle_reward, 1, handle_another_reward, 1, goal_reward, 0.5, 0]
+[position_reward, 5, handle_reward, 1, handle_another_reward, 1, goal_reward, 5, 0]
+[position_reward, 5, handle_reward, 1, handle_another_reward, 0.5, goal_reward, 1, 0]0_12
+[position_reward, 5, handle_reward, 1, handle_another_reward, 0.5, goal_reward, 0.5, 0]
+[position_reward, 5, handle_reward, 1, handle_another_reward, 0.5, goal_reward, 5, 0]
+[position_reward, 5, handle_reward, 1, handle_another_reward, 5, goal_reward, 1, 0]0_12
+[position_reward, 5, handle_reward, 1, handle_another_reward, 5, goal_reward, 0.5, 0]
+[position_reward, 5, handle_reward, 1, handle_another_reward, 5, goal_reward, 5, 0]
 
-[pos_reward, 1, handle_reward, 0.5, lift_reward, 0.5, 0]0_8
-[pos_reward, 1, handle_reward, 0.5, lift_reward, 0.1, 0]
-[pos_reward, 1, handle_reward, 0.5, lift_reward, 5, 0]
-[pos_reward, 1, handle_reward, 0.1, lift_reward, 0.5, 0]0_8
-[pos_reward, 1, handle_reward, 0.1, lift_reward, 0.1, 0]
-[pos_reward, 1, handle_reward, 0.1, lift_reward, 5, 0]
-[pos_reward, 1, handle_reward, 5, lift_reward, 0.5, 0]0_8
-[pos_reward, 1, handle_reward, 5, lift_reward, 0.1, 0]
-[pos_reward, 1, handle_reward, 5, lift_reward, 5, 0]
-[pos_reward, 0.5, handle_reward, 0.5, lift_reward, 0.5, 0]0_8
-[pos_reward, 0.5, handle_reward, 0.5, lift_reward, 0.1, 0]
-[pos_reward, 0.5, handle_reward, 0.5, lift_reward, 5, 0]
-[pos_reward, 0.5, handle_reward, 0.1, lift_reward, 0.5, 0]0_8
-[pos_reward, 0.5, handle_reward, 0.1, lift_reward, 0.1, 0]
-[pos_reward, 0.5, handle_reward, 0.1, lift_reward, 5, 0]
-[pos_reward, 0.5, handle_reward, 5, lift_reward, 0.5, 0]0_8
-[pos_reward, 0.5, handle_reward, 5, lift_reward, 0.1, 0]
-[pos_reward, 0.5, handle_reward, 5, lift_reward, 5, 0]
-[pos_reward, 5, handle_reward, 0.5, lift_reward, 0.5, 0]0_8
-[pos_reward, 5, handle_reward, 0.5, lift_reward, 0.1, 0]
-[pos_reward, 5, handle_reward, 0.5, lift_reward, 5, 0]
-[pos_reward, 5, handle_reward, 0.1, lift_reward, 0.5, 0]0_8
-[pos_reward, 5, handle_reward, 0.1, lift_reward, 0.1, 0]
-[pos_reward, 5, handle_reward, 0.1, lift_reward, 5, 0]
-[pos_reward, 5, handle_reward, 5, lift_reward, 0.5, 0]0_8
-[pos_reward, 5, handle_reward, 5, lift_reward, 0.1, 0]
-[pos_reward, 5, handle_reward, 5, lift_reward, 5, 0]
+[position_reward, 1, handle_reward, 0.5, lift_reward, 0.5, 0]0_8
+[position_reward, 1, handle_reward, 0.5, lift_reward, 0.1, 0]
+[position_reward, 1, handle_reward, 0.5, lift_reward, 5, 0]
+[position_reward, 1, handle_reward, 0.1, lift_reward, 0.5, 0]0_8
+[position_reward, 1, handle_reward, 0.1, lift_reward, 0.1, 0]
+[position_reward, 1, handle_reward, 0.1, lift_reward, 5, 0]
+[position_reward, 1, handle_reward, 5, lift_reward, 0.5, 0]0_8
+[position_reward, 1, handle_reward, 5, lift_reward, 0.1, 0]
+[position_reward, 1, handle_reward, 5, lift_reward, 5, 0]
+[position_reward, 0.5, handle_reward, 0.5, lift_reward, 0.5, 0]0_8
+[position_reward, 0.5, handle_reward, 0.5, lift_reward, 0.1, 0]
+[position_reward, 0.5, handle_reward, 0.5, lift_reward, 5, 0]
+[position_reward, 0.5, handle_reward, 0.1, lift_reward, 0.5, 0]0_8
+[position_reward, 0.5, handle_reward, 0.1, lift_reward, 0.1, 0]
+[position_reward, 0.5, handle_reward, 0.1, lift_reward, 5, 0]
+[position_reward, 0.5, handle_reward, 5, lift_reward, 0.5, 0]0_8
+[position_reward, 0.5, handle_reward, 5, lift_reward, 0.1, 0]
+[position_reward, 0.5, handle_reward, 5, lift_reward, 5, 0]
+[position_reward, 5, handle_reward, 0.5, lift_reward, 0.5, 0]0_8
+[position_reward, 5, handle_reward, 0.5, lift_reward, 0.1, 0]
+[position_reward, 5, handle_reward, 0.5, lift_reward, 5, 0]
+[position_reward, 5, handle_reward, 0.1, lift_reward, 0.5, 0]0_8
+[position_reward, 5, handle_reward, 0.1, lift_reward, 0.1, 0]
+[position_reward, 5, handle_reward, 0.1, lift_reward, 5, 0]
+[position_reward, 5, handle_reward, 5, lift_reward, 0.5, 0]0_8
+[position_reward, 5, handle_reward, 5, lift_reward, 0.1, 0]
+[position_reward, 5, handle_reward, 5, lift_reward, 5, 0]
 
-[pos_reward, 1, grasp_reward, 1, linvel_reward, 0.1, angvel_reward, 0.1, 0]0_7
-[pos_reward, 1, grasp_reward, 1, linvel_reward, 0.1, angvel_reward, 0.5, 0]
-[pos_reward, 1, grasp_reward, 1, linvel_reward, 0.1, angvel_reward, 1, 0] 
-[pos_reward, 1, grasp_reward, 1, linvel_reward, 0.5, angvel_reward, 0.1, 0]0_7
-[pos_reward, 1, grasp_reward, 1, linvel_reward, 0.5, angvel_reward, 0.5, 0]
-[pos_reward, 1, grasp_reward, 1, linvel_reward, 0.5, angvel_reward, 1, 0] 
-[pos_reward, 1, grasp_reward, 1, linvel_reward, 1, angvel_reward, 0.1, 0]0_7
-[pos_reward, 1, grasp_reward, 1, linvel_reward, 1, angvel_reward, 0.5, 0]
-[pos_reward, 1, grasp_reward, 1, linvel_reward, 1, angvel_reward, 1, 0] 
+[position_reward, 1, grasp_reward, 1, linvelocity_reward, 0.1, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 1, grasp_reward, 1, linvelocity_reward, 0.1, angular_velocity_reward, 0.5, 0]
+[position_reward, 1, grasp_reward, 1, linvelocity_reward, 0.1, angular_velocity_reward, 1, 0] 
+[position_reward, 1, grasp_reward, 1, linvelocity_reward, 0.5, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 1, grasp_reward, 1, linvelocity_reward, 0.5, angular_velocity_reward, 0.5, 0]
+[position_reward, 1, grasp_reward, 1, linvelocity_reward, 0.5, angular_velocity_reward, 1, 0] 
+[position_reward, 1, grasp_reward, 1, linvelocity_reward, 1, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 1, grasp_reward, 1, linvelocity_reward, 1, angular_velocity_reward, 0.5, 0]
+[position_reward, 1, grasp_reward, 1, linvelocity_reward, 1, angular_velocity_reward, 1, 0] 
 
-[pos_reward, 1, grasp_reward, 0.5, linvel_reward, 0.1, angvel_reward, 0.1, 0]0_7
-[pos_reward, 1, grasp_reward, 0.5, linvel_reward, 0.1, angvel_reward, 0.5, 0]
-[pos_reward, 1, grasp_reward, 0.5, linvel_reward, 0.1, angvel_reward, 1, 0] 
-[pos_reward, 1, grasp_reward, 0.5, linvel_reward, 0.5, angvel_reward, 0.1, 0]0_7
-[pos_reward, 1, grasp_reward, 0.5, linvel_reward, 0.5, angvel_reward, 0.5, 0]
-[pos_reward, 1, grasp_reward, 0.5, linvel_reward, 0.5, angvel_reward, 1, 0] 
-[pos_reward, 1, grasp_reward, 0.5, linvel_reward, 1, angvel_reward, 0.1, 0]0_7
-[pos_reward, 1, grasp_reward, 0.5, linvel_reward, 1, angvel_reward, 0.5, 0]
-[pos_reward, 1, grasp_reward, 0.5, linvel_reward, 1, angvel_reward, 1, 0] 
+[position_reward, 1, grasp_reward, 0.5, linvelocity_reward, 0.1, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 1, grasp_reward, 0.5, linvelocity_reward, 0.1, angular_velocity_reward, 0.5, 0]
+[position_reward, 1, grasp_reward, 0.5, linvelocity_reward, 0.1, angular_velocity_reward, 1, 0] 
+[position_reward, 1, grasp_reward, 0.5, linvelocity_reward, 0.5, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 1, grasp_reward, 0.5, linvelocity_reward, 0.5, angular_velocity_reward, 0.5, 0]
+[position_reward, 1, grasp_reward, 0.5, linvelocity_reward, 0.5, angular_velocity_reward, 1, 0] 
+[position_reward, 1, grasp_reward, 0.5, linvelocity_reward, 1, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 1, grasp_reward, 0.5, linvelocity_reward, 1, angular_velocity_reward, 0.5, 0]
+[position_reward, 1, grasp_reward, 0.5, linvelocity_reward, 1, angular_velocity_reward, 1, 0] 
 
-[pos_reward, 0.5, grasp_reward, 5, linvel_reward, 0.1, angvel_reward, 0.1, 0]0_7
-[pos_reward, 0.5, grasp_reward, 5, linvel_reward, 0.1, angvel_reward, 0.5, 0]
-[pos_reward, 0.5, grasp_reward, 5, linvel_reward, 0.1, angvel_reward, 1, 0] 
-[pos_reward, 0.5, grasp_reward, 5, linvel_reward, 0.5, angvel_reward, 0.1, 0]0_7
-[pos_reward, 0.5, grasp_reward, 5, linvel_reward, 0.5, angvel_reward, 0.5, 0]
-[pos_reward, 0.5, grasp_reward, 5, linvel_reward, 0.5, angvel_reward, 1, 0] 
-[pos_reward, 0.5, grasp_reward, 5, linvel_reward, 1, angvel_reward, 0.1, 0]0_7
-[pos_reward, 0.5, grasp_reward, 5, linvel_reward, 1, angvel_reward, 0.5, 0]
-[pos_reward, 0.5, grasp_reward, 5, linvel_reward, 1, angvel_reward, 1, 0] 
+[position_reward, 0.5, grasp_reward, 5, linvelocity_reward, 0.1, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 0.5, grasp_reward, 5, linvelocity_reward, 0.1, angular_velocity_reward, 0.5, 0]
+[position_reward, 0.5, grasp_reward, 5, linvelocity_reward, 0.1, angular_velocity_reward, 1, 0] 
+[position_reward, 0.5, grasp_reward, 5, linvelocity_reward, 0.5, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 0.5, grasp_reward, 5, linvelocity_reward, 0.5, angular_velocity_reward, 0.5, 0]
+[position_reward, 0.5, grasp_reward, 5, linvelocity_reward, 0.5, angular_velocity_reward, 1, 0] 
+[position_reward, 0.5, grasp_reward, 5, linvelocity_reward, 1, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 0.5, grasp_reward, 5, linvelocity_reward, 1, angular_velocity_reward, 0.5, 0]
+[position_reward, 0.5, grasp_reward, 5, linvelocity_reward, 1, angular_velocity_reward, 1, 0] 
 
-[pos_reward, 5, grasp_reward, 1, linvel_reward, 0.1, angvel_reward, 0.1, 0]0_7
-[pos_reward, 5, grasp_reward, 1, linvel_reward, 0.1, angvel_reward, 0.5, 0]
-[pos_reward, 5, grasp_reward, 1, linvel_reward, 0.1, angvel_reward, 1, 0] 
-[pos_reward, 5, grasp_reward, 1, linvel_reward, 0.5, angvel_reward, 0.1, 0]0_7
-[pos_reward, 5, grasp_reward, 1, linvel_reward, 0.5, angvel_reward, 0.5, 0]
-[pos_reward, 5, grasp_reward, 1, linvel_reward, 0.5, angvel_reward, 1, 0] 
-[pos_reward, 5, grasp_reward, 1, linvel_reward, 1, angvel_reward, 0.1, 0]0_7
-[pos_reward, 5, grasp_reward, 1, linvel_reward, 1, angvel_reward, 0.5, 0]
-[pos_reward, 5, grasp_reward, 1, linvel_reward, 1, angvel_reward, 1, 0] 
+[position_reward, 5, grasp_reward, 1, linvelocity_reward, 0.1, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 5, grasp_reward, 1, linvelocity_reward, 0.1, angular_velocity_reward, 0.5, 0]
+[position_reward, 5, grasp_reward, 1, linvelocity_reward, 0.1, angular_velocity_reward, 1, 0] 
+[position_reward, 5, grasp_reward, 1, linvelocity_reward, 0.5, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 5, grasp_reward, 1, linvelocity_reward, 0.5, angular_velocity_reward, 0.5, 0]
+[position_reward, 5, grasp_reward, 1, linvelocity_reward, 0.5, angular_velocity_reward, 1, 0] 
+[position_reward, 5, grasp_reward, 1, linvelocity_reward, 1, angular_velocity_reward, 0.1, 0]0_7
+[position_reward, 5, grasp_reward, 1, linvelocity_reward, 1, angular_velocity_reward, 0.5, 0]
+[position_reward, 5, grasp_reward, 1, linvelocity_reward, 1, angular_velocity_reward, 1, 0] 
 
-[pos_reward, 10, vel_reward, 1, grasp_reward, 5, 0]0_6
-[pos_reward, 10, vel_reward, 1, grasp_reward, 1, 0]
-[pos_reward, 10, vel_reward, 1, grasp_reward, 10, 0]
-[pos_reward, 10, vel_reward, 0.5, grasp_reward, 5, 0]0_6
-[pos_reward, 10, vel_reward, 0.5, grasp_reward, 1, 0]
-[pos_reward, 10, vel_reward, 0.5, grasp_reward, 10, 0]
-[pos_reward, 10, vel_reward, 5, grasp_reward, 5, 0]0_6
-[pos_reward, 10, vel_reward, 5, grasp_reward, 1, 0]
-[pos_reward, 10, vel_reward, 5, grasp_reward, 10, 0]
+[position_reward, 10, velocity_reward, 1, grasp_reward, 5, 0]0_6
+[position_reward, 10, velocity_reward, 1, grasp_reward, 1, 0]
+[position_reward, 10, velocity_reward, 1, grasp_reward, 10, 0]
+[position_reward, 10, velocity_reward, 0.5, grasp_reward, 5, 0]0_6
+[position_reward, 10, velocity_reward, 0.5, grasp_reward, 1, 0]
+[position_reward, 10, velocity_reward, 0.5, grasp_reward, 10, 0]
+[position_reward, 10, velocity_reward, 5, grasp_reward, 5, 0]0_6
+[position_reward, 10, velocity_reward, 5, grasp_reward, 1, 0]
+[position_reward, 10, velocity_reward, 5, grasp_reward, 10, 0]
 
-[pos_reward, 5, vel_reward, 1, grasp_reward, 5, 0]0_6
-[pos_reward, 5, vel_reward, 1, grasp_reward, 1, 0]
-[pos_reward, 5, vel_reward, 1, grasp_reward, 10, 0]
-[pos_reward, 5, vel_reward, 0.5, grasp_reward, 5, 0]0_6
-[pos_reward, 5, vel_reward, 0.5, grasp_reward, 1, 0]
-[pos_reward, 5, vel_reward, 0.5, grasp_reward, 10, 0]
-[pos_reward, 5, vel_reward, 5, grasp_reward, 5, 0]0_6
-[pos_reward, 5, vel_reward, 5, grasp_reward, 1, 0]
-[pos_reward, 5, vel_reward, 5, grasp_reward, 10, 0]
+[position_reward, 5, velocity_reward, 1, grasp_reward, 5, 0]0_6
+[position_reward, 5, velocity_reward, 1, grasp_reward, 1, 0]
+[position_reward, 5, velocity_reward, 1, grasp_reward, 10, 0]
+[position_reward, 5, velocity_reward, 0.5, grasp_reward, 5, 0]0_6
+[position_reward, 5, velocity_reward, 0.5, grasp_reward, 1, 0]
+[position_reward, 5, velocity_reward, 0.5, grasp_reward, 10, 0]
+[position_reward, 5, velocity_reward, 5, grasp_reward, 5, 0]0_6
+[position_reward, 5, velocity_reward, 5, grasp_reward, 1, 0]
+[position_reward, 5, velocity_reward, 5, grasp_reward, 10, 0]
 
-[pos_reward, 20, vel_reward, 1, grasp_reward, 5, 0]0_6
-[pos_reward, 20, vel_reward, 1, grasp_reward, 1, 0]
-[pos_reward, 20, vel_reward, 1, grasp_reward, 10, 0]
-[pos_reward, 20, vel_reward, 0.5, grasp_reward, 5, 0]0_6
-[pos_reward, 20, vel_reward, 0.5, grasp_reward, 1, 0]
-[pos_reward, 20, vel_reward, 0.5, grasp_reward, 10, 0]
-[pos_reward, 20, vel_reward, 5, grasp_reward, 5, 0]0_6
-[pos_reward, 20, vel_reward, 5, grasp_reward, 1, 0]
-[pos_reward, 20, vel_reward, 5, grasp_reward, 10, 0]
+[position_reward, 20, velocity_reward, 1, grasp_reward, 5, 0]0_6
+[position_reward, 20, velocity_reward, 1, grasp_reward, 1, 0]
+[position_reward, 20, velocity_reward, 1, grasp_reward, 10, 0]
+[position_reward, 20, velocity_reward, 0.5, grasp_reward, 5, 0]0_6
+[position_reward, 20, velocity_reward, 0.5, grasp_reward, 1, 0]
+[position_reward, 20, velocity_reward, 0.5, grasp_reward, 10, 0]
+[position_reward, 20, velocity_reward, 5, grasp_reward, 5, 0]0_6
+[position_reward, 20, velocity_reward, 5, grasp_reward, 1, 0]
+[position_reward, 20, velocity_reward, 5, grasp_reward, 10, 0]
 
 [goal_reward, 1, grasp_reward, 0.5, velocity_penalty, 2, 0]0_13
 [goal_reward, 1, grasp_reward, 0.5, velocity_penalty, 1, 0]

@@ -1,505 +1,448 @@
-[cap_up_reward, 0.1, cap_distance_reward, 0.5, hand_dist_reward, 0.2, bottle_vel_reward, 0.05, finger_grasp_reward, 0.1, 0.4312]0_5
-[cap_up_reward, 0.1, cap_distance_reward, 0.5, hand_dist_reward, 0.2, bottle_vel_reward, 0.05, finger_grasp_reward, 1, 0.166]
-[cap_up_reward, 0.1, cap_distance_reward, 0.5, hand_dist_reward, 0.2, bottle_vel_reward, 0.5, finger_grasp_reward, 0.1, 0.312]
-[cap_up_reward, 0.1, cap_distance_reward, 0.5, hand_dist_reward, 0.2, bottle_vel_reward, 0.5, finger_grasp_reward, 0.01, 0.0244]
-[cap_up_reward, 0.1, cap_distance_reward, 0.5, hand_dist_reward, 1, bottle_vel_reward, 0.05, finger_grasp_reward, 0.1, 0.2681]0_5
-[cap_up_reward, 0.1, cap_distance_reward, 0.5, hand_dist_reward, 1, bottle_vel_reward, 0.05, finger_grasp_reward, 1, 0.2051]
-[cap_up_reward, 0.1, cap_distance_reward, 0.5, hand_dist_reward, 1, bottle_vel_reward, 1, finger_grasp_reward, 0.1, 0.0312]
-[cap_up_reward, 0.1, cap_distance_reward, 0.5, hand_dist_reward, 1, bottle_vel_reward, 1, finger_grasp_reward, 0.01, 0.5532]
-[cap_up_reward, 0.1, cap_distance_reward, 1, hand_dist_reward, 0.2, bottle_vel_reward, 0.05, finger_grasp_reward, 0.1, 0.207]0_5
-[cap_up_reward, 0.1, cap_distance_reward, 1, hand_dist_reward, 0.2, bottle_vel_reward, 0.05, finger_grasp_reward, 1, 0.0347]
-[cap_up_reward, 0.1, cap_distance_reward, 1, hand_dist_reward, 0.2, bottle_vel_reward, 0.5, finger_grasp_reward, 0.1, 0.1025]
-[cap_up_reward, 0.1, cap_distance_reward, 1, hand_dist_reward, 0.2, bottle_vel_reward, 0.5, finger_grasp_reward, 0.01, 0.229]
-[cap_up_reward, 0.1, cap_distance_reward, 0.1, hand_dist_reward, 5, bottle_vel_reward, 0.05, finger_grasp_reward, 0.1, 0.027]0_5
-[cap_up_reward, 0.1, cap_distance_reward, 0.1, hand_dist_reward, 5, bottle_vel_reward, 0.05, finger_grasp_reward, 1, 0.1865]
-[cap_up_reward, 0.1, cap_distance_reward, 0.1, hand_dist_reward, 5, bottle_vel_reward, 1, finger_grasp_reward, 0.1, 0.1475]
-[cap_up_reward, 0.1, cap_distance_reward, 0.1, hand_dist_reward, 5, bottle_vel_reward, 1, finger_grasp_reward, 0.01, 0.1733]
-[cap_up_reward, 1, cap_distance_reward, 0.5, hand_dist_reward, 0.2, bottle_vel_reward, 0.05, finger_grasp_reward, 0.1, 0.29]0_5
-[cap_up_reward, 1, cap_distance_reward, 0.5, hand_dist_reward, 0.2, bottle_vel_reward, 0.05, finger_grasp_reward, 1, 0.2979]
-[cap_up_reward, 1, cap_distance_reward, 0.5, hand_dist_reward, 0.2, bottle_vel_reward, 0.5, finger_grasp_reward, 0.1, 0.0479]
-[cap_up_reward, 1, cap_distance_reward, 0.5, hand_dist_reward, 0.2, bottle_vel_reward, 0.5, finger_grasp_reward, 0.01, 0.1323]
-[cap_up_reward, 1, cap_distance_reward, 0.5, hand_dist_reward, 0.05, bottle_vel_reward, 0.05, finger_grasp_reward, 0.1, 0.5156]0_5
-[cap_up_reward, 1, cap_distance_reward, 0.5, hand_dist_reward, 0.05, bottle_vel_reward, 0.05, finger_grasp_reward, 1, 0.2539]
-[cap_up_reward, 1, cap_distance_reward, 0.5, hand_dist_reward, 0.05, bottle_vel_reward, 1, finger_grasp_reward, 0.1, 0.2046]
-[cap_up_reward, 1, cap_distance_reward, 0.5, hand_dist_reward, 0.05, bottle_vel_reward, 1, finger_grasp_reward, 0.01, 0.1689]
-[cap_up_reward, 5, cap_distance_reward, 1, hand_dist_reward, 0.2, bottle_vel_reward, 0.5, finger_grasp_reward, 0.1, 0.1328]
-[cap_up_reward, 5, cap_distance_reward, 1, hand_dist_reward, 0.2, bottle_vel_reward, 0.5, finger_grasp_reward, 0.01, 0.1084]
-[cap_up_reward, 5, cap_distance_reward, 0.1, hand_dist_reward, 1, bottle_vel_reward, 0.05, finger_grasp_reward, 0.1, 0.1406]0_5
-[cap_up_reward, 5, cap_distance_reward, 0.1, hand_dist_reward, 1, bottle_vel_reward, 1, finger_grasp_reward, 0.1, 0.1021]
-[cap_up_reward, 5, cap_distance_reward, 0.1, hand_dist_reward, 1, bottle_vel_reward, 1, finger_grasp_reward, 0.01, 0.0645]
+[goal_reward, 1, goal_another_reward, 1, position_reward, 1, velocity_penalty, 0.1, alignment_reward, 1, 0.5371]0_9
+[goal_reward, 1, goal_another_reward, 1, position_reward, 1, velocity_penalty, 0.1, alignment_reward, 5, 0.1289]
+[goal_reward, 1, goal_another_reward, 1, position_reward, 1, velocity_penalty, 1, alignment_reward, 1, 0.1025]
+[goal_reward, 1, goal_another_reward, 1, position_reward, 1, velocity_penalty, 1, alignment_reward, 5, 0.7329]
+[goal_reward, 1, goal_another_reward, 1, position_reward, 5, velocity_penalty, 0.1, alignment_reward, 1, 0.3501]0_9
+[goal_reward, 1, goal_another_reward, 1, position_reward, 5, velocity_penalty, 0.1, alignment_reward, 5, 0.1816]
+[goal_reward, 1, goal_another_reward, 1, position_reward, 5, velocity_penalty, 1, alignment_reward, 1, 0.1724]
+[goal_reward, 1, goal_another_reward, 1, position_reward, 5, velocity_penalty, 1, alignment_reward, 5, 0.251]
+[goal_reward, 1, goal_another_reward, 5, position_reward, 1, velocity_penalty, 0.1, alignment_reward, 1, 0.1982]0_9
+[goal_reward, 1, goal_another_reward, 5, position_reward, 1, velocity_penalty, 0.1, alignment_reward, 5, 0.1792]
+[goal_reward, 1, goal_another_reward, 5, position_reward, 1, velocity_penalty, 1, alignment_reward, 1, 0.0386]
+[goal_reward, 1, goal_another_reward, 5, position_reward, 1, velocity_penalty, 1, alignment_reward, 5, 0.3965]
+[goal_reward, 1, goal_another_reward, 5, position_reward, 2, velocity_penalty, 0.1, alignment_reward, 1, 0.1021]0_9
+[goal_reward, 1, goal_another_reward, 5, position_reward, 2, velocity_penalty, 0.1, alignment_reward, 5, 0.2119]
+[goal_reward, 1, goal_another_reward, 5, position_reward, 2, velocity_penalty, 5, alignment_reward, 1, 0.1753]
+[goal_reward, 1, goal_another_reward, 5, position_reward, 2, velocity_penalty, 5, alignment_reward, 5, 0.4185]
+[goal_reward, 5, goal_another_reward, 1, position_reward, 1, velocity_penalty, 0.1, alignment_reward, 1, 0.375]0_9
+[goal_reward, 5, goal_another_reward, 1, position_reward, 1, velocity_penalty, 0.1, alignment_reward, 10, 0.522]
+[goal_reward, 5, goal_another_reward, 1, position_reward, 1, velocity_penalty, 1, alignment_reward, 1, 0.1567]
+[goal_reward, 5, goal_another_reward, 1, position_reward, 1, velocity_penalty, 1, alignment_reward, 10, 0.1167]
+[goal_reward, 5, goal_another_reward, 1, position_reward, 5, velocity_penalty, 0.1, alignment_reward, 1, 0.208]0_9
+[goal_reward, 5, goal_another_reward, 1, position_reward, 5, velocity_penalty, 0.1, alignment_reward, 10, 0.1694]
+[goal_reward, 5, goal_another_reward, 1, position_reward, 5, velocity_penalty, 1, alignment_reward, 1, 0.2344]
+[goal_reward, 5, goal_another_reward, 1, position_reward, 5, velocity_penalty, 1, alignment_reward, 10, 0.2549]
+[goal_reward, 10, goal_another_reward, 5, position_reward, 1, velocity_penalty, 0.1, alignment_reward, 1, 0.1157]0_9
+[goal_reward, 10, goal_another_reward, 5, position_reward, 1, velocity_penalty, 0.1, alignment_reward, 10, 0.1797]
+[goal_reward, 10, goal_another_reward, 5, position_reward, 1, velocity_penalty, 1, alignment_reward, 1, 0.1362]
+[goal_reward, 10, goal_another_reward, 5, position_reward, 1, velocity_penalty, 1, alignment_reward, 5, 0.1616]
+[goal_reward, 10, goal_another_reward, 5, position_reward, 2, velocity_penalty, 0.1, alignment_reward, 1, 0.2549]0_9
+[goal_reward, 10, goal_another_reward, 5, position_reward, 2, velocity_penalty, 0.1, alignment_reward, 5, 0.2109]
+[goal_reward, 10, goal_another_reward, 5, position_reward, 2, velocity_penalty, 5, alignment_reward, 1, 0.3359]
+[goal_reward, 10, goal_another_reward, 5, position_reward, 2, velocity_penalty, 5, alignment_reward, 5, 0.2856]
+
+[hold_object_reward, 0.2, grasp_reward, 0.3, alignment_reward, 0.2, progress_reward, 0.2, goal_reward, 0.1, 0.4849]1_8
+[hold_object_reward, 0.2, grasp_reward, 0.3, alignment_reward, 0.2, progress_reward, 0.2, goal_reward, 1, 0.2285]
+[hold_object_reward, 0.2, grasp_reward, 0.3, alignment_reward, 0.2, progress_reward, 1, goal_reward, 0.1, 0.1514]
+[hold_object_reward, 0.2, grasp_reward, 0.3, alignment_reward, 0.2, progress_reward, 1, goal_reward, 1, 0.165]
+[hold_object_reward, 0.2, grasp_reward, 0.3, alignment_reward, 1, progress_reward, 0.2, goal_reward, 0.1, 0.313]1_8
+[hold_object_reward, 0.2, grasp_reward, 0.3, alignment_reward, 1, progress_reward, 0.2, goal_reward, 1, 0.1953]
+[hold_object_reward, 0.2, grasp_reward, 0.3, alignment_reward, 1, progress_reward, 1, goal_reward, 0.1, 0.1284]
+[hold_object_reward, 0.2, grasp_reward, 0.3, alignment_reward, 1, progress_reward, 1, goal_reward, 1, 0.1348]
+[hold_object_reward, 0.2, grasp_reward, 1, alignment_reward, 0.2, progress_reward, 0.2, goal_reward, 0.1, 0.2529]1_8
+[hold_object_reward, 0.2, grasp_reward, 1, alignment_reward, 0.2, progress_reward, 0.2, goal_reward, 1, 0.2954]
+[hold_object_reward, 0.2, grasp_reward, 1, alignment_reward, 0.2, progress_reward, 1, goal_reward, 0.1, 0.3779]
+[hold_object_reward, 0.2, grasp_reward, 1, alignment_reward, 0.2, progress_reward, 1, goal_reward, 1, 0.3628]
+[hold_object_reward, 0.2, grasp_reward, 1, alignment_reward, 5, progress_reward, 0.2, goal_reward, 0.1, 0.2607]1_8
+[hold_object_reward, 0.2, grasp_reward, 1, alignment_reward, 5, progress_reward, 0.2, goal_reward, 1, 0.3345]
+[hold_object_reward, 0.2, grasp_reward, 1, alignment_reward, 5, progress_reward, 1, goal_reward, 0.1, 0.3296]
+[hold_object_reward, 0.2, grasp_reward, 1, alignment_reward, 5, progress_reward, 1, goal_reward, 1, 0.1089]
+[hold_object_reward, 1, grasp_reward, 0.3, alignment_reward, 0.2, progress_reward, 0.2, goal_reward, 0.1, 0.3047]1_8
+[hold_object_reward, 1, grasp_reward, 0.3, alignment_reward, 0.2, progress_reward, 0.2, goal_reward, 1, 0.2256]
+[hold_object_reward, 1, grasp_reward, 0.3, alignment_reward, 0.2, progress_reward, 5, goal_reward, 0.1, 0.1685]
+[hold_object_reward, 1, grasp_reward, 0.3, alignment_reward, 0.2, progress_reward, 5, goal_reward, 1, 0.1548]
+[hold_object_reward, 1, grasp_reward, 0.3, alignment_reward, 1, progress_reward, 0.2, goal_reward, 0.1, 0.1064]1_8
+[hold_object_reward, 1, grasp_reward, 0.3, alignment_reward, 1, progress_reward, 0.2, goal_reward, 1, 0.2812]
+[hold_object_reward, 1, grasp_reward, 0.3, alignment_reward, 1, progress_reward, 5, goal_reward, 0.1, 0.2759]
+[hold_object_reward, 1, grasp_reward, 0.3, alignment_reward, 1, progress_reward, 5, goal_reward, 1, 0.1787]
+[hold_object_reward, 5, grasp_reward, 5, alignment_reward, 0.2, progress_reward, 0.2, goal_reward, 0.1, 0.4336]1_8
+[hold_object_reward, 5, grasp_reward, 5, alignment_reward, 0.2, progress_reward, 0.2, goal_reward, 5, 0.3013]
+[hold_object_reward, 5, grasp_reward, 5, alignment_reward, 0.2, progress_reward, 1, goal_reward, 0.1, 0.3145]
+[hold_object_reward, 5, grasp_reward, 5, alignment_reward, 0.2, progress_reward, 1, goal_reward, 5, 0.3496]
+[hold_object_reward, 5, grasp_reward, 1, alignment_reward, 5, progress_reward, 0.2, goal_reward, 0.1, 0.2207]1_8
+[hold_object_reward, 5, grasp_reward, 1, alignment_reward, 5, progress_reward, 0.2, goal_reward, 5, 0.1353]
+[hold_object_reward, 5, grasp_reward, 1, alignment_reward, 5, progress_reward, 1, goal_reward, 0.1, 0.2603]
+[hold_object_reward, 5, grasp_reward, 1, alignment_reward, 5, progress_reward, 1, goal_reward, 5, 0.2183]
+
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 0.2, goal_reward, 0.3, stability_reward, 0.1, 0.2349]0_10
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 0.2, goal_reward, 0.3, stability_reward, 1, 0.0947]
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 0.2, goal_reward, 1, stability_reward, 0.1, 0.2437]
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 0.2, goal_reward, 1, stability_reward, 1, 0.1802]
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 0.3, stability_reward, 0.1, 0.1616]0_10
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 0.3, stability_reward, 1, 0.0898]
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 1, stability_reward, 0.1, 0.083]
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 1, stability_reward, 1, 0.2153]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 0.2, goal_reward, 0.3, stability_reward, 0.1, 0.2949]0_10
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 0.2, goal_reward, 0.3, stability_reward, 1, 0.4189]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 0.2, goal_reward, 2, stability_reward, 0.1, 0.2485]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 0.2, goal_reward, 2, stability_reward, 1, 0.1729]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 1, goal_reward, 0.3, stability_reward, 0.1, 0.4595]0_10
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 1, goal_reward, 0.3, stability_reward, 1, 0.2207]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 1, goal_reward, 2, stability_reward, 0.1, 0.2808]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 1, goal_reward, 2, stability_reward, 1, 0.3931]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.2, goal_reward, 0.3, stability_reward, 0.1, 0.1396]0_10
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.2, goal_reward, 0.3, stability_reward, 5, 0.2363]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.2, goal_reward, 1, stability_reward, 0.1, 0.2251]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.2, goal_reward, 1, stability_reward, 5, 0.3662]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 2, goal_reward, 0.3, stability_reward, 0.1, 0.103]0_10
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 2, goal_reward, 0.3, stability_reward, 5, 0.249]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 2, goal_reward, 1, stability_reward, 0.1, 0.124]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 2, goal_reward, 1, stability_reward, 5, 0.1973]
+[hold_object_reward, 1, grasp_reward, 2, rotation_reward, 0.2, goal_reward, 0.3, stability_reward, 0.1, 0.207]0_10
+[hold_object_reward, 1, grasp_reward, 2, rotation_reward, 0.2, goal_reward, 0.3, stability_reward, 1, 0.5474]
+[hold_object_reward, 1, grasp_reward, 2, rotation_reward, 0.2, goal_reward, 2, stability_reward, 0.1, 0.1797]
+[hold_object_reward, 1, grasp_reward, 2, rotation_reward, 0.2, goal_reward, 2, stability_reward, 1, 0.2192]
+[hold_object_reward, 1, grasp_reward, 2, rotation_reward, 1, goal_reward, 0.3, stability_reward, 0.1, 0.209]0_10
+[hold_object_reward, 1, grasp_reward, 2, rotation_reward, 1, goal_reward, 0.3, stability_reward, 1, 0.2886]
+[hold_object_reward, 1, grasp_reward, 2, rotation_reward, 1, goal_reward, 2, stability_reward, 0.1, 0.2168]
+[hold_object_reward, 1, grasp_reward, 2, rotation_reward, 1, goal_reward, 2, stability_reward, 1, 0.248]
+
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 0.5, height_reward, 0.2, stability_penalty, 0.1, 0.2676]1_1
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 0.5, height_reward, 0.2, stability_penalty, 1, 0.6021]
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 0.5, height_reward, 1, stability_penalty, 0.1, 0.2617]
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 0.5, height_reward, 1, stability_penalty, 1, 0.1934]
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 1, height_reward, 0.2, stability_penalty, 0.1, 0.2734]1_1
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 1, height_reward, 0.2, stability_penalty, 1, 0.2744]
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 1, height_reward, 1, stability_penalty, 0.1, 0.2109]
+[hold_object_reward, 0.3, grasp_reward, 0.3, rotation_reward, 1, height_reward, 1, stability_penalty, 1, 0.0688]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 0.5, height_reward, 0.2, stability_penalty, 0.1, 0.2935]1_1
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 0.5, height_reward, 0.2, stability_penalty, 1, 0.4229]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 0.5, height_reward, 1, stability_penalty, 0.1, 0.2603]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 0.5, height_reward, 1, stability_penalty, 1, 0.5239]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 1, height_reward, 0.2, stability_penalty, 0.1, 0.2744]1_1
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 1, height_reward, 0.2, stability_penalty, 1, 0.2651]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 1, height_reward, 5, stability_penalty, 0.1, 0.1772]
+[hold_object_reward, 0.3, grasp_reward, 1, rotation_reward, 1, height_reward, 5, stability_penalty, 1, 0.2441]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.5, height_reward, 0.2, stability_penalty, 0.1, 0.1431]1_1
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.5, height_reward, 0.2, stability_penalty, 1, 0.2417]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.5, height_reward, 1, stability_penalty, 0.1, 0.333]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.5, height_reward, 1, stability_penalty, 1, 0.3706]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 5, height_reward, 0.2, stability_penalty, 0.1, 0.2676]1_1
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 5, height_reward, 0.2, stability_penalty, 1, 0.165]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 5, height_reward, 1, stability_penalty, 0.1, 0.3081]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 5, height_reward, 1, stability_penalty, 1, 0.0259]
+[hold_object_reward, 1, grasp_reward, 5, rotation_reward, 0.5, height_reward, 0.2, stability_penalty, 0.1, 0.2998]1_1
+[hold_object_reward, 1, grasp_reward, 5, rotation_reward, 0.5, height_reward, 0.2, stability_penalty, 1, 0.1831]
+[hold_object_reward, 1, grasp_reward, 5, rotation_reward, 0.5, height_reward, 1, stability_penalty, 0.1, 0.3232]
+[hold_object_reward, 1, grasp_reward, 5, rotation_reward, 0.5, height_reward, 1, stability_penalty, 1, 0.189]
+[hold_object_reward, 1, grasp_reward, 5, rotation_reward, 1, height_reward, 0.2, stability_penalty, 0.1, 0.2729]1_1
+[hold_object_reward, 1, grasp_reward, 5, rotation_reward, 1, height_reward, 0.2, stability_penalty, 1, 0.4155]
+[hold_object_reward, 1, grasp_reward, 5, rotation_reward, 1, height_reward, 1, stability_penalty, 0.1, 0.2222]
+[hold_object_reward, 1, grasp_reward, 5, rotation_reward, 1, height_reward, 1, stability_penalty, 1, 0.4019]
+
+[hold_object_reward, 0.2, grasp_reward, 0.3, rotation_reward, 0.3, goal_reward, 0.3, success_reward, 0.5, 0.3154]1_2
+[hold_object_reward, 0.2, grasp_reward, 0.3, rotation_reward, 0.3, goal_reward, 0.3, success_reward, 1, 0.3032]
+[hold_object_reward, 0.2, grasp_reward, 0.3, rotation_reward, 0.3, goal_reward, 1, success_reward, 0.5, 0.2202]
+[hold_object_reward, 0.2, grasp_reward, 0.3, rotation_reward, 0.3, goal_reward, 1, success_reward, 1, 0.2808]
+[hold_object_reward, 0.2, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 0.3, success_reward, 0.5, 0.374]1_2
+[hold_object_reward, 0.2, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 0.3, success_reward, 1, 0.2031]
+[hold_object_reward, 0.2, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 1, success_reward, 0.5, 0.3408]
+[hold_object_reward, 0.2, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 1, success_reward, 1, 0.1025]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, goal_reward, 0.3, success_reward, 0.5, 0.25]1_2
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, goal_reward, 0.3, success_reward, 1, 0.1772]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, goal_reward, 1, success_reward, 0.5, 0.186]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, goal_reward, 1, success_reward, 1, 0.231]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, goal_reward, 0.3, success_reward, 0.5, 0.314]1_2
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, goal_reward, 0.3, success_reward, 1, 0.2544]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, goal_reward, 1, success_reward, 0.5, 0.2446]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, goal_reward, 1, success_reward, 1, 0.2197]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.3, goal_reward, 0.3, success_reward, 0.5, 0.4053]1_2
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.3, goal_reward, 0.3, success_reward, 1, 0.2217]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.3, goal_reward, 1, success_reward, 0.5, 0.1255]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 0.3, goal_reward, 1, success_reward, 1, 0.1206]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 0.3, success_reward, 0.5, 0.4268]1_2
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 0.3, success_reward, 1, 0.1567]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 1, success_reward, 0.5, 0.2373]
+[hold_object_reward, 1, grasp_reward, 0.3, rotation_reward, 1, goal_reward, 1, success_reward, 1, 0.4185]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, goal_reward, 0.3, success_reward, 0.5, 0.4634]1_2
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, goal_reward, 0.3, success_reward, 1, 0.4106]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, goal_reward, 1, success_reward, 0.5, 0.3311]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, goal_reward, 1, success_reward, 1, 0.3081]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, goal_reward, 0.3, success_reward, 0.5, 0.1895]1_2
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, goal_reward, 0.3, success_reward, 1, 0.2749]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, goal_reward, 1, success_reward, 0.5, 0.1997]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, goal_reward, 1, success_reward, 1, 0.2192]
+
+[hold_object_reward, 0.25, grasp_reward, 0.25, rotation_reward, 0.2, progress_reward, 0.25, goal_reward, 0.05, 0.3389]1_4
+[hold_object_reward, 0.25, grasp_reward, 0.25, rotation_reward, 0.2, progress_reward, 0.25, goal_reward, 1, 0.166]
+[hold_object_reward, 0.25, grasp_reward, 0.25, rotation_reward, 0.2, progress_reward, 1, goal_reward, 0.05, 0.23]
+[hold_object_reward, 0.25, grasp_reward, 0.25, rotation_reward, 0.2, progress_reward, 1, goal_reward, 1, 0.1841]
+[hold_object_reward, 0.25, grasp_reward, 0.25, rotation_reward, 1, progress_reward, 0.25, goal_reward, 0.05, 0.1782]1_4
+[hold_object_reward, 0.25, grasp_reward, 0.25, rotation_reward, 1, progress_reward, 0.25, goal_reward, 1, 0.2681]
+[hold_object_reward, 0.25, grasp_reward, 0.25, rotation_reward, 1, progress_reward, 1, goal_reward, 0.05, 0.1924]
+[hold_object_reward, 0.25, grasp_reward, 0.25, rotation_reward, 1, progress_reward, 1, goal_reward, 1, 0.1782]
+[hold_object_reward, 0.25, grasp_reward, 1, rotation_reward, 0.2, progress_reward, 0.25, goal_reward, 0.05, 0.1396]1_4
+[hold_object_reward, 0.25, grasp_reward, 1, rotation_reward, 0.2, progress_reward, 0.25, goal_reward, 1, 0.2578]
+[hold_object_reward, 0.25, grasp_reward, 1, rotation_reward, 0.2, progress_reward, 1, goal_reward, 0.05, 0.4014]
+[hold_object_reward, 0.25, grasp_reward, 1, rotation_reward, 0.2, progress_reward, 1, goal_reward, 1, 0.2236]
+[hold_object_reward, 0.25, grasp_reward, 1, rotation_reward, 1, progress_reward, 0.25, goal_reward, 0.05, 0.3359]1_4
+[hold_object_reward, 0.25, grasp_reward, 1, rotation_reward, 1, progress_reward, 0.25, goal_reward, 1, 0.2051]
+[hold_object_reward, 0.25, grasp_reward, 1, rotation_reward, 1, progress_reward, 1, goal_reward, 0.05, 0.5103]
+[hold_object_reward, 0.25, grasp_reward, 1, rotation_reward, 1, progress_reward, 1, goal_reward, 1, 0.2568]
+[hold_object_reward, 1, grasp_reward, 0.25, rotation_reward, 0.2, progress_reward, 0.25, goal_reward, 0.05, 0.2925]1_4
+[hold_object_reward, 1, grasp_reward, 0.25, rotation_reward, 0.2, progress_reward, 0.25, goal_reward, 1, 0.2271]
+[hold_object_reward, 1, grasp_reward, 0.25, rotation_reward, 0.2, progress_reward, 1, goal_reward, 0.05, 0.1543]
+[hold_object_reward, 1, grasp_reward, 0.25, rotation_reward, 0.2, progress_reward, 1, goal_reward, 1, 0.1392]
+[hold_object_reward, 1, grasp_reward, 0.25, rotation_reward, 1, progress_reward, 0.25, goal_reward, 0.05, 0.3901]1_4
+[hold_object_reward, 1, grasp_reward, 0.25, rotation_reward, 1, progress_reward, 0.25, goal_reward, 1, 0.2061]
+[hold_object_reward, 1, grasp_reward, 0.25, rotation_reward, 1, progress_reward, 1, goal_reward, 0.05, 0.2769]
+[hold_object_reward, 1, grasp_reward, 0.25, rotation_reward, 1, progress_reward, 1, goal_reward, 1, 0.1973]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.2, progress_reward, 0.25, goal_reward, 0.05, 0.2686]1_4
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.2, progress_reward, 0.25, goal_reward, 1, 0.2886]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.2, progress_reward, 1, goal_reward, 0.05, 0.2993]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.2, progress_reward, 1, goal_reward, 1, 0.2964]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, progress_reward, 0.25, goal_reward, 0.05, 0.6416]1_4
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, progress_reward, 0.25, goal_reward, 1, 0.3145]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, progress_reward, 1, goal_reward, 0.05, 0.2354]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, progress_reward, 1, goal_reward, 1, 0.2236]
+
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, open_reward, 0.4, stability_reward, 0.1, 0.3525]1_12
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, open_reward, 0.4, stability_reward, 1, 0.0249]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, open_reward, 1, stability_reward, 0.1, 0.1816]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, open_reward, 1, stability_reward, 1, 0.0771]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, open_reward, 0.4, stability_reward, 0.1, 0.0361]1_12
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, open_reward, 0.4, stability_reward, 1, 0.0801]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, open_reward, 1, stability_reward, 0.1, 0.043]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, open_reward, 1, stability_reward, 1, 0.0195]
+
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, open_reward, 0.4, stability_reward, 0.1, 0.3867]1_12
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, open_reward, 0.4, stability_reward, 1, 0.1919]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, open_reward, 1, stability_reward, 0.1, 0.4487]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, open_reward, 1, stability_reward, 1, 0.5234]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, open_reward, 0.4, stability_reward, 0.1, 0.0522]1_12
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, open_reward, 0.4, stability_reward, 1, 0.0879]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, open_reward, 1, stability_reward, 0.1, 0.0366]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, open_reward, 1, stability_reward, 1, 0.2271]
+
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, open_reward, 0.4, stability_reward, 0.1, 0.0762]1_12
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, open_reward, 0.4, stability_reward, 1, 0.1177]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, open_reward, 1, stability_reward, 0.1, 0.125]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, open_reward, 1, stability_reward, 1, 0.1812]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, open_reward, 0.4, stability_reward, 0.1, 0.2715]1_12
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, open_reward, 0.4, stability_reward, 1, 0.0562]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, open_reward, 1, stability_reward, 0.1, 0.0244]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, open_reward, 1, stability_reward, 1, 0.0713]
+
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, open_reward, 0.4, stability_reward, 0.1, 0.5718]1_12
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, open_reward, 0.4, stability_reward, 1, 0.5205]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, open_reward, 1, stability_reward, 0.1, 0.2148]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, open_reward, 1, stability_reward, 1, 0.0947]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, open_reward, 0.4, stability_reward, 0.1, 0.0425]1_12
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, open_reward, 0.4, stability_reward, 1, 0.1958]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, open_reward, 1, stability_reward, 0.1, 0.2344]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, open_reward, 1, stability_reward, 1, 0.043]
+
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 0.1, 0.0566]3_8
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 1, 0.0605]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 0.1, 0.063]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 1, 0.0562]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 0.1, 0.0459]3_8
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 1, 0.4736]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 1, stability_reward, 0.1, 0.0093]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 1, stability_reward, 1, 0.0479]
+
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 0.1, 0.2451]3_8
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 1, 0.105]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 0.1, 0.6802]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 1, 0.1226]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 0.1, 0.0913]3_8
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 1, 0.1899]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, alignment_reward, 1, stability_reward, 0.1, 0.3242]
+[hold_object_reward, 0.2, grasp_reward, 1, rotation_reward, 1, alignment_reward, 1, stability_reward, 1, 0.4961]
+
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 0.1, 0.0229]3_8
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 1, 0.6108]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 0.1, 0.4307]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 1, 0.0542]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 0.1, 0.1875]3_8
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 1, 0.0356]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 1, stability_reward, 0.1, 0.0425]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 1, stability_reward, 1, 0.0811]
+
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 0.1, 0.4019]3_8
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 1, 0.1021]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 0.1, 0.1558]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 1, 0.0977]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 0.1, 0.1001]3_8
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 1, 0.3403]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, alignment_reward, 1, stability_reward, 0.1, 0.2505]
+[hold_object_reward, 1, grasp_reward, 1, rotation_reward, 1, alignment_reward, 1, stability_reward, 1, 0.2725]
 
 
-[cap_distance_reward, 0.3, left_hand_reward, 0.2, right_hand_reward, 0.2, cap_orientation_reward, 1, finger_distance_reward, 0.1, 0.083]
-[cap_distance_reward, 0.3, left_hand_reward, 0.2, right_hand_reward, 0.2, cap_orientation_reward, 1, finger_distance_reward, 0.01, 0.0962]
-[cap_distance_reward, 0.3, left_hand_reward, 0.2, right_hand_reward, 1, cap_orientation_reward, 0.2, finger_distance_reward, 0.1, 0.1523]0_7
-[cap_distance_reward, 0.3, left_hand_reward, 0.2, right_hand_reward, 1, cap_orientation_reward, 0.2, finger_distance_reward, 1, 0.0605]
-[cap_distance_reward, 0.3, left_hand_reward, 0.2, right_hand_reward, 1, cap_orientation_reward, 1, finger_distance_reward, 0.1, 0.0771]
-[cap_distance_reward, 0.3, left_hand_reward, 0.2, right_hand_reward, 1, cap_orientation_reward, 1, finger_distance_reward, 0.01, 0.146]
-[cap_distance_reward, 0.3, left_hand_reward, 1, right_hand_reward, 0.2, cap_orientation_reward, 0.2, finger_distance_reward, 1, 0.1021]
-[cap_distance_reward, 0.3, left_hand_reward, 1, right_hand_reward, 0.2, cap_orientation_reward, 1, finger_distance_reward, 0.1, 0.0942]
-[cap_distance_reward, 0.3, left_hand_reward, 1, right_hand_reward, 1, cap_orientation_reward, 0.2, finger_distance_reward, 0.1, 0.1455]0_7
-[cap_distance_reward, 0.3, left_hand_reward, 1, right_hand_reward, 1, cap_orientation_reward, 0.2, finger_distance_reward, 1, 0.106]
-[cap_distance_reward, 0.3, left_hand_reward, 1, right_hand_reward, 1, cap_orientation_reward, 1, finger_distance_reward, 0.1, 0.0249]
-[cap_distance_reward, 0.3, left_hand_reward, 1, right_hand_reward, 1, cap_orientation_reward, 1, finger_distance_reward, 0.01, 0.0615]
-[cap_distance_reward, 1, left_hand_reward, 0.2, right_hand_reward, 0.2, cap_orientation_reward, 0.2, finger_distance_reward, 0.1, 0.0967]0_7
-[cap_distance_reward, 1, left_hand_reward, 0.2, right_hand_reward, 0.2, cap_orientation_reward, 1, finger_distance_reward, 0.1, 0.0928]
-[cap_distance_reward, 1, left_hand_reward, 0.2, right_hand_reward, 0.2, cap_orientation_reward, 1, finger_distance_reward, 0.01, 0.2656]
-[cap_distance_reward, 1, left_hand_reward, 0.2, right_hand_reward, 1, cap_orientation_reward, 0.2, finger_distance_reward, 0.1, 0.0288]0_7
-[cap_distance_reward, 1, left_hand_reward, 0.2, right_hand_reward, 1, cap_orientation_reward, 1, finger_distance_reward, 0.1, 0.0356]
-[cap_distance_reward, 1, left_hand_reward, 0.2, right_hand_reward, 1, cap_orientation_reward, 1, finger_distance_reward, 0.01, 0.0625]
-[cap_distance_reward, 1, left_hand_reward, 1, right_hand_reward, 0.2, cap_orientation_reward, 0.2, finger_distance_reward, 0.1, 0.189]0_7
-[cap_distance_reward, 1, left_hand_reward, 1, right_hand_reward, 0.2, cap_orientation_reward, 0.2, finger_distance_reward, 1, 0.0732]
-[cap_distance_reward, 1, left_hand_reward, 1, right_hand_reward, 0.2, cap_orientation_reward, 1, finger_distance_reward, 0.1, 0.2583]
-[cap_distance_reward, 1, left_hand_reward, 1, right_hand_reward, 0.2, cap_orientation_reward, 1, finger_distance_reward, 0.001, 0.1528]
-[cap_distance_reward, 1, left_hand_reward, 1, right_hand_reward, 1, cap_orientation_reward, 0.2, finger_distance_reward, 0.1, 0.1123]0_7
-[cap_distance_reward, 1, left_hand_reward, 1, right_hand_reward, 1, cap_orientation_reward, 0.2, finger_distance_reward, 1, 0.0923]
-[cap_distance_reward, 1, left_hand_reward, 1, right_hand_reward, 1, cap_orientation_reward, 1, finger_distance_reward, 0.01, 0.0537]
-
-[cap_distance_reward, 1, left_hand_reward, 1, finger_reward, 1, vel_penalty, 0.1, alignment_reward, 1, 0.5371]0_9
-[cap_distance_reward, 1, left_hand_reward, 1, finger_reward, 1, vel_penalty, 0.1, alignment_reward, 5, 0.1289]
-[cap_distance_reward, 1, left_hand_reward, 1, finger_reward, 1, vel_penalty, 1, alignment_reward, 1, 0.1025]
-[cap_distance_reward, 1, left_hand_reward, 1, finger_reward, 1, vel_penalty, 1, alignment_reward, 5, 0.7329]
-[cap_distance_reward, 1, left_hand_reward, 1, finger_reward, 5, vel_penalty, 0.1, alignment_reward, 1, 0.3501]0_9
-[cap_distance_reward, 1, left_hand_reward, 1, finger_reward, 5, vel_penalty, 0.1, alignment_reward, 5, 0.1816]
-[cap_distance_reward, 1, left_hand_reward, 1, finger_reward, 5, vel_penalty, 1, alignment_reward, 1, 0.1724]
-[cap_distance_reward, 1, left_hand_reward, 1, finger_reward, 5, vel_penalty, 1, alignment_reward, 5, 0.251]
-[cap_distance_reward, 1, left_hand_reward, 5, finger_reward, 1, vel_penalty, 0.1, alignment_reward, 1, 0.1982]0_9
-[cap_distance_reward, 1, left_hand_reward, 5, finger_reward, 1, vel_penalty, 0.1, alignment_reward, 5, 0.1792]
-[cap_distance_reward, 1, left_hand_reward, 5, finger_reward, 1, vel_penalty, 1, alignment_reward, 1, 0.0386]
-[cap_distance_reward, 1, left_hand_reward, 5, finger_reward, 1, vel_penalty, 1, alignment_reward, 5, 0.3965]
-[cap_distance_reward, 1, left_hand_reward, 5, finger_reward, 2, vel_penalty, 0.1, alignment_reward, 1, 0.1021]0_9
-[cap_distance_reward, 1, left_hand_reward, 5, finger_reward, 2, vel_penalty, 0.1, alignment_reward, 5, 0.2119]
-[cap_distance_reward, 1, left_hand_reward, 5, finger_reward, 2, vel_penalty, 5, alignment_reward, 1, 0.1753]
-[cap_distance_reward, 1, left_hand_reward, 5, finger_reward, 2, vel_penalty, 5, alignment_reward, 5, 0.4185]
-[cap_distance_reward, 5, left_hand_reward, 1, finger_reward, 1, vel_penalty, 0.1, alignment_reward, 1, 0.375]0_9
-[cap_distance_reward, 5, left_hand_reward, 1, finger_reward, 1, vel_penalty, 0.1, alignment_reward, 10, 0.522]
-[cap_distance_reward, 5, left_hand_reward, 1, finger_reward, 1, vel_penalty, 1, alignment_reward, 1, 0.1567]
-[cap_distance_reward, 5, left_hand_reward, 1, finger_reward, 1, vel_penalty, 1, alignment_reward, 10, 0.1167]
-[cap_distance_reward, 5, left_hand_reward, 1, finger_reward, 5, vel_penalty, 0.1, alignment_reward, 1, 0.208]0_9
-[cap_distance_reward, 5, left_hand_reward, 1, finger_reward, 5, vel_penalty, 0.1, alignment_reward, 10, 0.1694]
-[cap_distance_reward, 5, left_hand_reward, 1, finger_reward, 5, vel_penalty, 1, alignment_reward, 1, 0.2344]
-[cap_distance_reward, 5, left_hand_reward, 1, finger_reward, 5, vel_penalty, 1, alignment_reward, 10, 0.2549]
-[cap_distance_reward, 10, left_hand_reward, 5, finger_reward, 1, vel_penalty, 0.1, alignment_reward, 1, 0.1157]0_9
-[cap_distance_reward, 10, left_hand_reward, 5, finger_reward, 1, vel_penalty, 0.1, alignment_reward, 10, 0.1797]
-[cap_distance_reward, 10, left_hand_reward, 5, finger_reward, 1, vel_penalty, 1, alignment_reward, 1, 0.1362]
-[cap_distance_reward, 10, left_hand_reward, 5, finger_reward, 1, vel_penalty, 1, alignment_reward, 5, 0.1616]
-[cap_distance_reward, 10, left_hand_reward, 5, finger_reward, 2, vel_penalty, 0.1, alignment_reward, 1, 0.2549]0_9
-[cap_distance_reward, 10, left_hand_reward, 5, finger_reward, 2, vel_penalty, 0.1, alignment_reward, 5, 0.2109]
-[cap_distance_reward, 10, left_hand_reward, 5, finger_reward, 2, vel_penalty, 5, alignment_reward, 1, 0.3359]
-[cap_distance_reward, 10, left_hand_reward, 5, finger_reward, 2, vel_penalty, 5, alignment_reward, 5, 0.2856]
-
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, alignment_reward, 0.2, cap_progress_reward, 0.2, cap_goal_reward, 0.1, 0.4849]1_8
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, alignment_reward, 0.2, cap_progress_reward, 0.2, cap_goal_reward, 1, 0.2285]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, alignment_reward, 0.2, cap_progress_reward, 1, cap_goal_reward, 0.1, 0.1514]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, alignment_reward, 0.2, cap_progress_reward, 1, cap_goal_reward, 1, 0.165]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, alignment_reward, 1, cap_progress_reward, 0.2, cap_goal_reward, 0.1, 0.313]1_8
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, alignment_reward, 1, cap_progress_reward, 0.2, cap_goal_reward, 1, 0.1953]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, alignment_reward, 1, cap_progress_reward, 1, cap_goal_reward, 0.1, 0.1284]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, alignment_reward, 1, cap_progress_reward, 1, cap_goal_reward, 1, 0.1348]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, alignment_reward, 0.2, cap_progress_reward, 0.2, cap_goal_reward, 0.1, 0.2529]1_8
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, alignment_reward, 0.2, cap_progress_reward, 0.2, cap_goal_reward, 1, 0.2954]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, alignment_reward, 0.2, cap_progress_reward, 1, cap_goal_reward, 0.1, 0.3779]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, alignment_reward, 0.2, cap_progress_reward, 1, cap_goal_reward, 1, 0.3628]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, alignment_reward, 5, cap_progress_reward, 0.2, cap_goal_reward, 0.1, 0.2607]1_8
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, alignment_reward, 5, cap_progress_reward, 0.2, cap_goal_reward, 1, 0.3345]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, alignment_reward, 5, cap_progress_reward, 1, cap_goal_reward, 0.1, 0.3296]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, alignment_reward, 5, cap_progress_reward, 1, cap_goal_reward, 1, 0.1089]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, alignment_reward, 0.2, cap_progress_reward, 0.2, cap_goal_reward, 0.1, 0.3047]1_8
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, alignment_reward, 0.2, cap_progress_reward, 0.2, cap_goal_reward, 1, 0.2256]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, alignment_reward, 0.2, cap_progress_reward, 5, cap_goal_reward, 0.1, 0.1685]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, alignment_reward, 0.2, cap_progress_reward, 5, cap_goal_reward, 1, 0.1548]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, alignment_reward, 1, cap_progress_reward, 0.2, cap_goal_reward, 0.1, 0.1064]1_8
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, alignment_reward, 1, cap_progress_reward, 0.2, cap_goal_reward, 1, 0.2812]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, alignment_reward, 1, cap_progress_reward, 5, cap_goal_reward, 0.1, 0.2759]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, alignment_reward, 1, cap_progress_reward, 5, cap_goal_reward, 1, 0.1787]
-[bottle_hold_reward, 5, cap_grasp_reward, 5, alignment_reward, 0.2, cap_progress_reward, 0.2, cap_goal_reward, 0.1, 0.4336]1_8
-[bottle_hold_reward, 5, cap_grasp_reward, 5, alignment_reward, 0.2, cap_progress_reward, 0.2, cap_goal_reward, 5, 0.3013]
-[bottle_hold_reward, 5, cap_grasp_reward, 5, alignment_reward, 0.2, cap_progress_reward, 1, cap_goal_reward, 0.1, 0.3145]
-[bottle_hold_reward, 5, cap_grasp_reward, 5, alignment_reward, 0.2, cap_progress_reward, 1, cap_goal_reward, 5, 0.3496]
-[bottle_hold_reward, 5, cap_grasp_reward, 1, alignment_reward, 5, cap_progress_reward, 0.2, cap_goal_reward, 0.1, 0.2207]1_8
-[bottle_hold_reward, 5, cap_grasp_reward, 1, alignment_reward, 5, cap_progress_reward, 0.2, cap_goal_reward, 5, 0.1353]
-[bottle_hold_reward, 5, cap_grasp_reward, 1, alignment_reward, 5, cap_progress_reward, 1, cap_goal_reward, 0.1, 0.2603]
-[bottle_hold_reward, 5, cap_grasp_reward, 1, alignment_reward, 5, cap_progress_reward, 1, cap_goal_reward, 5, 0.2183]
-
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 0.2, cap_goal_reward, 0.3, stability_reward, 0.1, 0.2349]0_10
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 0.2, cap_goal_reward, 0.3, stability_reward, 1, 0.0947]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 0.2, cap_goal_reward, 1, stability_reward, 0.1, 0.2437]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 0.2, cap_goal_reward, 1, stability_reward, 1, 0.1802]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 0.3, stability_reward, 0.1, 0.1616]0_10
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 0.3, stability_reward, 1, 0.0898]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 1, stability_reward, 0.1, 0.083]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 1, stability_reward, 1, 0.2153]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 0.2, cap_goal_reward, 0.3, stability_reward, 0.1, 0.2949]0_10
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 0.2, cap_goal_reward, 0.3, stability_reward, 1, 0.4189]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 0.2, cap_goal_reward, 2, stability_reward, 0.1, 0.2485]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 0.2, cap_goal_reward, 2, stability_reward, 1, 0.1729]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 0.3, stability_reward, 0.1, 0.4595]0_10
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 0.3, stability_reward, 1, 0.2207]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 2, stability_reward, 0.1, 0.2808]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 2, stability_reward, 1, 0.3931]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.2, cap_goal_reward, 0.3, stability_reward, 0.1, 0.1396]0_10
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.2, cap_goal_reward, 0.3, stability_reward, 5, 0.2363]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.2, cap_goal_reward, 1, stability_reward, 0.1, 0.2251]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.2, cap_goal_reward, 1, stability_reward, 5, 0.3662]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 2, cap_goal_reward, 0.3, stability_reward, 0.1, 0.103]0_10
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 2, cap_goal_reward, 0.3, stability_reward, 5, 0.249]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 2, cap_goal_reward, 1, stability_reward, 0.1, 0.124]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 2, cap_goal_reward, 1, stability_reward, 5, 0.1973]
-[bottle_hold_reward, 1, cap_grasp_reward, 2, rotation_reward, 0.2, cap_goal_reward, 0.3, stability_reward, 0.1, 0.207]0_10
-[bottle_hold_reward, 1, cap_grasp_reward, 2, rotation_reward, 0.2, cap_goal_reward, 0.3, stability_reward, 1, 0.5474]
-[bottle_hold_reward, 1, cap_grasp_reward, 2, rotation_reward, 0.2, cap_goal_reward, 2, stability_reward, 0.1, 0.1797]
-[bottle_hold_reward, 1, cap_grasp_reward, 2, rotation_reward, 0.2, cap_goal_reward, 2, stability_reward, 1, 0.2192]
-[bottle_hold_reward, 1, cap_grasp_reward, 2, rotation_reward, 1, cap_goal_reward, 0.3, stability_reward, 0.1, 0.209]0_10
-[bottle_hold_reward, 1, cap_grasp_reward, 2, rotation_reward, 1, cap_goal_reward, 0.3, stability_reward, 1, 0.2886]
-[bottle_hold_reward, 1, cap_grasp_reward, 2, rotation_reward, 1, cap_goal_reward, 2, stability_reward, 0.1, 0.2168]
-[bottle_hold_reward, 1, cap_grasp_reward, 2, rotation_reward, 1, cap_goal_reward, 2, stability_reward, 1, 0.248]
-
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 0.5, cap_height_reward, 0.2, stability_penalty, 0.1, 0.2676]1_1
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 0.5, cap_height_reward, 0.2, stability_penalty, 1, 0.6021]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 0.5, cap_height_reward, 1, stability_penalty, 0.1, 0.2617]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 0.5, cap_height_reward, 1, stability_penalty, 1, 0.1934]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 1, cap_height_reward, 0.2, stability_penalty, 0.1, 0.2734]1_1
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 1, cap_height_reward, 0.2, stability_penalty, 1, 0.2744]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 1, cap_height_reward, 1, stability_penalty, 0.1, 0.2109]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 0.3, rotation_reward, 1, cap_height_reward, 1, stability_penalty, 1, 0.0688]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 0.5, cap_height_reward, 0.2, stability_penalty, 0.1, 0.2935]1_1
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 0.5, cap_height_reward, 0.2, stability_penalty, 1, 0.4229]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 0.5, cap_height_reward, 1, stability_penalty, 0.1, 0.2603]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 0.5, cap_height_reward, 1, stability_penalty, 1, 0.5239]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 1, cap_height_reward, 0.2, stability_penalty, 0.1, 0.2744]1_1
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 1, cap_height_reward, 0.2, stability_penalty, 1, 0.2651]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 1, cap_height_reward, 5, stability_penalty, 0.1, 0.1772]
-[bottle_hold_reward, 0.3, cap_grasp_reward, 1, rotation_reward, 1, cap_height_reward, 5, stability_penalty, 1, 0.2441]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.5, cap_height_reward, 0.2, stability_penalty, 0.1, 0.1431]1_1
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.5, cap_height_reward, 0.2, stability_penalty, 1, 0.2417]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.5, cap_height_reward, 1, stability_penalty, 0.1, 0.333]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.5, cap_height_reward, 1, stability_penalty, 1, 0.3706]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 5, cap_height_reward, 0.2, stability_penalty, 0.1, 0.2676]1_1
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 5, cap_height_reward, 0.2, stability_penalty, 1, 0.165]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 5, cap_height_reward, 1, stability_penalty, 0.1, 0.3081]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 5, cap_height_reward, 1, stability_penalty, 1, 0.0259]
-[bottle_hold_reward, 1, cap_grasp_reward, 5, rotation_reward, 0.5, cap_height_reward, 0.2, stability_penalty, 0.1, 0.2998]1_1
-[bottle_hold_reward, 1, cap_grasp_reward, 5, rotation_reward, 0.5, cap_height_reward, 0.2, stability_penalty, 1, 0.1831]
-[bottle_hold_reward, 1, cap_grasp_reward, 5, rotation_reward, 0.5, cap_height_reward, 1, stability_penalty, 0.1, 0.3232]
-[bottle_hold_reward, 1, cap_grasp_reward, 5, rotation_reward, 0.5, cap_height_reward, 1, stability_penalty, 1, 0.189]
-[bottle_hold_reward, 1, cap_grasp_reward, 5, rotation_reward, 1, cap_height_reward, 0.2, stability_penalty, 0.1, 0.2729]1_1
-[bottle_hold_reward, 1, cap_grasp_reward, 5, rotation_reward, 1, cap_height_reward, 0.2, stability_penalty, 1, 0.4155]
-[bottle_hold_reward, 1, cap_grasp_reward, 5, rotation_reward, 1, cap_height_reward, 1, stability_penalty, 0.1, 0.2222]
-[bottle_hold_reward, 1, cap_grasp_reward, 5, rotation_reward, 1, cap_height_reward, 1, stability_penalty, 1, 0.4019]
-
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, rotation_reward, 0.3, cap_goal_reward, 0.3, success_reward, 0.5, 0.3154]1_2
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, rotation_reward, 0.3, cap_goal_reward, 0.3, success_reward, 1, 0.3032]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, rotation_reward, 0.3, cap_goal_reward, 1, success_reward, 0.5, 0.2202]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, rotation_reward, 0.3, cap_goal_reward, 1, success_reward, 1, 0.2808]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 0.3, success_reward, 0.5, 0.374]1_2
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 0.3, success_reward, 1, 0.2031]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 1, success_reward, 0.5, 0.3408]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 1, success_reward, 1, 0.1025]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, cap_goal_reward, 0.3, success_reward, 0.5, 0.25]1_2
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, cap_goal_reward, 0.3, success_reward, 1, 0.1772]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, cap_goal_reward, 1, success_reward, 0.5, 0.186]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, cap_goal_reward, 1, success_reward, 1, 0.231]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 0.3, success_reward, 0.5, 0.314]1_2
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 0.3, success_reward, 1, 0.2544]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 1, success_reward, 0.5, 0.2446]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 1, success_reward, 1, 0.2197]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.3, cap_goal_reward, 0.3, success_reward, 0.5, 0.4053]1_2
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.3, cap_goal_reward, 0.3, success_reward, 1, 0.2217]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.3, cap_goal_reward, 1, success_reward, 0.5, 0.1255]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 0.3, cap_goal_reward, 1, success_reward, 1, 0.1206]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 0.3, success_reward, 0.5, 0.4268]1_2
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 0.3, success_reward, 1, 0.1567]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 1, success_reward, 0.5, 0.2373]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.3, rotation_reward, 1, cap_goal_reward, 1, success_reward, 1, 0.4185]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, cap_goal_reward, 0.3, success_reward, 0.5, 0.4634]1_2
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, cap_goal_reward, 0.3, success_reward, 1, 0.4106]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, cap_goal_reward, 1, success_reward, 0.5, 0.3311]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, cap_goal_reward, 1, success_reward, 1, 0.3081]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 0.3, success_reward, 0.5, 0.1895]1_2
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 0.3, success_reward, 1, 0.2749]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 1, success_reward, 0.5, 0.1997]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_goal_reward, 1, success_reward, 1, 0.2192]
-
-[bottle_hold_reward, 0.25, cap_grasp_reward, 0.25, rotation_reward, 0.2, cap_progress_reward, 0.25, finger_coord_reward, 0.05, 0.3389]1_4
-[bottle_hold_reward, 0.25, cap_grasp_reward, 0.25, rotation_reward, 0.2, cap_progress_reward, 0.25, finger_coord_reward, 1, 0.166]
-[bottle_hold_reward, 0.25, cap_grasp_reward, 0.25, rotation_reward, 0.2, cap_progress_reward, 1, finger_coord_reward, 0.05, 0.23]
-[bottle_hold_reward, 0.25, cap_grasp_reward, 0.25, rotation_reward, 0.2, cap_progress_reward, 1, finger_coord_reward, 1, 0.1841]
-[bottle_hold_reward, 0.25, cap_grasp_reward, 0.25, rotation_reward, 1, cap_progress_reward, 0.25, finger_coord_reward, 0.05, 0.1782]1_4
-[bottle_hold_reward, 0.25, cap_grasp_reward, 0.25, rotation_reward, 1, cap_progress_reward, 0.25, finger_coord_reward, 1, 0.2681]
-[bottle_hold_reward, 0.25, cap_grasp_reward, 0.25, rotation_reward, 1, cap_progress_reward, 1, finger_coord_reward, 0.05, 0.1924]
-[bottle_hold_reward, 0.25, cap_grasp_reward, 0.25, rotation_reward, 1, cap_progress_reward, 1, finger_coord_reward, 1, 0.1782]
-[bottle_hold_reward, 0.25, cap_grasp_reward, 1, rotation_reward, 0.2, cap_progress_reward, 0.25, finger_coord_reward, 0.05, 0.1396]1_4
-[bottle_hold_reward, 0.25, cap_grasp_reward, 1, rotation_reward, 0.2, cap_progress_reward, 0.25, finger_coord_reward, 1, 0.2578]
-[bottle_hold_reward, 0.25, cap_grasp_reward, 1, rotation_reward, 0.2, cap_progress_reward, 1, finger_coord_reward, 0.05, 0.4014]
-[bottle_hold_reward, 0.25, cap_grasp_reward, 1, rotation_reward, 0.2, cap_progress_reward, 1, finger_coord_reward, 1, 0.2236]
-[bottle_hold_reward, 0.25, cap_grasp_reward, 1, rotation_reward, 1, cap_progress_reward, 0.25, finger_coord_reward, 0.05, 0.3359]1_4
-[bottle_hold_reward, 0.25, cap_grasp_reward, 1, rotation_reward, 1, cap_progress_reward, 0.25, finger_coord_reward, 1, 0.2051]
-[bottle_hold_reward, 0.25, cap_grasp_reward, 1, rotation_reward, 1, cap_progress_reward, 1, finger_coord_reward, 0.05, 0.5103]
-[bottle_hold_reward, 0.25, cap_grasp_reward, 1, rotation_reward, 1, cap_progress_reward, 1, finger_coord_reward, 1, 0.2568]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.25, rotation_reward, 0.2, cap_progress_reward, 0.25, finger_coord_reward, 0.05, 0.2925]1_4
-[bottle_hold_reward, 1, cap_grasp_reward, 0.25, rotation_reward, 0.2, cap_progress_reward, 0.25, finger_coord_reward, 1, 0.2271]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.25, rotation_reward, 0.2, cap_progress_reward, 1, finger_coord_reward, 0.05, 0.1543]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.25, rotation_reward, 0.2, cap_progress_reward, 1, finger_coord_reward, 1, 0.1392]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.25, rotation_reward, 1, cap_progress_reward, 0.25, finger_coord_reward, 0.05, 0.3901]1_4
-[bottle_hold_reward, 1, cap_grasp_reward, 0.25, rotation_reward, 1, cap_progress_reward, 0.25, finger_coord_reward, 1, 0.2061]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.25, rotation_reward, 1, cap_progress_reward, 1, finger_coord_reward, 0.05, 0.2769]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.25, rotation_reward, 1, cap_progress_reward, 1, finger_coord_reward, 1, 0.1973]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.2, cap_progress_reward, 0.25, finger_coord_reward, 0.05, 0.2686]1_4
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.2, cap_progress_reward, 0.25, finger_coord_reward, 1, 0.2886]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.2, cap_progress_reward, 1, finger_coord_reward, 0.05, 0.2993]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.2, cap_progress_reward, 1, finger_coord_reward, 1, 0.2964]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_progress_reward, 0.25, finger_coord_reward, 0.05, 0.6416]1_4
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_progress_reward, 0.25, finger_coord_reward, 1, 0.3145]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_progress_reward, 1, finger_coord_reward, 0.05, 0.2354]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_progress_reward, 1, finger_coord_reward, 1, 0.2236]
-
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, cap_opening_reward, 0.4, stability_reward, 0.1, 0.3525]1_12
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, cap_opening_reward, 0.4, stability_reward, 1, 0.0249]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, cap_opening_reward, 1, stability_reward, 0.1, 0.1816]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, cap_opening_reward, 1, stability_reward, 1, 0.0771]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, cap_opening_reward, 0.4, stability_reward, 0.1, 0.0361]1_12
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, cap_opening_reward, 0.4, stability_reward, 1, 0.0801]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, cap_opening_reward, 1, stability_reward, 0.1, 0.043]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, cap_opening_reward, 1, stability_reward, 1, 0.0195]
-
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, cap_opening_reward, 0.4, stability_reward, 0.1, 0.3867]1_12
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, cap_opening_reward, 0.4, stability_reward, 1, 0.1919]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, cap_opening_reward, 1, stability_reward, 0.1, 0.4487]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, cap_opening_reward, 1, stability_reward, 1, 0.5234]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, cap_opening_reward, 0.4, stability_reward, 0.1, 0.0522]1_12
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, cap_opening_reward, 0.4, stability_reward, 1, 0.0879]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, cap_opening_reward, 1, stability_reward, 0.1, 0.0366]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, cap_opening_reward, 1, stability_reward, 1, 0.2271]
-
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, cap_opening_reward, 0.4, stability_reward, 0.1, 0.0762]1_12
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, cap_opening_reward, 0.4, stability_reward, 1, 0.1177]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, cap_opening_reward, 1, stability_reward, 0.1, 0.125]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, cap_opening_reward, 1, stability_reward, 1, 0.1812]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, cap_opening_reward, 0.4, stability_reward, 0.1, 0.2715]1_12
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, cap_opening_reward, 0.4, stability_reward, 1, 0.0562]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, cap_opening_reward, 1, stability_reward, 0.1, 0.0244]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, cap_opening_reward, 1, stability_reward, 1, 0.0713]
-
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, cap_opening_reward, 0.4, stability_reward, 0.1, 0.5718]1_12
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, cap_opening_reward, 0.4, stability_reward, 1, 0.5205]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, cap_opening_reward, 1, stability_reward, 0.1, 0.2148]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, cap_opening_reward, 1, stability_reward, 1, 0.0947]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_opening_reward, 0.4, stability_reward, 0.1, 0.0425]1_12
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_opening_reward, 0.4, stability_reward, 1, 0.1958]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_opening_reward, 1, stability_reward, 0.1, 0.2344]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, cap_opening_reward, 1, stability_reward, 1, 0.043]
-
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 0.1, 0.0566]3_8
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 1, 0.0605]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 0.1, 0.063]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 1, 0.0562]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 0.1, 0.0459]3_8
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 1, 0.4736]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 1, stability_reward, 0.1, 0.0093]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 1, stability_reward, 1, 0.0479]
-
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 0.1, 0.2451]3_8
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 1, 0.105]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 0.1, 0.6802]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 1, 0.1226]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 0.1, 0.0913]3_8
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 1, 0.1899]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, alignment_reward, 1, stability_reward, 0.1, 0.3242]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 1, rotation_reward, 1, alignment_reward, 1, stability_reward, 1, 0.4961]
-
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 0.1, 0.0229]3_8
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 1, 0.6108]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 0.1, 0.4307]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 1, 0.0542]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 0.1, 0.1875]3_8
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 1, 0.0356]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 1, stability_reward, 0.1, 0.0425]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, alignment_reward, 1, stability_reward, 1, 0.0811]
-
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 0.1, 0.4019]3_8
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 0.2, stability_reward, 1, 0.1021]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 0.1, 0.1558]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 0.3, alignment_reward, 1, stability_reward, 1, 0.0977]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 0.1, 0.1001]3_8
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, alignment_reward, 0.2, stability_reward, 1, 0.3403]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, alignment_reward, 1, stability_reward, 0.1, 0.2505]
-[bottle_hold_reward, 1, cap_grasp_reward, 1, rotation_reward, 1, alignment_reward, 1, stability_reward, 1, 0.2725]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.1, 0.0674]3_2
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.5, 0.1167]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.1, 0.1216]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.5, 0.7378]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.1, 0.209]3_2
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.5, 0.2808]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.1, 0.3101]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.5, 0.6982]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.1, 0.293]3_2
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.5, 0.0884]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.1, 0.2412]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.5, 0.2246]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.1, 0.2129]3_2
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.5, 0.2222]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.1, 0.2129]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.5, 0.0737]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.1, 0.2793]3_2
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.5, 0.1421]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.1, 0.1377]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.5, 0.2544]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.1, 0.0386]3_2
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.5, 0.1343]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.1, 0.1133]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.5, 0.1074]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.1, 0.5088]3_2
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.5, 0.0898]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.1, 0.3682]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.5, 0.2373]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.1, 0.1191]3_2
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.5, 0.4141]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.1, 0.2515]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.5, 0.1914]
 
 
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.1, 0.0674]3_2
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.5, 0.1167]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.1, 0.1216]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.5, 0.7378]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.1, 0.209]3_2
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.5, 0.2808]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.1, 0.3101]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.5, 0.6982]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.1, 0.293]3_2
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.5, 0.0884]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.1, 0.2412]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.5, 0.2246]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.1, 0.2129]3_2
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.5, 0.2222]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.1, 0.2129]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.5, 0.0737]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.1, 0.2793]3_2
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.5, 0.1421]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.1, 0.1377]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.5, 0.2544]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.1, 0.0386]3_2
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.5, 0.1343]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.1, 0.1133]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.5, 0.1074]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.1, 0.5088]3_2
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.25, stability_reward, 0.5, 0.0898]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.1, 0.3682]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.35, separation_reward, 0.5, stability_reward, 0.5, 0.2373]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.1, 0.1191]3_2
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.25, stability_reward, 0.5, 0.4141]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.1, 0.2515]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, separation_reward, 0.5, stability_reward, 0.5, 0.1914]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.4, goal_position_reward, 0.2, stability_reward, 0.1, 0.207]2_11
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.4, goal_position_reward, 0.2, stability_reward, 0.5, 0.063]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.4, goal_position_reward, 1, stability_reward, 0.1, 0.2988]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.4, goal_position_reward, 1, stability_reward, 0.5, 0.0337]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, goal_position_reward, 0.2, stability_reward, 0.1, 0.0317]2_11
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, goal_position_reward, 0.2, stability_reward, 0.5, 0.0249]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, goal_position_reward, 1, stability_reward, 0.1, 0.0562]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, goal_position_reward, 1, stability_reward, 0.5, 0.1416]
+
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.4, goal_position_reward, 0.2, stability_reward, 0.1, 0.0732]2_11
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.4, goal_position_reward, 0.2, stability_reward, 0.5, 0.3306]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.4, goal_position_reward, 1, stability_reward, 0.1, 0.4775]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.4, goal_position_reward, 1, stability_reward, 0.5, 0.0322]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.2, stability_reward, 0.1, 0.0449]2_11
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.2, stability_reward, 0.5, 0.2378]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 1, stability_reward, 0.1, 0.2666]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 1, stability_reward, 0.5, 0.2271]
+
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.4, goal_position_reward, 0.2, stability_reward, 0.1, 0.188]2_11
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.4, goal_position_reward, 0.2, stability_reward, 0.5, 0.0542]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.4, goal_position_reward, 1, stability_reward, 0.1, 0.209]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.4, goal_position_reward, 1, stability_reward, 0.5, 0.0386]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 1, goal_position_reward, 0.2, stability_reward, 0.1, 0.0151]2_11
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 1, goal_position_reward, 1, stability_reward, 0.1, 0.0391]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 1, goal_position_reward, 1, stability_reward, 0.5, 0.0366]
+
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.4, goal_position_reward, 0.2, stability_reward, 0.1, 0.4204]2_11
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.4, goal_position_reward, 0.2, stability_reward, 0.5, 0.1235]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.4, goal_position_reward, 1, stability_reward, 0.1, 0.4326]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.4, goal_position_reward, 1, stability_reward, 0.5, 0.2466]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.2, stability_reward, 0.1, 0.0522]2_11
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.2, stability_reward, 0.5, 0.0693]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 1, stability_reward, 0.1, 0.3301]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 1, stability_reward, 0.5, 0.04]
 
 
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.4, goal_pos_reward, 0.2, stability_reward, 0.1, 0.207]2_11
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.4, goal_pos_reward, 0.2, stability_reward, 0.5, 0.063]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.4, goal_pos_reward, 1, stability_reward, 0.1, 0.2988]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.4, goal_pos_reward, 1, stability_reward, 0.5, 0.0337]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, goal_pos_reward, 0.2, stability_reward, 0.1, 0.0317]2_11
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, goal_pos_reward, 0.2, stability_reward, 0.5, 0.0249]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, goal_pos_reward, 1, stability_reward, 0.1, 0.0562]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, goal_pos_reward, 1, stability_reward, 0.5, 0.1416]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.1, 0.6865]2_8
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.5, 0.0713]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.1, 0.0654]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.5, 0.0391]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.1, 0.0566]2_8
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.5, 0.6836]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, lift_reward, 1, stability_reward, 0.1, 0.2002]
+[hold_object_reward, 0.15, grasp_reward, 0.15, rotation_reward, 1, lift_reward, 1, stability_reward, 0.5, 0.6543]
 
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.4, goal_pos_reward, 0.2, stability_reward, 0.1, 0.0732]2_11
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.4, goal_pos_reward, 0.2, stability_reward, 0.5, 0.3306]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.4, goal_pos_reward, 1, stability_reward, 0.1, 0.4775]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.4, goal_pos_reward, 1, stability_reward, 0.5, 0.0322]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.2, stability_reward, 0.1, 0.0449]2_11
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.2, stability_reward, 0.5, 0.2378]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 1, stability_reward, 0.1, 0.2666]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 1, stability_reward, 0.5, 0.2271]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.1, 0.1865]2_8
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.5, 0.1333]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.1, 0.1699]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.5, 0.1587]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.1, 0.2505]2_8
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.5, 0.0664]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, lift_reward, 1, stability_reward, 0.1, 0.147]
+[hold_object_reward, 0.15, grasp_reward, 0.5, rotation_reward, 1, lift_reward, 1, stability_reward, 0.5, 0.5054]
 
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.4, goal_pos_reward, 0.2, stability_reward, 0.1, 0.188]2_11
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.4, goal_pos_reward, 0.2, stability_reward, 0.5, 0.0542]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.4, goal_pos_reward, 1, stability_reward, 0.1, 0.209]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.4, goal_pos_reward, 1, stability_reward, 0.5, 0.0386]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 1, goal_pos_reward, 0.2, stability_reward, 0.1, 0.0151]2_11
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 1, goal_pos_reward, 1, stability_reward, 0.1, 0.0391]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 1, goal_pos_reward, 1, stability_reward, 0.5, 0.0366]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.1, 0.1416]2_8
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.5, 0.1108]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.1, 0.1362]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.5, 0.5562]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.1, 0.0425]2_8
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.5, 0.084]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 1, lift_reward, 1, stability_reward, 0.1, 0.4849]
+[hold_object_reward, 0.5, grasp_reward, 0.15, rotation_reward, 1, lift_reward, 1, stability_reward, 0.5, 0.0195]
 
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.4, goal_pos_reward, 0.2, stability_reward, 0.1, 0.4204]2_11
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.4, goal_pos_reward, 0.2, stability_reward, 0.5, 0.1235]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.4, goal_pos_reward, 1, stability_reward, 0.1, 0.4326]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.4, goal_pos_reward, 1, stability_reward, 0.5, 0.2466]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.2, stability_reward, 0.1, 0.0522]2_11
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.2, stability_reward, 0.5, 0.0693]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 1, stability_reward, 0.1, 0.3301]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 1, stability_reward, 0.5, 0.04]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.1, 0.2188]2_8
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.5, 0.1113]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.1, 0.1445]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.5, 0.4463]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.1, 0.0405]2_8
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.5, 0.1513]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, lift_reward, 1, stability_reward, 0.1, 0.1143]
+[hold_object_reward, 0.5, grasp_reward, 0.5, rotation_reward, 1, lift_reward, 1, stability_reward, 0.5, 0.0415]
 
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.0317]1_3
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.0522]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.5322]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.2817]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.1636]1_3
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.0503]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.3159]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.0581]
 
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.1, 0.6865]2_8
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.5, 0.0713]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.1, 0.0654]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.5, 0.0391]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.1, 0.0566]2_8
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.5, 0.6836]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, lift_reward, 1, stability_reward, 0.1, 0.2002]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.15, rotation_reward, 1, lift_reward, 1, stability_reward, 0.5, 0.6543]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.2974]1_3
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.2031]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.2393]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.1333]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.5259]1_3
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.1377]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.2788]
+[hold_object_reward, 0.2, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.063]
 
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.1, 0.1865]2_8
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.5, 0.1333]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.1, 0.1699]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.5, 0.1587]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.1, 0.2505]2_8
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.5, 0.0664]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, lift_reward, 1, stability_reward, 0.1, 0.147]
-[bottle_hold_reward, 0.15, cap_grasp_reward, 0.5, rotation_reward, 1, lift_reward, 1, stability_reward, 0.5, 0.5054]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.0786]1_3
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.3203]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.2944]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.4668]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.2231]1_3
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.4321]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.2354]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.1675]
 
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.1, 0.1416]2_8
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.5, 0.1108]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.1, 0.1362]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.5, 0.5562]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.1, 0.0425]2_8
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.5, 0.084]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 1, lift_reward, 1, stability_reward, 0.1, 0.4849]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.15, rotation_reward, 1, lift_reward, 1, stability_reward, 0.5, 0.0195]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.1494]1_3
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.1475]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.1938]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.3369]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.1699]1_3
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.061]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.251]
+[hold_object_reward, 0.2, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.0732]
 
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.1, 0.2188]2_8
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 0.2, stability_reward, 0.5, 0.1113]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.1, 0.1445]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 0.4, lift_reward, 1, stability_reward, 0.5, 0.4463]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.1, 0.0405]2_8
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, lift_reward, 0.2, stability_reward, 0.5, 0.1513]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, lift_reward, 1, stability_reward, 0.1, 0.1143]
-[bottle_hold_reward, 0.5, cap_grasp_reward, 0.5, rotation_reward, 1, lift_reward, 1, stability_reward, 0.5, 0.0415]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.0127]1_3
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.0176]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.1558]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.0142]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.1387]1_3
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.0229]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.1587]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.231]
 
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.1, 0.0317]1_3
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.5, 0.0522]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.1, 0.5322]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.5, 0.2817]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.1, 0.1636]1_3
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.5, 0.0503]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.1, 0.3159]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.5, 0.0581]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.4399]1_3
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.0786]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.1396]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.0425]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.2031]1_3
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.1099]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.3755]
+[hold_object_reward, 1, grasp_reward, 0.2, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.02]
 
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.1, 0.2974]1_3
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.5, 0.2031]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.1, 0.2393]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.5, 0.1333]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.1, 0.5259]1_3
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.5, 0.1377]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.1, 0.2788]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.5, 0.063]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.6294]1_3
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.23]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.1416]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.3442]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.1543]1_3
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.2114]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.4194]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 0.3, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.4292]
 
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.1, 0.0786]1_3
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.5, 0.3203]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.1, 0.2944]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.5, 0.4668]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.1, 0.2231]1_3
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.5, 0.4321]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.1, 0.2354]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.5, 0.1675]
-
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.1, 0.1494]1_3
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.5, 0.1475]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.1, 0.1938]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.5, 0.3369]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.1, 0.1699]1_3
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.5, 0.061]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.1, 0.251]
-[bottle_hold_reward, 0.2, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.5, 0.0732]
-
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.1, 0.0127]1_3
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.5, 0.0176]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.1, 0.1558]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.5, 0.0142]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.1, 0.1387]1_3
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.5, 0.0229]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.1, 0.1587]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.5, 0.231]
-
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.1, 0.4399]1_3
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.5, 0.0786]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.1, 0.1396]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.5, 0.0425]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.1, 0.2031]1_3
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.5, 0.1099]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.1, 0.3755]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.2, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.5, 0.02]
-
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.1, 0.6294]1_3
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.5, 0.23]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.1, 0.1416]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.5, 0.3442]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.1, 0.1543]1_3
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.5, 0.2114]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.1, 0.4194]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 0.3, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.5, 0.4292]
-
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.1, 0.2822]1_3
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.15, stability_reward, 0.5, 0.1963]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.1, 0.1011]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.15, goal_rot_reward, 0.5, stability_reward, 0.5, 0.1221]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.1, 0.1138]1_3
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.15, stability_reward, 0.5, 0.1206]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.1, 0.188]
-[bottle_hold_reward, 1, cap_grasp_reward, 0.5, rotation_reward, 1, goal_pos_reward, 0.5, goal_rot_reward, 0.5, stability_reward, 0.5, 0.0449]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.2822]1_3
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.1963]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.1011]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.15, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.1221]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.1, 0.1138]1_3
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.15, stability_reward, 0.5, 0.1206]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.1, 0.188]
+[hold_object_reward, 1, grasp_reward, 0.5, rotation_reward, 1, goal_position_reward, 0.5, goal_orientation_reward, 0.5, stability_reward, 0.5, 0.0449]

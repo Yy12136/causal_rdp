@@ -1,40 +1,40 @@
-[hand_close_reward, 5, door_movement_reward, 1, 0.9995]4_15
-[hand_close_reward, 5, door_movement_reward, 0.5, 1]
-[hand_close_reward, 5, door_movement_reward, 5, ]
-[hand_close_reward, 1, door_movement_reward, 1, 1]4_15
-[hand_close_reward, 1, door_movement_reward, 0.5, 0.9966]
-[hand_close_reward, 1, door_movement_reward, 5, 0.9966]
-[hand_close_reward, 10, door_movement_reward, 1, 1]4_15
-[hand_close_reward, 10, door_movement_reward, 0.5, 1]
-[hand_close_reward, 10, door_movement_reward, 5, 0.999]
+[hand_close_reward, 5, move_reward, 1, 0.9995]4_15
+[hand_close_reward, 5, move_reward, 0.5, 1]
+[hand_close_reward, 5, move_reward, 5, ]
+[hand_close_reward, 1, move_reward, 1, 1]4_15
+[hand_close_reward, 1, move_reward, 0.5, 0.9966]
+[hand_close_reward, 1, move_reward, 5, 0.9966]
+[hand_close_reward, 10, move_reward, 1, 1]4_15
+[hand_close_reward, 10, move_reward, 0.5, 1]
+[hand_close_reward, 10, move_reward, 5, 0.999]
 
-[hand_close_reward, 10, door_movement_reward, 5, success_reward, 10, 0.9912]1_14
-[hand_close_reward, 10, door_movement_reward, 5, success_reward, 5, 0.9917]
-[hand_close_reward, 10, door_movement_reward, 5, success_reward, 20, 0.9976]
-[hand_close_reward, 10, door_movement_reward, 1, success_reward, 10, 1]
-[hand_close_reward, 10, door_movement_reward, 1, success_reward, 5, 1]
-[hand_close_reward, 10, door_movement_reward, 1, success_reward, 20, 0.9956]
-[hand_close_reward, 10, door_movement_reward, 10, success_reward, 10, 1]1_14
-[hand_close_reward, 10, door_movement_reward, 10, success_reward, 5, 0.9927]
-[hand_close_reward, 10, door_movement_reward, 10, success_reward, 20, 0.9922]
-[hand_close_reward, 5, door_movement_reward, 5, success_reward, 10, 1]1_14
-[hand_close_reward, 5, door_movement_reward, 5, success_reward, 5, 1]
-[hand_close_reward, 5, door_movement_reward, 5, success_reward, 20, 0.9955]
-[hand_close_reward, 5, door_movement_reward, 1, success_reward, 10, 0.9946]
-[hand_close_reward, 5, door_movement_reward, 1, success_reward, 5, 1]
-[hand_close_reward, 5, door_movement_reward, 1, success_reward, 20, 1]
-[hand_close_reward, 5, door_movement_reward, 10, success_reward, 10, 0.998]1_14
-[hand_close_reward, 5, door_movement_reward, 10, success_reward, 5, 1]
-[hand_close_reward, 5, door_movement_reward, 10, success_reward, 20, 1]
-[hand_close_reward, 20, door_movement_reward, 5, success_reward, 10, 0.9956]1_14
-[hand_close_reward, 20, door_movement_reward, 5, success_reward, 5, 1]
-[hand_close_reward, 20, door_movement_reward, 5, success_reward, 20, 1]
-[hand_close_reward, 20, door_movement_reward, 1, success_reward, 10, 1]
-[hand_close_reward, 20, door_movement_reward, 1, success_reward, 5, 0.9995]
-[hand_close_reward, 20, door_movement_reward, 1, success_reward, 20, 1]
-[hand_close_reward, 20, door_movement_reward, 10, success_reward, 10, 0.9902]1_14
-[hand_close_reward, 20, door_movement_reward, 10, success_reward, 5, 1]
-[hand_close_reward, 20, door_movement_reward, 10, success_reward, 20, 0.999]
+[hand_close_reward, 10, move_reward, 5, success_reward, 10, 0.9912]1_14
+[hand_close_reward, 10, move_reward, 5, success_reward, 5, 0.9917]
+[hand_close_reward, 10, move_reward, 5, success_reward, 20, 0.9976]
+[hand_close_reward, 10, move_reward, 1, success_reward, 10, 1]
+[hand_close_reward, 10, move_reward, 1, success_reward, 5, 1]
+[hand_close_reward, 10, move_reward, 1, success_reward, 20, 0.9956]
+[hand_close_reward, 10, move_reward, 10, success_reward, 10, 1]1_14
+[hand_close_reward, 10, move_reward, 10, success_reward, 5, 0.9927]
+[hand_close_reward, 10, move_reward, 10, success_reward, 20, 0.9922]
+[hand_close_reward, 5, move_reward, 5, success_reward, 10, 1]1_14
+[hand_close_reward, 5, move_reward, 5, success_reward, 5, 1]
+[hand_close_reward, 5, move_reward, 5, success_reward, 20, 0.9955]
+[hand_close_reward, 5, move_reward, 1, success_reward, 10, 0.9946]
+[hand_close_reward, 5, move_reward, 1, success_reward, 5, 1]
+[hand_close_reward, 5, move_reward, 1, success_reward, 20, 1]
+[hand_close_reward, 5, move_reward, 10, success_reward, 10, 0.998]1_14
+[hand_close_reward, 5, move_reward, 10, success_reward, 5, 1]
+[hand_close_reward, 5, move_reward, 10, success_reward, 20, 1]
+[hand_close_reward, 20, move_reward, 5, success_reward, 10, 0.9956]1_14
+[hand_close_reward, 20, move_reward, 5, success_reward, 5, 1]
+[hand_close_reward, 20, move_reward, 5, success_reward, 20, 1]
+[hand_close_reward, 20, move_reward, 1, success_reward, 10, 1]
+[hand_close_reward, 20, move_reward, 1, success_reward, 5, 0.9995]
+[hand_close_reward, 20, move_reward, 1, success_reward, 20, 1]
+[hand_close_reward, 20, move_reward, 10, success_reward, 10, 0.9902]1_14
+[hand_close_reward, 20, move_reward, 10, success_reward, 5, 1]
+[hand_close_reward, 20, move_reward, 10, success_reward, 20, 0.999]
 
 [hand_close_reward, 5, object_push_reward, 10, 1]1_13
 [hand_close_reward, 5, object_push_reward, 5, 1]
@@ -46,501 +46,482 @@
 [hand_close_reward, 10, object_push_reward, 5, 0.9658]
 [hand_close_reward, 10, object_push_reward, 20, 0.9971]
 
-[hand_close_reward, 10, door_close_reward, 10, task_completion_reward, 20, 1]1_11 
-[hand_close_reward, 10, door_close_reward, 10, task_completion_reward, 10, 1]
-[hand_close_reward, 10, door_close_reward, 10, task_completion_reward, 1, 0.9009]
-[hand_close_reward, 10, door_close_reward, 1, task_completion_reward, 20, 0.9819]1_11 
-[hand_close_reward, 10, door_close_reward, 1, task_completion_reward, 10, 1] 
-[hand_close_reward, 10, door_close_reward, 1, task_completion_reward, 1, 0.9941]
-[hand_close_reward, 10, door_close_reward, 20, task_completion_reward, 20, 0.9971]1_11 
-[hand_close_reward, 10, door_close_reward, 20, task_completion_reward, 10, 1]
-[hand_close_reward, 10, door_close_reward, 20, task_completion_reward, 1, 1]
-[hand_close_reward, 1, door_close_reward, 10, task_completion_reward, 20, 0.9985]1_11 
-[hand_close_reward, 1, door_close_reward, 10, task_completion_reward, 10, 0.9941]
-[hand_close_reward, 1, door_close_reward, 10, task_completion_reward, 1, 0.9834]
-[hand_close_reward, 1, door_close_reward, 1, task_completion_reward, 20, 0.9907]1_11 
-[hand_close_reward, 1, door_close_reward, 1, task_completion_reward, 10, 0.9956]
-[hand_close_reward, 1, door_close_reward, 1, task_completion_reward, 1, 0.9971]
-[hand_close_reward, 1, door_close_reward, 20, task_completion_reward, 20, 0.9868]1_11 
-[hand_close_reward, 1, door_close_reward, 20, task_completion_reward, 10, 0.998]
-[hand_close_reward, 1, door_close_reward, 20, task_completion_reward, 1, 1]
-[hand_close_reward, 20, door_close_reward, 10, task_completion_reward, 20, 1]1_11 
-[hand_close_reward, 20, door_close_reward, 10, task_completion_reward, 10, 1]
-[hand_close_reward, 20, door_close_reward, 10, task_completion_reward, 1, 0.9995]
-[hand_close_reward, 20, door_close_reward, 1, task_completion_reward, 20, 1]1_11 
-[hand_close_reward, 20, door_close_reward, 1, task_completion_reward, 10, 1]
-[hand_close_reward, 20, door_close_reward, 1, task_completion_reward, 1, 0.998]
-[hand_close_reward, 20, door_close_reward, 20, task_completion_reward, 20, 0.9995]1_11 
-[hand_close_reward, 20, door_close_reward, 20, task_completion_reward, 10, 0.8154]
-[hand_close_reward, 20, door_close_reward, 20, task_completion_reward, 1, 1]
+[hand_close_reward, 10, close_reward, 10, task_completion_reward, 20, 1]1_11 
+[hand_close_reward, 10, close_reward, 10, task_completion_reward, 10, 1]
+[hand_close_reward, 10, close_reward, 10, task_completion_reward, 1, 0.9009]
+[hand_close_reward, 10, close_reward, 1, task_completion_reward, 20, 0.9819]1_11 
+[hand_close_reward, 10, close_reward, 1, task_completion_reward, 10, 1] 
+[hand_close_reward, 10, close_reward, 1, task_completion_reward, 1, 0.9941]
+[hand_close_reward, 10, close_reward, 20, task_completion_reward, 20, 0.9971]1_11 
+[hand_close_reward, 10, close_reward, 20, task_completion_reward, 10, 1]
+[hand_close_reward, 10, close_reward, 20, task_completion_reward, 1, 1]
+[hand_close_reward, 1, close_reward, 10, task_completion_reward, 20, 0.9985]1_11 
+[hand_close_reward, 1, close_reward, 10, task_completion_reward, 10, 0.9941]
+[hand_close_reward, 1, close_reward, 10, task_completion_reward, 1, 0.9834]
+[hand_close_reward, 1, close_reward, 1, task_completion_reward, 20, 0.9907]1_11 
+[hand_close_reward, 1, close_reward, 1, task_completion_reward, 10, 0.9956]
+[hand_close_reward, 1, close_reward, 1, task_completion_reward, 1, 0.9971]
+[hand_close_reward, 1, close_reward, 20, task_completion_reward, 20, 0.9868]1_11 
+[hand_close_reward, 1, close_reward, 20, task_completion_reward, 10, 0.998]
+[hand_close_reward, 1, close_reward, 20, task_completion_reward, 1, 1]
+[hand_close_reward, 20, close_reward, 10, task_completion_reward, 20, 1]1_11 
+[hand_close_reward, 20, close_reward, 10, task_completion_reward, 10, 1]
+[hand_close_reward, 20, close_reward, 10, task_completion_reward, 1, 0.9995]
+[hand_close_reward, 20, close_reward, 1, task_completion_reward, 20, 1]1_11 
+[hand_close_reward, 20, close_reward, 1, task_completion_reward, 10, 1]
+[hand_close_reward, 20, close_reward, 1, task_completion_reward, 1, 0.998]
+[hand_close_reward, 20, close_reward, 20, task_completion_reward, 20, 0.9995]1_11 
+[hand_close_reward, 20, close_reward, 20, task_completion_reward, 10, 0.8154]
+[hand_close_reward, 20, close_reward, 20, task_completion_reward, 1, 1]
 
-[hand_close_reward, 5, door_close_reward, 1, success_reward, 10, 1]1_10 
-[hand_close_reward, 5, door_close_reward, 1, success_reward, 5, 1]
-[hand_close_reward, 5, door_close_reward, 1, success_reward, 20, 1]
-[hand_close_reward, 5, door_close_reward, 0.5, success_reward, 10, 0.9883]1_10 
-[hand_close_reward, 5, door_close_reward, 0.5, success_reward, 5, 0.999]
-[hand_close_reward, 5, door_close_reward, 0.5, success_reward, 20, 0.9888] 
-[hand_close_reward, 5, door_close_reward, 5, success_reward, 10, 1]1_10 
-[hand_close_reward, 5, door_close_reward, 5, success_reward, 5, 0.9966]
-[hand_close_reward, 5, door_close_reward, 5, success_reward, 20, 1]
-[hand_close_reward, 1, door_close_reward, 1, success_reward, 10, 0.9932]1_10 
-[hand_close_reward, 1, door_close_reward, 1, success_reward, 5, 1]
-[hand_close_reward, 1, door_close_reward, 1, success_reward, 20, 0.999]
-[hand_close_reward, 1, door_close_reward, 0.5, success_reward, 10, 1]1_10 
-[hand_close_reward, 1, door_close_reward, 0.5, success_reward, 5, 0.9995]
-[hand_close_reward, 1, door_close_reward, 0.5, success_reward, 20, 1] 
-[hand_close_reward, 1, door_close_reward, 5, success_reward, 10, 0.9795]1_10 
-[hand_close_reward, 1, door_close_reward, 5, success_reward, 5, 1]
-[hand_close_reward, 1, door_close_reward, 5, success_reward, 20, 1]   
-[hand_close_reward, 10, door_close_reward, 1, success_reward, 10, 0.9604]1_10 
-[hand_close_reward, 10, door_close_reward, 1, success_reward, 5, 0.999]
-[hand_close_reward, 10, door_close_reward, 1, success_reward, 20, 0.9976]
-[hand_close_reward, 10, door_close_reward, 0.5, success_reward, 10, 0.999]1_10 
-[hand_close_reward, 10, door_close_reward, 0.5, success_reward, 5, 1]
-[hand_close_reward, 10, door_close_reward, 0.5, success_reward, 20, 0.9995] 
-[hand_close_reward, 10, door_close_reward, 5, success_reward, 10, 0.9961]1_10 
-[hand_close_reward, 10, door_close_reward, 5, success_reward, 5, 0.9951]
-[hand_close_reward, 10, door_close_reward, 5, success_reward, 20, 0.999]   
+[hand_close_reward, 5, close_reward, 1, success_reward, 10, 1]1_10 
+[hand_close_reward, 5, close_reward, 1, success_reward, 5, 1]
+[hand_close_reward, 5, close_reward, 1, success_reward, 20, 1]
+[hand_close_reward, 5, close_reward, 0.5, success_reward, 10, 0.9883]1_10 
+[hand_close_reward, 5, close_reward, 0.5, success_reward, 5, 0.999]
+[hand_close_reward, 5, close_reward, 0.5, success_reward, 20, 0.9888] 
+[hand_close_reward, 5, close_reward, 5, success_reward, 10, 1]1_10 
+[hand_close_reward, 5, close_reward, 5, success_reward, 5, 0.9966]
+[hand_close_reward, 5, close_reward, 5, success_reward, 20, 1]
+[hand_close_reward, 1, close_reward, 1, success_reward, 10, 0.9932]1_10 
+[hand_close_reward, 1, close_reward, 1, success_reward, 5, 1]
+[hand_close_reward, 1, close_reward, 1, success_reward, 20, 0.999]
+[hand_close_reward, 1, close_reward, 0.5, success_reward, 10, 1]1_10 
+[hand_close_reward, 1, close_reward, 0.5, success_reward, 5, 0.9995]
+[hand_close_reward, 1, close_reward, 0.5, success_reward, 20, 1] 
+[hand_close_reward, 1, close_reward, 5, success_reward, 10, 0.9795]1_10 
+[hand_close_reward, 1, close_reward, 5, success_reward, 5, 1]
+[hand_close_reward, 1, close_reward, 5, success_reward, 20, 1]   
+[hand_close_reward, 10, close_reward, 1, success_reward, 10, 0.9604]1_10 
+[hand_close_reward, 10, close_reward, 1, success_reward, 5, 0.999]
+[hand_close_reward, 10, close_reward, 1, success_reward, 20, 0.9976]
+[hand_close_reward, 10, close_reward, 0.5, success_reward, 10, 0.999]1_10 
+[hand_close_reward, 10, close_reward, 0.5, success_reward, 5, 1]
+[hand_close_reward, 10, close_reward, 0.5, success_reward, 20, 0.9995] 
+[hand_close_reward, 10, close_reward, 5, success_reward, 10, 0.9961]1_10 
+[hand_close_reward, 10, close_reward, 5, success_reward, 5, 0.9951]
+[hand_close_reward, 10, close_reward, 5, success_reward, 20, 0.999]   
 
-[hand_close_reward, 10, door_close_reward, 10, 0.9966]1_2 
-[hand_close_reward, 10, door_close_reward, 5, 0.9985]
-[hand_close_reward, 10, door_close_reward, 20, 1]  
-[hand_close_reward, 5, door_close_reward, 10, 0.9985]1_2 
-[hand_close_reward, 5, door_close_reward, 5, 0.999]
-[hand_close_reward, 5, door_close_reward, 20, 0.9995]  
-[hand_close_reward, 20, door_close_reward, 10, 1]1_2 
-[hand_close_reward, 20, door_close_reward, 5, 1]
-[hand_close_reward, 20, door_close_reward, 20, 1]  
+[hand_close_reward, 10, close_reward, 10, 0.9966]1_2 
+[hand_close_reward, 10, close_reward, 5, 0.9985]
+[hand_close_reward, 10, close_reward, 20, 1]  
+[hand_close_reward, 5, close_reward, 10, 0.9985]1_2 
+[hand_close_reward, 5, close_reward, 5, 0.999]
+[hand_close_reward, 5, close_reward, 20, 0.9995]  
+[hand_close_reward, 20, close_reward, 10, 1]1_2 
+[hand_close_reward, 20, close_reward, 5, 1]
+[hand_close_reward, 20, close_reward, 20, 1]  
 
-[hand_close_reward, 10, door_angle_reward, 5, door_movement_reward, 2, success_reward, 100, 0.9775]1_1 
-[hand_close_reward, 10, door_angle_reward, 5, door_movement_reward, 2, success_reward, 10, 1]
-[hand_close_reward, 10, door_angle_reward, 5, door_movement_reward, 2, success_reward, 1, 0.9971]
-[hand_close_reward, 10, door_angle_reward, 5, door_movement_reward, 1, success_reward, 100, 0.9917]1_1 
-[hand_close_reward, 10, door_angle_reward, 5, door_movement_reward, 1, success_reward, 10, 0.999]
-[hand_close_reward, 10, door_angle_reward, 5, door_movement_reward, 1, success_reward, 1, 0.9912]
-[hand_close_reward, 10, door_angle_reward, 5, door_movement_reward, 10, success_reward, 100, 0.9956]1_1 
-[hand_close_reward, 10, door_angle_reward, 5, door_movement_reward, 10, success_reward, 10, 1]
-[hand_close_reward, 10, door_angle_reward, 5, door_movement_reward, 10, success_reward, 1, 0.9995]
-[hand_close_reward, 10, door_angle_reward, 1, door_movement_reward, 2, success_reward, 100, 1]1_1 
-[hand_close_reward, 10, door_angle_reward, 1, door_movement_reward, 2, success_reward, 10, 0.9883]
-[hand_close_reward, 10, door_angle_reward, 1, door_movement_reward, 2, success_reward, 1, 0.9946]
-[hand_close_reward, 10, door_angle_reward, 1, door_movement_reward, 1, success_reward, 100, 0.8989]1_1 
-[hand_close_reward, 10, door_angle_reward, 1, door_movement_reward, 1, success_reward, 10, 0.9673]
-[hand_close_reward, 10, door_angle_reward, 1, door_movement_reward, 1, success_reward, 1, 0.9995]
-[hand_close_reward, 10, door_angle_reward, 1, door_movement_reward, 10, success_reward, 100, 0.9844]1_1 
-[hand_close_reward, 10, door_angle_reward, 1, door_movement_reward, 10, success_reward, 10, 1]
-[hand_close_reward, 10, door_angle_reward, 1, door_movement_reward, 10, success_reward, 1, 1]
-[hand_close_reward, 5, door_angle_reward, 10, door_movement_reward, 2, success_reward, 100, 1]1_1 
-[hand_close_reward, 5, door_angle_reward, 10, door_movement_reward, 2, success_reward, 10, 1]
-[hand_close_reward, 5, door_angle_reward, 10, door_movement_reward, 2, success_reward, 1, 0.998]
-[hand_close_reward, 5, door_angle_reward, 10, door_movement_reward, 1, success_reward, 100, 1]1_1 
-[hand_close_reward, 5, door_angle_reward, 10, door_movement_reward, 1, success_reward, 10, 0.9824]
-[hand_close_reward, 5, door_angle_reward, 10, door_movement_reward, 1, success_reward, 1, 0.9995]
-[hand_close_reward, 5, door_angle_reward, 10, door_movement_reward, 10, success_reward, 100, 0.9805]1_1 
-[hand_close_reward, 5, door_angle_reward, 10, door_movement_reward, 10, success_reward, 10, 0.9478]
-[hand_close_reward, 5, door_angle_reward, 10, door_movement_reward, 10, success_reward, 1, 0.999]
-[hand_close_reward, 20, door_angle_reward, 5, door_movement_reward, 2, success_reward, 100, 0.9946]1_1 
-[hand_close_reward, 20, door_angle_reward, 5, door_movement_reward, 2, success_reward, 10, 1]
-[hand_close_reward, 20, door_angle_reward, 5, door_movement_reward, 2, success_reward, 1, 0.8643]
-[hand_close_reward, 20, door_angle_reward, 5, door_movement_reward, 1, success_reward, 100, 0.9961]1_1 
-[hand_close_reward, 20, door_angle_reward, 5, door_movement_reward, 1, success_reward, 10, 0.8989]
-[hand_close_reward, 20, door_angle_reward, 5, door_movement_reward, 1, success_reward, 1, 0.9277]
-[hand_close_reward, 20, door_angle_reward, 5, door_movement_reward, 10, success_reward, 100, 0.9761]1_1 
-[hand_close_reward, 20, door_angle_reward, 5, door_movement_reward, 10, success_reward, 10, 0.9473]
-[hand_close_reward, 20, door_angle_reward, 5, door_movement_reward, 10, success_reward, 1, 0.998]
+[hand_close_reward, 10, object_angle_reward, 5, move_reward, 2, success_reward, 100, 0.9775]1_1 
+[hand_close_reward, 10, object_angle_reward, 5, move_reward, 2, success_reward, 10, 1]
+[hand_close_reward, 10, object_angle_reward, 5, move_reward, 2, success_reward, 1, 0.9971]
+[hand_close_reward, 10, object_angle_reward, 5, move_reward, 1, success_reward, 100, 0.9917]1_1 
+[hand_close_reward, 10, object_angle_reward, 5, move_reward, 1, success_reward, 10, 0.999]
+[hand_close_reward, 10, object_angle_reward, 5, move_reward, 1, success_reward, 1, 0.9912]
+[hand_close_reward, 10, object_angle_reward, 5, move_reward, 10, success_reward, 100, 0.9956]1_1 
+[hand_close_reward, 10, object_angle_reward, 5, move_reward, 10, success_reward, 10, 1]
+[hand_close_reward, 10, object_angle_reward, 5, move_reward, 10, success_reward, 1, 0.9995]
+[hand_close_reward, 10, object_angle_reward, 1, move_reward, 2, success_reward, 100, 1]1_1 
+[hand_close_reward, 10, object_angle_reward, 1, move_reward, 2, success_reward, 10, 0.9883]
+[hand_close_reward, 10, object_angle_reward, 1, move_reward, 2, success_reward, 1, 0.9946]
+[hand_close_reward, 10, object_angle_reward, 1, move_reward, 1, success_reward, 100, 0.8989]1_1 
+[hand_close_reward, 10, object_angle_reward, 1, move_reward, 1, success_reward, 10, 0.9673]
+[hand_close_reward, 10, object_angle_reward, 1, move_reward, 1, success_reward, 1, 0.9995]
+[hand_close_reward, 10, object_angle_reward, 1, move_reward, 10, success_reward, 100, 0.9844]1_1 
+[hand_close_reward, 10, object_angle_reward, 1, move_reward, 10, success_reward, 10, 1]
+[hand_close_reward, 10, object_angle_reward, 1, move_reward, 10, success_reward, 1, 1]
+[hand_close_reward, 5, object_angle_reward, 10, move_reward, 2, success_reward, 100, 1]1_1 
+[hand_close_reward, 5, object_angle_reward, 10, move_reward, 2, success_reward, 10, 1]
+[hand_close_reward, 5, object_angle_reward, 10, move_reward, 2, success_reward, 1, 0.998]
+[hand_close_reward, 5, object_angle_reward, 10, move_reward, 1, success_reward, 100, 1]1_1 
+[hand_close_reward, 5, object_angle_reward, 10, move_reward, 1, success_reward, 10, 0.9824]
+[hand_close_reward, 5, object_angle_reward, 10, move_reward, 1, success_reward, 1, 0.9995]
+[hand_close_reward, 5, object_angle_reward, 10, move_reward, 10, success_reward, 100, 0.9805]1_1 
+[hand_close_reward, 5, object_angle_reward, 10, move_reward, 10, success_reward, 10, 0.9478]
+[hand_close_reward, 5, object_angle_reward, 10, move_reward, 10, success_reward, 1, 0.999]
+[hand_close_reward, 20, object_angle_reward, 5, move_reward, 2, success_reward, 100, 0.9946]1_1 
+[hand_close_reward, 20, object_angle_reward, 5, move_reward, 2, success_reward, 10, 1]
+[hand_close_reward, 20, object_angle_reward, 5, move_reward, 2, success_reward, 1, 0.8643]
+[hand_close_reward, 20, object_angle_reward, 5, move_reward, 1, success_reward, 100, 0.9961]1_1 
+[hand_close_reward, 20, object_angle_reward, 5, move_reward, 1, success_reward, 10, 0.8989]
+[hand_close_reward, 20, object_angle_reward, 5, move_reward, 1, success_reward, 1, 0.9277]
+[hand_close_reward, 20, object_angle_reward, 5, move_reward, 10, success_reward, 100, 0.9761]1_1 
+[hand_close_reward, 20, object_angle_reward, 5, move_reward, 10, success_reward, 10, 0.9473]
+[hand_close_reward, 20, object_angle_reward, 5, move_reward, 10, success_reward, 1, 0.998]
 
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, backward_movement_penalty, 1, 0.9819]2_15
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, backward_movement_penalty, 0.5, 0.9985]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, backward_movement_penalty, 5, 0.9951]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, backward_movement_penalty, 1, 1]2_15
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, backward_movement_penalty, 0.5, 0.9995]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, backward_movement_penalty, 5, 0.9927]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 5, backward_movement_penalty, 1, 0.998]2_15
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 5, backward_movement_penalty, 0.5, 1]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 5, backward_movement_penalty, 5, 1]
-[door_close_reward, 0.1, hand_close_reward, 0.5, door_movement_reward, 1, backward_movement_penalty, 1, 0.9824]2_15
-[door_close_reward, 0.1, hand_close_reward, 0.5, door_movement_reward, 1, backward_movement_penalty, 0.5, 0.9912]
-[door_close_reward, 0.1, hand_close_reward, 0.5, door_movement_reward, 1, backward_movement_penalty, 5, 1]
-[door_close_reward, 0.1, hand_close_reward, 0.5, door_movement_reward, 0.5, backward_movement_penalty, 1, 1]2_15
-[door_close_reward, 0.1, hand_close_reward, 0.5, door_movement_reward, 0.5, backward_movement_penalty, 0.5, 0.9253]
-[door_close_reward, 0.1, hand_close_reward, 0.5, door_movement_reward, 0.5, backward_movement_penalty, 5, 0.9995]
-[door_close_reward, 0.1, hand_close_reward, 0.5, door_movement_reward, 5, backward_movement_penalty, 1, 0.9521]2_15
-[door_close_reward, 0.1, hand_close_reward, 0.5, door_movement_reward, 5, backward_movement_penalty, 0.5, 0.9849]
-[door_close_reward, 0.1, hand_close_reward, 0.5, door_movement_reward, 5, backward_movement_penalty, 5, 0.9946]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 1, backward_movement_penalty, 1, 0.9995]2_15
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 1, backward_movement_penalty, 0.5, 1]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 1, backward_movement_penalty, 5, 0.9976]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.5, backward_movement_penalty, 1, 1]2_15
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.5, backward_movement_penalty, 0.5, 0.9927]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.5, backward_movement_penalty, 5, 0.9883]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 5, backward_movement_penalty, 1, 1]2_15
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 5, backward_movement_penalty, 0.5, 0.9995]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 5, backward_movement_penalty, 5, 0.999]
-[door_close_reward, 1, hand_close_reward, 1, door_movement_reward, 1, backward_movement_penalty, 1, 0.9365]2_15
-[door_close_reward, 1, hand_close_reward, 1, door_movement_reward, 1, backward_movement_penalty, 0.5, 0.998]
-[door_close_reward, 1, hand_close_reward, 1, door_movement_reward, 1, backward_movement_penalty, 5, 0.9995]
-[door_close_reward, 1, hand_close_reward, 1, door_movement_reward, 0.5, backward_movement_penalty, 1, 1]2_15
-[door_close_reward, 1, hand_close_reward, 1, door_movement_reward, 0.5, backward_movement_penalty, 0.5, 0.9609]
-[door_close_reward, 1, hand_close_reward, 1, door_movement_reward, 0.5, backward_movement_penalty, 5, 0.9937]
-[door_close_reward, 1, hand_close_reward, 1, door_movement_reward, 5, backward_movement_penalty, 1, 0.9976]2_15
-[door_close_reward, 1, hand_close_reward, 1, door_movement_reward, 5, backward_movement_penalty, 0.5, 0.9995]
-[door_close_reward, 1, hand_close_reward, 1, door_movement_reward, 5, backward_movement_penalty, 5, 0.9985]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, backward_movement_penalty, 1, 0.9819]2_15
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, backward_movement_penalty, 0.5, 0.9985]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, backward_movement_penalty, 5, 0.9951]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, backward_movement_penalty, 1, 1]2_15
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, backward_movement_penalty, 0.5, 0.9995]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, backward_movement_penalty, 5, 0.9927]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 5, backward_movement_penalty, 1, 0.998]2_15
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 5, backward_movement_penalty, 0.5, 1]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 5, backward_movement_penalty, 5, 1]
+[close_reward, 0.1, hand_close_reward, 0.5, move_reward, 1, backward_movement_penalty, 1, 0.9824]2_15
+[close_reward, 0.1, hand_close_reward, 0.5, move_reward, 1, backward_movement_penalty, 0.5, 0.9912]
+[close_reward, 0.1, hand_close_reward, 0.5, move_reward, 1, backward_movement_penalty, 5, 1]
+[close_reward, 0.1, hand_close_reward, 0.5, move_reward, 0.5, backward_movement_penalty, 1, 1]2_15
+[close_reward, 0.1, hand_close_reward, 0.5, move_reward, 0.5, backward_movement_penalty, 0.5, 0.9253]
+[close_reward, 0.1, hand_close_reward, 0.5, move_reward, 0.5, backward_movement_penalty, 5, 0.9995]
+[close_reward, 0.1, hand_close_reward, 0.5, move_reward, 5, backward_movement_penalty, 1, 0.9521]2_15
+[close_reward, 0.1, hand_close_reward, 0.5, move_reward, 5, backward_movement_penalty, 0.5, 0.9849]
+[close_reward, 0.1, hand_close_reward, 0.5, move_reward, 5, backward_movement_penalty, 5, 0.9946]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 1, backward_movement_penalty, 1, 0.9995]2_15
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 1, backward_movement_penalty, 0.5, 1]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 1, backward_movement_penalty, 5, 0.9976]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.5, backward_movement_penalty, 1, 1]2_15
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.5, backward_movement_penalty, 0.5, 0.9927]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.5, backward_movement_penalty, 5, 0.9883]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 5, backward_movement_penalty, 1, 1]2_15
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 5, backward_movement_penalty, 0.5, 0.9995]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 5, backward_movement_penalty, 5, 0.999]
+[close_reward, 1, hand_close_reward, 1, move_reward, 1, backward_movement_penalty, 1, 0.9365]2_15
+[close_reward, 1, hand_close_reward, 1, move_reward, 1, backward_movement_penalty, 0.5, 0.998]
+[close_reward, 1, hand_close_reward, 1, move_reward, 1, backward_movement_penalty, 5, 0.9995]
+[close_reward, 1, hand_close_reward, 1, move_reward, 0.5, backward_movement_penalty, 1, 1]2_15
+[close_reward, 1, hand_close_reward, 1, move_reward, 0.5, backward_movement_penalty, 0.5, 0.9609]
+[close_reward, 1, hand_close_reward, 1, move_reward, 0.5, backward_movement_penalty, 5, 0.9937]
+[close_reward, 1, hand_close_reward, 1, move_reward, 5, backward_movement_penalty, 1, 0.9976]2_15
+[close_reward, 1, hand_close_reward, 1, move_reward, 5, backward_movement_penalty, 0.5, 0.9995]
+[close_reward, 1, hand_close_reward, 1, move_reward, 5, backward_movement_penalty, 5, 0.9985]
 
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.5, door_rotation_reward, 0.5, 1]2_13
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.5, door_rotation_reward, 0.1, 0.8672]
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.5, door_rotation_reward, 1, 0.9961]
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.1, door_rotation_reward, 0.5, 1]2_13
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.1, door_rotation_reward, 0.1, 0.9995]
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.1, door_rotation_reward, 1, 1]
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 1, door_rotation_reward, 0.5, 0.9902]2_13
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 1, door_rotation_reward, 0.1, 1]
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 1, door_rotation_reward, 1, 1]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, door_rotation_reward, 0.5, 1]2_13
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, door_rotation_reward, 0.1, 1]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, door_rotation_reward, 1, 1]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.1, door_rotation_reward, 0.5, 0.9946]2_13
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.1, door_rotation_reward, 0.1, 1]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.1, door_rotation_reward, 1, 0.9932]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, door_rotation_reward, 0.5, 0.9414]2_13
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, door_rotation_reward, 0.1, 0.9863]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, door_rotation_reward, 1, 1]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.5, door_rotation_reward, 0.5, 0.999]2_13
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.5, door_rotation_reward, 0.1, 0.9873]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.5, door_rotation_reward, 1, 0.998]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.1, door_rotation_reward, 0.5, 0.9619]2_13
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.1, door_rotation_reward, 1, 0.9995]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 1, door_rotation_reward, 0.5, 0.9912]2_13
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 1, door_rotation_reward, 0.1, 0.999]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 1, door_rotation_reward, 1, 1]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.5, door_rotation_reward, 0.5, 1]2_13
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.5, door_rotation_reward, 0.1, 0.8999]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.5, door_rotation_reward, 1, 1]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.1, door_rotation_reward, 0.5, 0.9995]2_13
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.1, door_rotation_reward, 0.1, 1]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.1, door_rotation_reward, 1, 0.9194]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 1, door_rotation_reward, 0.5, 1]2_13
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 1, door_rotation_reward, 0.1, 0.9932]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 1, door_rotation_reward, 1, 0.999]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.5, rotation_reward, 0.5, 1]2_13
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.5, rotation_reward, 0.1, 0.8672]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.5, rotation_reward, 1, 0.9961]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.1, rotation_reward, 0.5, 1]2_13
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.1, rotation_reward, 0.1, 0.9995]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.1, rotation_reward, 1, 1]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 1, rotation_reward, 0.5, 0.9902]2_13
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 1, rotation_reward, 0.1, 1]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 1, rotation_reward, 1, 1]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, rotation_reward, 0.5, 1]2_13
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, rotation_reward, 0.1, 1]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, rotation_reward, 1, 1]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.1, rotation_reward, 0.5, 0.9946]2_13
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.1, rotation_reward, 0.1, 1]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.1, rotation_reward, 1, 0.9932]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, rotation_reward, 0.5, 0.9414]2_13
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, rotation_reward, 0.1, 0.9863]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, rotation_reward, 1, 1]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.5, rotation_reward, 0.5, 0.999]2_13
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.5, rotation_reward, 0.1, 0.9873]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.5, rotation_reward, 1, 0.998]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.1, rotation_reward, 0.5, 0.9619]2_13
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.1, rotation_reward, 1, 0.9995]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 1, rotation_reward, 0.5, 0.9912]2_13
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 1, rotation_reward, 0.1, 0.999]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 1, rotation_reward, 1, 1]
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.5, rotation_reward, 0.5, 1]2_13
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.5, rotation_reward, 0.1, 0.8999]
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.5, rotation_reward, 1, 1]
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.1, rotation_reward, 0.5, 0.9995]2_13
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.1, rotation_reward, 0.1, 1]
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.1, rotation_reward, 1, 0.9194]
+[close_reward, 1, hand_close_reward, 2, move_reward, 1, rotation_reward, 0.5, 1]2_13
+[close_reward, 1, hand_close_reward, 2, move_reward, 1, rotation_reward, 0.1, 0.9932]
+[close_reward, 1, hand_close_reward, 2, move_reward, 1, rotation_reward, 1, 0.999]
 
 
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.5, incremental_progress_reward, 1, 1]2_11
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.5, incremental_progress_reward, 0.5, 1]
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.5, incremental_progress_reward, 5, 0.9463]
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.1, incremental_progress_reward, 1, 0.9331]2_11
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.1, incremental_progress_reward, 0.5, 0.9976]
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 0.1, incremental_progress_reward, 5, 0.7803]
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 1, incremental_progress_reward, 1, 0.998]2_11
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 1, incremental_progress_reward, 0.5, 0.9824]
-[door_close_reward, 0.1, hand_close_reward, 2, door_movement_reward, 1, incremental_progress_reward, 5, 0.9829]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, incremental_progress_reward, 1, 0.9424]2_11
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, incremental_progress_reward, 0.5, 1]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, incremental_progress_reward, 5, 0.9727]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.1, incremental_progress_reward, 1, 0.9269]2_11
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.1, incremental_progress_reward, 0.5, 0.9736]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.1, incremental_progress_reward, 5, 1]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, incremental_progress_reward, 1, 0.918]2_11
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, incremental_progress_reward, 0.5, 0.999]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, incremental_progress_reward, 5, 0.9917]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.5, incremental_progress_reward, 1, 1]2_11
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.5, incremental_progress_reward, 0.5, 0.9858]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.5, incremental_progress_reward, 5, 0.9902]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.1, incremental_progress_reward, 1, 0.9995]2_11
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.1, incremental_progress_reward, 0.5, 0.9766]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 0.1, incremental_progress_reward, 5, 1]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 1, incremental_progress_reward, 1, 1]2_11
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 1, incremental_progress_reward, 0.5, 1]
-[door_close_reward, 0.5, hand_close_reward, 5, door_movement_reward, 1, incremental_progress_reward, 5, 0.9819]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.5, incremental_progress_reward, 1, 0.9951]2_11
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.5, incremental_progress_reward, 0.5, 1]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.5, incremental_progress_reward, 5, 0.9995]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.1, incremental_progress_reward, 1, 1]2_11
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.1, incremental_progress_reward, 0.5, 1]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 0.1, incremental_progress_reward, 5, 0.99819]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 1, incremental_progress_reward, 1, 0.976]2_11
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 1, incremental_progress_reward, 0.5, 1]
-[door_close_reward, 1, hand_close_reward, 2, door_movement_reward, 1, incremental_progress_reward, 5, 0.9966]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.5, incremental_progress_reward, 1, 1]2_11
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.5, incremental_progress_reward, 0.5, 1]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.5, incremental_progress_reward, 5, 0.9463]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.1, incremental_progress_reward, 1, 0.9331]2_11
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.1, incremental_progress_reward, 0.5, 0.9976]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 0.1, incremental_progress_reward, 5, 0.7803]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 1, incremental_progress_reward, 1, 0.998]2_11
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 1, incremental_progress_reward, 0.5, 0.9824]
+[close_reward, 0.1, hand_close_reward, 2, move_reward, 1, incremental_progress_reward, 5, 0.9829]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, incremental_progress_reward, 1, 0.9424]2_11
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, incremental_progress_reward, 0.5, 1]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, incremental_progress_reward, 5, 0.9727]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.1, incremental_progress_reward, 1, 0.9269]2_11
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.1, incremental_progress_reward, 0.5, 0.9736]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.1, incremental_progress_reward, 5, 1]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, incremental_progress_reward, 1, 0.918]2_11
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, incremental_progress_reward, 0.5, 0.999]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, incremental_progress_reward, 5, 0.9917]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.5, incremental_progress_reward, 1, 1]2_11
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.5, incremental_progress_reward, 0.5, 0.9858]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.5, incremental_progress_reward, 5, 0.9902]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.1, incremental_progress_reward, 1, 0.9995]2_11
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.1, incremental_progress_reward, 0.5, 0.9766]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 0.1, incremental_progress_reward, 5, 1]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 1, incremental_progress_reward, 1, 1]2_11
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 1, incremental_progress_reward, 0.5, 1]
+[close_reward, 0.5, hand_close_reward, 5, move_reward, 1, incremental_progress_reward, 5, 0.9819]
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.5, incremental_progress_reward, 1, 0.9951]2_11
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.5, incremental_progress_reward, 0.5, 1]
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.5, incremental_progress_reward, 5, 0.9995]
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.1, incremental_progress_reward, 1, 1]2_11
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.1, incremental_progress_reward, 0.5, 1]
+[close_reward, 1, hand_close_reward, 2, move_reward, 0.1, incremental_progress_reward, 5, 0.99819]
+[close_reward, 1, hand_close_reward, 2, move_reward, 1, incremental_progress_reward, 1, 0.976]2_11
+[close_reward, 1, hand_close_reward, 2, move_reward, 1, incremental_progress_reward, 0.5, 1]
+[close_reward, 1, hand_close_reward, 2, move_reward, 1, incremental_progress_reward, 5, 0.9966]
 
-[door_close_reward, 10, hand_close_reward, 10, push_reward, 10, 1]1_6
-[door_close_reward, 10, hand_close_reward, 10, push_reward, 5, 0.9912]
-[door_close_reward, 10, hand_close_reward, 10, push_reward, 20, 1]
-[door_close_reward, 10, hand_close_reward, 5, push_reward, 10, 1]1_6
-[door_close_reward, 10, hand_close_reward, 5, push_reward, 5, 0.999]
-[door_close_reward, 10, hand_close_reward, 5, push_reward, 20, 0.9971]   
-[door_close_reward, 10, hand_close_reward, 20, push_reward, 10, 0.8403]1_6
-[door_close_reward, 10, hand_close_reward, 20, push_reward, 5, 0.9634]
-[door_close_reward, 10, hand_close_reward, 20, push_reward, 20, 0.999]
-[door_close_reward, 5, hand_close_reward, 10, push_reward, 10, 0.9673]1_6
-[door_close_reward, 5, hand_close_reward, 10, push_reward, 5, 0.9556]
-[door_close_reward, 5, hand_close_reward, 10, push_reward, 20, 1]
-[door_close_reward, 5, hand_close_reward, 5, push_reward, 10, 0.9839]1_6
-[door_close_reward, 5, hand_close_reward, 5, push_reward, 5, 1]
-[door_close_reward, 5, hand_close_reward, 5, push_reward, 20, 1]   
-[door_close_reward, 5, hand_close_reward, 20, push_reward, 10, 0.998]1_6
-[door_close_reward, 5, hand_close_reward, 20, push_reward, 5, 0.9912]
-[door_close_reward, 5, hand_close_reward, 20, push_reward, 20, 0.7773] 
-[door_close_reward, 20, hand_close_reward, 10, push_reward, 10, 1]1_6
-[door_close_reward, 20, hand_close_reward, 10, push_reward, 5, 0.999]
-[door_close_reward, 20, hand_close_reward, 10, push_reward, 20, 1]
-[door_close_reward, 20, hand_close_reward, 5, push_reward, 10, 1]1_6
-[door_close_reward, 20, hand_close_reward, 5, push_reward, 5, 0.9932]
-[door_close_reward, 20, hand_close_reward, 5, push_reward, 20, 0.9937]   
-[door_close_reward, 20, hand_close_reward, 20, push_reward, 10, 0.9487]1_6
-[door_close_reward, 20, hand_close_reward, 20, push_reward, 5, 0.9111]
-[door_close_reward, 20, hand_close_reward, 20, push_reward, 20, 0.9424] 
+[close_reward, 10, hand_close_reward, 10, push_reward, 10, 1]1_6
+[close_reward, 10, hand_close_reward, 10, push_reward, 5, 0.9912]
+[close_reward, 10, hand_close_reward, 10, push_reward, 20, 1]
+[close_reward, 10, hand_close_reward, 5, push_reward, 10, 1]1_6
+[close_reward, 10, hand_close_reward, 5, push_reward, 5, 0.999]
+[close_reward, 10, hand_close_reward, 5, push_reward, 20, 0.9971]   
+[close_reward, 10, hand_close_reward, 20, push_reward, 10, 0.8403]1_6
+[close_reward, 10, hand_close_reward, 20, push_reward, 5, 0.9634]
+[close_reward, 10, hand_close_reward, 20, push_reward, 20, 0.999]
+[close_reward, 5, hand_close_reward, 10, push_reward, 10, 0.9673]1_6
+[close_reward, 5, hand_close_reward, 10, push_reward, 5, 0.9556]
+[close_reward, 5, hand_close_reward, 10, push_reward, 20, 1]
+[close_reward, 5, hand_close_reward, 5, push_reward, 10, 0.9839]1_6
+[close_reward, 5, hand_close_reward, 5, push_reward, 5, 1]
+[close_reward, 5, hand_close_reward, 5, push_reward, 20, 1]   
+[close_reward, 5, hand_close_reward, 20, push_reward, 10, 0.998]1_6
+[close_reward, 5, hand_close_reward, 20, push_reward, 5, 0.9912]
+[close_reward, 5, hand_close_reward, 20, push_reward, 20, 0.7773] 
+[close_reward, 20, hand_close_reward, 10, push_reward, 10, 1]1_6
+[close_reward, 20, hand_close_reward, 10, push_reward, 5, 0.999]
+[close_reward, 20, hand_close_reward, 10, push_reward, 20, 1]
+[close_reward, 20, hand_close_reward, 5, push_reward, 10, 1]1_6
+[close_reward, 20, hand_close_reward, 5, push_reward, 5, 0.9932]
+[close_reward, 20, hand_close_reward, 5, push_reward, 20, 0.9937]   
+[close_reward, 20, hand_close_reward, 20, push_reward, 10, 0.9487]1_6
+[close_reward, 20, hand_close_reward, 20, push_reward, 5, 0.9111]
+[close_reward, 20, hand_close_reward, 20, push_reward, 20, 0.9424] 
 
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 5, success_reward, 1, 0.999]1_15
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 5, success_reward, 0.5, 0.9795]
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 5, success_reward, 5, 0.9961]
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 1, success_reward, 1, 1]1_15
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 1, success_reward, 0.5, 0.9893]
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 1, success_reward, 5, 0.9917]
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 10, success_reward, 1, 0.9756]1_15
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 10, success_reward, 0.5, 0.6187]
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 10, success_reward, 5, 0.9995]
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 5, success_reward, 1, 0.9766]1_15
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 5, success_reward, 0.5, 0.9985]
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 5, success_reward, 5, 0.9878]
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 1, success_reward, 1, 1]1_15
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 1, success_reward, 0.5, 0.9912]
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 1, success_reward, 5, 0.998]
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 10, success_reward, 1, 1]1_15
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 10, success_reward, 0.5, 0.999]
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 10, success_reward, 5, 1]
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 5, success_reward, 1, 0.9966]1_15
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 5, success_reward, 0.5, 0.9316]
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 5, success_reward, 5, 0.6255]
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 1, success_reward, 1, 0.9932]1_15
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 1, success_reward, 0.5, 0.7139]
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 1, success_reward, 5, 0.8765]
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 10, success_reward, 1, 0.9639]1_15
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 10, success_reward, 0.5, 0.9551]
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 10, success_reward, 5, 0.7266] 
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 5, success_reward, 1, 0.9648]1_15
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 5, success_reward, 0.5, 0.875]
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 5, success_reward, 5, 0.9629]
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 1, success_reward, 1, 0.8403]1_15
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 1, success_reward, 0.5, 0.8804]
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 1, success_reward, 5, 0.9121]
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 10, success_reward, 1, 0.9604]1_15
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 10, success_reward, 0.5, 0.8779]
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 10, success_reward, 5, 0.8939] 
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 5, success_reward, 1, 0.999]1_15
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 5, success_reward, 0.5, 0.9795]
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 5, success_reward, 5, 0.9961]
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 1, success_reward, 1, 1]1_15
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 1, success_reward, 0.5, 0.9893]
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 1, success_reward, 5, 0.9917]
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 10, success_reward, 1, 0.9756]1_15
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 10, success_reward, 0.5, 0.6187]
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 10, success_reward, 5, 0.9995]
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 5, success_reward, 1, 0.9766]1_15
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 5, success_reward, 0.5, 0.9985]
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 5, success_reward, 5, 0.9878]
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 1, success_reward, 1, 1]1_15
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 1, success_reward, 0.5, 0.9912]
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 1, success_reward, 5, 0.998]
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 10, success_reward, 1, 1]1_15
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 10, success_reward, 0.5, 0.999]
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 10, success_reward, 5, 1]
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 5, success_reward, 1, 0.9966]1_15
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 5, success_reward, 0.5, 0.9316]
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 5, success_reward, 5, 0.6255]
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 1, success_reward, 1, 0.9932]1_15
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 1, success_reward, 0.5, 0.7139]
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 1, success_reward, 5, 0.8765]
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 10, success_reward, 1, 0.9639]1_15
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 10, success_reward, 0.5, 0.9551]
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 10, success_reward, 5, 0.7266] 
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 5, success_reward, 1, 0.9648]1_15
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 5, success_reward, 0.5, 0.875]
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 5, success_reward, 5, 0.9629]
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 1, success_reward, 1, 0.8403]1_15
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 1, success_reward, 0.5, 0.8804]
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 1, success_reward, 5, 0.9121]
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 10, success_reward, 1, 0.9604]1_15
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 10, success_reward, 0.5, 0.8779]
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 10, success_reward, 5, 0.8939] 
 
-[door_close_reward, 0.1, hand_close_reward, 5, door_movement_reward, 1, door_progress_reward, 1, 0.9868]2_8
-[door_close_reward, 0.1, hand_close_reward, 5, door_movement_reward, 1, door_progress_reward, 0.5, 0.9985]
-[door_close_reward, 0.1, hand_close_reward, 5, door_movement_reward, 1, door_progress_reward, 5, 1]
-[door_close_reward, 0.1, hand_close_reward, 5, door_movement_reward, 0.5, door_progress_reward, 1, 0.9814]2_8
-[door_close_reward, 0.1, hand_close_reward, 5, door_movement_reward, 0.5, door_progress_reward, 0.5, 1]
-[door_close_reward, 0.1, hand_close_reward, 5, door_movement_reward, 0.5, door_progress_reward, 5, 0.9761]
-[door_close_reward, 0.1, hand_close_reward, 5, door_movement_reward, 5, door_progress_reward, 1, 1]2_8
-[door_close_reward, 0.1, hand_close_reward, 5, door_movement_reward, 5, door_progress_reward, 0.5, 0.9897]
-[door_close_reward, 0.1, hand_close_reward, 5, door_movement_reward, 5, door_progress_reward, 5, 0.833]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, door_progress_reward, 1, 0.9922]2_8
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, door_progress_reward, 0.5, 1]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 1, door_progress_reward, 5, 0.9976]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, door_progress_reward, 1, 0.9946]2_8
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, door_progress_reward, 0.5, 0.9766]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 0.5, door_progress_reward, 5, 0.9995]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 5, door_progress_reward, 1, 0.9844]2_8
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 5, door_progress_reward, 0.5, 0.9907]
-[door_close_reward, 0.1, hand_close_reward, 1, door_movement_reward, 5, door_progress_reward, 5, 1]
-[door_close_reward, 0.5, hand_close_reward, 10, door_movement_reward, 1, door_progress_reward, 1, 0.9995]2_8
-[door_close_reward, 0.5, hand_close_reward, 10, door_movement_reward, 1, door_progress_reward, 0.5, 0.9922]
-[door_close_reward, 0.5, hand_close_reward, 10, door_movement_reward, 1, door_progress_reward, 5, 0.9961]
-[door_close_reward, 0.5, hand_close_reward, 10, door_movement_reward, 0.5, door_progress_reward, 1, 0.9976]2_8
-[door_close_reward, 0.5, hand_close_reward, 10, door_movement_reward, 0.5, door_progress_reward, 0.5, 0.9717]
-[door_close_reward, 0.5, hand_close_reward, 10, door_movement_reward, 0.5, door_progress_reward, 5, 0.9941]
-[door_close_reward, 0.5, hand_close_reward, 10, door_movement_reward, 5, door_progress_reward, 1, 0.9731]2_8
-[door_close_reward, 0.5, hand_close_reward, 10, door_movement_reward, 5, door_progress_reward, 0.5, 0.9995]
-[door_close_reward, 0.5, hand_close_reward, 10, door_movement_reward, 5, door_progress_reward, 5, 0.9976]
-[door_close_reward, 1, hand_close_reward, 5, door_movement_reward, 1, door_progress_reward, 1, 0.9941]2_8
-[door_close_reward, 1, hand_close_reward, 5, door_movement_reward, 1, door_progress_reward, 0.5, 0.9429]
-[door_close_reward, 1, hand_close_reward, 5, door_movement_reward, 1, door_progress_reward, 5, 0.999]
-[door_close_reward, 1, hand_close_reward, 5, door_movement_reward, 0.5, door_progress_reward, 1, 1]2_8
-[door_close_reward, 1, hand_close_reward, 5, door_movement_reward, 0.5, door_progress_reward, 0.5, 0.9985]
-[door_close_reward, 1, hand_close_reward, 5, door_movement_reward, 0.5, door_progress_reward, 5, 0.9873]
-[door_close_reward, 1, hand_close_reward, 5, door_movement_reward, 5, door_progress_reward, 1, 0.9927]2_8
-[door_close_reward, 1, hand_close_reward, 5, door_movement_reward, 5, door_progress_reward, 0.5, 0.9995]
-[door_close_reward, 1, hand_close_reward, 5, door_movement_reward, 5, door_progress_reward, 5, 0.9976]
+[close_reward, 0.1, hand_close_reward, 5, move_reward, 1, progress_reward, 1, 0.9868]2_8
+[close_reward, 0.1, hand_close_reward, 5, move_reward, 1, progress_reward, 0.5, 0.9985]
+[close_reward, 0.1, hand_close_reward, 5, move_reward, 1, progress_reward, 5, 1]
+[close_reward, 0.1, hand_close_reward, 5, move_reward, 0.5, progress_reward, 1, 0.9814]2_8
+[close_reward, 0.1, hand_close_reward, 5, move_reward, 0.5, progress_reward, 0.5, 1]
+[close_reward, 0.1, hand_close_reward, 5, move_reward, 0.5, progress_reward, 5, 0.9761]
+[close_reward, 0.1, hand_close_reward, 5, move_reward, 5, progress_reward, 1, 1]2_8
+[close_reward, 0.1, hand_close_reward, 5, move_reward, 5, progress_reward, 0.5, 0.9897]
+[close_reward, 0.1, hand_close_reward, 5, move_reward, 5, progress_reward, 5, 0.833]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, progress_reward, 1, 0.9922]2_8
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, progress_reward, 0.5, 1]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 1, progress_reward, 5, 0.9976]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, progress_reward, 1, 0.9946]2_8
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, progress_reward, 0.5, 0.9766]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 0.5, progress_reward, 5, 0.9995]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 5, progress_reward, 1, 0.9844]2_8
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 5, progress_reward, 0.5, 0.9907]
+[close_reward, 0.1, hand_close_reward, 1, move_reward, 5, progress_reward, 5, 1]
+[close_reward, 0.5, hand_close_reward, 10, move_reward, 1, progress_reward, 1, 0.9995]2_8
+[close_reward, 0.5, hand_close_reward, 10, move_reward, 1, progress_reward, 0.5, 0.9922]
+[close_reward, 0.5, hand_close_reward, 10, move_reward, 1, progress_reward, 5, 0.9961]
+[close_reward, 0.5, hand_close_reward, 10, move_reward, 0.5, progress_reward, 1, 0.9976]2_8
+[close_reward, 0.5, hand_close_reward, 10, move_reward, 0.5, progress_reward, 0.5, 0.9717]
+[close_reward, 0.5, hand_close_reward, 10, move_reward, 0.5, progress_reward, 5, 0.9941]
+[close_reward, 0.5, hand_close_reward, 10, move_reward, 5, progress_reward, 1, 0.9731]2_8
+[close_reward, 0.5, hand_close_reward, 10, move_reward, 5, progress_reward, 0.5, 0.9995]
+[close_reward, 0.5, hand_close_reward, 10, move_reward, 5, progress_reward, 5, 0.9976]
+[close_reward, 1, hand_close_reward, 5, move_reward, 1, progress_reward, 1, 0.9941]2_8
+[close_reward, 1, hand_close_reward, 5, move_reward, 1, progress_reward, 0.5, 0.9429]
+[close_reward, 1, hand_close_reward, 5, move_reward, 1, progress_reward, 5, 0.999]
+[close_reward, 1, hand_close_reward, 5, move_reward, 0.5, progress_reward, 1, 1]2_8
+[close_reward, 1, hand_close_reward, 5, move_reward, 0.5, progress_reward, 0.5, 0.9985]
+[close_reward, 1, hand_close_reward, 5, move_reward, 0.5, progress_reward, 5, 0.9873]
+[close_reward, 1, hand_close_reward, 5, move_reward, 5, progress_reward, 1, 0.9927]2_8
+[close_reward, 1, hand_close_reward, 5, move_reward, 5, progress_reward, 0.5, 0.9995]
+[close_reward, 1, hand_close_reward, 5, move_reward, 5, progress_reward, 5, 0.9976]
 
-[door_close_reward, 0.1, hand_close_reward, 5, door_progress_reward, 1, 1]2_14
-[door_close_reward, 0.1, hand_close_reward, 5, door_progress_reward, 0.5, 0.9976]
-[door_close_reward, 0.1, hand_close_reward, 5, door_progress_reward, 5, 1]
-[door_close_reward, 0.1, hand_close_reward, 1, door_progress_reward, 1, 1]2_14
-[door_close_reward, 0.1, hand_close_reward, 1, door_progress_reward, 0.5, 0.9824]
-[door_close_reward, 0.1, hand_close_reward, 1, door_progress_reward, 5, 1]
-[door_close_reward, 0.1, hand_close_reward, 10, door_progress_reward, 1, 1]2_14
-[door_close_reward, 0.1, hand_close_reward, 10, door_progress_reward, 0.5, 0.9976]
-[door_close_reward, 0.1, hand_close_reward, 10, door_progress_reward, 5, 1]
+[close_reward, 0.1, hand_close_reward, 5, progress_reward, 1, 1]2_14
+[close_reward, 0.1, hand_close_reward, 5, progress_reward, 0.5, 0.9976]
+[close_reward, 0.1, hand_close_reward, 5, progress_reward, 5, 1]
+[close_reward, 0.1, hand_close_reward, 1, progress_reward, 1, 1]2_14
+[close_reward, 0.1, hand_close_reward, 1, progress_reward, 0.5, 0.9824]
+[close_reward, 0.1, hand_close_reward, 1, progress_reward, 5, 1]
+[close_reward, 0.1, hand_close_reward, 10, progress_reward, 1, 1]2_14
+[close_reward, 0.1, hand_close_reward, 10, progress_reward, 0.5, 0.9976]
+[close_reward, 0.1, hand_close_reward, 10, progress_reward, 5, 1]
 
-[door_close_reward, 0.5, hand_close_reward, 5, door_progress_reward, 1, 0.998]2_14
-[door_close_reward, 0.5, hand_close_reward, 5, door_progress_reward, 0.5, 1]
-[door_close_reward, 0.5, hand_close_reward, 5, door_progress_reward, 5, 0.96]
-[door_close_reward, 0.5, hand_close_reward, 1, door_progress_reward, 1, 0.9976]2_14
-[door_close_reward, 0.5, hand_close_reward, 1, door_progress_reward, 0.5, 0.9961]
-[door_close_reward, 0.5, hand_close_reward, 1, door_progress_reward, 5, 1]
-[door_close_reward, 0.5, hand_close_reward, 10, door_progress_reward, 1, 0.9976]2_14
-[door_close_reward, 0.5, hand_close_reward, 10, door_progress_reward, 0.5, 0.9922]
-[door_close_reward, 0.5, hand_close_reward, 10, door_progress_reward, 5, 0.9927]
+[close_reward, 0.5, hand_close_reward, 5, progress_reward, 1, 0.998]2_14
+[close_reward, 0.5, hand_close_reward, 5, progress_reward, 0.5, 1]
+[close_reward, 0.5, hand_close_reward, 5, progress_reward, 5, 0.96]
+[close_reward, 0.5, hand_close_reward, 1, progress_reward, 1, 0.9976]2_14
+[close_reward, 0.5, hand_close_reward, 1, progress_reward, 0.5, 0.9961]
+[close_reward, 0.5, hand_close_reward, 1, progress_reward, 5, 1]
+[close_reward, 0.5, hand_close_reward, 10, progress_reward, 1, 0.9976]2_14
+[close_reward, 0.5, hand_close_reward, 10, progress_reward, 0.5, 0.9922]
+[close_reward, 0.5, hand_close_reward, 10, progress_reward, 5, 0.9927]
 
-[door_close_reward, 1, hand_close_reward, 5, door_progress_reward, 1, 0.9409]2_14
-[door_close_reward, 1, hand_close_reward, 5, door_progress_reward, 0.5, 0.9741]
-[door_close_reward, 1, hand_close_reward, 5, door_progress_reward, 5, 0.9985]
-[door_close_reward, 1, hand_close_reward, 1, door_progress_reward, 1, 1]2_14
-[door_close_reward, 1, hand_close_reward, 1, door_progress_reward, 0.5, 0.9951]
-[door_close_reward, 1, hand_close_reward, 1, door_progress_reward, 5, 0.9849]
-[door_close_reward, 1, hand_close_reward, 10, door_progress_reward, 1, 0.999]2_14
-[door_close_reward, 1, hand_close_reward, 10, door_progress_reward, 0.5, 0.9937]
-[door_close_reward, 1, hand_close_reward, 10, door_progress_reward, 5, 0.9946]
-[door_close_reward, 10, hand_close_reward, 10, object_push_reward, 10, 0.9956]0_1   
-[door_close_reward, 10, hand_close_reward, 10, object_push_reward, 5, 0.9951]
-[door_close_reward, 10, hand_close_reward, 10, object_push_reward, 20, 1]
-[door_close_reward, 10, hand_close_reward, 5, object_push_reward, 10, 1]0_1   
-[door_close_reward, 10, hand_close_reward, 5, object_push_reward, 5, 0.9795]
-[door_close_reward, 10, hand_close_reward, 5, object_push_reward, 20, 0.9912]
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 10, 1]0_1   
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 5, 0.9863]
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 20, 1]
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 10, 0.9849]0_1   
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 5, 1]
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 20, 1]
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 10, 1]0_1   
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 5, 1]
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 20, 0.998]
-[door_close_reward, 5, hand_close_reward, 20, object_push_reward, 10, 1]0_1   
-[door_close_reward, 5, hand_close_reward, 20, object_push_reward, 5, 1]
-[door_close_reward, 5, hand_close_reward, 20, object_push_reward, 20, 0.9761]
-[door_close_reward, 20, hand_close_reward, 10, object_push_reward, 10, 1]0_1   
-[door_close_reward, 20, hand_close_reward, 10, object_push_reward, 5, 0.9966]
-[door_close_reward, 20, hand_close_reward, 10, object_push_reward, 20, 0.9985]
-[door_close_reward, 20, hand_close_reward, 5, object_push_reward, 10, 1]0_1   
-[door_close_reward, 20, hand_close_reward, 5, object_push_reward, 5, 0.999]
-[door_close_reward, 20, hand_close_reward, 5, object_push_reward, 20, 0.9985]
-[door_close_reward, 20, hand_close_reward, 20, object_push_reward, 10, 0.9902]0_1   
-[door_close_reward, 20, hand_close_reward, 20, object_push_reward, 5, 0.9946]
-[door_close_reward, 20, hand_close_reward, 20, object_push_reward, 20, 1]
+[close_reward, 1, hand_close_reward, 5, progress_reward, 1, 0.9409]2_14
+[close_reward, 1, hand_close_reward, 5, progress_reward, 0.5, 0.9741]
+[close_reward, 1, hand_close_reward, 5, progress_reward, 5, 0.9985]
+[close_reward, 1, hand_close_reward, 1, progress_reward, 1, 1]2_14
+[close_reward, 1, hand_close_reward, 1, progress_reward, 0.5, 0.9951]
+[close_reward, 1, hand_close_reward, 1, progress_reward, 5, 0.9849]
+[close_reward, 1, hand_close_reward, 10, progress_reward, 1, 0.999]2_14
+[close_reward, 1, hand_close_reward, 10, progress_reward, 0.5, 0.9937]
+[close_reward, 1, hand_close_reward, 10, progress_reward, 5, 0.9946]
+[close_reward, 10, hand_close_reward, 10, object_push_reward, 10, 0.9956]0_1   
+[close_reward, 10, hand_close_reward, 10, object_push_reward, 5, 0.9951]
+[close_reward, 10, hand_close_reward, 10, object_push_reward, 20, 1]
+[close_reward, 10, hand_close_reward, 5, object_push_reward, 10, 1]0_1   
+[close_reward, 10, hand_close_reward, 5, object_push_reward, 5, 0.9795]
+[close_reward, 10, hand_close_reward, 5, object_push_reward, 20, 0.9912]
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 10, 1]0_1   
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 5, 0.9863]
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 20, 1]
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 10, 0.9849]0_1   
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 5, 1]
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 20, 1]
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 10, 1]0_1   
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 5, 1]
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 20, 0.998]
+[close_reward, 5, hand_close_reward, 20, object_push_reward, 10, 1]0_1   
+[close_reward, 5, hand_close_reward, 20, object_push_reward, 5, 1]
+[close_reward, 5, hand_close_reward, 20, object_push_reward, 20, 0.9761]
+[close_reward, 20, hand_close_reward, 10, object_push_reward, 10, 1]0_1   
+[close_reward, 20, hand_close_reward, 10, object_push_reward, 5, 0.9966]
+[close_reward, 20, hand_close_reward, 10, object_push_reward, 20, 0.9985]
+[close_reward, 20, hand_close_reward, 5, object_push_reward, 10, 1]0_1   
+[close_reward, 20, hand_close_reward, 5, object_push_reward, 5, 0.999]
+[close_reward, 20, hand_close_reward, 5, object_push_reward, 20, 0.9985]
+[close_reward, 20, hand_close_reward, 20, object_push_reward, 10, 0.9902]0_1   
+[close_reward, 20, hand_close_reward, 20, object_push_reward, 5, 0.9946]
+[close_reward, 20, hand_close_reward, 20, object_push_reward, 20, 1]
 
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 5, 1]1_0
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 1, 1]
-[door_close_reward, 5, hand_close_reward, 10, object_push_reward, 10, 0.9966]
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 5, 0.9893]1_0
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 1, 1]
-[door_close_reward, 5, hand_close_reward, 5, object_push_reward, 10, 1]
-[door_close_reward, 5, hand_close_reward, 20, object_push_reward, 5, 0.9971]1_0
-[door_close_reward, 5, hand_close_reward, 20, object_push_reward, 1, 0.9683]
-[door_close_reward, 5, hand_close_reward, 20, object_push_reward, 10, 1]
-[door_close_reward, 1, hand_close_reward, 10, object_push_reward, 5, 0.9971]1_0
-[door_close_reward, 1, hand_close_reward, 10, object_push_reward, 1, 1]
-[door_close_reward, 1, hand_close_reward, 10, object_push_reward, 10, 1]
-[door_close_reward, 1, hand_close_reward, 5, object_push_reward, 5, 1]1_0
-[door_close_reward, 1, hand_close_reward, 5, object_push_reward, 1, 0.9893]
-[door_close_reward, 1, hand_close_reward, 5, object_push_reward, 10, 0.9966]
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 5, 1]1_0
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 1, 1]
-[door_close_reward, 1, hand_close_reward, 20, object_push_reward, 10, 1]
-[door_close_reward, 10, hand_close_reward, 10, object_push_reward, 5, 0.9922]1_0
-[door_close_reward, 10, hand_close_reward, 10, object_push_reward, 1, 0.9702]
-[door_close_reward, 10, hand_close_reward, 10, object_push_reward, 10, 0.9951]
-[door_close_reward, 10, hand_close_reward, 5, object_push_reward, 5, 0.9995]1_0
-[door_close_reward, 10, hand_close_reward, 5, object_push_reward, 1, 1]
-[door_close_reward, 10, hand_close_reward, 5, object_push_reward, 10, 0.9961]
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 5, 0.9941]1_0
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 1, 1]
-[door_close_reward, 10, hand_close_reward, 20, object_push_reward, 10, 0.9893]
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 5, 1]1_0
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 1, 1]
+[close_reward, 5, hand_close_reward, 10, object_push_reward, 10, 0.9966]
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 5, 0.9893]1_0
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 1, 1]
+[close_reward, 5, hand_close_reward, 5, object_push_reward, 10, 1]
+[close_reward, 5, hand_close_reward, 20, object_push_reward, 5, 0.9971]1_0
+[close_reward, 5, hand_close_reward, 20, object_push_reward, 1, 0.9683]
+[close_reward, 5, hand_close_reward, 20, object_push_reward, 10, 1]
+[close_reward, 1, hand_close_reward, 10, object_push_reward, 5, 0.9971]1_0
+[close_reward, 1, hand_close_reward, 10, object_push_reward, 1, 1]
+[close_reward, 1, hand_close_reward, 10, object_push_reward, 10, 1]
+[close_reward, 1, hand_close_reward, 5, object_push_reward, 5, 1]1_0
+[close_reward, 1, hand_close_reward, 5, object_push_reward, 1, 0.9893]
+[close_reward, 1, hand_close_reward, 5, object_push_reward, 10, 0.9966]
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 5, 1]1_0
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 1, 1]
+[close_reward, 1, hand_close_reward, 20, object_push_reward, 10, 1]
+[close_reward, 10, hand_close_reward, 10, object_push_reward, 5, 0.9922]1_0
+[close_reward, 10, hand_close_reward, 10, object_push_reward, 1, 0.9702]
+[close_reward, 10, hand_close_reward, 10, object_push_reward, 10, 0.9951]
+[close_reward, 10, hand_close_reward, 5, object_push_reward, 5, 0.9995]1_0
+[close_reward, 10, hand_close_reward, 5, object_push_reward, 1, 1]
+[close_reward, 10, hand_close_reward, 5, object_push_reward, 10, 0.9961]
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 5, 0.9941]1_0
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 1, 1]
+[close_reward, 10, hand_close_reward, 20, object_push_reward, 10, 0.9893]
 
-[hand_force_reward, 1, task_completion_reward, 10, 0.9512]1_8
-[hand_force_reward, 1, task_completion_reward, 5, 0.5776]
-[hand_force_reward, 1, task_completion_reward, 20, 0.8347]
-[hand_force_reward, 0.5, task_completion_reward, 10, 0.832]1_8
-[hand_force_reward, 0.5, task_completion_reward, 5, 0.7422]
-[hand_force_reward, 0.5, task_completion_reward, 20, 0.9814]
-[hand_force_reward, 5, task_completion_reward, 10, 0.7998]1_8
-[hand_force_reward, 5, task_completion_reward, 5, 0.5977]
-[hand_force_reward, 5, task_completion_reward, 20, 0.4507]
+[force_reward, 1, task_completion_reward, 10, 0.9512]1_8
+[force_reward, 1, task_completion_reward, 5, 0.5776]
+[force_reward, 1, task_completion_reward, 20, 0.8347]
+[force_reward, 0.5, task_completion_reward, 10, 0.832]1_8
+[force_reward, 0.5, task_completion_reward, 5, 0.7422]
+[force_reward, 0.5, task_completion_reward, 20, 0.9814]
+[force_reward, 5, task_completion_reward, 10, 0.7998]1_8
+[force_reward, 5, task_completion_reward, 5, 0.5977]
+[force_reward, 5, task_completion_reward, 20, 0.4507]
 
-[hand_close_reward, 5, door_displacement_reward, 10, 1]3_14
-[hand_close_reward, 5, door_displacement_reward, 5, 1]
-[hand_close_reward, 5, door_displacement_reward, 20, 0.9976]
-[hand_close_reward, 1, door_displacement_reward, 10, 1]3_14
-[hand_close_reward, 1, door_displacement_reward, 5, 1]
-[hand_close_reward, 1, door_displacement_reward, 20, 1]
-[hand_close_reward, 10, door_displacement_reward, 10, 0.5752]3_14
-[hand_close_reward, 10, door_displacement_reward, 5, 1]
-[hand_close_reward, 10, door_displacement_reward, 20, 0.9995]
 
-[hand_close_reward, 2, door_angular_movement_reward, 0.5, 0.998]2_10
-[hand_close_reward, 2, door_angular_movement_reward, 0.1, 0.9829]
-[hand_close_reward, 2, door_angular_movement_reward, 1, 0.9985]
-[hand_close_reward, 1, door_angular_movement_reward, 0.5, 1]2_10
-[hand_close_reward, 1, door_angular_movement_reward, 0.1, 1]
-[hand_close_reward, 1, door_angular_movement_reward, 1, 0.9604]
-[hand_close_reward, 5, door_angular_movement_reward, 0.5, 0.9995]2_10
-[hand_close_reward, 5, door_angular_movement_reward, 0.1, 0.9922]
-[hand_close_reward, 5, door_angular_movement_reward, 1, 1]
+[hand_close_reward, 5, rotation_reward, 1, 0.9907]2_4
+[hand_close_reward, 5, rotation_reward, 0.5, 1]
+[hand_close_reward, 5, rotation_reward, 5, 0.9971]
+[hand_close_reward, 1, rotation_reward, 1, 0.9927]2_4
+[hand_close_reward, 1, rotation_reward, 0.5, 0.9863]
+[hand_close_reward, 1, rotation_reward, 5, 0.9956]
+[hand_close_reward, 10, rotation_reward, 1, 0.9897]2_4
+[hand_close_reward, 10, rotation_reward, 0.5, 0.9976]
+[hand_close_reward, 10, rotation_reward, 5, 1]
 
-[hand_close_reward, 5, door_rotation_reward, 1, 0.9907]2_4
-[hand_close_reward, 5, door_rotation_reward, 0.5, 1]
-[hand_close_reward, 5, door_rotation_reward, 5, 0.9971]
-[hand_close_reward, 1, door_rotation_reward, 1, 0.9927]2_4
-[hand_close_reward, 1, door_rotation_reward, 0.5, 0.9863]
-[hand_close_reward, 1, door_rotation_reward, 5, 0.9956]
-[hand_close_reward, 10, door_rotation_reward, 1, 0.9897]2_4
-[hand_close_reward, 10, door_rotation_reward, 0.5, 0.9976]
-[hand_close_reward, 10, door_rotation_reward, 5, 1]
+[hand_close_reward, 5, move_reward, 1, task_completion_reward, 1, 0.9995]2_2
+[hand_close_reward, 5, move_reward, 1, task_completion_reward, 0.5, 0.9995]
+[hand_close_reward, 5, move_reward, 1, task_completion_reward, 5, 1]
+[hand_close_reward, 5, move_reward, 0.5, task_completion_reward, 1, 0.9854]2_2
+[hand_close_reward, 5, move_reward, 0.5, task_completion_reward, 0.5, 1]
+[hand_close_reward, 5, move_reward, 0.5, task_completion_reward, 5, 0.999]
+[hand_close_reward, 5, move_reward, 5, task_completion_reward, 1, 0.999]2_2
+[hand_close_reward, 5, move_reward, 5, task_completion_reward, 0.5, 0.9922]
+[hand_close_reward, 5, move_reward, 5, task_completion_reward, 5, 0.9277]
 
-[hand_close_reward, 5, door_movement_reward, 1, task_completion_reward, 1, 0.9995]2_2
-[hand_close_reward, 5, door_movement_reward, 1, task_completion_reward, 0.5, 0.9995]
-[hand_close_reward, 5, door_movement_reward, 1, task_completion_reward, 5, 1]
-[hand_close_reward, 5, door_movement_reward, 0.5, task_completion_reward, 1, 0.9854]2_2
-[hand_close_reward, 5, door_movement_reward, 0.5, task_completion_reward, 0.5, 1]
-[hand_close_reward, 5, door_movement_reward, 0.5, task_completion_reward, 5, 0.999]
-[hand_close_reward, 5, door_movement_reward, 5, task_completion_reward, 1, 0.999]2_2
-[hand_close_reward, 5, door_movement_reward, 5, task_completion_reward, 0.5, 0.9922]
-[hand_close_reward, 5, door_movement_reward, 5, task_completion_reward, 5, 0.9277]
+[hand_close_reward, 1, move_reward, 1, task_completion_reward, 1, 0.9932]2_2
+[hand_close_reward, 1, move_reward, 1, task_completion_reward, 0.5, 0.8311]
+[hand_close_reward, 1, move_reward, 1, task_completion_reward, 5, 0.9897]
+[hand_close_reward, 1, move_reward, 0.5, task_completion_reward, 1, 1]2_2
+[hand_close_reward, 1, move_reward, 0.5, task_completion_reward, 0.5, 0.9565]
+[hand_close_reward, 1, move_reward, 0.5, task_completion_reward, 5, 1]
+[hand_close_reward, 1, move_reward, 5, task_completion_reward, 1, 0.9951]2_2
+[hand_close_reward, 1, move_reward, 5, task_completion_reward, 0.5, 0.9985]
+[hand_close_reward, 1, move_reward, 5, task_completion_reward, 5, 0.9692]
 
-[hand_close_reward, 1, door_movement_reward, 1, task_completion_reward, 1, 0.9932]2_2
-[hand_close_reward, 1, door_movement_reward, 1, task_completion_reward, 0.5, 0.8311]
-[hand_close_reward, 1, door_movement_reward, 1, task_completion_reward, 5, 0.9897]
-[hand_close_reward, 1, door_movement_reward, 0.5, task_completion_reward, 1, 1]2_2
-[hand_close_reward, 1, door_movement_reward, 0.5, task_completion_reward, 0.5, 0.9565]
-[hand_close_reward, 1, door_movement_reward, 0.5, task_completion_reward, 5, 1]
-[hand_close_reward, 1, door_movement_reward, 5, task_completion_reward, 1, 0.9951]2_2
-[hand_close_reward, 1, door_movement_reward, 5, task_completion_reward, 0.5, 0.9985]
-[hand_close_reward, 1, door_movement_reward, 5, task_completion_reward, 5, 0.9692]
+[hand_close_reward, 10, move_reward, 1, task_completion_reward, 1, 0.9697]2_2
+[hand_close_reward, 10, move_reward, 1, task_completion_reward, 0.5, 1]
+[hand_close_reward, 10, move_reward, 1, task_completion_reward, 5, 0.9971]
+[hand_close_reward, 10, move_reward, 0.5, task_completion_reward, 1, 0.9668]2_2
+[hand_close_reward, 10, move_reward, 0.5, task_completion_reward, 0.5, 0.999]
+[hand_close_reward, 10, move_reward, 0.5, task_completion_reward, 5, 1]
+[hand_close_reward, 10, move_reward, 5, task_completion_reward, 1, ]2_2
+[hand_close_reward, 10, move_reward, 5, task_completion_reward, 0.5, ]
+[hand_close_reward, 10, move_reward, 5, task_completion_reward, 5, ]
 
-[hand_close_reward, 10, door_movement_reward, 1, task_completion_reward, 1, 0.9697]2_2
-[hand_close_reward, 10, door_movement_reward, 1, task_completion_reward, 0.5, 1]
-[hand_close_reward, 10, door_movement_reward, 1, task_completion_reward, 5, 0.9971]
-[hand_close_reward, 10, door_movement_reward, 0.5, task_completion_reward, 1, 0.9668]2_2
-[hand_close_reward, 10, door_movement_reward, 0.5, task_completion_reward, 0.5, 0.999]
-[hand_close_reward, 10, door_movement_reward, 0.5, task_completion_reward, 5, 1]
-[hand_close_reward, 10, door_movement_reward, 5, task_completion_reward, 1, ]2_2
-[hand_close_reward, 10, door_movement_reward, 5, task_completion_reward, 0.5, ]
-[hand_close_reward, 10, door_movement_reward, 5, task_completion_reward, 5, ]
-
-[door_movement_reward, 1, hand_to_handle_reward, 1, fingertip_to_handle_reward, 1, 1]0_11
-[door_movement_reward, 1, hand_to_handle_reward, 1, fingertip_to_handle_reward, 0.5, 0.999]
-[door_movement_reward, 1, hand_to_handle_reward, 1, fingertip_to_handle_reward, 5, 0.9985]
-[door_movement_reward, 1, hand_to_handle_reward, 0.5, fingertip_to_handle_reward, 1, 0.8462]0_11
-[door_movement_reward, 1, hand_to_handle_reward, 0.5, fingertip_to_handle_reward, 0.5, 0.9897]
-[door_movement_reward, 1, hand_to_handle_reward, 0.5, fingertip_to_handle_reward, 5, 0.999]
-[door_movement_reward, 1, hand_to_handle_reward, 5, fingertip_to_handle_reward, 1, 0.9189]0_11
-[door_movement_reward, 1, hand_to_handle_reward, 5, fingertip_to_handle_reward, 0.5, 0.9507]
-[door_movement_reward, 1, hand_to_handle_reward, 5, fingertip_to_handle_reward, 5, 0.9971]
-[door_movement_reward, 0.5, hand_to_handle_reward, 1, fingertip_to_handle_reward, 1, 0.957]0_11
-[door_movement_reward, 0.5, hand_to_handle_reward, 1, fingertip_to_handle_reward, 0.5, 0.9897]
-[door_movement_reward, 0.5, hand_to_handle_reward, 1, fingertip_to_handle_reward, 5, 0.999]
-[door_movement_reward, 0.5, hand_to_handle_reward, 0.5, fingertip_to_handle_reward, 1, 0.9731]0_11
-[door_movement_reward, 0.5, hand_to_handle_reward, 0.5, fingertip_to_handle_reward, 0.5, 1]
-[door_movement_reward, 0.5, hand_to_handle_reward, 0.5, fingertip_to_handle_reward, 5, 1]
-[door_movement_reward, 0.5, hand_to_handle_reward, 5, fingertip_to_handle_reward, 1, 0.9604]0_11
-[door_movement_reward, 0.5, hand_to_handle_reward, 5, fingertip_to_handle_reward, 0.5, 0.9966]
-[door_movement_reward, 0.5, hand_to_handle_reward, 5, fingertip_to_handle_reward, 5, 1]
-[door_movement_reward, 5, hand_to_handle_reward, 1, fingertip_to_handle_reward, 1, 0.9585]0_11
-[door_movement_reward, 5, hand_to_handle_reward, 1, fingertip_to_handle_reward, 0.5, 0.9736]
-[door_movement_reward, 5, hand_to_handle_reward, 1, fingertip_to_handle_reward, 5, 0.9766]
-[door_movement_reward, 5, hand_to_handle_reward, 0.5, fingertip_to_handle_reward, 1, 0.9985]0_11
-[door_movement_reward, 5, hand_to_handle_reward, 0.5, fingertip_to_handle_reward, 0.5, 0.999]
-[door_movement_reward, 5, hand_to_handle_reward, 0.5, fingertip_to_handle_reward, 5, 0.9409]
-[door_movement_reward, 5, hand_to_handle_reward, 5, fingertip_to_handle_reward, 1, 0.9912]0_11
-[door_movement_reward, 5, hand_to_handle_reward, 5, fingertip_to_handle_reward, 0.5, 0.9863]
-[door_movement_reward, 5, hand_to_handle_reward, 5, fingertip_to_handle_reward, 5, 0.999]
+[move_reward, 1, handle_reward, 1, position_reward, 1, 1]0_11
+[move_reward, 1, handle_reward, 1, position_reward, 0.5, 0.999]
+[move_reward, 1, handle_reward, 1, position_reward, 5, 0.9985]
+[move_reward, 1, handle_reward, 0.5, position_reward, 1, 0.8462]0_11
+[move_reward, 1, handle_reward, 0.5, position_reward, 0.5, 0.9897]
+[move_reward, 1, handle_reward, 0.5, position_reward, 5, 0.999]
+[move_reward, 1, handle_reward, 5, position_reward, 1, 0.9189]0_11
+[move_reward, 1, handle_reward, 5, position_reward, 0.5, 0.9507]
+[move_reward, 1, handle_reward, 5, position_reward, 5, 0.9971]
+[move_reward, 0.5, handle_reward, 1, position_reward, 1, 0.957]0_11
+[move_reward, 0.5, handle_reward, 1, position_reward, 0.5, 0.9897]
+[move_reward, 0.5, handle_reward, 1, position_reward, 5, 0.999]
+[move_reward, 0.5, handle_reward, 0.5, position_reward, 1, 0.9731]0_11
+[move_reward, 0.5, handle_reward, 0.5, position_reward, 0.5, 1]
+[move_reward, 0.5, handle_reward, 0.5, position_reward, 5, 1]
+[move_reward, 0.5, handle_reward, 5, position_reward, 1, 0.9604]0_11
+[move_reward, 0.5, handle_reward, 5, position_reward, 0.5, 0.9966]
+[move_reward, 0.5, handle_reward, 5, position_reward, 5, 1]
+[move_reward, 5, handle_reward, 1, position_reward, 1, 0.9585]0_11
+[move_reward, 5, handle_reward, 1, position_reward, 0.5, 0.9736]
+[move_reward, 5, handle_reward, 1, position_reward, 5, 0.9766]
+[move_reward, 5, handle_reward, 0.5, position_reward, 1, 0.9985]0_11
+[move_reward, 5, handle_reward, 0.5, position_reward, 0.5, 0.999]
+[move_reward, 5, handle_reward, 0.5, position_reward, 5, 0.9409]
+[move_reward, 5, handle_reward, 5, position_reward, 1, 0.9912]0_11
+[move_reward, 5, handle_reward, 5, position_reward, 0.5, 0.9863]
+[move_reward, 5, handle_reward, 5, position_reward, 5, 0.999]

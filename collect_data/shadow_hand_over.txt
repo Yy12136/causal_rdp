@@ -1,0 +1,224 @@
+[position_reward, 15, height_reward, 8, throw_reward, 8, orientation_reward, 10, progress_reward, 3, stability_reward, 5, contact_penalty, 5, 0.9364]4_9
+[position_reward, 15, height_reward, 8, throw_reward, 8, orientation_reward, 10, progress_reward, 3, stability_reward, 5, contact_penalty, 1, 0.9477]
+[position_reward, 15, height_reward, 8, throw_reward, 8, orientation_reward, 10, progress_reward, 3, stability_reward, 5, contact_penalty, 10, 0.9481]
+[position_reward, 15, height_reward, 8, throw_reward, 8, orientation_reward, 10, progress_reward, 1, stability_reward, 1, contact_penalty, 5, 0.9437]4_9
+[position_reward, 15, height_reward, 8, throw_reward, 8, orientation_reward, 10, progress_reward, 1, stability_reward, 1, contact_penalty, 1, 0.92]
+[position_reward, 15, height_reward, 8, throw_reward, 8, orientation_reward, 10, progress_reward, 1, stability_reward, 1, contact_penalty, 10, 0.96]
+[position_reward, 15, height_reward, 8, throw_reward, 8, orientation_reward, 10, progress_reward, 10, stability_reward, 10, contact_penalty, 5, 0.9031]4_9
+[position_reward, 15, height_reward, 8, throw_reward, 8, orientation_reward, 10, progress_reward, 10, stability_reward, 10, contact_penalty, 1, 0.0011]
+[position_reward, 15, height_reward, 8, throw_reward, 8, orientation_reward, 10, progress_reward, 10, stability_reward, 10, contact_penalty, 10, 0.9347]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 5, progress_reward, 3, stability_reward, 5, contact_penalty, 5, 0.9211]4_9
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 5, progress_reward, 3, stability_reward, 5, contact_penalty, 1, 0.0017]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 5, progress_reward, 3, stability_reward, 5, contact_penalty, 10, 0.9328]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 5, progress_reward, 1, stability_reward, 1, contact_penalty, 5, 0.9303]4_9
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 5, progress_reward, 1, stability_reward, 1, contact_penalty, 1, 0.9525]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 5, progress_reward, 1, stability_reward, 1, contact_penalty, 10, 0.9484]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 5, progress_reward, 10, stability_reward, 10, contact_penalty, 5, 0.8223]4_9
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 5, progress_reward, 10, stability_reward, 10, contact_penalty, 1, 0.0924]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 5, progress_reward, 10, stability_reward, 10, contact_penalty, 10, 0]
+[position_reward, 5, height_reward, 1, throw_reward, 16, orientation_reward, 20, progress_reward, 3, stability_reward, 5, contact_penalty, 5, 0.9425]4_9
+[position_reward, 5, height_reward, 1, throw_reward, 16, orientation_reward, 20, progress_reward, 3, stability_reward, 5, contact_penalty, 1, 0.9607]
+[position_reward, 5, height_reward, 1, throw_reward, 16, orientation_reward, 20, progress_reward, 3, stability_reward, 5, contact_penalty, 10, 0.9357]
+[position_reward, 5, height_reward, 1, throw_reward, 16, orientation_reward, 20, progress_reward, 1, stability_reward, 1, contact_penalty, 5, 0.9549]4_9
+[position_reward, 5, height_reward, 1, throw_reward, 16, orientation_reward, 20, progress_reward, 1, stability_reward, 1, contact_penalty, 1, 0.0088]
+[position_reward, 5, height_reward, 1, throw_reward, 16, orientation_reward, 20, progress_reward, 1, stability_reward, 1, contact_penalty, 10, 0.9494]
+[position_reward, 5, height_reward, 1, throw_reward, 16, orientation_reward, 20, progress_reward, 10, stability_reward, 10, contact_penalty, 5, 0.9595]4_9
+[position_reward, 5, height_reward, 1, throw_reward, 16, orientation_reward, 20, progress_reward, 10, stability_reward, 10, contact_penalty, 1, 0.9147]
+[position_reward, 5, height_reward, 1, throw_reward, 16, orientation_reward, 20, progress_reward, 10, stability_reward, 10, contact_penalty, 10, 0.9449]
+[position_reward, 30, height_reward, 16, throw_reward, 8, orientation_reward, 10, progress_reward, 3, stability_reward, 5, contact_penalty, 5, 0.9151]4_9
+[position_reward, 30, height_reward, 16, throw_reward, 8, orientation_reward, 10, progress_reward, 3, stability_reward, 5, contact_penalty, 1, 0.9569]
+[position_reward, 30, height_reward, 16, throw_reward, 8, orientation_reward, 10, progress_reward, 3, stability_reward, 5, contact_penalty, 10, 0.9218]
+[position_reward, 30, height_reward, 16, throw_reward, 8, orientation_reward, 10, progress_reward, 1, stability_reward, 1, contact_penalty, 5, 0.9667]4_9
+[position_reward, 30, height_reward, 16, throw_reward, 8, orientation_reward, 10, progress_reward, 1, stability_reward, 1, contact_penalty, 1, 0.0009]
+[position_reward, 30, height_reward, 16, throw_reward, 8, orientation_reward, 10, progress_reward, 1, stability_reward, 1, contact_penalty, 10, 0.0005]
+[position_reward, 30, height_reward, 16, throw_reward, 8, orientation_reward, 10, progress_reward, 10, stability_reward, 10, contact_penalty, 5, 0.0055]4_9
+[position_reward, 30, height_reward, 16, throw_reward, 8, orientation_reward, 10, progress_reward, 10, stability_reward, 10, contact_penalty, 1, 0.0042]
+[position_reward, 30, height_reward, 16, throw_reward, 8, orientation_reward, 10, progress_reward, 10, stability_reward, 10, contact_penalty, 10, 0.0005]
+
+[position_reward, 15, height_reward, 1, throw_reward, 8, orientation_reward, 20, stability_reward, 10, air_time_reward, 1, approach_reward, 1, contact_penalty, 5, 0.9569]4_2
+[position_reward, 15, height_reward, 1, throw_reward, 8, orientation_reward, 20, stability_reward, 10, air_time_reward, 1, approach_reward, 0.5, contact_penalty, 1, 0.9545]
+[position_reward, 15, height_reward, 1, throw_reward, 8, orientation_reward, 20, stability_reward, 10, air_time_reward, 1, approach_reward, 5, contact_penalty, 10, 0.9517]
+[position_reward, 15, height_reward, 1, throw_reward, 8, orientation_reward, 20, stability_reward, 5, air_time_reward, 0.5, approach_reward, 1, contact_penalty, 5, 0.942]4_2
+[position_reward, 15, height_reward, 1, throw_reward, 8, orientation_reward, 20, stability_reward, 5, air_time_reward, 0.5, approach_reward, 0.5, contact_penalty, 1, 0.938]
+[position_reward, 15, height_reward, 1, throw_reward, 8, orientation_reward, 20, stability_reward, 5, air_time_reward, 0.5, approach_reward, 5, contact_penalty, 10, 0.9437]
+[position_reward, 15, height_reward, 1, throw_reward, 8, orientation_reward, 20, stability_reward, 20, air_time_reward, 5, approach_reward, 1, contact_penalty, 5, 0.9468]4_2
+[position_reward, 15, height_reward, 1, throw_reward, 8, orientation_reward, 20, stability_reward, 20, air_time_reward, 5, approach_reward, 0.5, contact_penalty, 1, 0.9622]
+[position_reward, 15, height_reward, 1, throw_reward, 8, orientation_reward, 20, stability_reward, 20, air_time_reward, 5, approach_reward, 5, contact_penalty, 10, 0.9543]
+[position_reward, 15, height_reward, 1, throw_reward, 1, orientation_reward, 10, stability_reward, 10, air_time_reward, 1, approach_reward, 1, contact_penalty, 5, 0.0291]4_2
+[position_reward, 15, height_reward, 1, throw_reward, 1, orientation_reward, 10, stability_reward, 10, air_time_reward, 1, approach_reward, 0.5, contact_penalty, 1, 0.9257]
+[position_reward, 15, height_reward, 1, throw_reward, 1, orientation_reward, 10, stability_reward, 10, air_time_reward, 1, approach_reward, 5, contact_penalty, 10, 0.0024]
+[position_reward, 15, height_reward, 1, throw_reward, 1, orientation_reward, 10, stability_reward, 5, air_time_reward, 0.5, approach_reward, 1, contact_penalty, 5, 0.0029]4_2
+[position_reward, 15, height_reward, 1, throw_reward, 1, orientation_reward, 10, stability_reward, 5, air_time_reward, 0.5, approach_reward, 0.5, contact_penalty, 1, 0.0028]
+[position_reward, 15, height_reward, 1, throw_reward, 1, orientation_reward, 10, stability_reward, 5, air_time_reward, 0.5, approach_reward, 5, contact_penalty, 10, 0.0023]
+[position_reward, 15, height_reward, 1, throw_reward, 1, orientation_reward, 10, stability_reward, 20, air_time_reward, 5, approach_reward, 1, contact_penalty, 5, 0.8705]4_2
+[position_reward, 15, height_reward, 1, throw_reward, 1, orientation_reward, 10, stability_reward, 20, air_time_reward, 5, approach_reward, 0.5, contact_penalty, 1, 0.9459]
+[position_reward, 15, height_reward, 1, throw_reward, 1, orientation_reward, 10, stability_reward, 20, air_time_reward, 5, approach_reward, 5, contact_penalty, 10, 0.0314]
+[position_reward, 5, height_reward, 0.5, throw_reward, 10, orientation_reward, 40, stability_reward, 10, air_time_reward, 1, approach_reward, 1, contact_penalty, 5, 0.9548]4_2
+[position_reward, 5, height_reward, 0.5, throw_reward, 10, orientation_reward, 40, stability_reward, 10, air_time_reward, 1, approach_reward, 0.5, contact_penalty, 1, 0.9436]
+[position_reward, 5, height_reward, 0.5, throw_reward, 10, orientation_reward, 40, stability_reward, 10, air_time_reward, 1, approach_reward, 5, contact_penalty, 10, 0.9444]
+[position_reward, 5, height_reward, 0.5, throw_reward, 10, orientation_reward, 40, stability_reward, 5, air_time_reward, 0.5, approach_reward, 1, contact_penalty, 5, 0.9515]4_2
+[position_reward, 5, height_reward, 0.5, throw_reward, 10, orientation_reward, 40, stability_reward, 5, air_time_reward, 0.5, approach_reward, 0.5, contact_penalty, 1, 0.954]
+[position_reward, 5, height_reward, 0.5, throw_reward, 10, orientation_reward, 40, stability_reward, 5, air_time_reward, 0.5, approach_reward, 5, contact_penalty, 10, 0.9357]
+[position_reward, 5, height_reward, 0.5, throw_reward, 10, orientation_reward, 40, stability_reward, 20, air_time_reward, 5, approach_reward, 1, contact_penalty, 5, 0.9441]4_2
+[position_reward, 5, height_reward, 0.5, throw_reward, 10, orientation_reward, 40, stability_reward, 20, air_time_reward, 5, approach_reward, 0.5, contact_penalty, 1, 0.9398]
+[position_reward, 5, height_reward, 0.5, throw_reward, 10, orientation_reward, 40, stability_reward, 20, air_time_reward, 5, approach_reward, 5, contact_penalty, 10, 0.9512]
+[position_reward, 30, height_reward, 5, throw_reward, 8, orientation_reward, 20, stability_reward, 10, air_time_reward, 1, approach_reward, 1, contact_penalty, 5, 0.9193]4_2
+[position_reward, 30, height_reward, 5, throw_reward, 8, orientation_reward, 20, stability_reward, 10, air_time_reward, 1, approach_reward, 0.5, contact_penalty, 1, 0.9359]
+[position_reward, 30, height_reward, 5, throw_reward, 8, orientation_reward, 20, stability_reward, 10, air_time_reward, 1, approach_reward, 5, contact_penalty, 10, 0.9285]
+[position_reward, 30, height_reward, 5, throw_reward, 8, orientation_reward, 20, stability_reward, 5, air_time_reward, 0.5, approach_reward, 1, contact_penalty, 5, 0.9385]4_2
+[position_reward, 30, height_reward, 5, throw_reward, 8, orientation_reward, 20, stability_reward, 5, air_time_reward, 0.5, approach_reward, 0.5, contact_penalty, 1, 0.9316]
+[position_reward, 30, height_reward, 5, throw_reward, 8, orientation_reward, 20, stability_reward, 5, air_time_reward, 0.5, approach_reward, 5, contact_penalty, 10, 0.95]
+[position_reward, 30, height_reward, 5, throw_reward, 8, orientation_reward, 20, stability_reward, 20, air_time_reward, 5, approach_reward, 1, contact_penalty, 5, 0.9389]4_2
+[position_reward, 30, height_reward, 5, throw_reward, 8, orientation_reward, 20, stability_reward, 20, air_time_reward, 5, approach_reward, 0.5, contact_penalty, 1, 0.9356]
+[position_reward, 30, height_reward, 5, throw_reward, 8, orientation_reward, 20, stability_reward, 20, air_time_reward, 5, approach_reward, 5, contact_penalty, 10, 0.9454]
+
+[position_reward, 15, height_reward, 8, throw_reward, 10, orientation_reward, 20, handover_reward, 10, stability_reward, 5, progress_reward, 2, contact_penalty, 1, 0.9309]2_8
+[position_reward, 15, height_reward, 8, throw_reward, 10, orientation_reward, 20, handover_reward, 10, stability_reward, 5, progress_reward, 1, contact_penalty, 0.5, 0.9427]
+[position_reward, 15, height_reward, 8, throw_reward, 10, orientation_reward, 20, handover_reward, 10, stability_reward, 5, progress_reward, 5, contact_penalty, 5, 0.9297]
+[position_reward, 15, height_reward, 8, throw_reward, 10, orientation_reward, 20, handover_reward, 5, stability_reward, 1, progress_reward, 2, contact_penalty, 1, 0.9438]2_8
+[position_reward, 15, height_reward, 8, throw_reward, 10, orientation_reward, 20, handover_reward, 5, stability_reward, 1, progress_reward, 1, contact_penalty, 0.5, 0.9239]
+[position_reward, 15, height_reward, 8, throw_reward, 10, orientation_reward, 20, handover_reward, 5, stability_reward, 1, progress_reward, 5, contact_penalty, 5, 0.9173]
+[position_reward, 15, height_reward, 8, throw_reward, 10, orientation_reward, 20, handover_reward, 20, stability_reward, 10, progress_reward, 2, contact_penalty, 1, 0.954]2_8
+[position_reward, 15, height_reward, 8, throw_reward, 10, orientation_reward, 20, handover_reward, 20, stability_reward, 10, progress_reward, 1, contact_penalty, 0.5, 0.9314]
+[position_reward, 15, height_reward, 8, throw_reward, 10, orientation_reward, 20, handover_reward, 20, stability_reward, 10, progress_reward, 5, contact_penalty, 5, 0.9419]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 10, handover_reward, 10, stability_reward, 5, progress_reward, 2, contact_penalty, 1, 0.9371]2_8
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 10, handover_reward, 10, stability_reward, 5, progress_reward, 1, contact_penalty, 0.5, 0.9385]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 10, handover_reward, 10, stability_reward, 5, progress_reward, 5, contact_penalty, 5, 0.925]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 10, handover_reward, 5, stability_reward, 1, progress_reward, 2, contact_penalty, 1, 0.9376]2_8
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 10, handover_reward, 5, stability_reward, 1, progress_reward, 1, contact_penalty, 0.5, 0.9205]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 10, handover_reward, 5, stability_reward, 1, progress_reward, 5, contact_penalty, 5, 0.0027]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 10, handover_reward, 20, stability_reward, 10, progress_reward, 2, contact_penalty, 1, 0.9399]2_8
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 10, handover_reward, 20, stability_reward, 10, progress_reward, 1, contact_penalty, 0.5, 0.9562]
+[position_reward, 15, height_reward, 8, throw_reward, 5, orientation_reward, 10, handover_reward, 20, stability_reward, 10, progress_reward, 5, contact_penalty, 5, 0.0053]
+[position_reward, 5, height_reward, 1, throw_reward, 20, orientation_reward, 40, handover_reward, 10, stability_reward, 5, progress_reward, 2, contact_penalty, 1, 0.9346]2_8
+[position_reward, 5, height_reward, 1, throw_reward, 20, orientation_reward, 40, handover_reward, 10, stability_reward, 5, progress_reward, 1, contact_penalty, 0.5, 0.9431]
+[position_reward, 5, height_reward, 1, throw_reward, 20, orientation_reward, 40, handover_reward, 10, stability_reward, 5, progress_reward, 5, contact_penalty, 5, 0.9363]
+[position_reward, 5, height_reward, 1, throw_reward, 20, orientation_reward, 40, handover_reward, 5, stability_reward, 1, progress_reward, 2, contact_penalty, 1, 0.9305]2_8
+[position_reward, 5, height_reward, 1, throw_reward, 20, orientation_reward, 40, handover_reward, 5, stability_reward, 1, progress_reward, 1, contact_penalty, 0.5, 0.9514]
+[position_reward, 5, height_reward, 1, throw_reward, 20, orientation_reward, 40, handover_reward, 5, stability_reward, 1, progress_reward, 5, contact_penalty, 5, 0.8995]
+[position_reward, 5, height_reward, 1, throw_reward, 20, orientation_reward, 40, handover_reward, 20, stability_reward, 10, progress_reward, 2, contact_penalty, 1, 0.9326]2_8
+[position_reward, 5, height_reward, 1, throw_reward, 20, orientation_reward, 40, handover_reward, 20, stability_reward, 10, progress_reward, 1, contact_penalty, 0.5, 0.9382]
+[position_reward, 5, height_reward, 1, throw_reward, 20, orientation_reward, 40, handover_reward, 20, stability_reward, 10, progress_reward, 5, contact_penalty, 5, 0.9314]
+[position_reward, 30, height_reward, 16, throw_reward, 10, orientation_reward, 20, handover_reward, 10, stability_reward, 5, progress_reward, 2, contact_penalty, 1, 0.9491]2_8
+[position_reward, 30, height_reward, 16, throw_reward, 10, orientation_reward, 20, handover_reward, 10, stability_reward, 5, progress_reward, 1, contact_penalty, 0.5, 0.9192]
+[position_reward, 30, height_reward, 16, throw_reward, 10, orientation_reward, 20, handover_reward, 10, stability_reward, 5, progress_reward, 5, contact_penalty, 5, 0.9338]
+[position_reward, 30, height_reward, 16, throw_reward, 10, orientation_reward, 20, handover_reward, 5, stability_reward, 1, progress_reward, 2, contact_penalty, 1, 0.9416]2_8
+[position_reward, 30, height_reward, 16, throw_reward, 10, orientation_reward, 20, handover_reward, 5, stability_reward, 1, progress_reward, 1, contact_penalty, 0.5, 0.9661]
+[position_reward, 30, height_reward, 16, throw_reward, 10, orientation_reward, 20, handover_reward, 5, stability_reward, 1, progress_reward, 5, contact_penalty, 5, 0.9285]
+[position_reward, 30, height_reward, 16, throw_reward, 10, orientation_reward, 20, handover_reward, 20, stability_reward, 10, progress_reward, 2, contact_penalty, 1, 0.9383]2_8
+[position_reward, 30, height_reward, 16, throw_reward, 10, orientation_reward, 20, handover_reward, 20, stability_reward, 10, progress_reward, 1, contact_penalty, 0.5, 0.9316]
+[position_reward, 30, height_reward, 16, throw_reward, 10, orientation_reward, 20, handover_reward, 20, stability_reward, 10, progress_reward, 5, contact_penalty, 5, 0.9226]
+
+[position_reward, 20, height_reward, 3, throw_reward, 8, orientation_reward, 15, proximity_reward, 25, stability_reward, 10, completion_bonus, 25, contact_penalty, 5, 0.9403]2_7
+[position_reward, 20, height_reward, 3, throw_reward, 8, orientation_reward, 15, proximity_reward, 25, stability_reward, 10, completion_bonus, 15, contact_penalty, 1, 0.9553]
+[position_reward, 20, height_reward, 3, throw_reward, 8, orientation_reward, 15, proximity_reward, 25, stability_reward, 10, completion_bonus, 50, contact_penalty, 10, 0.9497]
+[position_reward, 20, height_reward, 3, throw_reward, 8, orientation_reward, 15, proximity_reward, 15, stability_reward, 5, completion_bonus, 25, contact_penalty, 5, 0.9435]2_7
+[position_reward, 20, height_reward, 3, throw_reward, 8, orientation_reward, 15, proximity_reward, 15, stability_reward, 5, completion_bonus, 15, contact_penalty, 1, 0.9422]
+[position_reward, 20, height_reward, 3, throw_reward, 8, orientation_reward, 15, proximity_reward, 15, stability_reward, 5, completion_bonus, 50, contact_penalty, 10, 0.9544]
+[position_reward, 20, height_reward, 3, throw_reward, 8, orientation_reward, 15, proximity_reward, 50, stability_reward, 20, completion_bonus, 25, contact_penalty, 5, 0.9392]2_7
+[position_reward, 20, height_reward, 3, throw_reward, 8, orientation_reward, 15, proximity_reward, 50, stability_reward, 20, completion_bonus, 15, contact_penalty, 1, 0.9461]
+[position_reward, 20, height_reward, 3, throw_reward, 8, orientation_reward, 15, proximity_reward, 50, stability_reward, 20, completion_bonus, 50, contact_penalty, 10, 0.9449]
+[position_reward, 20, height_reward, 3, throw_reward, 1, orientation_reward, 5, proximity_reward, 25, stability_reward, 10, completion_bonus, 25, contact_penalty, 5, 0.0047]2_7
+[position_reward, 20, height_reward, 3, throw_reward, 1, orientation_reward, 5, proximity_reward, 25, stability_reward, 10, completion_bonus, 15, contact_penalty, 1, 0.0026]
+[position_reward, 20, height_reward, 3, throw_reward, 1, orientation_reward, 5, proximity_reward, 25, stability_reward, 10, completion_bonus, 50, contact_penalty, 10, 0.0073]
+[position_reward, 20, height_reward, 3, throw_reward, 1, orientation_reward, 5, proximity_reward, 15, stability_reward, 5, completion_bonus, 25, contact_penalty, 5, 0.0027]2_7
+[position_reward, 20, height_reward, 3, throw_reward, 1, orientation_reward, 5, proximity_reward, 15, stability_reward, 5, completion_bonus, 15, contact_penalty, 1, 0.0022]
+[position_reward, 20, height_reward, 3, throw_reward, 1, orientation_reward, 5, proximity_reward, 15, stability_reward, 5, completion_bonus, 50, contact_penalty, 10, 0.0015]
+[position_reward, 20, height_reward, 3, throw_reward, 1, orientation_reward, 5, proximity_reward, 50, stability_reward, 20, completion_bonus, 25, contact_penalty, 5, 0.0089]2_7
+[position_reward, 20, height_reward, 3, throw_reward, 1, orientation_reward, 5, proximity_reward, 50, stability_reward, 20, completion_bonus, 15, contact_penalty, 1, 0.0071]
+[position_reward, 20, height_reward, 3, throw_reward, 1, orientation_reward, 5, proximity_reward, 50, stability_reward, 20, completion_bonus, 50, contact_penalty, 10, 0.0029]
+[position_reward, 10, height_reward, 1, throw_reward, 16, orientation_reward, 30, proximity_reward, 25, stability_reward, 10, completion_bonus, 25, contact_penalty, 5, 0.9326]2_7
+[position_reward, 10, height_reward, 1, throw_reward, 16, orientation_reward, 30, proximity_reward, 25, stability_reward, 10, completion_bonus, 15, contact_penalty, 1, 0.94]
+[position_reward, 10, height_reward, 1, throw_reward, 16, orientation_reward, 30, proximity_reward, 25, stability_reward, 10, completion_bonus, 50, contact_penalty, 10, 0.9515]
+[position_reward, 10, height_reward, 1, throw_reward, 16, orientation_reward, 30, proximity_reward, 15, stability_reward, 5, completion_bonus, 25, contact_penalty, 5, 0.9478]2_7
+[position_reward, 10, height_reward, 1, throw_reward, 16, orientation_reward, 30, proximity_reward, 15, stability_reward, 5, completion_bonus, 15, contact_penalty, 1, 0.9542]
+[position_reward, 10, height_reward, 1, throw_reward, 16, orientation_reward, 30, proximity_reward, 15, stability_reward, 5, completion_bonus, 50, contact_penalty, 10, 0.9507]
+[position_reward, 10, height_reward, 1, throw_reward, 16, orientation_reward, 30, proximity_reward, 50, stability_reward, 20, completion_bonus, 25, contact_penalty, 5, 0.9434]2_7
+[position_reward, 10, height_reward, 1, throw_reward, 16, orientation_reward, 30, proximity_reward, 50, stability_reward, 20, completion_bonus, 15, contact_penalty, 1, 0.9388]
+[position_reward, 10, height_reward, 1, throw_reward, 16, orientation_reward, 30, proximity_reward, 50, stability_reward, 20, completion_bonus, 50, contact_penalty, 10, 0.9325]
+[position_reward, 40, height_reward, 10, throw_reward, 8, orientation_reward, 15, proximity_reward, 25, stability_reward, 10, completion_bonus, 25, contact_penalty, 5, 0.9398]2_7
+[position_reward, 40, height_reward, 10, throw_reward, 8, orientation_reward, 15, proximity_reward, 25, stability_reward, 10, completion_bonus, 15, contact_penalty, 1, 0.9484]
+[position_reward, 40, height_reward, 10, throw_reward, 8, orientation_reward, 15, proximity_reward, 25, stability_reward, 10, completion_bonus, 50, contact_penalty, 10, 0.9501]
+[position_reward, 40, height_reward, 10, throw_reward, 8, orientation_reward, 15, proximity_reward, 15, stability_reward, 5, completion_bonus, 25, contact_penalty, 5, 0.948]2_7
+[position_reward, 40, height_reward, 10, throw_reward, 8, orientation_reward, 15, proximity_reward, 15, stability_reward, 5, completion_bonus, 15, contact_penalty, 1, 0.947]
+[position_reward, 40, height_reward, 10, throw_reward, 8, orientation_reward, 15, proximity_reward, 15, stability_reward, 5, completion_bonus, 50, contact_penalty, 10, 0.9361]
+[position_reward, 40, height_reward, 10, throw_reward, 8, orientation_reward, 15, proximity_reward, 50, stability_reward, 20, completion_bonus, 25, contact_penalty, 5, 0.9478]2_7
+[position_reward, 40, height_reward, 10, throw_reward, 8, orientation_reward, 15, proximity_reward, 50, stability_reward, 20, completion_bonus, 15, contact_penalty, 1, 0.9314]
+[position_reward, 0, height_reward, 10, throw_reward, 8, orientation_reward, 15, proximity_reward, 50, stability_reward, 20, completion_bonus, 50, contact_penalty, 10, 0.9334]
+
+[position_reward, 5, height_reward, 3, velocity_reward, 2, orientation_reward, 2, stability_reward, 2, contact_penalty, 1, 0.1384]0_8
+[position_reward, 5, height_reward, 3, velocity_reward, 2, orientation_reward, 2, stability_reward, 2, contact_penalty, 0.5, 0.0059]
+[position_reward, 5, height_reward, 3, velocity_reward, 2, orientation_reward, 2, stability_reward, 2, contact_penalty, 5, 0.0042]
+[position_reward, 5, height_reward, 3, velocity_reward, 2, orientation_reward, 2, stability_reward, 1, contact_penalty, 1, 0.9495]0_8
+[position_reward, 5, height_reward, 3, velocity_reward, 2, orientation_reward, 2, stability_reward, 1, contact_penalty, 0.5, 0.9404]
+[position_reward, 5, height_reward, 3, velocity_reward, 2, orientation_reward, 2, stability_reward, 1, contact_penalty, 5, 0.0014]
+[position_reward, 5, height_reward, 3, velocity_reward, 2, orientation_reward, 2, stability_reward, 5, contact_penalty, 1, 0]0_8
+[position_reward, 5, height_reward, 3, velocity_reward, 2, orientation_reward, 2, stability_reward, 5, contact_penalty, 0.5, 0.6866]
+[position_reward, 5, height_reward, 3, velocity_reward, 2, orientation_reward, 2, stability_reward, 5, contact_penalty, 5, 0.0015]
+[position_reward, 5, height_reward, 3, velocity_reward, 1, orientation_reward, 1, stability_reward, 2, contact_penalty, 1, 0.7318]0_8
+[position_reward, 5, height_reward, 3, velocity_reward, 1, orientation_reward, 1, stability_reward, 2, contact_penalty, 0.5, 0.8676]
+[position_reward, 5, height_reward, 3, velocity_reward, 1, orientation_reward, 1, stability_reward, 2, contact_penalty, 5, 0.8771]
+[position_reward, 5, height_reward, 3, velocity_reward, 1, orientation_reward, 1, stability_reward, 1, contact_penalty, 1, 0.9225]0_8
+[position_reward, 5, height_reward, 3, velocity_reward, 1, orientation_reward, 1, stability_reward, 1, contact_penalty, 0.5, 0.8255]
+[position_reward, 5, height_reward, 3, velocity_reward, 1, orientation_reward, 1, stability_reward, 1, contact_penalty, 5, 0.942]
+[position_reward, 5, height_reward, 3, velocity_reward, 1, orientation_reward, 1, stability_reward, 5, contact_penalty, 1, 0.9309]0_8
+[position_reward, 5, height_reward, 3, velocity_reward, 1, orientation_reward, 1, stability_reward, 5, contact_penalty, 0.5, 0.2479]
+[position_reward, 5, height_reward, 3, velocity_reward, 1, orientation_reward, 1, stability_reward, 5, contact_penalty, 5, 0.0006]
+[position_reward, 1, height_reward, 1, velocity_reward, 5, orientation_reward, 5, stability_reward, 2, contact_penalty, 1, 0]0_8
+[position_reward, 1, height_reward, 1, velocity_reward, 5, orientation_reward, 5, stability_reward, 2, contact_penalty, 0.5, 0.0007]
+[position_reward, 1, height_reward, 1, velocity_reward, 5, orientation_reward, 5, stability_reward, 2, contact_penalty, 5, 0]
+[position_reward, 1, height_reward, 1, velocity_reward, 5, orientation_reward, 5, stability_reward, 1, contact_penalty, 1, 0]0_8
+[position_reward, 1, height_reward, 1, velocity_reward, 5, orientation_reward, 5, stability_reward, 1, contact_penalty, 0.5, 0.0007]
+[position_reward, 1, height_reward, 1, velocity_reward, 5, orientation_reward, 5, stability_reward, 1, contact_penalty, 5, 0.0005]
+[position_reward, 1, height_reward, 1, velocity_reward, 5, orientation_reward, 5, stability_reward, 5, contact_penalty, 1, 0.0003]0_8
+[position_reward, 1, height_reward, 1, velocity_reward, 5, orientation_reward, 5, stability_reward, 5, contact_penalty, 0.5, 0]
+[position_reward, 1, height_reward, 1, velocity_reward, 5, orientation_reward, 5, stability_reward, 5, contact_penalty, 5, 0]
+[position_reward, 10, height_reward, 10, velocity_reward, 2, orientation_reward, 2, stability_reward, 2, contact_penalty, 1, 0]0_8
+[position_reward, 10, height_reward, 10, velocity_reward, 2, orientation_reward, 2, stability_reward, 2, contact_penalty, 0.5, 0.0021]
+[position_reward, 10, height_reward, 10, velocity_reward, 2, orientation_reward, 2, stability_reward, 2, contact_penalty, 5, 0.0012]
+[position_reward, 10, height_reward, 10, velocity_reward, 2, orientation_reward, 2, stability_reward, 1, contact_penalty, 1, 0.0865]0_8
+[position_reward, 10, height_reward, 10, velocity_reward, 2, orientation_reward, 2, stability_reward, 1, contact_penalty, 0.5, 0.8929]
+[position_reward, 10, height_reward, 10, velocity_reward, 2, orientation_reward, 2, stability_reward, 1, contact_penalty, 5, 0.0452]
+[position_reward, 10, height_reward, 10, velocity_reward, 2, orientation_reward, 2, stability_reward, 5, contact_penalty, 1, 0.0008]0_8
+[position_reward, 10, height_reward, 10, velocity_reward, 2, orientation_reward, 2, stability_reward, 5, contact_penalty, 0.5, 0.0004]
+[position_reward, 10, height_reward, 10, velocity_reward, 2, orientation_reward, 2, stability_reward, 5, contact_penalty, 5, 0.0032]
+
+[position_reward, 5, height_reward, 2, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.5, contact_penalty, 10, 0.9321]0_1
+[position_reward, 5, height_reward, 2, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.5, contact_penalty, 5, 0.9334]
+[position_reward, 5, height_reward, 2, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.5, contact_penalty, 20, 0.8621]
+[position_reward, 5, height_reward, 2, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.1, contact_penalty, 10, 0.0029]0_1
+[position_reward, 5, height_reward, 2, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.1, contact_penalty, 5, 0.0011]
+[position_reward, 5, height_reward, 2, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.1, contact_penalty, 20, 0.0005]
+[position_reward, 5, height_reward, 2, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 1, contact_penalty, 10, 0.9529]0_1
+[position_reward, 5, height_reward, 2, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 1, contact_penalty, 5, 0.9106]
+[position_reward, 5, height_reward, 2, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 1, contact_penalty, 20, 0.9009]
+
+[position_reward, 5, height_reward, 2, velocity_reward, 0.05, throw_reward, 1, rotation_penalty, 0.5, contact_penalty, 10, 0.798]0_1
+[position_reward, 5, height_reward, 2, velocity_reward, 0.05, throw_reward, 1, rotation_penalty, 0.5, contact_penalty, 5, 0.0008]
+[position_reward, 5, height_reward, 2, velocity_reward, 0.05, throw_reward, 1, rotation_penalty, 0.5, contact_penalty, 20, 0.9217]
+[position_reward, 5, height_reward, 2, velocity_reward, 0.05, throw_reward, 1, rotation_penalty, 0.1, contact_penalty, 10, 0]0_1
+[position_reward, 5, height_reward, 2, velocity_reward, 0.05, throw_reward, 1, rotation_penalty, 0.1, contact_penalty, 5, 0]
+[position_reward, 5, height_reward, 2, velocity_reward, 0.05, throw_reward, 1, rotation_penalty, 0.1, contact_penalty, 20, 0]
+[position_reward, 5, height_reward, 2, velocity_reward, 0.05, throw_reward, 1, rotation_penalty, 1, contact_penalty, 10, 0.8835]0_1
+[position_reward, 5, height_reward, 2, velocity_reward, 0.05, throw_reward, 1, rotation_penalty, 1, contact_penalty, 5, 0.8961]
+[position_reward, 5, height_reward, 2, velocity_reward, 0.05, throw_reward, 1, rotation_penalty, 1, contact_penalty, 20, 0.9498]
+
+[position_reward, 1, height_reward, 1, velocity_reward, 0.5, throw_reward, 10, rotation_penalty, 0.5, contact_penalty, 10, 0]0_1
+[position_reward, 1, height_reward, 1, velocity_reward, 0.5, throw_reward, 10, rotation_penalty, 0.5, contact_penalty, 5, 0.0005]
+[position_reward, 1, height_reward, 1, velocity_reward, 0.5, throw_reward, 10, rotation_penalty, 0.5, contact_penalty, 20, 0.0005]
+[position_reward, 1, height_reward, 1, velocity_reward, 0.5, throw_reward, 10, rotation_penalty, 0.1, contact_penalty, 10, 0]0_1
+[position_reward, 1, height_reward, 1, velocity_reward, 0.5, throw_reward, 10, rotation_penalty, 0.1, contact_penalty, 5, 0]
+[position_reward, 1, height_reward, 1, velocity_reward, 0.5, throw_reward, 10, rotation_penalty, 0.1, contact_penalty, 20, 0]
+[position_reward, 1, height_reward, 1, velocity_reward, 0.5, throw_reward, 10, rotation_penalty, 1, contact_penalty, 10, 0.0005]0_1
+[position_reward, 1, height_reward, 1, velocity_reward, 0.5, throw_reward, 10, rotation_penalty, 1, contact_penalty, 5, 0]
+[position_reward, 1, height_reward, 1, velocity_reward, 0.5, throw_reward, 10, rotation_penalty, 1, contact_penalty, 20, 0.0004]
+
+[position_reward, 10, height_reward, 5, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.5, contact_penalty, 10, 0]0_1
+[position_reward, 10, height_reward, 5, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.5, contact_penalty, 5, 0.001]
+[position_reward, 10, height_reward, 5, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.5, contact_penalty, 20, 0]
+[position_reward, 10, height_reward, 5, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.1, contact_penalty, 10, 0.0005]0_1
+[position_reward, 10, height_reward, 5, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.1, contact_penalty, 5, 0]
+[position_reward, 10, height_reward, 5, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 0.1, contact_penalty, 20, 0.0007]
+[position_reward, 10, height_reward, 5, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 1, contact_penalty, 10, 0.0018]0_1
+[position_reward, 10, height_reward, 5, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 1, contact_penalty, 5, 0.0005]
+[position_reward, 10, height_reward, 5, velocity_reward, 0.1, throw_reward, 3, rotation_penalty, 1, contact_penalty, 20, 0.0009]
