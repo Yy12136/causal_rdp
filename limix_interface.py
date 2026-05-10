@@ -242,10 +242,11 @@ def _try_build_edge_pref_with_limix(
             if feat_name not in name_to_idx:
                 continue
             i = name_to_idx[feat_name]
-            # edge_pref：惩罚权重，重要性越大惩罚越小（用于旧 DAGMA）
-            edge_pref[i, score_idx] += 1.0 - float(imp)
-            # m_prior：先验置信边存在的强度，重要性越大越倾向于该边存在
-            m_prior[i, score_idx] = float(imp)
+            # 约定 M[target, source]：r_i -> score → M[score_idx, i]
+            # edge_pref：惩罚权重，重要性越大惩罚越小
+            edge_pref[score_idx, i] += 1.0 - float(imp)
+            # m_prior：先验，重要性越大越倾向于该边存在
+            m_prior[score_idx, i] = float(imp)
             r_to_score_count += 1
         
         print(f"  ✅ 已学习 {r_to_score_count} 条 r_* -> score 的 soft prior")
@@ -278,10 +279,11 @@ def _try_build_edge_pref_with_limix(
                             jb = name_to_idx.get(rb)
                             if ia is None or jb is None:
                                 continue
+                            # 约定 M[target, source]：r_a -> r_b → M[jb, ia]
                             # edge_pref：惩罚，相关性越强惩罚越小
-                            edge_pref[ia, jb] += 1.0 - imp_ij
+                            edge_pref[jb, ia] += 1.0 - imp_ij
                             # m_prior：先验，相关性越强越倾向于该边存在
-                            m_prior[ia, jb] = max(m_prior[ia, jb], imp_ij)
+                            m_prior[jb, ia] = max(m_prior[jb, ia], imp_ij)
                             r_to_r_count += 1
                             # 注意：这里也可以只加一个方向，看你的需求
                             # 如果只想要单向，可以注释掉下面这行
@@ -419,7 +421,7 @@ def run_limix_ldm_placeholder(
         group_edges: List[Tuple[int, int]] = []
         for i, name in enumerate(var_names):
             if name.startswith("r_"):
-                group_edges.append((i, score_idx))
+                group_edges.append((score_idx, i))  # M[target, source]
     if group_edges:
         groups.append(group_edges)
 

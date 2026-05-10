@@ -197,8 +197,9 @@ def main():
             weight = A_global_filtered[i, j]
             if abs(weight) >= edge_threshold:  # 只包含大于等于阈值的边
                 # 去掉变量名中的 "r_" 前缀（如果存在）
-                source_name = var_names[i]
-                target_name = var_names[j]
+                # 约定 M[target, source]：A[i,j] 中 source=j，target=i
+                source_name = var_names[j]
+                target_name = var_names[i]
                 if source_name.startswith("r_"):
                     source_name = source_name[2:]  # 去掉 "r_" 前缀
                 if target_name.startswith("r_"):

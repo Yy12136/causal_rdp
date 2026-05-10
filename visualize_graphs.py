@@ -205,7 +205,8 @@ def plot_dag(
         for i, j in edges:
             new_i = node_mapping[i]
             new_j = node_mapping[j]
-            G.add_edge(new_i, new_j, weight=abs(A[i, j]))
+            # 约定 M[target, source]：A[i,j] 中 source=j -> target=i
+            G.add_edge(new_j, new_i, weight=abs(A[i, j]))
         
         # 使用过滤后的变量名
         display_var_names = filtered_var_names
@@ -216,7 +217,8 @@ def plot_dag(
         
         # 添加边
         for i, j in edges:
-            G.add_edge(i, j, weight=abs(A[i, j]))
+            # 约定 M[target, source]：A[i,j] 中 source=j -> target=i
+            G.add_edge(j, i, weight=abs(A[i, j]))
         
         # 使用原始变量名
         display_var_names = var_names

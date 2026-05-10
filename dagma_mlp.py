@@ -128,13 +128,14 @@ class CRWMOptimizer:
 
         # 硬约束边集合（索引形式）
         name_to_idx = {name: i for i, name in enumerate(limix.var_names)}
+        # 约定 M[target, source]：u -> v 对应矩阵索引 [v_idx, u_idx]
         self.black_edges: List[Tuple[int, int]] = [
-            (name_to_idx[u], name_to_idx[v])
+            (name_to_idx[v], name_to_idx[u])
             for u, v in limix.blacklist
             if u in name_to_idx and v in name_to_idx
         ]
         self.white_edges: List[Tuple[int, int]] = [
-            (name_to_idx[u], name_to_idx[v])
+            (name_to_idx[v], name_to_idx[u])
             for u, v in limix.whitelist
             if u in name_to_idx and v in name_to_idx
         ]
