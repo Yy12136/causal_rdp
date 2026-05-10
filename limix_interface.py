@@ -28,16 +28,18 @@ Edge = Tuple[str, str]  # (parent, child)
 @dataclass
 class LimixConstraints:
     """
-    LimiX 输出/传递给 DAGMA 的结构性信息。
+    LimiX 输出/传递给 CRWM 联合优化器的结构性信息。
 
     - A_candidate: 候选解邻接矩阵（形状 [d, d]，按变量顺序）
     - blacklist: 不能出现的有向边集合（来自 yaml 硬约束）
     - whitelist: 必须出现的边集合（来自 yaml 硬约束）
-    - edge_pref: 边偏好权重 α_ij，形状同 A_candidate（完全由 LimiX 学习）
-    - confidence: LimiX 置信度矩阵 C_LimiX，形状 [d,d]，取值 [0,1]；用于加权损失
-                  L_total = L_Data + λ||W⊙(1-C_LimiX)||_1，缓解大模型幻觉
-    - groups: 组/层级稀疏信息，每个元素是一组边的索引列表
-              （例如同一 reward 族，或 r_i -> r_j 这种模式）
+    - edge_pref: 边惩罚权重，形状 [d, d]（值越大 = 越不倾向于该边，用于旧 DAGMA）
+    - confidence: 由 edge_pref 归一化到 [0,1] 得到（保留，向后兼容）
+    - groups: 组/层级稀疏信息
+    - M_prior: LimiX 先验因果矩阵，[d, d]，值越大 = 越可能存在该边
+               对应论文中的 M_prior；由 LimiX 特征重要性/相关性直接给出
+    - M_conf:  M_prior 的置信度，[d, d]，取值 [0, 1]
+               对应论文中的 M_conf；用于 L_soft = γ ||M_conf ⊙ (M_inv - M_prior)||_F²
     """
 
     var_names: List[str]
@@ -45,8 +47,10 @@ class LimixConstraints:
     blacklist: List[Edge]
     whitelist: List[Edge]
     edge_pref: np.ndarray
-    confidence: np.ndarray  # C_LimiX，由 edge_pref 归一化到 [0,1] 得到
+    confidence: np.ndarray
     groups: List[List[Tuple[int, int]]]
+    M_prior: np.ndarray   # 先验因果矩阵，d×d
+    M_conf: np.ndarray    # M_prior 置信度，d×d，[0, 1]
 
 
 def build_default_hard_constraints(var_names: List[str]) -> List[Edge]:
@@ -71,6 +75,7 @@ def _try_build_edge_pref_with_limix(
     data_csv_dir: Path,
     var_names: List[str],
     edge_pref: np.ndarray,
+    m_prior: np.ndarray,
 ) -> None:
     """
     使用本地 LimiX-2M 模型，基于数据学习 soft prior（edge_pref）。
@@ -237,10 +242,10 @@ def _try_build_edge_pref_with_limix(
             if feat_name not in name_to_idx:
                 continue
             i = name_to_idx[feat_name]
-            # 惩罚权重：1 - importance，重要性越大，惩罚越小
-            weight = 1.0 - float(imp)
-            # 在原有 edge_pref 基础上叠加
-            edge_pref[i, score_idx] += weight
+            # edge_pref：惩罚权重，重要性越大惩罚越小（用于旧 DAGMA）
+            edge_pref[i, score_idx] += 1.0 - float(imp)
+            # m_prior：先验置信边存在的强度，重要性越大越倾向于该边存在
+            m_prior[i, score_idx] = float(imp)
             r_to_score_count += 1
         
         print(f"  ✅ 已学习 {r_to_score_count} 条 r_* -> score 的 soft prior")
@@ -269,13 +274,14 @@ def _try_build_edge_pref_with_limix(
                             continue
                         imp_ij = float(corr_norm[a, b])
                         if imp_ij > 0.1:  # 只记录相关性较强的
-                            w_ij = 1.0 - imp_ij  # 相关性越大，惩罚越小
                             ia = name_to_idx.get(ra)
                             jb = name_to_idx.get(rb)
                             if ia is None or jb is None:
                                 continue
-                            # 对两个方向都加上 soft prior（让 DAGMA 自己选择方向）
-                            edge_pref[ia, jb] += w_ij
+                            # edge_pref：惩罚，相关性越强惩罚越小
+                            edge_pref[ia, jb] += 1.0 - imp_ij
+                            # m_prior：先验，相关性越强越倾向于该边存在
+                            m_prior[ia, jb] = max(m_prior[ia, jb], imp_ij)
                             r_to_r_count += 1
                             # 注意：这里也可以只加一个方向，看你的需求
                             # 如果只想要单向，可以注释掉下面这行
@@ -317,6 +323,7 @@ def run_limix_ldm_placeholder(
     d = len(var_names)
     A_candidate = np.zeros((d, d), dtype=np.float32)
     edge_pref = np.zeros_like(A_candidate)
+    m_prior = np.zeros((d, d), dtype=np.float32)   # 先验因果矩阵，由 LimiX 填写
 
     # 1. 默认硬约束：score 不能指向其他变量
     blacklist: List[Edge] = build_default_hard_constraints(var_names)
@@ -384,7 +391,7 @@ def run_limix_ldm_placeholder(
     print("=" * 60)
     print("步骤 3: LimiX 学习 soft prior")
     print("=" * 60)
-    _try_build_edge_pref_with_limix(Path(data_csv_dir), var_names, edge_pref)
+    _try_build_edge_pref_with_limix(Path(data_csv_dir), var_names, edge_pref, m_prior)
     
     # 保存学习到的 edge_pref 矩阵为 CSV
     output_dir = Path(data_csv_dir).parent / "output"
@@ -416,13 +423,22 @@ def run_limix_ldm_placeholder(
     if group_edges:
         groups.append(group_edges)
 
-    # 由 edge_pref 得到置信度 C_LimiX ∈ [0,1]，用于加权损失（高 pref → 高置信度）
+    # 向后兼容：由 edge_pref 得到旧版 confidence
     ep = edge_pref
     ep_min, ep_max = ep.min(), ep.max()
     if ep_max > ep_min:
         confidence = (ep - ep_min) / (ep_max - ep_min + 1e-8)
     else:
-        confidence = np.ones_like(ep) * 0.5  # 无区分时取 0.5
+        confidence = np.ones_like(ep) * 0.5
+
+    # M_conf：由 m_prior 归一化，值越大 = 对该先验越有把握
+    mp_max = m_prior.max()
+    if mp_max > 0:
+        m_conf = (m_prior / (mp_max + 1e-8)).astype(np.float32)
+    else:
+        m_conf = np.zeros_like(m_prior)
+
+    print(f"  M_prior 非零边数: {np.count_nonzero(m_prior)}, max={mp_max:.4f}")
 
     return LimixConstraints(
         var_names=var_names,
@@ -432,6 +448,8 @@ def run_limix_ldm_placeholder(
         edge_pref=edge_pref,
         confidence=confidence.astype(np.float32),
         groups=groups,
+        M_prior=m_prior,
+        M_conf=m_conf,
     )
 
 

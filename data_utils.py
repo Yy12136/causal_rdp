@@ -16,7 +16,8 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+import json
 from pathlib import Path
 from typing import Dict, List, Literal, Optional
 
@@ -130,6 +131,118 @@ def build_task_labels(df: pd.DataFrame) -> pd.Series:
     return df["env_id"].astype(str)
 
 
+@dataclass
+class MicroTraceData:
+    """
+    Dmicro：来自 reward_component_traces/*.json 的连续时间步对。
+
+    D_micro = {(s_{t-1}, s_t)}，其中 s_t 是全局变量空间中的奖励组件向量。
+    active_mask 标记每对样本中哪些维度有真实数据（非补零）。
+    """
+    s_prev: np.ndarray        # (N, d)，s_{t-1}，映射到全局变量空间
+    s_curr: np.ndarray        # (N, d)，s_t，映射到全局变量空间
+    active_mask: np.ndarray   # (N, d)，binary，1 = 该维度在此 episode 中激活
+
+
+def _micro_component_to_feature_name(component_name: str) -> str:
+    """将 reward trace 中的组件名映射到全局变量名。"""
+    if component_name in {"score", "step_score"}:
+        return "score"
+    if component_name.startswith("r_") or component_name.startswith("active_"):
+        return component_name
+    return f"r_{component_name}"
+
+
+def load_reward_micro_traces(
+    collect_data_root: str | Path,
+    var_info: Dict[str, VariableInfo],
+) -> MicroTraceData:
+    """
+    扫描 collect_data/**/.../reward_component_traces/*.json，
+    构造 Dmicro = {(s_{t-1}, s_t)} 及对应的 active_mask。
+
+    JSON 结构：
+    - macro_config: 该 episode 的激活组件名列表（如 ["grasp_reward", ..., "step_score"]）
+    - micro_trajectory: 每个时间步的组件取值（与 macro_config 对齐）
+
+    返回 MicroTraceData：
+    - s_prev, s_curr: 全局空间 d 维向量，缺失组件补 0
+    - active_mask: 按 macro_config 中出现的组件置 1，其余为 0
+    """
+    root = Path(collect_data_root)
+    if not root.exists():
+        raise FileNotFoundError(f"Dmicro 根目录不存在: {root}")
+
+    trace_files = sorted(root.glob("**/reward_component_traces/*.json"))
+    if not trace_files:
+        raise FileNotFoundError(
+            f"未找到 reward trace JSON: {root}/**/reward_component_traces/*.json"
+        )
+
+    feature_cols = list(var_info.keys())
+    d = len(feature_cols)
+    col_to_idx = {col: i for i, col in enumerate(feature_cols)}
+
+    s_prev_list: list[np.ndarray] = []
+    s_curr_list: list[np.ndarray] = []
+    mask_list: list[np.ndarray] = []
+
+    for trace_file in trace_files:
+        with open(trace_file, "r", encoding="utf-8") as f:
+            records = json.load(f)
+
+        if not isinstance(records, list):
+            continue
+
+        for record in records:
+            macro_config = record.get("macro_config") or []
+            micro_trajectory = record.get("micro_trajectory") or []
+            if not macro_config or len(micro_trajectory) < 2:
+                continue
+
+            # 组件名 → 全局变量名
+            mapped_cols = [
+                _micro_component_to_feature_name(str(name))
+                for name in macro_config
+            ]
+
+            # 构造该 episode 的 active_mask（激活维度置 1）
+            mask = np.zeros(d, dtype=np.float32)
+            for col in mapped_cols:
+                if col in col_to_idx:
+                    mask[col_to_idx[col]] = 1.0
+
+            # 构造 episode 中每个时间步的全局状态向量
+            steps: list[np.ndarray] = []
+            for step_values in micro_trajectory:
+                if len(step_values) != len(mapped_cols):
+                    continue
+                s = np.zeros(d, dtype=np.float32)
+                for col, val in zip(mapped_cols, step_values):
+                    if col in col_to_idx:
+                        s[col_to_idx[col]] = float(val)
+                steps.append(s)
+
+            # 生成 (s_{t-1}, s_t) 对
+            for t in range(len(steps) - 1):
+                s_prev_list.append(steps[t])
+                s_curr_list.append(steps[t + 1])
+                mask_list.append(mask)
+
+    if not s_prev_list:
+        raise ValueError(f"Dmicro 中没有可用的 micro_trajectory 数据: {root}")
+
+    print(
+        f"[Dmicro] 共加载 {len(s_prev_list)} 对 (s_{{t-1}}, s_t)"
+        f"，来自 {len(trace_files)} 个 trace 文件"
+    )
+    return MicroTraceData(
+        s_prev=np.stack(s_prev_list),
+        s_curr=np.stack(s_curr_list),
+        active_mask=np.stack(mask_list),
+    )
+
+
 def export_limix_tables(
     df_features: pd.DataFrame,
     task_labels: pd.Series,
@@ -176,10 +289,12 @@ def dataframe_to_numpy(df: pd.DataFrame) -> np.ndarray:
 
 __all__ = [
     "VariableInfo",
+    "MicroTraceData",
     "load_reward_csv",
     "infer_variable_info",
     "build_feature_matrix",
     "build_task_labels",
+    "load_reward_micro_traces",
     "export_limix_tables",
     "dataframe_to_numpy",
 ]

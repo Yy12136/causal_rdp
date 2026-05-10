@@ -2,12 +2,13 @@
 主入口脚本：LimiX + DAGMA-MLP 因果结构学习
 
 流程：
-1. 读取 reward_converted.csv（可包含多个 env_id / 任务）
+1. 读取 Dmacro: reward_converted_merged.csv（可包含多个 env_id / 任务）
 2. 从 w_* 自动生成 r_*（如果不存在）
-3. 转换为 LimiX 输入格式（data.csv / tasks.csv / meta_variables.csv）
-4. 调用 LimiX 官方模型，基于数据学习 soft prior
+3. 转换 Dmacro 为 LimiX 输入格式（data.csv / tasks.csv / meta_variables.csv）
+4. 调用 LimiX 官方模型，基于 Dmacro 学习 soft prior
 5. 整合 yaml 硬约束 + LimiX soft prior，传给 DAGMA-MLP
-6. 使用 DAGMA-MLP 学习全局因果图（一次训练）
+6. 读取 Dmicro: collect_data/shadow_hand_pen/**/reward_component_traces/*.json
+7. 使用 DAGMA-MLP 基于 Dmicro 学习全局因果图（一次训练）
 
 输出：
 - A_dagma_global.npy: 全局邻接矩阵
@@ -46,21 +47,28 @@ from data_utils import (
     build_task_labels,
     dataframe_to_numpy,
     infer_variable_info,
+    MicroTraceData,
+    load_reward_micro_traces,
     load_reward_csv,
     export_limix_tables,
 )
-from dagma_mlp import DagmaHyperParams, DagmaMLP
+from dagma_mlp import CRWMHyperParams, CRWMOptimizer
 from limix_interface import run_limix_ldm_placeholder
 from visualize_graphs import visualize_all_graphs
 
 
-def run_global_dagma_with_path(csv_path: Path, project_root: Path) -> tuple[np.ndarray, list[str]]:
+def run_global_dagma_with_path(
+    csv_path: Path,
+    micro_trace_root: Path,
+    project_root: Path,
+) -> tuple[np.ndarray, list[str]]:
     """
     使用全部数据训练一次 DAGMA，得到全局因果图。
 
     参数
     ----
-    csv_path: 输入 CSV 文件路径
+    csv_path: Dmacro 输入 CSV 文件路径（用于 LimiX）
+    micro_trace_root: Dmicro reward trace 根目录（用于 DAGMA）
     project_root: 项目根目录（用于生成 limix_input 目录）
 
     返回
@@ -69,7 +77,7 @@ def run_global_dagma_with_path(csv_path: Path, project_root: Path) -> tuple[np.n
     var_names: 变量名列表（与 A_global 的行列顺序一致）
     """
 
-    # 1. 加载原始数据
+    # 1. 加载 Dmacro：用于 LimiX 学习 soft prior
     df_raw = load_reward_csv(csv_path)
 
     # 2. 推断变量信息 & 构造特征表
@@ -85,13 +93,18 @@ def run_global_dagma_with_path(csv_path: Path, project_root: Path) -> tuple[np.n
     var_names = list(var_info.keys())
     limix_constraints = run_limix_ldm_placeholder(limix_input_dir, var_names)
 
-    # 5. 使用 DAGMA-MLP 学习完整因果图（一次训练）
-    X_np = dataframe_to_numpy(df_features)
-    hparams = DagmaHyperParams(batch_size=64)
-    dagma = DagmaMLP(d=len(var_names), limix=limix_constraints, hparams=hparams)
-    A_learned = dagma.fit(X_np)
+    # 5. 加载 Dmicro：D_micro = {(s_{t-1}, s_t)}，来自 reward_component_traces/*.json
+    dmicro: MicroTraceData = load_reward_micro_traces(micro_trace_root, var_info)
+    print(f"\nDmicro 加载完成: {dmicro.s_prev.shape[0]} 对, d={dmicro.s_prev.shape[1]}")
 
-    # 6. 过滤掉 active_* 变量（它们只用于训练，不进入最终因果图）
+    # 6. 联合优化 CRWM：M_inst = M_inv ⊙ (1 + M_trans(s_{t-1}))
+    #    L_total = L_MSE + γ||M_conf⊙(M_inv-M_prior)||_F² + λ h(M_inv) + (ρ/2)h²
+    #    只输出 M_inv_star，M_trans 不进入最终因果图
+    hparams = CRWMHyperParams()
+    crwm = CRWMOptimizer(d=len(var_names), limix=limix_constraints, hparams=hparams)
+    A_learned = crwm.fit(dmicro.s_prev, dmicro.s_curr, dmicro.active_mask)
+
+    # 7. 过滤掉 active_* 变量（它们只用于训练，不进入最终因果图）
     # 保留的变量：score 和所有 r_* 变量
     keep_indices = []
     keep_var_names = []
@@ -128,6 +141,9 @@ def main():
     input_csv = project_root / "data" / "reward_converted_merged.csv"  # 修改这里使用合并后的文件
     # 如果合并后的文件在根目录，可以改为：
     # input_csv = project_root / "reward_converted_merged.csv"
+
+    # Dmicro 路径：扫描 collect_data/ 下所有任务文件夹的 reward_component_traces/*.json
+    micro_trace_root = project_root / "collect_data"
     
     # 输出目录（结果文件保存位置）
     output_dir = project_root / "output"  # 修改这里可以改变输出目录
@@ -147,11 +163,13 @@ def main():
     print("步骤 1: 训练全局因果图（使用全部数据）")
     print("=" * 60)
     print(f"输入文件: {input_csv}")
+    print(f"Dmicro 路径: {micro_trace_root}")
     print("\n说明：")
-    print("  - 全局图使用所有环境（env_id）的数据一起训练")
+    print("  - LimiX 使用 Dmacro: data/reward_converted_merged.csv")
+    print("  - DAGMA 使用 Dmicro: reward_component_traces 中的 micro_trajectory")
     print("  - 得到包含所有变量之间因果关系的完整图")
     print("  - 这个图反映了所有环境中的通用因果结构")
-    A_global, var_names = run_global_dagma_with_path(input_csv, project_root)
+    A_global, var_names = run_global_dagma_with_path(input_csv, micro_trace_root, project_root)
 
     # 应用阈值过滤：只保留权重大于等于阈值的边
     print(f"\n应用边阈值过滤（阈值 = {edge_threshold}）...")

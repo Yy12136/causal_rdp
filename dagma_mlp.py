@@ -1,8 +1,22 @@
 """
-一个精简版的 DAGMA-MLP 结构学习实现，用于和 LimiX 产生的先验结合。
+联合优化模块：CRWM (Causal Reward Weight Matrix)
 
-注意：这里不是论文的完整复现，而是遵循你给出的目标函数形式的
-PyTorch 参考实现，方便你后续根据需要继续扩展。
+优化目标（对每个 (s_{t-1}, s_t) 对）：
+  M_inst(s_{t-1}) = M_inv ⊙ (1 + tanh(M_trans(s_{t-1}; θ)))
+  L_MSE  = ||s_t - M_inst(s_{t-1}) @ s_{t-1}||²   (仅在 active_mask = 1 的维度)
+  L_soft = γ ||M_conf ⊙ (M_inv - M_prior)||_F²
+  L_alm  = L_MSE + L_soft + λ·h(M_inv) + (ρ/2)·h(M_inv)²   [ALM 内层]
+
+ALM 外层：λ ← λ + ρ·h(M_inv)；ρ 每轮增长。
+最终只输出 M_inv_star 作为 CRWM；M_trans 训练辅助，不进入最终因果图。
+
+符号约定：
+  d         : 全局变量维度
+  M_inv     : (d, d)，不变因果矩阵，clamp(≥0) 后输出
+  M_trans   : s_{t-1} (d,) → delta (d, d)，tanh 约束输出在 (-1, 1)
+  M_prior   : (d, d)，LimiX 先验因果矩阵
+  M_conf    : (d, d)，M_prior 的置信度，[0, 1]
+  active_mask: (B, d)，binary，1 = 该维度在当前 episode 中激活（有真实数据）
 """
 
 from __future__ import annotations
@@ -18,248 +32,258 @@ import torch.optim as optim
 from limix_interface import LimixConstraints
 
 
-def acyclicity_constraint(A: torch.Tensor) -> torch.Tensor:
-    """
-    DAGMA 中常用的无环约束 h(A) ≈ trace(exp(A ⊙ A)) - d。
-    """
-    d = A.size(0)
-    expm = torch.matrix_exp(A * A)
-    return torch.trace(expm) - d
+# ---------------------------------------------------------------------------
+# 无环约束
+# ---------------------------------------------------------------------------
+
+def acyclicity_constraint(M: torch.Tensor) -> torch.Tensor:
+    """DAGMA h(M) = trace(exp(M ⊙ M)) - d，仅作用于 M_inv。"""
+    d = M.size(0)
+    return torch.trace(torch.matrix_exp(M * M)) - d
 
 
-def nll_gaussian(X: torch.Tensor, X_hat: torch.Tensor) -> torch.Tensor:
-    """
-    简单的高斯负对数似然（等价于均方误差）。
-    """
-    return 0.5 * torch.mean((X - X_hat) ** 2)
+# ---------------------------------------------------------------------------
+# 瞬态调制网络 M_trans
+# ---------------------------------------------------------------------------
 
-
-class DagmaDecoderMLP(nn.Module):
+class TransientNetwork(nn.Module):
     """
-    用于建模 X_j = f_j(Parents_j) 的 MLP。
-
-    实现上采用共享的两层 MLP，通过邻接矩阵 A 在输入维度上线性混合。
-    支持 A 为 (d,d) 或 (B,d,d)，后者用于 input-dependent 门控时的逐样本 A_eff。
+    M_trans: s_{t-1} (d,) → delta (d, d)，输出经 tanh 约束在 (-1, 1)。
+    保证 1 + delta ∈ (0, 2)，不改变 M_inv 的符号。
+    注意：输出维度为 d×d，d 较大时参数量大，可通过 hidden_dim 控制。
     """
 
-    def __init__(self, d: int, hidden: int = 64):
+    def __init__(self, d: int, hidden: int = 32):
         super().__init__()
         self.d = d
-        self.fc1 = nn.Linear(d, hidden)
-        self.fc2 = nn.Linear(hidden, d)
-        self.activation = nn.LeakyReLU(0.2)
-
-    def forward(self, X: torch.Tensor, A: torch.Tensor) -> torch.Tensor:
-        if A.dim() == 2:
-            # 先按 A 做线性混合：X_tilde = X @ A^T
-            X_tilde = X @ A.t()
-        else:
-            # A shape (B, d, d)：逐样本有效邻接，X_tilde_b = X_b @ A_b^T
-            X_tilde = torch.bmm(X.unsqueeze(1), A.transpose(1, 2)).squeeze(1)
-        h = self.activation(self.fc1(X_tilde))
-        X_hat = self.fc2(h)
-        return X_hat
-
-
-class GateNetwork(nn.Module):
-    """
-    Input-Dependent Modulation：输入 X 映射为邻接残差 R(X)，形状 (B, d, d)。
-    用于解耦：不变机制 A + 瞬态交互 gate(X)，缓解状态依赖/瞬态因果关系。
-    """
-
-    def __init__(self, d: int, hidden: int = 32, scale: float = 0.1):
-        super().__init__()
-        self.d = d
-        self.scale = scale
         self.net = nn.Sequential(
             nn.Linear(d, hidden),
             nn.LeakyReLU(0.2),
             nn.Linear(hidden, d * d),
         )
 
-    def forward(self, X: torch.Tensor) -> torch.Tensor:
-        # X: (B, d) -> (B, d*d) -> (B, d, d)，用 tanh 限制幅度
-        B = X.size(0)
-        out = self.net(X)
-        R = out.view(B, self.d, self.d).tanh() * self.scale
-        return R
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        # x: (B, d) → delta: (B, d, d)
+        B = x.size(0)
+        return torch.tanh(self.net(x)).view(B, self.d, self.d)
 
+
+# ---------------------------------------------------------------------------
+# 超参数
+# ---------------------------------------------------------------------------
 
 @dataclass
-class DagmaHyperParams:
-    lambda_l1: float = 0.01
-    lambda_h: float = 10.0
-    lambda_black: float = 50.0  # 增加黑名单惩罚权重，确保硬约束被严格遵守
-    lambda_white: float = 5.0
-    tau_white: float = 0.3
-    lambda_pref: float = 1.0
-    lambda_group: float = 1.0
-    # LimiX 置信度加权：L_total = L_Data + λ_limix_conf * ||W⊙(1-C_LimiX)||_1，缓解幻觉
-    lambda_limix_conf: float = 0.5
-    # 门控（瞬态）稀疏：对 input-dependent 残差做 L1，解耦不变机制与瞬态交互
-    lambda_gate: float = 0.1
+class CRWMHyperParams:
+    # Loss 权重
+    gamma: float = 1.0          # L_soft 权重
+    lambda_black: float = 50.0  # 黑名单硬约束惩罚
+    lambda_white: float = 5.0   # 白名单硬约束惩罚
+    tau_white: float = 0.3      # 白名单边最小权重
+
+    # ALM 超参数（自适应增广拉格朗日）
+    lambda_init: float = 0.1    # 初始 ALM 乘子 λ
+    rho_init: float = 1.0       # 初始增广惩罚系数 ρ
+    rho_growth: float = 2.0     # 每轮外层 ρ 增长因子
+    rho_max: float = 1e4        # ρ 上限
+
+    # 训练控制
+    outer_iters: int = 10       # ALM 外层迭代次数
+    inner_steps: int = 1000     # 每次内层优化步数
     lr: float = 1e-3
-    steps: int = 10000
-    batch_size: int = 16
+    batch_size: int = 256
+    hidden_dim: int = 32        # M_trans 隐藏层维度（越大越耗显存）
 
 
-class DagmaMLP:
+# ---------------------------------------------------------------------------
+# CRWM 联合优化器
+# ---------------------------------------------------------------------------
+
+class CRWMOptimizer:
     """
-    带有 LimiX 先验正则项的 DAGMA-MLP，含两项改进：
-
-    1) 加权损失：L_total = L_Data(W) + λ||W⊙(1-C_LimiX)||_1
-       - C_LimiX 为 LimiX 置信度，置信度低的边惩罚大，缓解大模型幻觉。
-
-    2) Input-Dependent Modulation（门控）：A_eff = A + gate(X)
-       - A 为不变机制（所有任务共享），由 LimiX 先验与无环约束锁定；
-       - gate(X) 为瞬态交互（状态依赖），由门控网络学习，L1 稀疏约束。
+    联合优化器：同时学习不变因果矩阵 M_inv 和瞬态调制网络 M_trans。
+    训练结束后只输出 M_inv_star（CRWM），M_trans 丢弃。
     """
 
-    def __init__(self, d: int, limix: LimixConstraints, hparams: DagmaHyperParams):
+    def __init__(
+        self,
+        d: int,
+        limix: LimixConstraints,
+        hparams: CRWMHyperParams | None = None,
+    ):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.d = d
-        self.hparams = hparams
-        self.model = DagmaDecoderMLP(d).to(self.device)
+        self.hparams = hparams or CRWMHyperParams()
 
-        # 邻接矩阵 A 作为需要学习的参数
-        self.A = nn.Parameter(torch.zeros(d, d, device=self.device))
+        # 可学习参数
+        self.M_inv = nn.Parameter(torch.zeros(d, d, device=self.device))
+        self.M_trans = TransientNetwork(d, hidden=self.hparams.hidden_dim).to(self.device)
 
-        # 处理 LimiX 约束，转成 tensor / 索引
-        self.black_edges_idx: List[Tuple[int, int]] = []
-        self.white_edges_idx: List[Tuple[int, int]] = []
+        # LimiX 先验（固定，不参与梯度）
+        self.M_prior = torch.tensor(
+            limix.M_prior, dtype=torch.float32, device=self.device
+        )
+        self.M_conf = torch.tensor(
+            limix.M_conf, dtype=torch.float32, device=self.device
+        )
+
+        # 硬约束边集合（索引形式）
         name_to_idx = {name: i for i, name in enumerate(limix.var_names)}
+        self.black_edges: List[Tuple[int, int]] = [
+            (name_to_idx[u], name_to_idx[v])
+            for u, v in limix.blacklist
+            if u in name_to_idx and v in name_to_idx
+        ]
+        self.white_edges: List[Tuple[int, int]] = [
+            (name_to_idx[u], name_to_idx[v])
+            for u, v in limix.whitelist
+            if u in name_to_idx and v in name_to_idx
+        ]
 
-        for u, v in limix.blacklist:
-            if u in name_to_idx and v in name_to_idx:
-                self.black_edges_idx.append((name_to_idx[u], name_to_idx[v]))
-        for u, v in limix.whitelist:
-            if u in name_to_idx and v in name_to_idx:
-                self.white_edges_idx.append((name_to_idx[u], name_to_idx[v]))
+        # ALM 状态（外层循环自适应更新）
+        self.lam = float(self.hparams.lambda_init)
+        self.rho = float(self.hparams.rho_init)
 
-        self.edge_pref = torch.tensor(
-            limix.edge_pref, dtype=torch.float32, device=self.device
-        )
-        # LimiX 置信度 C_LimiX，用于加权损失 ||W⊙(1-C)||_1
-        self.C_limix = torch.tensor(
-            limix.confidence, dtype=torch.float32, device=self.device
-        )
-        self.groups = limix.groups  # 已经是 (i, j) 索引列表
-
-        # Input-Dependent 门控：不变机制 A + 瞬态 gate(X)
-        self.gate_net = GateNetwork(d).to(self.device)
-
-        self.optimizer = optim.Adam(
-            list(self.model.parameters()) + [self.A] + list(self.gate_net.parameters()),
-            lr=hparams.lr,
+    def _make_optimizer(self) -> optim.Adam:
+        return optim.Adam(
+            [self.M_inv] + list(self.M_trans.parameters()),
+            lr=self.hparams.lr,
         )
 
-    def loss(self, X: torch.Tensor) -> torch.Tensor:
-        # Input-Dependent Modulation: A_eff = A（不变机制）+ gate(X)（瞬态交互）
-        A_residual = self.gate_net(X)
-        A_eff = self.A.unsqueeze(0) + A_residual  # (B, d, d)
-        X_hat = self.model(X, A_eff)
-        nll = nll_gaussian(X, X_hat)
-
-        # L1 稀疏（对不变邻接 A）
-        l1 = torch.sum(torch.abs(self.A))
-
-        # 无环约束（对不变机制 A；瞬态由门控稀疏约束）
-        h_val = acyclicity_constraint(self.A)
-
-        # 黑名单惩罚：黑名单边的 |A_ij|
-        black_penalty = torch.zeros(1, device=self.device)
-        if self.black_edges_idx:
-            idx_i = torch.tensor([i for i, _ in self.black_edges_idx], device=self.device)
-            idx_j = torch.tensor([j for _, j in self.black_edges_idx], device=self.device)
-            black_penalty = torch.sum(torch.abs(self.A[idx_i, idx_j]))
-
-        # 白名单奖励：max(0, tau - A_ij)
-        white_penalty = torch.zeros(1, device=self.device)
-        if self.white_edges_idx:
-            idx_i = torch.tensor([i for i, _ in self.white_edges_idx], device=self.device)
-            idx_j = torch.tensor([j for _, j in self.white_edges_idx], device=self.device)
-            white_penalty = torch.sum(
-                torch.relu(self.hparams.tau_white - self.A[idx_i, idx_j])
-            )
-
-        # 边偏好权重（原有）
-        pref_penalty = torch.sum(torch.abs(self.edge_pref * self.A))
-
-        # LimiX 置信度加权：L_reg = ||W⊙(1-C_LimiX)||_1，置信度低则惩罚大，缓解幻觉
-        conf_penalty = torch.sum(torch.abs(self.A * (1.0 - self.C_limix)))
-
-        # 门控（瞬态）稀疏：保持瞬态交互稀疏，解耦不变/瞬态
-        gate_penalty = torch.sum(torch.abs(A_residual))
-
-        # 组/层级稀疏：对每一组边的 L2 范数求和
-        group_penalty = torch.zeros(1, device=self.device)
-        for group in self.groups:
-            if not group:
-                continue
-            vals = torch.stack([self.A[i, j] for (i, j) in group])
-            group_penalty = group_penalty + torch.norm(vals, p=2)
-
+    def _inner_loss(
+        self,
+        s_prev: torch.Tensor,       # (B, d)
+        s_curr: torch.Tensor,       # (B, d)
+        active_mask: torch.Tensor,  # (B, d)，binary
+    ) -> torch.Tensor:
         hp = self.hparams
-        total = (
-            nll
-            + hp.lambda_l1 * l1
-            + hp.lambda_h * h_val
+
+        # --- M_inst = M_inv ⊙ (1 + tanh(M_trans(s_prev))) ---
+        delta = self.M_trans(s_prev)                         # (B, d, d), ∈ (-1, 1)
+        M_inst = self.M_inv.unsqueeze(0) * (1.0 + delta)    # (B, d, d)
+
+        # --- L_MSE：标准矩阵向量积，只在 active 维度上计算误差 ---
+        # s_hat_i = Σ_j M_inst_{i,j}(s_{t-1}) · s_{t-1,j}
+        s_hat = torch.einsum("bij,bj->bi", M_inst, s_prev)  # (B, d)
+        residual = (s_curr - s_hat) * active_mask
+        n_active = active_mask.sum().clamp(min=1.0)
+        L_MSE = (residual ** 2).sum() / n_active
+
+        # --- L_soft = γ ||M_conf ⊙ (M_inv - M_prior)||_F² ---
+        L_soft = hp.gamma * (self.M_conf * (self.M_inv - self.M_prior)).pow(2).sum()
+
+        # --- 硬约束惩罚（黑/白名单）---
+        black_penalty = torch.zeros(1, device=self.device)
+        if self.black_edges:
+            bi = torch.tensor([i for i, _ in self.black_edges], device=self.device)
+            bj = torch.tensor([j for _, j in self.black_edges], device=self.device)
+            black_penalty = self.M_inv[bi, bj].abs().sum()
+
+        white_penalty = torch.zeros(1, device=self.device)
+        if self.white_edges:
+            wi = torch.tensor([i for i, _ in self.white_edges], device=self.device)
+            wj = torch.tensor([j for _, j in self.white_edges], device=self.device)
+            white_penalty = torch.relu(hp.tau_white - self.M_inv[wi, wj]).sum()
+
+        # --- 无环约束 h(M_inv)（只作用在 M_inv，不含 M_trans）---
+        h = acyclicity_constraint(self.M_inv)
+
+        # --- ALM 总损失（内层，λ 和 ρ 固定）---
+        L_total = (
+            L_MSE
+            + L_soft
             + hp.lambda_black * black_penalty
             + hp.lambda_white * white_penalty
-            + hp.lambda_pref * pref_penalty
-            + hp.lambda_limix_conf * conf_penalty
-            + hp.lambda_gate * gate_penalty
-            + hp.lambda_group * group_penalty
+            + self.lam * h
+            + (self.rho / 2.0) * h ** 2
         )
-        return total
+        return L_total
 
-    def fit(self, X_np: np.ndarray) -> np.ndarray:
+    def fit(
+        self,
+        s_prev: np.ndarray,      # (N, d)，Dmicro s_{t-1}
+        s_curr: np.ndarray,      # (N, d)，Dmicro s_t
+        active_mask: np.ndarray, # (N, d)，binary
+    ) -> np.ndarray:
         """
-        训练 DAGMA-MLP，返回学习到的邻接矩阵 A（numpy 数组）。
+        训练 CRWM，返回学习到的 M_inv_star（numpy 数组，d×d）。
+        使用 ALM 外层自适应更新 λ；M_trans 只在内层优化，最终不输出。
         """
-        X_all = torch.tensor(X_np, dtype=torch.float32)
-        n_samples = X_all.shape[0]
-        batch_size = min(self.hparams.batch_size, n_samples)
-        for step in range(self.hparams.steps):
-            # 使用随机 mini-batch，避免整份数据常驻 GPU 导致显存溢出
-            if batch_size < n_samples:
-                batch_indices = torch.randint(0, n_samples, (batch_size,))
-                X_batch = X_all[batch_indices].to(self.device)
-            else:
-                X_batch = X_all.to(self.device)
+        sp_all = torch.tensor(s_prev, dtype=torch.float32)
+        sc_all = torch.tensor(s_curr, dtype=torch.float32)
+        mk_all = torch.tensor(active_mask, dtype=torch.float32)
+        N = sp_all.size(0)
+        batch_size = min(self.hparams.batch_size, N)
+        hp = self.hparams
 
-            self.optimizer.zero_grad()
-            loss_val = self.loss(X_batch)
-            loss_val.backward()
-            self.optimizer.step()
+        print(f"[CRWM] 开始训练: N={N}, d={self.d}, device={self.device}")
+        print(f"[CRWM] ALM: outer={hp.outer_iters}, inner={hp.inner_steps}, "
+              f"λ_init={hp.lambda_init}, ρ_init={hp.rho_init}")
 
-            # 可选：每隔一段打印一次损失，方便调试
-            if (step + 1) % 500 == 0:
-                print(f"[DAGMA] step {step+1}/{self.hparams.steps}, loss={loss_val.item():.4f}")
+        for outer in range(hp.outer_iters):
+            optimizer = self._make_optimizer()
 
+            for step in range(hp.inner_steps):
+                idx = torch.randint(0, N, (batch_size,))
+                loss = self._inner_loss(
+                    sp_all[idx].to(self.device),
+                    sc_all[idx].to(self.device),
+                    mk_all[idx].to(self.device),
+                )
+                optimizer.zero_grad()
+                loss.backward()
+                optimizer.step()
+
+                if (step + 1) % 200 == 0:
+                    with torch.no_grad():
+                        h_val = acyclicity_constraint(self.M_inv).item()
+                    print(
+                        f"[CRWM] outer={outer+1}/{hp.outer_iters} "
+                        f"inner={step+1}/{hp.inner_steps} "
+                        f"loss={loss.item():.4f} h={h_val:.6f} "
+                        f"λ={self.lam:.4f} ρ={self.rho:.2f}"
+                    )
+
+            # ALM 外层：λ ← λ + ρ·h(M_inv)；增长 ρ
+            with torch.no_grad():
+                h_scalar = acyclicity_constraint(self.M_inv).item()
+            self.lam = self.lam + self.rho * h_scalar
+            self.rho = min(self.rho * hp.rho_growth, hp.rho_max)
+            print(
+                f"[CRWM] 外层第 {outer+1} 轮结束: "
+                f"h={h_scalar:.6f}, λ←{self.lam:.4f}, ρ←{self.rho:.2f}"
+            )
+
+        # 提取 M_inv_star，clamp ≥ 0，强制应用硬约束
         with torch.no_grad():
-            A_learned = self.A.clamp(min=0.0).cpu().numpy()
-        
-        # 强制应用黑名单约束：将黑名单中的边置零（硬约束必须严格遵守）
-        if self.black_edges_idx:
-            for i, j in self.black_edges_idx:
-                A_learned[i, j] = 0.0
-            print(f"[DAGMA] ✅ 已强制将 {len(self.black_edges_idx)} 条黑名单边置零（硬约束）")
-        
-        # 强制应用白名单约束：确保白名单中的边存在（硬约束必须严格遵守）
-        if self.white_edges_idx:
-            white_count = 0
-            for i, j in self.white_edges_idx:
-                if A_learned[i, j] < self.hparams.tau_white:
-                    # 如果白名单边的权重小于阈值，强制设置为阈值
-                    A_learned[i, j] = self.hparams.tau_white
-                    white_count += 1
-            if white_count > 0:
-                print(f"[DAGMA] ✅ 已强制确保 {white_count} 条白名单边存在（硬约束，权重 >= {self.hparams.tau_white}）")
-        
-        return A_learned
+            M_inv_np = self.M_inv.clamp(min=0.0).cpu().numpy()
+
+        for i, j in self.black_edges:
+            M_inv_np[i, j] = 0.0
+        if self.black_edges:
+            print(f"[CRWM] ✅ 已强制将 {len(self.black_edges)} 条黑名单边置零")
+
+        for i, j in self.white_edges:
+            if M_inv_np[i, j] < hp.tau_white:
+                M_inv_np[i, j] = hp.tau_white
+        if self.white_edges:
+            print(f"[CRWM] ✅ 已确保 {len(self.white_edges)} 条白名单边存在")
+
+        return M_inv_np
 
 
-__all__ = ["DagmaHyperParams", "DagmaMLP", "GateNetwork", "DagmaDecoderMLP"]
+# ---------------------------------------------------------------------------
+# 向后兼容别名（旧导入不报错）
+# ---------------------------------------------------------------------------
+
+DagmaHyperParams = CRWMHyperParams
+DagmaMLP = CRWMOptimizer
 
 
+__all__ = [
+    "acyclicity_constraint",
+    "TransientNetwork",
+    "CRWMHyperParams",
+    "CRWMOptimizer",
+    "DagmaHyperParams",
+    "DagmaMLP",
+]
