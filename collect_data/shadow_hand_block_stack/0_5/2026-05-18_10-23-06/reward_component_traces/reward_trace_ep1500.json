@@ -1,0 +1,31 @@
+[
+  {
+    "epoch": 1500,
+    "env_index": 1781,
+    "reward_temp": {
+      "stack_reward": 10.0,
+      "grasp_reward": 0.01,
+      "contact_reward": 0.01,
+      "approach_reward": 0.01,
+      "stack_bonus": 1.0
+    },
+    "macro_config": [
+      "stack_reward",
+      "grasp_reward",
+      "contact_reward",
+      "approach_reward",
+      "stack_bonus",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        0.13512752950191498,
+        8.747699757805094e-05,
+        2.1337935862675295e-09,
+        2.428467382742383e-07,
+        0.0,
+        0.054077282547950745
+      ]
+    ]
+  }
+]

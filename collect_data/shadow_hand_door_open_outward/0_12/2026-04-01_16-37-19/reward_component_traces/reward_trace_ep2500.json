@@ -1,0 +1,35 @@
+[
+  {
+    "epoch": 2500,
+    "env_index": 1790,
+    "reward_temp": {
+      "door_open_reward": 5.0,
+      "grasp_reward": 10.0,
+      "approach_reward": 5.0,
+      "velocity_penalty": 0.10000000149011612
+    },
+    "macro_config": [
+      "door_open_reward",
+      "grasp_reward",
+      "approach_reward",
+      "velocity_penalty",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        0.22313016653060913,
+        0.12497857213020325,
+        0.314190149307251,
+        1.0,
+        0.2804776728153229
+      ],
+      [
+        0.22313016653060913,
+        0.13972565531730652,
+        0.3218703269958496,
+        1.0,
+        0.28566980361938477
+      ]
+    ]
+  }
+]

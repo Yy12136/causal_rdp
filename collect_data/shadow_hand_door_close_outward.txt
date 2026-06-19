@@ -1,0 +1,293 @@
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.1, success_bonus, 1, 0.284]0_5
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.1, success_bonus, 0.5, 0.113]
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.1, success_bonus, 5, 0.0526]
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.5, success_bonus, 1, 0.0519]0_5
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.5, success_bonus, 0.5, 0.2226]
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.5, success_bonus, 5, 0.0337]
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 1, success_bonus, 1, 0.6605]0_5
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 1, success_bonus, 0.5, 0.2549]
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 1, success_bonus, 5, 0.1695]
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 2, orientation_reward, 0.5, velocity_penalty, 0.1, success_bonus, 1, 0.2567]0_5
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 2, orientation_reward, 0.5, velocity_penalty, 0.1, success_bonus, 0.5, 0.1724]
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 2, orientation_reward, 0.5, velocity_penalty, 0.1, success_bonus, 5, 0.0791]
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 2, orientation_reward, 0.5, velocity_penalty, 0.5, success_bonus, 1, 0.0538]0_5
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 2, orientation_reward, 0.5, velocity_penalty, 0.5, success_bonus, 0.5, 0.1586]
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 2, orientation_reward, 0.5, velocity_penalty, 0.5, success_bonus, 5, 0.0714]
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 2, orientation_reward, 0.5, velocity_penalty, 1, success_bonus, 1, 0.0978]0_5
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 2, orientation_reward, 0.5, velocity_penalty, 1, success_bonus, 0.5, 0.0135]
+[door_closing_reward, 5, handle_grasp_reward, 10, hand_approach_reward, 2, orientation_reward, 0.5, velocity_penalty, 1, success_bonus, 5, 0.0463]
+[door_closing_reward, 1, handle_grasp_reward, 5, hand_approach_reward, 16, orientation_reward, 5, velocity_penalty, 0.1, success_bonus, 1, 0.0124]0_5
+[door_closing_reward, 1, handle_grasp_reward, 5, hand_approach_reward, 16, orientation_reward, 5, velocity_penalty, 0.1, success_bonus, 0.5, 0.0573]
+[door_closing_reward, 1, handle_grasp_reward, 5, hand_approach_reward, 16, orientation_reward, 5, velocity_penalty, 0.1, success_bonus, 5, 0.1699]
+[door_closing_reward, 1, handle_grasp_reward, 5, hand_approach_reward, 16, orientation_reward, 5, velocity_penalty, 0.5, success_bonus, 1, 0.3691]0_5
+[door_closing_reward, 1, handle_grasp_reward, 5, hand_approach_reward, 16, orientation_reward, 5, velocity_penalty, 0.5, success_bonus, 0.5, 0.3956]
+[door_closing_reward, 1, handle_grasp_reward, 5, hand_approach_reward, 16, orientation_reward, 5, velocity_penalty, 0.5, success_bonus, 5, 0.1337]
+[door_closing_reward, 1, handle_grasp_reward, 5, hand_approach_reward, 16, orientation_reward, 5, velocity_penalty, 1, success_bonus, 1, 0.2653]0_5
+[door_closing_reward, 1, handle_grasp_reward, 5, hand_approach_reward, 16, orientation_reward, 5, velocity_penalty, 1, success_bonus, 0.5, 0.0475]
+[door_closing_reward, 1, handle_grasp_reward, 5, hand_approach_reward, 16, orientation_reward, 5, velocity_penalty, 1, success_bonus, 5, 0.0311]
+[door_closing_reward, 10, handle_grasp_reward, 20, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.1, success_bonus, 1, 0.0596]0_5
+[door_closing_reward, 10, handle_grasp_reward, 20, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.1, success_bonus, 0.5, 0.2531]
+[door_closing_reward, 10, handle_grasp_reward, 20, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.1, success_bonus, 5, 0.0937]
+[door_closing_reward, 10, handle_grasp_reward, 20, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.5, success_bonus, 1, 0.1437]0_5
+[door_closing_reward, 10, handle_grasp_reward, 20, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.5, success_bonus, 0.5, 0.0437]
+[door_closing_reward, 10, handle_grasp_reward, 20, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 0.5, success_bonus, 5, 0.0074]
+[door_closing_reward, 10, handle_grasp_reward, 20, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 1, success_bonus, 1, 0.1329]0_5
+[door_closing_reward, 10, handle_grasp_reward, 20, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 1, success_bonus, 0.5, 0.1511]
+[door_closing_reward, 10, handle_grasp_reward, 20, hand_approach_reward, 8, orientation_reward, 1, velocity_penalty, 1, success_bonus, 5, 0.2725]
+
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 2, door_stability_reward, 5, 0.0683]0_13
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 2, door_stability_reward, 1, 0.0266]
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 2, door_stability_reward, 10, 0.0272]
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 1, door_stability_reward, 5, 0.0172]0_13
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 1, door_stability_reward, 1, 0.3252]
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 1, door_stability_reward, 10, 0.2124]
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 5, door_stability_reward, 5, 0.1136]0_13
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 5, door_stability_reward, 1, 0.0806]
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 5, door_stability_reward, 10, 0.0977]
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 5, door_vel_reward, 0.5, fingertip_reward, 2, door_stability_reward, 5, 0.0203]0_13
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 5, door_vel_reward, 0.5, fingertip_reward, 2, door_stability_reward, 1, 0.043]
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 5, door_vel_reward, 0.5, fingertip_reward, 2, door_stability_reward, 10, 0.1291]
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 5, door_vel_reward, 0.5, fingertip_reward, 1, door_stability_reward, 5, 0.2654]0_13
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 5, door_vel_reward, 0.5, fingertip_reward, 1, door_stability_reward, 1, 0.0484]
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 5, door_vel_reward, 0.5, fingertip_reward, 1, door_stability_reward, 10, 0.1988]
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 5, door_vel_reward, 0.5, fingertip_reward, 5, door_stability_reward, 5, 0.1169]0_13
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 5, door_vel_reward, 0.5, fingertip_reward, 5, door_stability_reward, 1, 0.1644]
+[handle_grasp_reward, 10, door_pos_reward, 20, door_rot_reward, 5, door_vel_reward, 0.5, fingertip_reward, 5, door_stability_reward, 10, 0.1723]
+[handle_grasp_reward, 5, door_pos_reward, 10, door_rot_reward, 20, door_vel_reward, 1, fingertip_reward, 2, door_stability_reward, 5, 0.2512]0_13
+[handle_grasp_reward, 5, door_pos_reward, 10, door_rot_reward, 20, door_vel_reward, 1, fingertip_reward, 2, door_stability_reward, 1, 0.0523]
+[handle_grasp_reward, 5, door_pos_reward, 10, door_rot_reward, 20, door_vel_reward, 1, fingertip_reward, 2, door_stability_reward, 10, 0.045]
+[handle_grasp_reward, 5, door_pos_reward, 10, door_rot_reward, 20, door_vel_reward, 1, fingertip_reward, 1, door_stability_reward, 5, 0.1153]0_13
+[handle_grasp_reward, 5, door_pos_reward, 10, door_rot_reward, 20, door_vel_reward, 1, fingertip_reward, 1, door_stability_reward, 1, 0.1536]
+[handle_grasp_reward, 5, door_pos_reward, 10, door_rot_reward, 20, door_vel_reward, 1, fingertip_reward, 1, door_stability_reward, 10, 0.0121]
+[handle_grasp_reward, 5, door_pos_reward, 10, door_rot_reward, 20, door_vel_reward, 1, fingertip_reward, 5, door_stability_reward, 5, 0.167]0_13
+[handle_grasp_reward, 5, door_pos_reward, 10, door_rot_reward, 20, door_vel_reward, 1, fingertip_reward, 5, door_stability_reward, 1, 0.1634]
+[handle_grasp_reward, 5, door_pos_reward, 10, door_rot_reward, 20, door_vel_reward, 1, fingertip_reward, 5, door_stability_reward, 10, 0.041]
+[handle_grasp_reward, 20, door_pos_reward, 40, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 2, door_stability_reward, 5, 0.3337]0_13
+[handle_grasp_reward, 20, door_pos_reward, 40, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 2, door_stability_reward, 1, 0.0816]
+[handle_grasp_reward, 20, door_pos_reward, 40, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 2, door_stability_reward, 10, 0.1962]
+[handle_grasp_reward, 20, door_pos_reward, 40, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 1, door_stability_reward, 5, 0.1488]0_13
+[handle_grasp_reward, 20, door_pos_reward, 40, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 1, door_stability_reward, 1, 0.0927]
+[handle_grasp_reward, 20, door_pos_reward, 40, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 1, door_stability_reward, 10, 0.1917]
+[handle_grasp_reward, 20, door_pos_reward, 40, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 5, door_stability_reward, 5, 0.322]0_13
+[handle_grasp_reward, 20, door_pos_reward, 40, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 5, door_stability_reward, 1, 0.3338]
+[handle_grasp_reward, 20, door_pos_reward, 40, door_rot_reward, 10, door_vel_reward, 0.1, fingertip_reward, 5, door_stability_reward, 10, 0.1202]
+
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 3, success_bonus, 1, 0.2001]1_2
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 3, success_bonus, 0.5, 0.2182]
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 3, success_bonus, 5, 0.4049]
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 1, success_bonus, 1, 0.0369]1_2
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 1, success_bonus, 0.5, 0.039]
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 1, success_bonus, 5, 0.3674]
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 10, success_bonus, 1, 0.1962]1_2
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 10, success_bonus, 0.5, 0.4479]
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 10, success_bonus, 5, 0.1387]
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 1, door_angvel_reward, 0.1, fingertip_grasp_reward, 3, success_bonus, 1, 0.2219]1_2
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 1, door_angvel_reward, 0.1, fingertip_grasp_reward, 3, success_bonus, 0.5, 0.0391]
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 1, door_angvel_reward, 0.1, fingertip_grasp_reward, 3, success_bonus, 5, 0.286]
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 1, door_angvel_reward, 0.1, fingertip_grasp_reward, 1, success_bonus, 1, 0.1681]1_2
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 1, door_angvel_reward, 0.1, fingertip_grasp_reward, 1, success_bonus, 0.5, 0.0255]
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 1, door_angvel_reward, 0.1, fingertip_grasp_reward, 1, success_bonus, 5, 0.2144]
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 1, door_angvel_reward, 0.1, fingertip_grasp_reward, 10, success_bonus, 1, 0.1643]1_2
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 1, door_angvel_reward, 0.1, fingertip_grasp_reward, 10, success_bonus, 0.5, 0.057]
+[handle_approach_reward, 5, hand_contact_reward, 5, rotation_alignment_reward, 1, door_angvel_reward, 0.1, fingertip_grasp_reward, 10, success_bonus, 5, 0.48]
+[handle_approach_reward, 1, hand_contact_reward, 1, rotation_alignment_reward, 5, door_angvel_reward, 1, fingertip_grasp_reward, 3, success_bonus, 1, 0.2957]1_2
+[handle_approach_reward, 1, hand_contact_reward, 1, rotation_alignment_reward, 5, door_angvel_reward, 1, fingertip_grasp_reward, 3, success_bonus, 0.5, 0.0471]
+[handle_approach_reward, 1, hand_contact_reward, 1, rotation_alignment_reward, 5, door_angvel_reward, 1, fingertip_grasp_reward, 3, success_bonus, 5, 0.6281]
+[handle_approach_reward, 1, hand_contact_reward, 1, rotation_alignment_reward, 5, door_angvel_reward, 1, fingertip_grasp_reward, 1, success_bonus, 1, 0.2471]1_2
+[handle_approach_reward, 1, hand_contact_reward, 1, rotation_alignment_reward, 5, door_angvel_reward, 1, fingertip_grasp_reward, 1, success_bonus, 0.5, 0.5827]
+[handle_approach_reward, 1, hand_contact_reward, 1, rotation_alignment_reward, 5, door_angvel_reward, 1, fingertip_grasp_reward, 1, success_bonus, 5, 0.0176]
+[handle_approach_reward, 1, hand_contact_reward, 1, rotation_alignment_reward, 5, door_angvel_reward, 1, fingertip_grasp_reward, 10, success_bonus, 1, 0.1645]1_2
+[handle_approach_reward, 1, hand_contact_reward, 1, rotation_alignment_reward, 5, door_angvel_reward, 1, fingertip_grasp_reward, 10, success_bonus, 0.5, 0.4481]
+[handle_approach_reward, 1, hand_contact_reward, 1, rotation_alignment_reward, 5, door_angvel_reward, 1, fingertip_grasp_reward, 10, success_bonus, 5, 0.1298]
+[handle_approach_reward, 10, hand_contact_reward, 10, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 3, success_bonus, 1, 0.0642]1_2
+[handle_approach_reward, 10, hand_contact_reward, 10, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 3, success_bonus, 0.5, 0.2869]
+[handle_approach_reward, 10, hand_contact_reward, 10, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 3, success_bonus, 5, 0.1542]
+[handle_approach_reward, 10, hand_contact_reward, 10, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 1, success_bonus, 1, 0.301]1_2
+[handle_approach_reward, 10, hand_contact_reward, 10, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 1, success_bonus, 0.5, 0.0706]
+[handle_approach_reward, 10, hand_contact_reward, 10, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 1, success_bonus, 5, 0.3783]
+[handle_approach_reward, 10, hand_contact_reward, 10, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 10, success_bonus, 1, 0.2569]1_2
+[handle_approach_reward, 10, hand_contact_reward, 10, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 10, success_bonus, 0.5, 0.1171]
+[handle_approach_reward, 10, hand_contact_reward, 10, rotation_alignment_reward, 2, door_angvel_reward, 0.5, fingertip_grasp_reward, 10, success_bonus, 5, 0.4336]
+
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.5, success_bonus, 10, 0.023]1_3
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.5, success_bonus, 5, 0.1163]
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.5, success_bonus, 20, 0.1042]
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.1, success_bonus, 10, 0.2895]1_3
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.1, success_bonus, 5, 0.0739]
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.1, success_bonus, 20, 0.082]
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 1, success_bonus, 10, 0.0063]1_3
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 1, success_bonus, 5, 0.2429]
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 1, success_bonus, 20, 0.3056]
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 1, fingertip_reward, 0.5, door_angvel_reward, 0.5, success_bonus, 10, 0.0066]1_3
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 1, fingertip_reward, 0.5, door_angvel_reward, 0.5, success_bonus, 5, 0.1506]
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 1, fingertip_reward, 0.5, door_angvel_reward, 0.5, success_bonus, 20, 0.0338]
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 1, fingertip_reward, 0.5, door_angvel_reward, 0.1, success_bonus, 10, 0.0087]1_3
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 1, fingertip_reward, 0.5, door_angvel_reward, 0.1, success_bonus, 5, 0.0678]
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 1, fingertip_reward, 0.5, door_angvel_reward, 0.1, success_bonus, 20, 0.3048]
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 1, fingertip_reward, 0.5, door_angvel_reward, 1, success_bonus, 10, 0.0478]1_3
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 1, fingertip_reward, 0.5, door_angvel_reward, 1, success_bonus, 5, 0.1075]
+[handle_grasp_reward, 5, door_progress_reward, 2, door_vel_reward, 1, fingertip_reward, 0.5, door_angvel_reward, 1, success_bonus, 20, 0.1918]
+[handle_grasp_reward, 1, door_progress_reward, 1, door_vel_reward, 10, fingertip_reward, 5, door_angvel_reward, 0.5, success_bonus, 10, 0.4066]1_3
+[handle_grasp_reward, 1, door_progress_reward, 1, door_vel_reward, 10, fingertip_reward, 5, door_angvel_reward, 0.5, success_bonus, 5, 0.0929]
+[handle_grasp_reward, 1, door_progress_reward, 1, door_vel_reward, 10, fingertip_reward, 5, door_angvel_reward, 0.5, success_bonus, 20, 0.0365]
+[handle_grasp_reward, 1, door_progress_reward, 1, door_vel_reward, 10, fingertip_reward, 5, door_angvel_reward, 0.1, success_bonus, 10, 0.0971]1_3
+[handle_grasp_reward, 1, door_progress_reward, 1, door_vel_reward, 10, fingertip_reward, 5, door_angvel_reward, 0.1, success_bonus, 5, 0.0271]
+[handle_grasp_reward, 1, door_progress_reward, 1, door_vel_reward, 10, fingertip_reward, 5, door_angvel_reward, 0.1, success_bonus, 20, 0.0681]
+[handle_grasp_reward, 1, door_progress_reward, 1, door_vel_reward, 10, fingertip_reward, 5, door_angvel_reward, 1, success_bonus, 10, 0.079]1_3
+[handle_grasp_reward, 1, door_progress_reward, 1, door_vel_reward, 10, fingertip_reward, 5, door_angvel_reward, 1, success_bonus, 5, 0.4238]
+[handle_grasp_reward, 1, door_progress_reward, 1, door_vel_reward, 10, fingertip_reward, 5, door_angvel_reward, 1, success_bonus, 20, 0.3113]
+[handle_grasp_reward, 10, door_progress_reward, 5, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.5, success_bonus, 10, 0.3459]1_3
+[handle_grasp_reward, 10, door_progress_reward, 5, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.5, success_bonus, 5, 0.0132]
+[handle_grasp_reward, 10, door_progress_reward, 5, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.5, success_bonus, 20, 0.0288]
+[handle_grasp_reward, 10, door_progress_reward, 5, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.1, success_bonus, 10, 0.0275]1_3
+[handle_grasp_reward, 10, door_progress_reward, 5, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.1, success_bonus, 5, 0.4643]
+[handle_grasp_reward, 10, door_progress_reward, 5, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 0.1, success_bonus, 20, 0.0251]
+[handle_grasp_reward, 10, door_progress_reward, 5, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 1, success_bonus, 10, 0.0682]1_3
+[handle_grasp_reward, 10, door_progress_reward, 5, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 1, success_bonus, 5, 0.1874]
+[handle_grasp_reward, 10, door_progress_reward, 5, door_vel_reward, 3, fingertip_reward, 1, door_angvel_reward, 1, success_bonus, 20, 0.0445]
+
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 2, success_bonus, 1, 0.2671]1_15
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 2, success_bonus, 0.5, 0.1553]
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 2, success_bonus, 5, 0.3235]
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 1, success_bonus, 1, 0.1868]1_15
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 1, success_bonus, 0.5, 0.1128]
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 1, success_bonus, 5, 0.2742]
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 5, success_bonus, 1, 0.288]1_15
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 5, success_bonus, 0.5, 0.2433]
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 5, success_bonus, 5, 0.5212]
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 5, grasp_quality_reward, 1, alignment_reward, 2, success_bonus, 1, 0.3385]1_15
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 5, grasp_quality_reward, 1, alignment_reward, 2, success_bonus, 0.5, 0.5999]
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 5, grasp_quality_reward, 1, alignment_reward, 2, success_bonus, 5, 0.0682]
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 5, grasp_quality_reward, 1, alignment_reward, 1, success_bonus, 1, 0.0752]1_15
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 5, grasp_quality_reward, 1, alignment_reward, 1, success_bonus, 0.5, 0.2699]
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 5, grasp_quality_reward, 1, alignment_reward, 1, success_bonus, 5, 0.3482]
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 5, grasp_quality_reward, 1, alignment_reward, 5, success_bonus, 1, 0.1936]1_15
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 5, grasp_quality_reward, 1, alignment_reward, 5, success_bonus, 0.5, 0.3538]
+[handle_contact_reward, 5, door_angvel_reward, 2, progress_reward, 5, grasp_quality_reward, 1, alignment_reward, 5, success_bonus, 5, 0.3005]
+[handle_contact_reward, 1, door_angvel_reward, 1, progress_reward, 20, grasp_quality_reward, 10, alignment_reward, 2, success_bonus, 1, 0.087]1_15
+[handle_contact_reward, 1, door_angvel_reward, 1, progress_reward, 20, grasp_quality_reward, 10, alignment_reward, 2, success_bonus, 0.5, 0.0775]
+[handle_contact_reward, 1, door_angvel_reward, 1, progress_reward, 20, grasp_quality_reward, 10, alignment_reward, 2, success_bonus, 5, 0.2424]
+[handle_contact_reward, 1, door_angvel_reward, 1, progress_reward, 20, grasp_quality_reward, 10, alignment_reward, 1, success_bonus, 1, 0.2404]1_15
+[handle_contact_reward, 1, door_angvel_reward, 1, progress_reward, 20, grasp_quality_reward, 10, alignment_reward, 1, success_bonus, 0.5, 0.344]
+[handle_contact_reward, 1, door_angvel_reward, 1, progress_reward, 20, grasp_quality_reward, 10, alignment_reward, 1, success_bonus, 5, 0.1355]
+[handle_contact_reward, 1, door_angvel_reward, 1, progress_reward, 20, grasp_quality_reward, 10, alignment_reward, 5, success_bonus, 1, 0.3457]1_15
+[handle_contact_reward, 1, door_angvel_reward, 1, progress_reward, 20, grasp_quality_reward, 10, alignment_reward, 5, success_bonus, 0.5, 0.2378]
+[handle_contact_reward, 1, door_angvel_reward, 1, progress_reward, 20, grasp_quality_reward, 10, alignment_reward, 5, success_bonus, 5, 0.2571]
+[handle_contact_reward, 10, door_angvel_reward, 5, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 2, success_bonus, 1, 0.0267]1_15
+[handle_contact_reward, 10, door_angvel_reward, 5, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 2, success_bonus, 0.5, 0.3938]
+[handle_contact_reward, 10, door_angvel_reward, 5, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 2, success_bonus, 5, 0.157]
+[handle_contact_reward, 10, door_angvel_reward, 5, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 1, success_bonus, 1, 0.5029]1_15
+[handle_contact_reward, 10, door_angvel_reward, 5, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 1, success_bonus, 0.5, 0.2416]
+[handle_contact_reward, 10, door_angvel_reward, 5, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 1, success_bonus, 5, 0.0678]
+[handle_contact_reward, 10, door_angvel_reward, 5, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 5, success_bonus, 1, 0.5663]1_15
+[handle_contact_reward, 10, door_angvel_reward, 5, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 5, success_bonus, 0.5, 0.3256]
+[handle_contact_reward, 10, door_angvel_reward, 5, progress_reward, 10, grasp_quality_reward, 3, alignment_reward, 5, success_bonus, 5, 0.3417]
+
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 3, success_bonus, 5, 0.0188]2_3
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 3, success_bonus, 1, 0.0191]
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 3, success_bonus, 10, 0.0602]
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 1, success_bonus, 5, 0.2036]2_3
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 1, success_bonus, 1, 0.104]
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 1, success_bonus, 10, 0.0947]
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 10, success_bonus, 5, 0.0795]2_3
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 10, success_bonus, 1, 0.557]
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 10, success_bonus, 10, 0.0883]
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 1, velocity_reward, 1, hand_pull_reward, 3, success_bonus, 5, 0.152]2_3
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 1, velocity_reward, 1, hand_pull_reward, 3, success_bonus, 1, 0.3905]
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 1, velocity_reward, 1, hand_pull_reward, 3, success_bonus, 10, 0.0555]
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 1, velocity_reward, 1, hand_pull_reward, 1, success_bonus, 5, 0.1695]2_3
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 1, velocity_reward, 1, hand_pull_reward, 1, success_bonus, 1, 0.1998]
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 1, velocity_reward, 1, hand_pull_reward, 1, success_bonus, 10, 0.0199]
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 1, velocity_reward, 1, hand_pull_reward, 10, success_bonus, 5, 0.0305]2_3
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 1, velocity_reward, 1, hand_pull_reward, 10, success_bonus, 1, 0.3001]
+[handle_contact_reward, 10, grasp_quality_reward, 5, progress_reward, 1, velocity_reward, 1, hand_pull_reward, 10, success_bonus, 10, 0.3984]
+[handle_contact_reward, 5, grasp_quality_reward, 1, progress_reward, 10, velocity_reward, 5, hand_pull_reward, 3, success_bonus, 5, 0.0675]2_3
+[handle_contact_reward, 5, grasp_quality_reward, 1, progress_reward, 10, velocity_reward, 5, hand_pull_reward, 3, success_bonus, 1, 0.0309]
+[handle_contact_reward, 5, grasp_quality_reward, 1, progress_reward, 10, velocity_reward, 5, hand_pull_reward, 3, success_bonus, 10, 0.0391]
+[handle_contact_reward, 5, grasp_quality_reward, 1, progress_reward, 10, velocity_reward, 5, hand_pull_reward, 1, success_bonus, 5, 0.0518]2_3
+[handle_contact_reward, 5, grasp_quality_reward, 1, progress_reward, 10, velocity_reward, 5, hand_pull_reward, 1, success_bonus, 1, 0.3838]
+[handle_contact_reward, 5, grasp_quality_reward, 1, progress_reward, 10, velocity_reward, 5, hand_pull_reward, 1, success_bonus, 10, 0.1481]
+[handle_contact_reward, 5, grasp_quality_reward, 1, progress_reward, 10, velocity_reward, 5, hand_pull_reward, 10, success_bonus, 5, 0.3264]2_3
+[handle_contact_reward, 5, grasp_quality_reward, 1, progress_reward, 10, velocity_reward, 5, hand_pull_reward, 10, success_bonus, 1, 0.1448]
+[handle_contact_reward, 5, grasp_quality_reward, 1, progress_reward, 10, velocity_reward, 5, hand_pull_reward, 10, success_bonus, 10, 0.0844]
+[handle_contact_reward, 20, grasp_quality_reward, 10, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 3, success_bonus, 5, 0.4694]2_3
+[handle_contact_reward, 20, grasp_quality_reward, 10, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 3, success_bonus, 1, 0.3439]
+[handle_contact_reward, 20, grasp_quality_reward, 10, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 3, success_bonus, 10, 0.0043]
+[handle_contact_reward, 20, grasp_quality_reward, 10, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 1, success_bonus, 5, 0.1353]2_3
+[handle_contact_reward, 20, grasp_quality_reward, 10, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 1, success_bonus, 1, 0.2039]
+[handle_contact_reward, 20, grasp_quality_reward, 10, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 1, success_bonus, 10, 0.0034]
+[handle_contact_reward, 20, grasp_quality_reward, 10, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 10, success_bonus, 5, 0.2376]2_3
+[handle_contact_reward, 20, grasp_quality_reward, 10, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 10, success_bonus, 1, 0.1739]
+[handle_contact_reward, 20, grasp_quality_reward, 10, progress_reward, 5, velocity_reward, 2, hand_pull_reward, 10, success_bonus, 10, 0.2382]
+
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 5, success_bonus, 1, 0.1244]2_7
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 5, success_bonus, 0.5, 0.0678]
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 5, success_bonus, 5, 0.1858]
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 1, success_bonus, 1, 0.2099]2_7
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 1, success_bonus, 0.5, 0.2204]
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 1, success_bonus, 5, 0.2471]
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 10, success_bonus, 1, 0.2214]2_7
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 10, success_bonus, 0.5, 0.4849]
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 10, success_bonus, 5, 0.2421]
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 1, grasp_quality_reward, 5, alignment_reward, 5, success_bonus, 1, 0.1023]2_7
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 1, grasp_quality_reward, 5, alignment_reward, 5, success_bonus, 0.5, 0.1884]
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 1, grasp_quality_reward, 5, alignment_reward, 5, success_bonus, 5, 0.1741]
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 1, grasp_quality_reward, 5, alignment_reward, 1, success_bonus, 1, 0.5074]2_7
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 1, grasp_quality_reward, 5, alignment_reward, 1, success_bonus, 0.5, 0.0038]
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 1, grasp_quality_reward, 5, alignment_reward, 1, success_bonus, 5, 0.0886]
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 1, grasp_quality_reward, 5, alignment_reward, 10, success_bonus, 1, 0.0321]2_7
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 1, grasp_quality_reward, 5, alignment_reward, 10, success_bonus, 0.5, 0.0025]
+[handle_contact_reward, 10, door_angvel_reward, 0.5, progress_reward, 1, grasp_quality_reward, 5, alignment_reward, 10, success_bonus, 5, 0.2752]
+[handle_contact_reward, 5, door_angvel_reward, 0.1, progress_reward, 10, grasp_quality_reward, 20, alignment_reward, 5, success_bonus, 1, 0.2999]2_7
+[handle_contact_reward, 5, door_angvel_reward, 0.1, progress_reward, 10, grasp_quality_reward, 20, alignment_reward, 5, success_bonus, 0.5, 0.0502]
+[handle_contact_reward, 5, door_angvel_reward, 0.1, progress_reward, 10, grasp_quality_reward, 20, alignment_reward, 5, success_bonus, 5, 0.1054]
+[handle_contact_reward, 5, door_angvel_reward, 0.1, progress_reward, 10, grasp_quality_reward, 20, alignment_reward, 1, success_bonus, 1, 0.1498]2_7
+[handle_contact_reward, 5, door_angvel_reward, 0.1, progress_reward, 10, grasp_quality_reward, 20, alignment_reward, 1, success_bonus, 0.5, 0.2418]
+[handle_contact_reward, 5, door_angvel_reward, 0.1, progress_reward, 10, grasp_quality_reward, 20, alignment_reward, 1, success_bonus, 10, 0.2688]
+[handle_contact_reward, 5, door_angvel_reward, 0.1, progress_reward, 10, grasp_quality_reward, 20, alignment_reward, 10, success_bonus, 1, 0.155]2_7
+[handle_contact_reward, 5, door_angvel_reward, 0.1, progress_reward, 10, grasp_quality_reward, 20, alignment_reward, 10, success_bonus, 0.5, 0.1466]
+[handle_contact_reward, 5, door_angvel_reward, 0.1, progress_reward, 10, grasp_quality_reward, 20, alignment_reward, 10, success_bonus, 5, 0.2926]
+[handle_contact_reward, 20, door_angvel_reward, 1, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 5, success_bonus, 1, 0.1797]2_7
+[handle_contact_reward, 20, door_angvel_reward, 1, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 5, success_bonus, 0.5, 0.0709]
+[handle_contact_reward, 20, door_angvel_reward, 1, progress_reward, 5, grasp_quality_reward, 10, alignment_reward, 5, success_bonus, 5, 0.4088]
+
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 2, direction_reward, 1, progress_reward, 1, velocity_reward, 5, success_bonus, 5, 0.3466]4_11
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 2, direction_reward, 1, progress_reward, 1, velocity_reward, 5, success_bonus, 1, 0.2736]
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 2, direction_reward, 1, progress_reward, 1, velocity_reward, 5, success_bonus, 10, 0.275]
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 2, direction_reward, 1, progress_reward, 0.5, velocity_reward, 1, success_bonus, 5, 0.2499]4_11
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 2, direction_reward, 1, progress_reward, 0.5, velocity_reward, 1, success_bonus, 1, 0.5124]
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 2, direction_reward, 1, progress_reward, 0.5, velocity_reward, 1, success_bonus, 10, 0.8591]
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 2, direction_reward, 1, progress_reward, 5, velocity_reward, 10, success_bonus, 5, 0.7079]4_11
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 2, direction_reward, 1, progress_reward, 5, velocity_reward, 10, success_bonus, 1, 0.5202]
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 2, direction_reward, 1, progress_reward, 5, velocity_reward, 10, success_bonus, 10, 0.3305]
+
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 1, direction_reward, 0.5, progress_reward, 1, velocity_reward, 5, success_bonus, 5, 0.2102]4_11
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 1, direction_reward, 0.5, progress_reward, 1, velocity_reward, 5, success_bonus, 1, 0.2863]
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 1, direction_reward, 0.5, progress_reward, 1, velocity_reward, 5, success_bonus, 10, 0.9743]
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 1, direction_reward, 0.5, progress_reward, 0.5, velocity_reward, 1, success_bonus, 5, 0.773]4_11
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 1, direction_reward, 0.5, progress_reward, 0.5, velocity_reward, 1, success_bonus, 1, 0.1601]
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 1, direction_reward, 0.5, progress_reward, 0.5, velocity_reward, 1, success_bonus, 10, 0.3495]
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 1, direction_reward, 0.5, progress_reward, 5, velocity_reward, 10, success_bonus, 5, 0.2987]4_11
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 1, direction_reward, 0.5, progress_reward, 5, velocity_reward, 10, success_bonus, 1, 0.5054]
+[handle_contact_reward, 20, grasp_quality_reward, 10, coordination_reward, 1, direction_reward, 0.5, progress_reward, 5, velocity_reward, 10, success_bonus, 10, 0.5107]
+
+[handle_contact_reward, 10, grasp_quality_reward, 5, coordination_reward, 5, direction_reward, 5, progress_reward, 1, velocity_reward, 5, success_bonus, 5, 0.2277]4_11
+[handle_contact_reward, 10, grasp_quality_reward, 5, coordination_reward, 5, direction_reward, 5, progress_reward, 1, velocity_reward, 5, success_bonus, 1, 0.9413]
+[handle_contact_reward, 10, grasp_quality_reward, 5, coordination_reward, 5, direction_reward, 5, progress_reward, 1, velocity_reward, 5, success_bonus, 10, 0.9131]
+[handle_contact_reward, 10, grasp_quality_reward, 5, coordination_reward, 5, direction_reward, 5, progress_reward, 0.5, velocity_reward, 1, success_bonus, 5, 0.1407]4_11
+[handle_contact_reward, 10, grasp_quality_reward, 5, coordination_reward, 5, direction_reward, 5, progress_reward, 0.5, velocity_reward, 1, success_bonus, 1, 0.9075]
+[handle_contact_reward, 10, grasp_quality_reward, 5, coordination_reward, 5, direction_reward, 5, progress_reward, 0.5, velocity_reward, 1, success_bonus, 10, 0.685]
+[handle_contact_reward, 10, grasp_quality_reward, 5, coordination_reward, 5, direction_reward, 5, progress_reward, 5, velocity_reward, 10, success_bonus, 5, 0.4044]4_11
+[handle_contact_reward, 10, grasp_quality_reward, 5, coordination_reward, 5, direction_reward, 5, progress_reward, 5, velocity_reward, 10, success_bonus, 1, 0.2362]
+[handle_contact_reward, 10, grasp_quality_reward, 5, coordination_reward, 5, direction_reward, 5, progress_reward, 5, velocity_reward, 10, success_bonus, 10, 0.2829]
+
+[handle_contact_reward, 40, grasp_quality_reward, 20, coordination_reward, 2, direction_reward, 1, progress_reward, 1, velocity_reward, 5, success_bonus, 5, 0.8496]4_11
+[handle_contact_reward, 40, grasp_quality_reward, 20, coordination_reward, 2, direction_reward, 1, progress_reward, 1, velocity_reward, 5, success_bonus, 1, 0.6029]
+[handle_contact_reward, 40, grasp_quality_reward, 20, coordination_reward, 2, direction_reward, 1, progress_reward, 1, velocity_reward, 5, success_bonus, 10, 0.405]
+[handle_contact_reward, 40, grasp_quality_reward, 20, coordination_reward, 2, direction_reward, 1, progress_reward, 0.5, velocity_reward, 1, success_bonus, 5, 0.2751]4_11
+[handle_contact_reward, 40, grasp_quality_reward, 20, coordination_reward, 2, direction_reward, 1, progress_reward, 0.5, velocity_reward, 1, success_bonus, 1, 0.4434]
+[handle_contact_reward, 40, grasp_quality_reward, 20, coordination_reward, 2, direction_reward, 1, progress_reward, 0.5, velocity_reward, 1, success_bonus, 10, 0.5813]
+[handle_contact_reward, 40, grasp_quality_reward, 20, coordination_reward, 2, direction_reward, 1, progress_reward, 5, velocity_reward, 10, success_bonus, 5, 0.6372]4_11
+[handle_contact_reward, 40, grasp_quality_reward, 20, coordination_reward, 2, direction_reward, 1, progress_reward, 5, velocity_reward, 10, success_bonus, 1, 0.3313]
+[handle_contact_reward, 40, grasp_quality_reward, 20, coordination_reward, 2, direction_reward, 1, progress_reward, 5, velocity_reward, 10, success_bonus, 10, 0.9111]
+

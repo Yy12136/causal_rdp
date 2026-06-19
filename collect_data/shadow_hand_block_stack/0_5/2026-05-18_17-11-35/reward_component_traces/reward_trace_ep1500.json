@@ -1,0 +1,39 @@
+[
+  {
+    "epoch": 1500,
+    "env_index": 1338,
+    "reward_temp": {
+      "stack_reward": 0.1,
+      "grasp_reward": 0.01,
+      "contact_reward": 0.05,
+      "vertical_alignment": 0.05,
+      "reach_reward": 0.1
+    },
+    "macro_config": [
+      "stack_reward",
+      "grasp_reward",
+      "contact_reward",
+      "vertical_alignment",
+      "reach_reward",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        0.09970736503601074,
+        0.00029378250474110246,
+        0.018364332616329193,
+        0.36788296699523926,
+        0.04678435996174812,
+        0.09179461002349854
+      ],
+      [
+        0.09969155490398407,
+        0.0010810070671141148,
+        0.018358727917075157,
+        0.36788076162338257,
+        0.047240983694791794,
+        0.09196591377258301
+      ]
+    ]
+  }
+]

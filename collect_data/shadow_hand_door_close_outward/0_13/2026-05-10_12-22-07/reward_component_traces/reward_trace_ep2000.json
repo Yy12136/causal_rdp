@@ -1,0 +1,61 @@
+[
+  {
+    "epoch": 2000,
+    "env_index": 1111,
+    "reward_temp": {
+      "handle_grasp_reward": 20.0,
+      "door_pos_reward": 40.0,
+      "door_rot_reward": 10.0,
+      "door_vel_reward": 0.10000000149011612,
+      "fingertip_reward": 5.0,
+      "door_stability_reward": 10.0
+    },
+    "macro_config": [
+      "handle_grasp_reward",
+      "door_pos_reward",
+      "door_rot_reward",
+      "door_vel_reward",
+      "fingertip_reward",
+      "door_stability_reward",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        5.407180196925765e-06,
+        0.0,
+        1.0,
+        0.0,
+        0.06841666251420975,
+        1.0,
+        0.30684328079223633
+      ],
+      [
+        5.394520030677086e-06,
+        0.0,
+        1.0,
+        0.0,
+        0.06729336827993393,
+        1.0,
+        0.3067309558391571
+      ],
+      [
+        6.049110652384115e-06,
+        0.0,
+        1.0,
+        0.0,
+        0.06636079400777817,
+        1.0,
+        0.3066379129886627
+      ],
+      [
+        6.8216800173104275e-06,
+        0.0,
+        1.0,
+        0.0,
+        0.06695424020290375,
+        1.0,
+        0.30669745802879333
+      ]
+    ]
+  }
+]

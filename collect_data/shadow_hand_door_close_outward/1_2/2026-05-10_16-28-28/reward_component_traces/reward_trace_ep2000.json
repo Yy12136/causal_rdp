@@ -1,0 +1,52 @@
+[
+  {
+    "epoch": 2000,
+    "env_index": 1247,
+    "reward_temp": {
+      "handle_dist_temp": 5.0,
+      "hand_handle_contact_temp": 5.0,
+      "goal_rot_temp": 1.0,
+      "door_angvel_temp": 0.10000000149011612,
+      "fingertip_grasp_temp": 1.0,
+      "success_bonus_temp": 0.5
+    },
+    "macro_config": [
+      "handle_approach_reward",
+      "hand_contact_reward",
+      "rotation_alignment_reward",
+      "door_angvel_reward",
+      "fingertip_grasp_reward",
+      "success_bonus",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        0.04814128577709198,
+        0.06181463599205017,
+        1.0,
+        0.0,
+        0.6064332127571106,
+        5.0,
+        0.8605490922927856
+      ],
+      [
+        0.04915629327297211,
+        0.06311792880296707,
+        1.0,
+        0.0,
+        0.6066589951515198,
+        5.0,
+        0.860995888710022
+      ],
+      [
+        0.0501071996986866,
+        0.06433893740177155,
+        1.0,
+        0.0,
+        0.6072511672973633,
+        5.0,
+        0.8614715337753296
+      ]
+    ]
+  }
+]

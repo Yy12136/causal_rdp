@@ -1,0 +1,34 @@
+[
+  {
+    "epoch": 500,
+    "env_index": 273,
+    "reward_temp": {
+      "handle_contact_reward": 5.0,
+      "door_angvel_reward": 2.0,
+      "progress_reward": 5.0,
+      "grasp_quality_reward": 1.0,
+      "alignment_reward": 2.0,
+      "success_bonus": 5.0
+    },
+    "macro_config": [
+      "handle_contact_reward",
+      "door_angvel_reward",
+      "progress_reward",
+      "grasp_quality_reward",
+      "alignment_reward",
+      "success_bonus",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        0.04847346991300583,
+        0.0,
+        1.0,
+        0.5852645039558411,
+        0.9100368022918701,
+        50.0,
+        2.9409117698669434
+      ]
+    ]
+  }
+]

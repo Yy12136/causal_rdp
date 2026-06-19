@@ -1,0 +1,43 @@
+[
+  {
+    "epoch": 1000,
+    "env_index": 127,
+    "reward_temp": {
+      "door_closing_reward": 10.0,
+      "handle_grasp_reward": 20.0,
+      "hand_approach_reward": 8.0,
+      "orientation_reward": 1.0,
+      "velocity_penalty": 0.5,
+      "success_bonus": 5.0
+    },
+    "macro_config": [
+      "door_closing_reward",
+      "handle_grasp_reward",
+      "hand_approach_reward",
+      "orientation_reward",
+      "velocity_penalty",
+      "success_bonus",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        3.783505853677006e-44,
+        4.276503750588745e-05,
+        0.007465169299393892,
+        1.0,
+        -0.0,
+        0.0,
+        0.5075293183326721
+      ],
+      [
+        3.783505853677006e-44,
+        4.1844403313007206e-05,
+        0.0076517206616699696,
+        1.0,
+        -0.0,
+        0.0,
+        0.5077145099639893
+      ]
+    ]
+  }
+]
