@@ -1,0 +1,43 @@
+[
+  {
+    "epoch": 2000,
+    "env_index": 243,
+    "reward_temp": {
+      "orientation_reward": 5.0,
+      "proximity_reward": 5.0,
+      "alignment_reward": 3.0,
+      "contact_quality_reward": 10.0,
+      "success_reward": 0.05000000074505806,
+      "progress_reward": 0.009999999776482582
+    },
+    "macro_config": [
+      "orientation_reward",
+      "proximity_reward",
+      "alignment_reward",
+      "contact_balance",
+      "success_reward",
+      "progress_reward",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        6.695738792419434,
+        0.762972891330719,
+        0.013169903308153152,
+        0.1318558156490326,
+        0.0,
+        0.01339147798717022,
+        3.509958505630493
+      ],
+      [
+        6.695738792419434,
+        0.7720152139663696,
+        0.013169903308153152,
+        0.12519803643226624,
+        0.0,
+        0.01339147798717022,
+        3.5114340782165527
+      ]
+    ]
+  }
+]

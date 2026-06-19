@@ -1,0 +1,35 @@
+[
+  {
+    "epoch": 1000,
+    "env_index": 361,
+    "reward_temp": {
+      "orientation_reward": 5.0,
+      "success_reward": 0.05000000074505806,
+      "alignment_reward": 5.0,
+      "contact_reward": 1.0
+    },
+    "macro_config": [
+      "orientation_reward",
+      "success_reward",
+      "alignment_reward",
+      "contact_reward",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        0.8274786472320557,
+        0.0,
+        8.0807523727417,
+        0.0,
+        1.6258522272109985
+      ],
+      [
+        0.8274786472320557,
+        0.0,
+        8.0807523727417,
+        0.0,
+        1.6258522272109985
+      ]
+    ]
+  }
+]

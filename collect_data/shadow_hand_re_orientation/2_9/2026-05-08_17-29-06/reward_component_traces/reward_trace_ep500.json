@@ -1,0 +1,39 @@
+[
+  {
+    "epoch": 500,
+    "env_index": 888,
+    "reward_temp": {
+      "orientation_reward": 10.0,
+      "proximity_reward": 2.0,
+      "success_reward": 1.0,
+      "progress_reward": 1.0,
+      "symmetry_reward": 1.0
+    },
+    "macro_config": [
+      "orientation_reward",
+      "proximity_reward",
+      "success_reward",
+      "progress_reward",
+      "symmetry_reward",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        4.885984527870367e-36,
+        0.8473674058914185,
+        0.0,
+        0.27713674306869507,
+        1.0,
+        0.1202794760465622
+      ],
+      [
+        4.885984527870367e-36,
+        0.8499435186386108,
+        0.0,
+        0.27713674306869507,
+        1.0,
+        0.12053708732128143
+      ]
+    ]
+  }
+]

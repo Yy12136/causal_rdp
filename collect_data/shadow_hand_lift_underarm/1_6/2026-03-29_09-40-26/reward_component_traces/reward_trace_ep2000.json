@@ -1,0 +1,31 @@
+[
+  {
+    "epoch": 2000,
+    "env_index": 429,
+    "reward_temp": {
+      "pos_reward": 5.0,
+      "handle_grasp_reward": 5.0,
+      "success_reward": 0.5
+    },
+    "macro_config": [
+      "pos_reward",
+      "handle_grasp_reward",
+      "success_reward",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        0.14629560708999634,
+        0.23109982907772064,
+        0.0,
+        0.3773954510688782
+      ],
+      [
+        0.14609436690807343,
+        0.23536522686481476,
+        0.0,
+        0.3814595937728882
+      ]
+    ]
+  }
+]

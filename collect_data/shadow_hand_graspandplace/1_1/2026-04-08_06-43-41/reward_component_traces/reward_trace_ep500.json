@@ -1,0 +1,35 @@
+[
+  {
+    "epoch": 500,
+    "env_index": 1193,
+    "reward_temp": {
+      "grasp_reward": 0.1,
+      "place_reward": 0.1,
+      "hand_dist_reward": 0.1,
+      "task_reward": 5.0
+    },
+    "macro_config": [
+      "grasp_reward",
+      "place_reward",
+      "hand_dist_reward",
+      "task_reward",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        0.18814273178577423,
+        0.026033887639641762,
+        0.0011017810320481658,
+        0.0,
+        0.0721733346581459
+      ],
+      [
+        0.20569279789924622,
+        0.026046404615044594,
+        0.0011289541143923998,
+        0.0,
+        0.07744858413934708
+      ]
+    ]
+  }
+]

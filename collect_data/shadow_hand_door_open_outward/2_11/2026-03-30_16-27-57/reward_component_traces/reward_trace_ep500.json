@@ -1,0 +1,31 @@
+[
+  {
+    "epoch": 500,
+    "env_index": 759,
+    "reward_temp": {
+      "door_progress_reward": 5.0,
+      "grasp_reward": 15.0,
+      "approach_reward": 8.0,
+      "angular_velocity_reward": 1.0,
+      "success_bonus": 0.5
+    },
+    "macro_config": [
+      "door_progress_reward",
+      "grasp_reward",
+      "approach_reward",
+      "angular_velocity_reward",
+      "success_bonus",
+      "step_score"
+    ],
+    "micro_trajectory": [
+      [
+        0.0067379469983279705,
+        0.04381931573152542,
+        0.15568222105503082,
+        1.0,
+        0.0,
+        0.1277010589838028
+      ]
+    ]
+  }
+]
