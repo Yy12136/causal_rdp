@@ -3,17 +3,19 @@
 
 核心逻辑：
 - yaml 只提供硬约束（blacklist/whitelist）："一定不会出现的边" / "一定会存在的边"
-- LimiX 官方模型基于数据学习 soft prior（edge_pref）：
-  - r_* -> score 的 soft prior：通过 LimiX 回归 score 得到特征重要性
-  - r_i -> r_j 的 soft prior：通过 r_* 之间的相关性得到
-- DAGMA-MLP 只使用 LimiX 学出来的 soft prior，不再使用 yaml 中的 soft_edges
+- The LimiX-based estimator estimates a raw causal-effect score matrix M_raw
+  from macro-level reward-component intervention data.
+- M_raw 派生出 M_prior 与 M_conf，供 CRWM 联合优化器的 L_soft 使用：
+  - r_* -> score：LimiX 回归 score，特征与预测 score 的相关性作为 estimated causal-effect score
+  - r_i -> r_j：r_* 之间的相关性作为 estimated causal-effect score
+- edge_pref 由 M_raw 派生，保留以兼容旧代码
 """
 
 from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import List, Tuple
 
 import numpy as np
 import yaml
@@ -33,11 +35,11 @@ class LimixConstraints:
     - A_candidate: 候选解邻接矩阵（形状 [d, d]，按变量顺序）
     - blacklist: 不能出现的有向边集合（来自 yaml 硬约束）
     - whitelist: 必须出现的边集合（来自 yaml 硬约束）
-    - edge_pref: 边惩罚权重，形状 [d, d]（值越大 = 越不倾向于该边，用于旧 DAGMA）
+    - edge_pref: 边惩罚权重，形状 [d, d]（由 M_raw 派生，保留以兼容旧代码）
     - confidence: 由 edge_pref 归一化到 [0,1] 得到（保留，向后兼容）
     - groups: 组/层级稀疏信息
-    - M_prior: LimiX 先验因果矩阵，[d, d]，值越大 = 越可能存在该边
-               对应论文中的 M_prior；由 LimiX 特征重要性/相关性直接给出
+    - M_prior: 先验因果矩阵，[d, d]，等于 M_raw 的拷贝
+               对应论文中的 M_prior；由 LimiX estimated causal-effect score 给出
     - M_conf:  M_prior 的置信度，[d, d]，取值 [0, 1]
                对应论文中的 M_conf；用于 L_soft = γ ||M_conf ⊙ (M_inv - M_prior)||_F²
     """
@@ -71,36 +73,35 @@ def build_default_hard_constraints(var_names: List[str]) -> List[Edge]:
     return blacklist
 
 
-def _try_build_edge_pref_with_limix(
+def _edge_pref_from_m_raw(M_raw: np.ndarray) -> np.ndarray:
+    """由 M_raw 派生 edge_pref：非零位置 edge_pref = 1 - normalized_abs_score，零位置为 0。"""
+    edge_pref = np.zeros_like(M_raw)
+    mp_abs_max = float(np.max(np.abs(M_raw)))
+    if mp_abs_max <= 0.0:
+        return edge_pref
+    normalized_abs = np.abs(M_raw) / (mp_abs_max + 1e-8)
+    nonzero = np.abs(M_raw) > 0
+    edge_pref[nonzero] = 1.0 - normalized_abs[nonzero]
+    return edge_pref
+
+
+def estimate_limix_raw_effect_matrix(
     data_csv_dir: Path,
     var_names: List[str],
-    edge_pref: np.ndarray,
-    m_prior: np.ndarray,
-) -> None:
+) -> np.ndarray:
     """
-    使用本地 LimiX-2M 模型，基于数据学习 soft prior（edge_pref）。
+    从 macro-level reward-component 数据估计 raw causal-effect score 矩阵 M_raw。
 
-    学习内容：
-    1. r_* -> score 的 soft prior：
-       - 用 LimiX-2M 对 score 做回归
-       - 计算每个 r_* 特征与预测 score 的相关性
-       - 重要性越大，对应 r_* -> score 的惩罚越小
-
-    2. r_i -> r_j 的 soft prior：
-       - 计算数据中 r_* 之间的相关性
-       - 相关性越大，对应 r_i -> r_j 的惩罚越小
-       - 不限制方向，DAGMA 可以自由学习 r_i -> r_j 或 r_j -> r_i
-
-    注意：
-    - 如果任何一步失败（例如 LimiX 未安装、模型文件缺失），将静默退回，不抛异常。
-    - 不会覆盖已有的 edge_pref（例如来自其他来源），而是在其基础上叠加。
+    M_raw[target, source] 表示 source -> target 的 estimated causal-effect score。
+    若 LimiX 模型缺失、依赖缺失或预测失败，返回全零矩阵并打印 warning。
     """
+    d = len(var_names)
+    M_raw = np.zeros((d, d), dtype=np.float32)
+
     try:
-        # 1. 准备路径：本地 LimiX 仓库 + 模型 + 配置
         root_dir = Path("/workspace/causal_rdp/LimiX").resolve()
         model_path = root_dir / "cache" / "LimiX-2M.ckpt"
-        
-        # 根据设备选择配置文件：CPU 不支持 retrieval，需要使用 noretrieval
+
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         if device.type == "cpu":
             config_path = root_dir / "config" / "reg_default_noretrieval.json"
@@ -112,67 +113,60 @@ def _try_build_edge_pref_with_limix(
         print("[LimiX] 开始加载模型...")
         print(f"  模型路径: {model_path}")
         print(f"  配置路径: {config_path}")
-        
+
         if not model_path.exists():
-            print(f"  ❌ 模型文件不存在: {model_path}")
-            return
+            print(f"[LimiX] ⚠️  Warning: 模型文件不存在: {model_path}，M_raw 返回全零")
+            return M_raw
         if not config_path.exists():
-            print(f"  ❌ 配置文件不存在: {config_path}")
-            return
-        
+            print(f"[LimiX] ⚠️  Warning: 配置文件不存在: {config_path}，M_raw 返回全零")
+            return M_raw
+
         print(f"  ✅ 模型文件存在，大小: {model_path.stat().st_size / (1024*1024):.2f} MB")
         print(f"  ✅ 配置文件存在")
 
-        # 2. 读取 data.csv
         data_path = Path(data_csv_dir) / "data.csv"
         if not data_path.exists():
-            print(f"  ❌ data.csv 文件不存在: {data_path}")
-            return
+            print(f"[LimiX] ⚠️  Warning: data.csv 不存在: {data_path}，M_raw 返回全零")
+            return M_raw
 
         print(f"  [LimiX] 读取数据文件: {data_path}")
         df = pd.read_csv(data_path)
         if "score" not in df.columns:
-            print(f"  ❌ data.csv 中没有 score 列")
-            return
+            print(f"[LimiX] ⚠️  Warning: data.csv 中没有 score 列，M_raw 返回全零")
+            return M_raw
 
-        # 对齐顺序：按 var_names 重新排序列（安全起见）
         cols_in_df = [c for c in var_names if c in df.columns]
         df = df[cols_in_df].copy()
 
         if "score" not in df.columns:
-            print(f"  ❌ 对齐后没有 score 列")
-            return
+            print(f"[LimiX] ⚠️  Warning: 对齐后没有 score 列，M_raw 返回全零")
+            return M_raw
 
         print(f"  ✅ 数据加载成功: {len(df)} 行, {len(df.columns)} 列")
 
-        # 3. 构造特征与标签
         y = df["score"].to_numpy(dtype=np.float32)
         feature_cols = [c for c in df.columns if c != "score"]
         if not feature_cols:
-            print(f"  ❌ 没有特征列（除了 score）")
-            return
+            print(f"[LimiX] ⚠️  Warning: 没有特征列（除了 score），M_raw 返回全零")
+            return M_raw
         X = df[feature_cols].to_numpy(dtype=np.float32)
         print(f"  ✅ 特征矩阵: {X.shape[0]} 样本, {X.shape[1]} 特征")
 
-        # 4. 导入 LimiX 的 LimiXPredictor（离线模式，只用本地 ckpt）
         if str(root_dir) not in sys.path:
             sys.path.insert(0, str(root_dir))
 
         try:
             from inference.predictor import LimiXPredictor  # type: ignore
         except ImportError as e:
-            print(f"  ❌ 无法导入 LimiXPredictor: {e}")
+            print(f"[LimiX] ⚠️  Warning: 无法导入 LimiXPredictor: {e}")
             print(f"  💡 提示: 需要安装 kditransform 依赖")
             print(f"     运行: pip install kditransform")
             print(f"     或者安装完整依赖: pip install kditransform hyperopt")
-            print(f"  ⚠️  将跳过 LimiX 学习，只使用硬约束")
-            return
+            return M_raw
         except Exception as e:
-            print(f"  ❌ 无法导入 LimiXPredictor: {e}")
-            print(f"  ⚠️  将跳过 LimiX 学习，只使用硬约束")
-            return
+            print(f"[LimiX] ⚠️  Warning: 无法导入 LimiXPredictor: {e}")
+            return M_raw
 
-        # device 已经在上面定义了，这里只是打印
         print(f"  使用设备: {device}")
 
         print("  [LimiX] 正在初始化预测器...")
@@ -185,13 +179,10 @@ def _try_build_edge_pref_with_limix(
         )
         print("  ✅ LimiX 模型加载成功！")
 
-        # 5. 使用 LimiX 做一次 score 回归
-        #    简化处理：用全部数据同时作为 train/test，只为得到 y_hat。
         print(f"  [LimiX] 开始回归预测 (样本数: {X.shape[0]}, 特征数: {X.shape[1]})...")
         y_pred = predictor.predict(X, y, X, task_type="Regression")
         print("  ✅ LimiX 回归预测完成")
 
-        # LimiX 回归输出通常是 torch.Tensor，形状 [n_samples, 1] 或 [n_samples]
         if isinstance(y_pred, tuple):
             y_pred = y_pred[0]
         if hasattr(y_pred, "detach"):
@@ -199,10 +190,10 @@ def _try_build_edge_pref_with_limix(
         y_pred = np.asarray(y_pred).reshape(-1)
 
         if y_pred.shape[0] != X.shape[0]:
-            return
+            print("[LimiX] ⚠️  Warning: 预测输出长度与样本数不匹配，M_raw 返回全零")
+            return M_raw
 
-        # 6. 计算每个特征与预测 score 的相关性，作为重要性
-        print("  [LimiX] 计算特征重要性...")
+        print("  [LimiX] 计算 r_* -> score 的 estimated causal-effect score...")
         n_features = X.shape[1]
         importance = np.zeros(n_features, dtype=np.float32)
         for j in range(n_features):
@@ -217,22 +208,21 @@ def _try_build_edge_pref_with_limix(
 
         max_imp = float(importance.max())
         if max_imp <= 0.0:
-            print("  ⚠️  所有特征重要性为0，跳过")
-            return
+            print("[LimiX] ⚠️  Warning: 所有特征 estimated causal-effect score 为 0")
+            return M_raw
 
         importance = importance / (max_imp + 1e-8)
 
-        # 打印 Top 5 重要特征
         importance_list = [(feat, imp) for feat, imp in zip(feature_cols, importance)]
         importance_list.sort(key=lambda x: x[1], reverse=True)
-        print(f"  Top 5 重要特征:")
+        print(f"  Top 5 estimated causal-effect score (r_* -> score):")
         for feat, imp in importance_list[:5]:
             print(f"    {feat}: {imp:.4f}")
 
-        # 7. 将重要性映射到 edge_pref：r_* -> score 边
         name_to_idx = {name: i for i, name in enumerate(var_names)}
         if "score" not in name_to_idx:
-            return
+            print("[LimiX] ⚠️  Warning: var_names 中没有 score，M_raw 返回全零")
+            return M_raw
         score_idx = name_to_idx["score"]
 
         r_to_score_count = 0
@@ -242,67 +232,71 @@ def _try_build_edge_pref_with_limix(
             if feat_name not in name_to_idx:
                 continue
             i = name_to_idx[feat_name]
-            # 约定 M[target, source]：r_i -> score → M[score_idx, i]
-            # edge_pref：惩罚权重，重要性越大惩罚越小
-            edge_pref[score_idx, i] += 1.0 - float(imp)
-            # m_prior：先验，重要性越大越倾向于该边存在
-            m_prior[score_idx, i] = float(imp)
+            # 约定 M[target, source]：r_i -> score → M_raw[score_idx, i]
+            M_raw[score_idx, i] = float(imp)
             r_to_score_count += 1
-        
-        print(f"  ✅ 已学习 {r_to_score_count} 条 r_* -> score 的 soft prior")
 
-        # 8. 学习 r_i -> r_j 的 soft prior：基于 r_* 之间的相关性
-        print("  [LimiX] 计算 r_* 之间的相关性...")
+        print(f"  ✅ 已估计 {r_to_score_count} 条 r_* -> score 的 causal-effect score")
+
+        print("  [LimiX] 计算 r_i -> r_j 的 estimated causal-effect score...")
         r_names = [name for name in var_names if name.startswith("r_")]
         if len(r_names) >= 2:
             r_df = df[r_names].copy()
             r_mat = r_df.to_numpy(dtype=np.float32)
-            # 计算相关性矩阵
             corr_mat = np.corrcoef(r_mat, rowvar=False)
-            corr_mat = np.abs(corr_mat)  # 只关心相关性强度，不关心正负
-            np.fill_diagonal(corr_mat, 0.0)  # 自己到自己的相关性设为 0
+            corr_mat = np.abs(corr_mat)
+            np.fill_diagonal(corr_mat, 0.0)
 
             max_corr = float(corr_mat.max())
             if max_corr > 0.0:
                 corr_norm = corr_mat / (max_corr + 1e-8)
-                
-                # 对每一对 r_i, r_j，给两个方向都加上 soft prior
-                # （不限制方向，让 DAGMA 自己决定）
+
                 r_to_r_count = 0
                 for a, ra in enumerate(r_names):
                     for b, rb in enumerate(r_names):
                         if a == b:
                             continue
                         imp_ij = float(corr_norm[a, b])
-                        if imp_ij > 0.1:  # 只记录相关性较强的
+                        if imp_ij > 0.1:
                             ia = name_to_idx.get(ra)
                             jb = name_to_idx.get(rb)
                             if ia is None or jb is None:
                                 continue
-                            # 约定 M[target, source]：r_a -> r_b → M[jb, ia]
-                            # edge_pref：惩罚，相关性越强惩罚越小
-                            edge_pref[jb, ia] += 1.0 - imp_ij
-                            # m_prior：先验，相关性越强越倾向于该边存在
-                            m_prior[jb, ia] = max(m_prior[jb, ia], imp_ij)
+                            # 约定 M[target, source]：r_a -> r_b → M_raw[jb, ia]
+                            M_raw[jb, ia] = max(M_raw[jb, ia], imp_ij)
                             r_to_r_count += 1
-                            # 注意：这里也可以只加一个方向，看你的需求
-                            # 如果只想要单向，可以注释掉下面这行
-                            # edge_pref[jb, ia] += w_ij
-                
-                print(f"  ✅ 已学习 {r_to_r_count} 条 r_i -> r_j 的 soft prior (相关性 > 0.1)")
+
+                print(
+                    f"  ✅ 已估计 {r_to_r_count} 条 r_i -> r_j 的 causal-effect score "
+                    f"(score > 0.1)"
+                )
             else:
-                print("  ⚠️  r_* 之间没有相关性，跳过")
+                print("  ⚠️  r_* 之间没有相关性，跳过 r_i -> r_j 估计")
         else:
-            print(f"  ⚠️  r_* 变量数量不足 ({len(r_names)} < 2)，跳过 r_i -> r_j 学习")
-        
-        print("[LimiX] ✅ 学习完成！\n")
+            print(f"  ⚠️  r_* 变量数量不足 ({len(r_names)} < 2)，跳过 r_i -> r_j 估计")
+
+        print("[LimiX] ✅ M_raw 估计完成！\n")
+        return M_raw
 
     except Exception as e:
-        # 打印错误信息，方便调试
-        print(f"[LimiX] ❌ 学习过程出错: {e}")
+        print(f"[LimiX] ⚠️  Warning: M_raw 估计过程出错: {e}")
         import traceback
         traceback.print_exc()
-        return
+        return M_raw
+
+
+def _try_build_edge_pref_with_limix(
+    data_csv_dir: Path,
+    var_names: List[str],
+    edge_pref: np.ndarray,
+    m_prior: np.ndarray,
+) -> None:
+    """
+    兼容旧接口：调用 estimate_limix_raw_effect_matrix，将结果写入 edge_pref 与 m_prior。
+    """
+    M_raw = estimate_limix_raw_effect_matrix(data_csv_dir, var_names)
+    m_prior[:] = M_raw
+    edge_pref[:] = _edge_pref_from_m_raw(M_raw)
 
 
 def run_limix_ldm_placeholder(
@@ -310,22 +304,21 @@ def run_limix_ldm_placeholder(
     var_names: List[str],
 ) -> LimixConstraints:
     """
-    整合 LimiX 模型输出和 yaml 硬约束，生成传给 DAGMA 的约束集合。
+    整合 LimiX estimated causal-effect score 与 yaml 硬约束，生成传给 CRWM 的约束集合。
 
     逻辑：
     1. 硬约束（blacklist/whitelist）：完全来自 limix_config.yaml
-    2. 软约束（edge_pref）：完全由 LimiX 官方模型基于数据学习
-    3. yaml 中的 soft_edges 不再使用（只作为注释保留）
+    2. M_raw：LimiX-based estimator 从 macro-level 数据估计 raw causal-effect score
+    3. M_prior = M_raw；M_conf 由 |M_raw| 归一化；edge_pref 由 M_raw 派生（兼容旧代码）
+    4. yaml 中的 soft_edges 不再使用（只作为注释保留）
 
     返回
     ----
     LimixConstraints:
-        包含候选结构、硬约束、软约束的完整约束集合
+        包含候选结构、硬约束、M_raw 派生先验的完整约束集合
     """
     d = len(var_names)
     A_candidate = np.zeros((d, d), dtype=np.float32)
-    edge_pref = np.zeros_like(A_candidate)
-    m_prior = np.zeros((d, d), dtype=np.float32)   # 先验因果矩阵，由 LimiX 填写
 
     # 1. 默认硬约束：score 不能指向其他变量
     blacklist: List[Edge] = build_default_hard_constraints(var_names)
@@ -341,21 +334,16 @@ def run_limix_ldm_placeholder(
         with open(config_path, "r", encoding="utf-8") as f:
             cfg = yaml.safe_load(f) or {}
 
-        # 2.1 解析硬约束（黑名单 / 白名单）
         hard = (cfg.get("hard_edges") or {})
         for item in hard.get("blacklist", []) or []:
             try:
                 u, v = [s.strip() for s in item.split("->")]
                 blacklist.append((u, v))
             except Exception:
-                # 格式错误时忽略该条
                 pass
 
         for item in hard.get("whitelist", []) or []:
             try:
-                # 支持两种格式：
-                # 1. 字符串格式: "r_pos_reward -> score"
-                # 2. 字典格式: {edge: "r_pos_reward -> score", alpha: 1.0}
                 if isinstance(item, str):
                     u, v = [s.strip() for s in item.split("->")]
                     whitelist.append((u, v))
@@ -369,50 +357,52 @@ def run_limix_ldm_placeholder(
 
         print(f"  黑名单 (blacklist): {len(blacklist)} 条")
         if blacklist:
-            for u, v in blacklist[:5]:  # 只显示前5条
+            for u, v in blacklist[:5]:
                 print(f"    {u} -> {v}")
             if len(blacklist) > 5:
                 print(f"    ... 还有 {len(blacklist) - 5} 条")
-        
+
         print(f"  白名单 (whitelist): {len(whitelist)} 条")
         if whitelist:
-            for u, v in whitelist[:5]:  # 只显示前5条
+            for u, v in whitelist[:5]:
                 print(f"    {u} -> {v}")
             if len(whitelist) > 5:
                 print(f"    ... 还有 {len(whitelist) - 5} 条")
-        
-        # 2.2 yaml 中的 soft_edges 现在只作为"可行域提示"，
-        #     不再直接转成 edge_pref，避免人工软约束主导学习；
-        #     具体 soft prior 交由下方 LimiX 基于数据自动生成。
-        # （注释掉原来的 soft_edges 解析代码）
     else:
         print(f"⚠️  配置文件不存在: {config_path}，使用默认硬约束")
 
-    # 3. 使用本地 LimiX-2M 模型，基于数据学习 soft prior（edge_pref）
-    #    包括：r_* -> score 和 r_i -> r_j 的 soft prior
+    # 3. 估计 M_raw：macro-level reward-component intervention data
     print("=" * 60)
-    print("步骤 3: LimiX 学习 soft prior")
+    print("步骤 3: LimiX 估计 M_raw (estimated causal-effect score)")
     print("=" * 60)
-    _try_build_edge_pref_with_limix(Path(data_csv_dir), var_names, edge_pref, m_prior)
-    
-    # 保存学习到的 edge_pref 矩阵为 CSV
+    M_raw = estimate_limix_raw_effect_matrix(Path(data_csv_dir), var_names)
+    m_prior = M_raw.copy()
+    mp_abs_max = float(np.max(np.abs(M_raw)))
+    if mp_abs_max > 0.0:
+        m_conf = (np.abs(M_raw) / (mp_abs_max + 1e-8)).astype(np.float32)
+    else:
+        m_conf = np.zeros_like(M_raw)
+    edge_pref = _edge_pref_from_m_raw(M_raw)
+
+    # 保存 M_raw / M_prior / M_conf 矩阵
     output_dir = Path(data_csv_dir).parent / "output"
     output_dir.mkdir(parents=True, exist_ok=True)
-    edge_pref_df = pd.DataFrame(edge_pref, index=var_names, columns=var_names)
-    edge_pref_csv = output_dir / "limix_edge_pref_matrix.csv"
-    edge_pref_df.to_csv(edge_pref_csv)
-    print(f"✅ edge_pref 矩阵已保存到: {edge_pref_csv}")
-    
-    # 打印 edge_pref 统计信息
-    non_zero_count = np.count_nonzero(edge_pref)
-    print(f"  非零边数量: {non_zero_count} / {edge_pref.size}")
-    max_weight = edge_pref.max()
-    min_weight = edge_pref.min()
-    if non_zero_count > 0:
-        avg_weight = edge_pref[edge_pref > 0].mean()
-    else:
-        avg_weight = 0.0
-    print(f"  最大权重: {max_weight:.4f}, 最小权重: {min_weight:.4f}, 平均权重: {avg_weight:.4f}")
+    for arr, fname in (
+        (M_raw, "limix_M_raw_matrix.csv"),
+        (m_prior, "limix_M_prior_matrix.csv"),
+        (m_conf, "limix_M_conf_matrix.csv"),
+    ):
+        pd.DataFrame(arr, index=var_names, columns=var_names).to_csv(
+            output_dir / fname
+        )
+        print(f"✅ {fname} 已保存到: {output_dir / fname}")
+
+    print(f"  M_raw 非零边数: {np.count_nonzero(M_raw)}, max={mp_abs_max:.4f}")
+    print(f"  M_prior 非零边数: {np.count_nonzero(m_prior)}")
+    print(f"  M_conf 非零边数: {np.count_nonzero(m_conf)}")
+
+    non_zero_ep = np.count_nonzero(edge_pref)
+    print(f"  edge_pref 非零边数: {non_zero_ep} / {edge_pref.size} (由 M_raw 派生)")
 
     # 4. 组稀疏：将所有 r_* -> score 视作一组
     groups: List[List[Tuple[int, int]]] = []
@@ -422,8 +412,8 @@ def run_limix_ldm_placeholder(
         for i, name in enumerate(var_names):
             if name.startswith("r_"):
                 group_edges.append((score_idx, i))  # M[target, source]
-    if group_edges:
-        groups.append(group_edges)
+        if group_edges:
+            groups.append(group_edges)
 
     # 向后兼容：由 edge_pref 得到旧版 confidence
     ep = edge_pref
@@ -432,15 +422,6 @@ def run_limix_ldm_placeholder(
         confidence = (ep - ep_min) / (ep_max - ep_min + 1e-8)
     else:
         confidence = np.ones_like(ep) * 0.5
-
-    # M_conf：由 m_prior 归一化，值越大 = 对该先验越有把握
-    mp_max = m_prior.max()
-    if mp_max > 0:
-        m_conf = (m_prior / (mp_max + 1e-8)).astype(np.float32)
-    else:
-        m_conf = np.zeros_like(m_prior)
-
-    print(f"  M_prior 非零边数: {np.count_nonzero(m_prior)}, max={mp_max:.4f}")
 
     return LimixConstraints(
         var_names=var_names,
@@ -455,4 +436,9 @@ def run_limix_ldm_placeholder(
     )
 
 
-__all__ = ["Edge", "LimixConstraints", "run_limix_ldm_placeholder"]
+__all__ = [
+    "Edge",
+    "LimixConstraints",
+    "estimate_limix_raw_effect_matrix",
+    "run_limix_ldm_placeholder",
+]

@@ -6,6 +6,7 @@
   L_MSE  = ||s_t - M_inst(s_{t-1}) @ s_{t-1}||²   (仅在 active_mask = 1 的维度)
   L_soft = γ ||M_conf ⊙ (M_inv - M_prior)||_F²
   L_alm  = L_MSE + L_soft + λ·h(M_inv) + (ρ/2)·h(M_inv)²   [ALM 内层]
+  h(M)   = -log det(αI - M⊙M) + d log α   [DAGMA log-det 无环约束]
 
 ALM 外层：λ ← λ + ρ·h(M_inv)；ρ 每轮增长。
 最终只输出 M_inv_star 作为 CRWM；M_trans 训练辅助，不进入最终因果图。
@@ -33,13 +34,20 @@ from limix_interface import LimixConstraints
 
 
 # ---------------------------------------------------------------------------
-# 无环约束
+# 无环约束（DAGMA log-det）
 # ---------------------------------------------------------------------------
 
-def acyclicity_constraint(M: torch.Tensor) -> torch.Tensor:
-    """DAGMA h(M) = trace(exp(M ⊙ M)) - d，仅作用于 M_inv。"""
+def acyclicity_constraint(M: torch.Tensor, alpha: float = 1.0) -> torch.Tensor:
+    """DAGMA log-det 无环约束 h(M) = -log det(alpha I - M ⊙ M) + d log alpha，仅作用于 M_inv。"""
     d = M.size(0)
-    return torch.trace(torch.matrix_exp(M * M)) - d
+    alpha_t = torch.tensor(alpha, device=M.device, dtype=M.dtype)
+    B = alpha_t * torch.eye(d, device=M.device, dtype=M.dtype) - M * M
+    sign, logabsdet = torch.linalg.slogdet(B)
+    h = -logabsdet + d * torch.log(alpha_t)
+    if sign <= 0:
+        h = torch.tensor(1e6, device=M.device, dtype=M.dtype)
+    domain_penalty = torch.relu(1e-6 - torch.linalg.eigvalsh(B).min()) * 1e3
+    return torch.nan_to_num(h + domain_penalty, nan=1e6, posinf=1e6, neginf=1e6)
 
 
 # ---------------------------------------------------------------------------
@@ -85,6 +93,9 @@ class CRWMHyperParams:
     rho_init: float = 1.0       # 初始增广惩罚系数 ρ
     rho_growth: float = 2.0     # 每轮外层 ρ 增长因子
     rho_max: float = 1e4        # ρ 上限
+
+    # DAGMA 无环约束
+    alpha: float = 1.0          # log-det 约束中的 alpha I 系数
 
     # 训练控制
     outer_iters: int = 10       # ALM 外层迭代次数
@@ -172,28 +183,21 @@ class CRWMOptimizer:
         # --- L_soft = γ ||M_conf ⊙ (M_inv - M_prior)||_F² ---
         L_soft = hp.gamma * (self.M_conf * (self.M_inv - self.M_prior)).pow(2).sum()
 
-        # --- 硬约束惩罚（黑/白名单）---
+        # --- 硬约束惩罚（黑名单）---
         black_penalty = torch.zeros(1, device=self.device)
         if self.black_edges:
             bi = torch.tensor([i for i, _ in self.black_edges], device=self.device)
             bj = torch.tensor([j for _, j in self.black_edges], device=self.device)
             black_penalty = self.M_inv[bi, bj].abs().sum()
 
-        white_penalty = torch.zeros(1, device=self.device)
-        if self.white_edges:
-            wi = torch.tensor([i for i, _ in self.white_edges], device=self.device)
-            wj = torch.tensor([j for _, j in self.white_edges], device=self.device)
-            white_penalty = torch.relu(hp.tau_white - self.M_inv[wi, wj]).sum()
-
         # --- 无环约束 h(M_inv)（只作用在 M_inv，不含 M_trans）---
-        h = acyclicity_constraint(self.M_inv)
+        h = acyclicity_constraint(self.M_inv, alpha=hp.alpha)
 
         # --- ALM 总损失（内层，λ 和 ρ 固定）---
         L_total = (
             L_MSE
             + L_soft
             + hp.lambda_black * black_penalty
-            + hp.lambda_white * white_penalty
             + self.lam * h
             + (self.rho / 2.0) * h ** 2
         )
@@ -236,7 +240,7 @@ class CRWMOptimizer:
 
                 if (step + 1) % 200 == 0:
                     with torch.no_grad():
-                        h_val = acyclicity_constraint(self.M_inv).item()
+                        h_val = acyclicity_constraint(self.M_inv, alpha=hp.alpha).item()
                     print(
                         f"[CRWM] outer={outer+1}/{hp.outer_iters} "
                         f"inner={step+1}/{hp.inner_steps} "
@@ -246,7 +250,7 @@ class CRWMOptimizer:
 
             # ALM 外层：λ ← λ + ρ·h(M_inv)；增长 ρ
             with torch.no_grad():
-                h_scalar = acyclicity_constraint(self.M_inv).item()
+                h_scalar = acyclicity_constraint(self.M_inv, alpha=hp.alpha).item()
             self.lam = self.lam + self.rho * h_scalar
             self.rho = min(self.rho * hp.rho_growth, hp.rho_max)
             print(
@@ -262,12 +266,6 @@ class CRWMOptimizer:
             M_inv_np[i, j] = 0.0
         if self.black_edges:
             print(f"[CRWM] ✅ 已强制将 {len(self.black_edges)} 条黑名单边置零")
-
-        for i, j in self.white_edges:
-            if M_inv_np[i, j] < hp.tau_white:
-                M_inv_np[i, j] = hp.tau_white
-        if self.white_edges:
-            print(f"[CRWM] ✅ 已确保 {len(self.white_edges)} 条白名单边存在")
 
         return M_inv_np
 

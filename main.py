@@ -57,6 +57,38 @@ from limix_interface import run_limix_ldm_placeholder
 from visualize_graphs import visualize_all_graphs
 
 
+def compute_adaptive_edge_threshold(A: np.ndarray, eps: float = 1e-12) -> float:
+    """基于 1D 2-means 的自适应边阈值；取 noise 簇中心作为粗糙阈值，保留更多弱边。"""
+    vals = np.abs(A[np.abs(A) > eps])
+    if vals.size < 2:
+        return 0.0
+
+    mu_noise = float(np.percentile(vals, 25))
+    mu_signal = float(np.percentile(vals, 75))
+
+    for _ in range(50):
+        dist_noise = np.abs(vals - mu_noise)
+        dist_signal = np.abs(vals - mu_signal)
+        labels = dist_noise <= dist_signal
+
+        cluster_noise = vals[labels]
+        cluster_signal = vals[~labels]
+
+        if cluster_noise.size == 0 or cluster_signal.size == 0:
+            mu_noise = float(vals.min())
+            mu_signal = float(vals.max())
+            break
+
+        mu_noise = float(cluster_noise.mean())
+        mu_signal = float(cluster_signal.mean())
+
+    if mu_noise > mu_signal:
+        mu_noise, mu_signal = mu_signal, mu_noise
+
+    # 粗糙阈值：取 noise 簇中心与 10% 分位数的较小值，尽量保留弱边
+    return float(min(mu_noise, np.percentile(vals, 10)))
+
+
 def run_global_dagma_with_path(
     csv_path: Path,
     micro_trace_root: Path,
@@ -152,10 +184,6 @@ def main():
         shutil.rmtree(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    # 边阈值：只保留权重大于等于此阈值的边（用于过滤全局图中的弱边）
-    # 可以根据需要调整，例如：0.01, 0.05, 0.1 等
-    # 值越大，保留的边越少，只显示最重要的因果关系
-    edge_threshold = 0.00015 # 修改这里可以调整阈值
     # ============================================
 
     # 1. 训练全局 DAG
@@ -170,6 +198,8 @@ def main():
     print("  - 得到包含所有变量之间因果关系的完整图")
     print("  - 这个图反映了所有环境中的通用因果结构")
     A_global, var_names = run_global_dagma_with_path(input_csv, micro_trace_root, project_root)
+    edge_threshold = compute_adaptive_edge_threshold(A_global)
+    print(f"\n自适应 1D 2-means 边阈值（noise 簇，粗糙过滤）= {edge_threshold:.6f}")
 
     # 应用阈值过滤：只保留权重大于等于阈值的边
     print(f"\n应用边阈值过滤（阈值 = {edge_threshold}）...")
@@ -212,6 +242,15 @@ def main():
                 })
     
     if edges_list:
+        weights = np.array([e["weight"] for e in edges_list], dtype=np.float64)
+        w_min, w_max = float(weights.min()), float(weights.max())
+        if w_max > w_min:
+            for e, w in zip(edges_list, weights):
+                e["weight"] = float((w - w_min) / (w_max - w_min))
+        elif w_max > 0.0:
+            for e in edges_list:
+                e["weight"] = 1.0
+
         edges_df = pd.DataFrame(edges_list)
         # 按权重绝对值降序排序（最重要的边在前）
         edges_df = edges_df.reindex(edges_df["weight"].abs().sort_values(ascending=False).index)

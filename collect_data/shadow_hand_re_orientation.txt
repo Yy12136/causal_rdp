@@ -1,114 +1,114 @@
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_quality_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 2, 0.0883]4_3
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_quality_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 1, 0.0944]
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_quality_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 5, 0.0758]
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_quality_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 2, 0.0723]4_3
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_quality_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 1, 0.0667]
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_quality_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 5, 0.1026]
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_quality_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 2, 0.0767]4_3
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_quality_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 1, 0.0883]
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_quality_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 5, 0.1048]
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_quality_reward, 5, success_reward, 1, progress_reward, 0.1, balance_reward, 2, 0.0646]4_3
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_quality_reward, 5, success_reward, 1, progress_reward, 0.1, balance_reward, 1, 0.0655]
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_quality_reward, 5, success_reward, 1, progress_reward, 0.1, balance_reward, 5, 0.1065]
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_quality_reward, 5, success_reward, 0.5, progress_reward, 0.5, balance_reward, 2, 0.0948]4_3
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_quality_reward, 5, success_reward, 0.5, progress_reward, 0.5, balance_reward, 1, 0.0628]
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_quality_reward, 5, success_reward, 0.5, progress_reward, 0.5, balance_reward, 5, 0.0912]
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_quality_reward, 5, success_reward, 5, progress_reward, 1, balance_reward, 2, 0.1247]4_3
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_quality_reward, 5, success_reward, 5, progress_reward, 1, balance_reward, 1, 0.1188]
-[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_quality_reward, 5, success_reward, 5, progress_reward, 1, balance_reward, 5, 0.0985]
-[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_quality_reward, 20, success_reward, 1, progress_reward, 0.5, balance_reward, 2, 0.0696]4_3
-[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_quality_reward, 20, success_reward, 1, progress_reward, 0.5, balance_reward, 1, 0.0759]
-[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_quality_reward, 20, success_reward, 1, progress_reward, 0.5, balance_reward, 5, 0.0827]
-[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_quality_reward, 20, success_reward, 0.5, progress_reward, 0.1, balance_reward, 2, 0.0837]4_3
-[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_quality_reward, 20, success_reward, 0.5, progress_reward, 0.1, balance_reward, 1, 0.0661]
-[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_quality_reward, 20, success_reward, 0.5, progress_reward, 0.1, balance_reward, 5, 0.0609]
-[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_quality_reward, 20, success_reward, 5, progress_reward, 1, balance_reward, 2, 0.0722]4_3
-[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_quality_reward, 20, success_reward, 5, progress_reward, 1, balance_reward, 1, 0.0755]
-[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_quality_reward, 20, success_reward, 5, progress_reward, 1, balance_reward, 5, 0.0687]
-[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_quality_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 2, 0.1014]4_3
-[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_quality_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 1, 0.0877]
-[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_quality_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 5, 0.1175]
-[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_quality_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 2, 0.0747]4_3
-[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_quality_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 1, 0.0917]
-[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_quality_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 5, 0.09]
-[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_quality_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 2, 0.0879]4_3
-[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_quality_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 1, 0.1171]
-[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_quality_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 5, 0.0993]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 2, 0.0883]4_3
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 1, 0.0944]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 5, 0.0758]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 2, 0.0723]4_3
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 1, 0.0667]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 5, 0.1026]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 2, 0.0767]4_3
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 1, 0.0883]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 5, contact_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 5, 0.1048]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_reward, 5, success_reward, 1, progress_reward, 0.1, balance_reward, 2, 0.0646]4_3
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_reward, 5, success_reward, 1, progress_reward, 0.1, balance_reward, 1, 0.0655]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_reward, 5, success_reward, 1, progress_reward, 0.1, balance_reward, 5, 0.1065]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_reward, 5, success_reward, 0.5, progress_reward, 0.5, balance_reward, 2, 0.0948]4_3
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_reward, 5, success_reward, 0.5, progress_reward, 0.5, balance_reward, 1, 0.0628]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_reward, 5, success_reward, 0.5, progress_reward, 0.5, balance_reward, 5, 0.0912]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_reward, 5, success_reward, 5, progress_reward, 1, balance_reward, 2, 0.1247]4_3
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_reward, 5, success_reward, 5, progress_reward, 1, balance_reward, 1, 0.1188]
+[orientation_reward, 2, angular_reward, 2, proximity_reward, 1, contact_reward, 5, success_reward, 5, progress_reward, 1, balance_reward, 5, 0.0985]
+[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_reward, 20, success_reward, 1, progress_reward, 0.5, balance_reward, 2, 0.0696]4_3
+[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_reward, 20, success_reward, 1, progress_reward, 0.5, balance_reward, 1, 0.0759]
+[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_reward, 20, success_reward, 1, progress_reward, 0.5, balance_reward, 5, 0.0827]
+[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_reward, 20, success_reward, 0.5, progress_reward, 0.1, balance_reward, 2, 0.0837]4_3
+[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_reward, 20, success_reward, 0.5, progress_reward, 0.1, balance_reward, 1, 0.0661]
+[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_reward, 20, success_reward, 0.5, progress_reward, 0.1, balance_reward, 5, 0.0609]
+[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_reward, 20, success_reward, 5, progress_reward, 1, balance_reward, 2, 0.0722]4_3
+[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_reward, 20, success_reward, 5, progress_reward, 1, balance_reward, 1, 0.0755]
+[orientation_reward, 1, angular_reward, 1, proximity_reward, 10, contact_reward, 20, success_reward, 5, progress_reward, 1, balance_reward, 5, 0.0687]
+[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 2, 0.1014]4_3
+[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 1, 0.0877]
+[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_reward, 10, success_reward, 1, progress_reward, 0.1, balance_reward, 5, 0.1175]
+[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 2, 0.0747]4_3
+[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 1, 0.0917]
+[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_reward, 10, success_reward, 0.5, progress_reward, 0.5, balance_reward, 5, 0.09]
+[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 2, 0.0879]4_3
+[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 1, 0.1171]
+[orientation_reward, 5, angular_reward, 5, proximity_reward, 5, contact_reward, 10, success_reward, 5, progress_reward, 1, balance_reward, 5, 0.0993]
 
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_maintenance_reward, 0.5, 0.0852]4_1
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_maintenance_reward, 0.1, 0.0824]
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_maintenance_reward, 1.0, 0.0828]
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_maintenance_reward, 0.5, 0.0863]4_1
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_maintenance_reward, 0.1, 0.0653]
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_maintenance_reward, 1.0, 0.0958]
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_maintenance_reward, 0.5, 0.0841]4_1
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_maintenance_reward, 0.1, 0.0776]
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_maintenance_reward, 1.0, 0.0845]
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.1, contact_maintenance_reward, 0.5, 0.0922]4_1
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.1, contact_maintenance_reward, 0.1, 0.0905]
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.1, contact_maintenance_reward, 1.0, 0.0881]
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.5, contact_maintenance_reward, 0.5, 0.087]4_1
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.5, contact_maintenance_reward, 0.1, 0.0833]
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.5, contact_maintenance_reward, 1.0, 0.0792]
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 1, contact_maintenance_reward, 0.5, 0.0835]4_1
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 1, contact_maintenance_reward, 0.1, 0.0897]
-[orientation_reward, 1, fine_align_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 1, contact_maintenance_reward, 1.0, 0.0818]
-[orientation_reward, 0.5, fine_align_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.1, contact_maintenance_reward, 0.5, 0.0957]4_1
-[orientation_reward, 0.5, fine_align_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.1, contact_maintenance_reward, 0.1, 0.0767]
-[orientation_reward, 0.5, fine_align_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.1, contact_maintenance_reward, 1.0, 0.082]
-[orientation_reward, 0.5, fine_align_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.5, contact_maintenance_reward, 0.5, 0.0933]4_1
-[orientation_reward, 0.5, fine_align_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.5, contact_maintenance_reward, 0.1, 0.066]
-[orientation_reward, 0.5, fine_align_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.5, contact_maintenance_reward, 1.0, 0.0619]
-[orientation_reward, 0.5, fine_align_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 1, contact_maintenance_reward, 0.5, 0.0763]4_1
-[orientation_reward, 0.5, fine_align_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 1, contact_maintenance_reward, 0.1, 0.0713]
-[orientation_reward, 0.5, fine_align_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 1, contact_maintenance_reward, 1.0, 0.0708]
-[orientation_reward, 5, fine_align_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_maintenance_reward, 0.5, 0.0649]4_1
-[orientation_reward, 5, fine_align_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_maintenance_reward, 0.1, 0.0729]
-[orientation_reward, 5, fine_align_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_maintenance_reward, 1.0, 0.0521]
-[orientation_reward, 5, fine_align_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_maintenance_reward, 0.5, 0.0802]4_1
-[orientation_reward, 5, fine_align_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_maintenance_reward, 0.1, 0.0706]
-[orientation_reward, 5, fine_align_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_maintenance_reward, 1.0, 0.0661]
-[orientation_reward, 5, fine_align_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_maintenance_reward, 0.5, 0.0914]4_1
-[orientation_reward, 5, fine_align_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_maintenance_reward, 0.1, 0.0706]
-[orientation_reward, 5, fine_align_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_maintenance_reward, 1.0, 0.0894]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_reward, 0.5, 0.0852]4_1
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_reward, 0.1, 0.0824]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_reward, 1.0, 0.0828]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_reward, 0.5, 0.0863]4_1
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_reward, 0.1, 0.0653]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_reward, 1.0, 0.0958]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_reward, 0.5, 0.0841]4_1
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_reward, 0.1, 0.0776]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_reward, 1.0, 0.0845]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.1, contact_reward, 0.5, 0.0922]4_1
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.1, contact_reward, 0.1, 0.0905]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.1, contact_reward, 1.0, 0.0881]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.5, contact_reward, 0.5, 0.087]4_1
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.5, contact_reward, 0.1, 0.0833]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 0.5, contact_reward, 1.0, 0.0792]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 1, contact_reward, 0.5, 0.0835]4_1
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 1, contact_reward, 0.1, 0.0897]
+[orientation_reward, 1, alignment_reward, 10, proximity_reward, 1, success_reward, 0.5, progress_reward, 1, contact_reward, 1.0, 0.0818]
+[orientation_reward, 0.5, alignment_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.1, contact_reward, 0.5, 0.0957]4_1
+[orientation_reward, 0.5, alignment_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.1, contact_reward, 0.1, 0.0767]
+[orientation_reward, 0.5, alignment_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.1, contact_reward, 1.0, 0.082]
+[orientation_reward, 0.5, alignment_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.5, contact_reward, 0.5, 0.0933]4_1
+[orientation_reward, 0.5, alignment_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.5, contact_reward, 0.1, 0.066]
+[orientation_reward, 0.5, alignment_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 0.5, contact_reward, 1.0, 0.0619]
+[orientation_reward, 0.5, alignment_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 1, contact_reward, 0.5, 0.0763]4_1
+[orientation_reward, 0.5, alignment_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 1, contact_reward, 0.1, 0.0713]
+[orientation_reward, 0.5, alignment_reward, 5, proximity_reward, 10, success_reward, 5, progress_reward, 1, contact_reward, 1.0, 0.0708]
+[orientation_reward, 5, alignment_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_reward, 0.5, 0.0649]4_1
+[orientation_reward, 5, alignment_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_reward, 0.1, 0.0729]
+[orientation_reward, 5, alignment_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.1, contact_reward, 1.0, 0.0521]
+[orientation_reward, 5, alignment_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_reward, 0.5, 0.0802]4_1
+[orientation_reward, 5, alignment_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_reward, 0.1, 0.0706]
+[orientation_reward, 5, alignment_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 0.5, contact_reward, 1.0, 0.0661]
+[orientation_reward, 5, alignment_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_reward, 0.5, 0.0914]4_1
+[orientation_reward, 5, alignment_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_reward, 0.1, 0.0706]
+[orientation_reward, 5, alignment_reward, 20, proximity_reward, 5, success_reward, 1, progress_reward, 1, contact_reward, 1.0, 0.0894]
 
 
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_balance, 10, success_reward, 0.1, progress_reward, 0.05, 0.0698]3_11
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_balance, 10, success_reward, 0.1, progress_reward, 0.01, 0.0681]
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_balance, 10, success_reward, 0.1, progress_reward, 0.1, 0.0745]
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_balance, 10, success_reward, 0.05, progress_reward, 0.05, 0.087]3_11
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_balance, 10, success_reward, 0.05, progress_reward, 0.01, 0.0608]
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_balance, 10, success_reward, 0.05, progress_reward, 0.1, 0.0686]
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_balance, 10, success_reward, 0.5, progress_reward, 0.05, 0.063]3_11
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_balance, 10, success_reward, 0.5, progress_reward, 0.01, 0.063]
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_balance, 10, success_reward, 0.5, progress_reward, 0.1, 0.0636]
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_balance, 5, success_reward, 0.1, progress_reward, 0.05, 0.0726]3_11
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_balance, 5, success_reward, 0.1, progress_reward, 0.01, 0.0666]
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_balance, 5, success_reward, 0.1, progress_reward, 0.1, 0.0813]
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_balance, 5, success_reward, 0.05, progress_reward, 0.05, 0.0605]3_11
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_balance, 5, success_reward, 0.05, progress_reward, 0.01, 0.0562]
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_balance, 5, success_reward, 0.05, progress_reward, 0.1, 0.0751]
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_balance, 5, success_reward, 0.5, progress_reward, 0.05, 0.0657]3_11
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_balance, 5, success_reward, 0.5, progress_reward, 0.01, 0.0719]
-[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_balance, 5, success_reward, 0.5, progress_reward, 0.1, 0.0687]
-[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_balance, 20, success_reward, 0.1, progress_reward, 0.05, 0.0793]3_11
-[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_balance, 20, success_reward, 0.1, progress_reward, 0.01, 0.0674]
-[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_balance, 20, success_reward, 0.1, progress_reward, 0.1, 0.0625]
-[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_balance, 20, success_reward, 0.05, progress_reward, 0.05, 0.0791]3_11
-[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_balance, 20, success_reward, 0.05, progress_reward, 0.01, 0.0571]
-[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_balance, 20, success_reward, 0.05, progress_reward, 0.1, 0.0598]
-[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_balance, 20, success_reward, 0.5, progress_reward, 0.05, 0.066]3_11
-[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_balance, 20, success_reward, 0.5, progress_reward, 0.01, 0.0663]
-[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_balance, 20, success_reward, 0.5, progress_reward, 0.1, 0.0556]
-[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_balance, 10, success_reward, 0.1, progress_reward, 0.05, 0.0589]3_11
-[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_balance, 10, success_reward, 0.1, progress_reward, 0.01, 0.0554]
-[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_balance, 10, success_reward, 0.1, progress_reward, 0.1, 0.0592]
-[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_balance, 10, success_reward, 0.05, progress_reward, 0.05, 0.0683]3_11
-[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_balance, 10, success_reward, 0.05, progress_reward, 0.01, 0.0556]
-[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_balance, 10, success_reward, 0.05, progress_reward, 0.1, 0.0602]
-[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_balance, 10, success_reward, 0.5, progress_reward, 0.05, 0.0659]3_11
-[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_balance, 10, success_reward, 0.5, progress_reward, 0.01, 0.0687]
-[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_balance, 10, success_reward, 0.5, progress_reward, 0.1, 0.0716]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_reward, 10, success_reward, 0.1, progress_reward, 0.05, 0.0698]3_11
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_reward, 10, success_reward, 0.1, progress_reward, 0.01, 0.0681]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_reward, 10, success_reward, 0.1, progress_reward, 0.1, 0.0745]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_reward, 10, success_reward, 0.05, progress_reward, 0.05, 0.087]3_11
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_reward, 10, success_reward, 0.05, progress_reward, 0.01, 0.0608]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_reward, 10, success_reward, 0.05, progress_reward, 0.1, 0.0686]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_reward, 10, success_reward, 0.5, progress_reward, 0.05, 0.063]3_11
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_reward, 10, success_reward, 0.5, progress_reward, 0.01, 0.063]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 3, contact_reward, 10, success_reward, 0.5, progress_reward, 0.1, 0.0636]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_reward, 5, success_reward, 0.1, progress_reward, 0.05, 0.0726]3_11
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_reward, 5, success_reward, 0.1, progress_reward, 0.01, 0.0666]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_reward, 5, success_reward, 0.1, progress_reward, 0.1, 0.0813]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_reward, 5, success_reward, 0.05, progress_reward, 0.05, 0.0605]3_11
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_reward, 5, success_reward, 0.05, progress_reward, 0.01, 0.0562]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_reward, 5, success_reward, 0.05, progress_reward, 0.1, 0.0751]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_reward, 5, success_reward, 0.5, progress_reward, 0.05, 0.0657]3_11
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_reward, 5, success_reward, 0.5, progress_reward, 0.01, 0.0719]
+[orientation_reward, 5, proximity_reward, 5, alignment_reward, 1, contact_reward, 5, success_reward, 0.5, progress_reward, 0.1, 0.0687]
+[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_reward, 20, success_reward, 0.1, progress_reward, 0.05, 0.0793]3_11
+[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_reward, 20, success_reward, 0.1, progress_reward, 0.01, 0.0674]
+[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_reward, 20, success_reward, 0.1, progress_reward, 0.1, 0.0625]
+[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_reward, 20, success_reward, 0.05, progress_reward, 0.05, 0.0791]3_11
+[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_reward, 20, success_reward, 0.05, progress_reward, 0.01, 0.0571]
+[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_reward, 20, success_reward, 0.05, progress_reward, 0.1, 0.0598]
+[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_reward, 20, success_reward, 0.5, progress_reward, 0.05, 0.066]3_11
+[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_reward, 20, success_reward, 0.5, progress_reward, 0.01, 0.0663]
+[orientation_reward, 1, proximity_reward, 1, alignment_reward, 10, contact_reward, 20, success_reward, 0.5, progress_reward, 0.1, 0.0556]
+[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_reward, 10, success_reward, 0.1, progress_reward, 0.05, 0.0589]3_11
+[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_reward, 10, success_reward, 0.1, progress_reward, 0.01, 0.0554]
+[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_reward, 10, success_reward, 0.1, progress_reward, 0.1, 0.0592]
+[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_reward, 10, success_reward, 0.05, progress_reward, 0.05, 0.0683]3_11
+[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_reward, 10, success_reward, 0.05, progress_reward, 0.01, 0.0556]
+[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_reward, 10, success_reward, 0.05, progress_reward, 0.1, 0.0602]
+[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_reward, 10, success_reward, 0.5, progress_reward, 0.05, 0.0659]3_11
+[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_reward, 10, success_reward, 0.5, progress_reward, 0.01, 0.0687]
+[orientation_reward, 10, proximity_reward, 10, alignment_reward, 3, contact_reward, 10, success_reward, 0.5, progress_reward, 0.1, 0.0716]
 
 [orientation_reward, 10, proximity_reward, 2, success_reward, 1, progress_reward, 0.1, symmetry_reward, 5, 0.0619]2_9
 [orientation_reward, 10, proximity_reward, 2, success_reward, 1, progress_reward, 0.1, symmetry_reward, 1, 0.0752]

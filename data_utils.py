@@ -219,7 +219,7 @@ def load_reward_micro_traces(
                     continue
                 s = np.zeros(d, dtype=np.float32)
                 for col, val in zip(mapped_cols, step_values):
-                    if col in col_to_idx:
+                    if col in col_to_idx and val is not None:
                         s[col_to_idx[col]] = float(val)
                 steps.append(s)
 

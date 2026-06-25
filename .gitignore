@@ -27,8 +27,9 @@ LimiX/cache/
 *.pt
 
 *.whl
-# Output files (optional - uncomment if you don't want to track outputs)
-# output/
+# Generated outputs and LimiX inputs (regenerated locally)
+output/
+limix_input/
 
 # Data files (optional - uncomment if data files are too large)
 # data/*.csv
@@ -42,4 +43,3 @@ Thumbs.db
 
 # Logs
 *.log
-
